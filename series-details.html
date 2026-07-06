@@ -1,0 +1,363 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Series Details — HindiAnimeStuff</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --void:#0b0714;
+    --card:#161025;
+    --card-hover:#201634;
+    --line: rgba(255,255,255,0.08);
+    --blood:#7c3aed;
+    --blood-bright:#b26cff;
+    --bone:#f5f3ff;
+    --bone-dim:#b7b2d6;
+    --gold:#f2b544;
+    --accent:#8b5cf6;
+    --accent-hi:#b794ff;
+    --surface:#131120;
+    --surface-hi:#1b1830;
+  }
+  *{margin:0;padding:0;box-sizing:border-box;}
+  body{
+    background:var(--void);
+    color:var(--bone);
+    font-family:'Inter',sans-serif;
+    min-height:100vh;
+  }
+  body::before{
+    content:'';
+    position:fixed;
+    inset:0;
+    background:radial-gradient(ellipse 80% 50% at 50% -10%, rgba(139,92,246,0.10), transparent 60%);
+    pointer-events:none;
+    z-index:0;
+  }
+  .topbar{
+    position:relative;z-index:1;
+    padding:20px 24px;
+    border-bottom:1px solid var(--line);
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+  }
+  .back{
+    color:var(--bone-dim);
+    text-decoration:none;
+    font-size:0.85rem;
+    letter-spacing:0.03em;
+    font-weight:500;
+    transition:color 0.2s ease;
+  }
+  .back:hover{color:var(--blood-bright);}
+  .share-btn{
+    background:var(--surface);
+    border:1px solid var(--line);
+    color:var(--bone);
+    padding:8px 16px;
+    border-radius:6px;
+    cursor:pointer;
+    font-size:0.85rem;
+    font-weight:600;
+    transition:all 0.2s ease;
+  }
+  .share-btn:hover{background:var(--surface-hi);border-color:var(--accent-hi);}
+
+  main{
+    position:relative;z-index:1;
+    max-width:920px;
+    margin:0 auto;
+    padding:48px 24px 90px;
+  }
+
+  .hero{
+    display:flex;
+    gap:36px;
+    flex-wrap:wrap;
+  }
+  .poster{
+    flex:0 0 260px;
+    width:260px;
+    aspect-ratio:2/3;
+    border-radius:10px;
+    overflow:hidden;
+    border:1px solid var(--line);
+    background:linear-gradient(160deg,var(--surface-hi),var(--surface));
+    position:relative;
+    box-shadow:0 20px 50px -10px rgba(0,0,0,0.6);
+  }
+  .poster img{width:100%;height:100%;object-fit:cover;display:block;position:relative;z-index:1;}
+  .poster-fallback{
+    position:absolute;inset:0;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    font-family:'Bebas Neue',sans-serif;
+    font-size:2.5rem;
+    color:var(--blood-bright);
+    opacity:0.4;
+  }
+
+  .info{flex:1;min-width:280px;}
+  .season-tag{
+    font-size:0.78rem;
+    letter-spacing:0.1em;
+    text-transform:uppercase;
+    color:var(--gold);
+    font-weight:700;
+  }
+  h1{
+    font-family:'Bebas Neue',sans-serif;
+    font-size:clamp(2.1rem,5vw,3.2rem);
+    letter-spacing:0.01em;
+    line-height:1.05;
+    margin:8px 0 16px;
+  }
+  .rating-row{
+    display:flex;
+    align-items:center;
+    gap:14px;
+    margin-bottom:18px;
+    flex-wrap:wrap;
+  }
+  .rating-badge{
+    display:inline-flex;
+    align-items:baseline;
+    gap:4px;
+    font-family:'Bebas Neue',sans-serif;
+    font-size:1.7rem;
+    color:var(--blood-bright);
+  }
+  .rating-badge sub{
+    font-family:'Inter',sans-serif;
+    font-size:0.7rem;
+    color:var(--bone-dim);
+  }
+  .genre-tags{display:flex;gap:6px;flex-wrap:wrap;}
+  .genre-tag{
+    font-size:0.68rem;
+    letter-spacing:0.04em;
+    text-transform:uppercase;
+    color:var(--bone-dim);
+    border:1px solid var(--line);
+    padding:3px 10px;
+    border-radius:100px;
+  }
+
+  .starcast{
+    color:var(--bone-dim);
+    font-size:0.9rem;
+    margin-bottom:12px;
+  }
+  .starcast strong{color:var(--bone);}
+
+  .synopsis{
+    color:var(--bone-dim);
+    line-height:1.65;
+    font-size:0.96rem;
+    margin-bottom:26px;
+    max-width:560px;
+  }
+
+  .spec-grid{
+    display:grid;
+    grid-template-columns:1fr 1fr;
+    gap:14px 28px;
+    margin-bottom:30px;
+  }
+  .spec{
+    border-left:2px solid var(--blood);
+    padding-left:12px;
+  }
+  .spec-label{
+    font-size:0.66rem;
+    text-transform:uppercase;
+    letter-spacing:0.08em;
+    color:var(--bone-dim);
+  }
+  .spec-value{
+    font-size:0.92rem;
+    margin-top:3px;
+    font-weight:500;
+  }
+
+  .download-section{
+    margin-top:6px;
+  }
+  .download-title{
+    font-family:'Bebas Neue',sans-serif;
+    font-size:1.1rem;
+    letter-spacing:0.03em;
+    text-transform:uppercase;
+    color:var(--bone-dim);
+    margin-bottom:14px;
+  }
+  .part-block{
+    background:var(--surface);
+    border:1px solid var(--line);
+    border-radius:8px;
+    padding:16px 20px;
+    margin-bottom:14px;
+  }
+  .part-label{
+    font-weight:700;
+    font-size:0.95rem;
+    margin-bottom:10px;
+    color:var(--gold);
+  }
+  .quality-row{
+    display:flex;
+    gap:14px;
+    flex-wrap:wrap;
+  }
+  .quality-btn{
+    display:inline-flex;
+    flex-direction:column;
+    align-items:center;
+    gap:2px;
+    background:var(--blood-bright);
+    color:#0c0a0a;
+    font-weight:700;
+    text-decoration:none;
+    padding:12px 22px;
+    border-radius:6px;
+    font-size:0.95rem;
+    letter-spacing:0.02em;
+    transition:background 0.2s ease, transform 0.2s ease, box-shadow 0.2s ease;
+    box-shadow:0 8px 24px -8px rgba(178,108,255,0.5);
+  }
+  .quality-btn:hover{
+    background:#c98bff;
+    transform:translateY(-2px);
+    box-shadow:0 12px 28px -8px rgba(178,108,255,0.65);
+  }
+  .quality-btn small{
+    font-family:'Inter',sans-serif;
+    font-size:0.62rem;
+    font-weight:600;
+    letter-spacing:0.04em;
+    text-transform:uppercase;
+    opacity:0.75;
+  }
+  .quality-btn.disabled{
+    background:var(--surface);
+    color:var(--bone-dim);
+    cursor:not-allowed;
+    box-shadow:none;
+    pointer-events:none;
+    opacity:0.5;
+  }
+
+  @media (max-width:560px){
+    .poster{flex:0 0 100%;width:100%;max-width:240px;margin:0 auto;}
+    .spec-grid{grid-template-columns:1fr;}
+    .info{text-align:left;}
+    .quality-row{gap:10px;}
+    .quality-btn{padding:10px 16px;flex:1 1 auto;}
+  }
+</style>
+</head>
+<body>
+
+<div class="topbar">
+  <a href="series.html" class="back">← Back to series</a>
+  <button class="share-btn" id="shareBtn">⌯⌲ Share</button>
+</div>
+
+<main id="detail"></main>
+
+<script src="series-data.js"></script>
+<script>
+  const params = new URLSearchParams(window.location.search);
+  const id = params.get('id');
+  const item = SERIES_DATA.find(s => s.id === id);
+  const root = document.getElementById('detail');
+
+  if(!item){
+    root.innerHTML = `<p style="color:var(--bone-dim)">Series not found. <a href="series.html" style="color:var(--blood-bright)">Go back</a>.</p>`;
+  } else {
+    document.title = `${item.title} ${item.season} — HindiAnimeStuff`;
+
+    let partsHTML = '';
+    if(item.parts && item.parts.length > 0){
+      partsHTML = item.parts.map((part, idx) => {
+        const qualities = ["480p", "720p", "1080p"];
+        const qBtns = qualities.map(q => {
+          const url = part.downloads && part.downloads[q];
+          if(url && url.trim() !== ''){
+            return `<a class="quality-btn" href="${url}" target="_blank" rel="noopener">${q}<small>Download</small></a>`;
+          }
+          return `<span class="quality-btn disabled">${q}<small>Unavailable</small></span>`;
+        }).join('');
+        return `
+          <div class="part-block">
+            <div class="part-label">${part.label}</div>
+            <div class="quality-row">${qBtns}</div>
+          </div>
+        `;
+      }).join('');
+    }
+
+    root.innerHTML = `
+      <div class="hero">
+        <div class="poster">
+          <div class="poster-fallback">${item.season.replace('Season ','S')}</div>
+          <img src="${item.thumb}" alt="${item.title}" onerror="this.style.display='none'">
+        </div>
+        <div class="info">
+          <span class="season-tag">${item.season} · ${item.year}</span>
+          <h1>${item.title}</h1>
+          <div class="rating-row">
+            <div class="rating-badge">★ ${item.rating}<sub>/10</sub></div>
+            <div class="genre-tags">${(item.genres || []).map(g => `<span class="genre-tag">${g}</span>`).join('')}</div>
+          </div>
+          ${item.starcast ? `<div class="starcast"><strong>Starcast:</strong> ${item.starcast}</div>` : ''}
+          <p class="synopsis">${item.synopsis}</p>
+
+          <div class="spec-grid">
+            <div class="spec"><div class="spec-label">Runtime</div><div class="spec-value">${item.runtime}</div></div>
+            <div class="spec"><div class="spec-label">Language</div><div class="spec-value">${item.language}</div></div>
+            <div class="spec"><div class="spec-label">Subtitle</div><div class="spec-value">${item.subtitle}</div></div>
+            <div class="spec"><div class="spec-label">Quality</div><div class="spec-value">${item.quality}</div></div>
+          </div>
+
+          ${partsHTML ? `
+          <div class="download-section">
+            <div class="download-title">Download Links</div>
+            ${partsHTML}
+          </div>` : ''}
+        </div>
+      </div>
+    `;
+  }
+
+  // Share functionality
+  document.getElementById('shareBtn').addEventListener('click', function() {
+    const shareText = `✦ ${item.title} ${item.season} (${item.year})\n` +
+  `➥  Rating: ${item.rating}/10\n` +
+  `➥  Genres: ${(item.genres || []).join(', ')}\n` +
+  `➥  Language: ${item.language}\n\n` +
+  `➥  Download Now: ${window.location.href}`;
+
+    if(navigator.share) {
+      navigator.share({
+        title: `${item.title} ${item.season}`,
+        text: shareText,
+        url: window.location.href
+      }).catch(() => {});
+    } else {
+      navigator.clipboard.writeText(shareText).then(() => {
+        alert('⎙ Details copied to clipboard! Share it anywhere.');
+      }).catch(() => {
+        prompt('Copy this text and share it:', shareText);
+      });
+    }
+  });
+</script>
+
+</body>
+</html>

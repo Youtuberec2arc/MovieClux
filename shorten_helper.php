@@ -1,0 +1,44 @@
+<?php
+/**
+ * shorten_helper.php
+ *
+ * Simple server-side PHP helper to call Adrinolinks API and return shortened URL.
+ * Use this on server-side only — do not expose your API token to the browser.
+ */
+
+function adrinolinks_shorten(string $longUrl, string $apiToken, string $alias = ''): ?string {
+    $longUrlEnc = urlencode($longUrl);
+    $params = "api=" . urlencode($apiToken) . "&url={$longUrlEnc}";
+    if ($alias !== '') {
+        $params .= "&alias=" . urlencode($alias);
+    }
+    // prefer text output for simple response
+    $params .= "&format=text";
+    $apiUrl = "https://adrinolinks.in/api?" . $params;
+
+    $ch = curl_init($apiUrl);
+    curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
+    curl_setopt($ch, CURLOPT_TIMEOUT, 10);
+    $resp = curl_exec($ch);
+    $err = curl_error($ch);
+    curl_close($ch);
+
+    if ($resp === false || $resp === '') {
+        error_log("Adrinolinks API error: {$err}");
+        return null;
+    }
+    $short = trim($resp);
+    if (strpos($short, 'http') === 0) {
+        return $short;
+    }
+    // if API returns JSON error, try decode
+    $decoded = json_decode($resp, true);
+    if (is_array($decoded) && isset($decoded['shortenedUrl'])) {
+        return $decoded['shortenedUrl'];
+    }
+    return null;
+}
+
+// Example usage:
+// $short = adrinolinks_shorten('https://yourdestinationlink.com/file.zip', 'bcf6f322937134bd31b5724f6296554707240da8');
+// echo $short;

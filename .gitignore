@@ -1,0 +1,5 @@
+.env
+node_modules/
+*.bak
+.shorten-cache.json
+shorten.log

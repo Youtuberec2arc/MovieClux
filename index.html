@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Watch Anime</title>
+    <script src="https://cdn.bitmovin.com/player/web/8/bitmovinplayer.js"></script>
+    <link rel="stylesheet" href="watch-style.css">
+</head>
+<body>
+    <div id="skeleton-loader" class="skeleton-active"></div>
+
+    <div id="main-content" class="glass-container" style="display: none;">
+        
+        <div class="hero-banner" id="heroBanner"></div>
+
+        <div class="info-section">
+            <img id="poster" src="" alt="Anime Poster" class="poster">
+            <div class="details">
+                <h1 id="title">Title</h1>
+                <div class="meta-row">
+                    <span class="rating">★★★★★ <span id="rating">8.7</span></span>
+                    <span class="genres" id="genres"></span>
+                    <span class="languages" id="languages"></span>
+                </div>
+                <p id="description" class="description"></p>
+            </div>
+        </div>
+
+        <div class="player-section">
+            <h2 id="episodeTitle">Episode 1</h2>
+            <div id="bitmovin-player"></div>
+        </div>
+
+        <a id="downloadBtn" href="#" class="btn primary-btn">⬇ Download Now</a>
+
+        <div class="live-watching glass-card">
+            <span class="blink">👁</span> <span id="liveCount">0</span> Watching
+        </div>
+
+        <div class="section-block">
+            <h3>Cast</h3>
+            <div id="castList" class="cast-grid"></div>
+        </div>
+
+        <div class="section-block glass-card">
+            <h3>Anime Information</h3>
+            <div class="info-grid">
+                <p><strong>Year:</strong> <span id="year"></span></p>
+                <p><strong>Runtime:</strong> <span id="runtime"></span></p>
+                <p><strong>Platform:</strong> <span id="platform"></span></p>
+            </div>
+        </div>
+
+        <div class="section-block">
+            <h3>Related Episodes</h3>
+            <div id="relatedEpisodes" class="related-grid"></div>
+        </div>
+    </div>
+
+    <script type="module">
+        import { initializeApp } from "https://www.gstatic.com/firebasejs/10.8.0/firebase-app.js";
+        import { getDatabase, ref, runTransaction, onValue } from "https://www.gstatic.com/firebasejs/10.8.0/firebase-database.js";
+
+        // ADD YOUR FIREBASE CONFIG HERE
+        const firebaseConfig = {
+            databaseURL: "https://YOUR-PROJECT-ID.firebaseio.com",
+        };
+        const app = initializeApp(firebaseConfig);
+        const db = getDatabase(app);
+
+        // Track live views
+        const urlParams = new URLSearchParams(window.location.search);
+        const animeId = urlParams.get('id') || 'chainsmoker-cat-s01e01';
+        const viewsRef = ref(db, `watch/${animeId}/views`);
+
+        // Increment View on load
+        runTransaction(viewsRef, (currentViews) => {
+            return (currentViews || 0) + 1;
+        });
+
+        // Listen for live watching updates
+        onValue(viewsRef, (snapshot) => {
+            const data = snapshot.val();
+            document.getElementById('liveCount').innerText = data ? data.toLocaleString() : 0;
+        });
+    </script>
+
+    <script src="watch-data.js"></script>
+    <script src="watch-player.js"></script>
+</body>
+</html>

@@ -47,9 +47,9 @@ const ANIME_DATABASE = [
   season: 1,
   episodes: [
     { number: 1, title: "Episode 1", id: "fullmetal-alchemist-brotherhood-1x1", embedType: "iframe", seedViews: 0 }
-  ]
-}
-  {
+    ]
+},
+{
     id: "chainsmoker-cat",
     title: "Chainsmoker Cat",
     type: "TV",

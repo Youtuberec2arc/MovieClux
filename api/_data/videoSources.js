@@ -31,6 +31,22 @@ const VIDEO_SOURCES = {
   "chainsmoker-cat-1x1": {
     type: "stream",
     src: process.env.VIDEO_SRC_CHAINSMOKER_CAT_1X1 || "https://icy-feather-221c.jakcminasi.workers.dev/?id=g6xnsj7ZDKW0gbrc5gXBDoyk8KvyeTyqXKvZZXyli8pVTQwND_vudnbgV5loXQG2n7c5uzvgHzmnFVt3dtnICA&name=Chainsmoker%20Cat%20Episode%2001.mp4"
+  },
+  "chainsmoker-cat-1x2": {
+    type: "stream",
+    src: process.env.VIDEO_SRC_CHAINSMOKER_CAT_1X2 || "https://icy-feather-221c.jakcminasi.workers.dev/?id=Wa9cLd1bTrSEZNY7IekL-zFQHBu7niMHYd-fwJq-3D6OtPzjnByKAysWiR5-hnGD9gADtbBxopHYL23BhruQvw&name=%5BVisit%20Telegram%20%40HindiAnimestuff%5D+Chainsmoker+Cat+S01E02+1080p+x265+10bit+NF+WEB-DL+Multi+Audio+ESub.mkv"
+  },
+  "fullmetal-alchemist-brotherhood-1x2": {
+    type: "stream",
+    src: process.env.VIDEO_SRC_FMAB_1X2 || "https://icy-feather-221c.jakcminasi.workers.dev/?id=vj1hL9uWmifLildsOrY-1_R3iHjha1upDUluLL5NN-IcbEPhiis7YYQNseFH9VEWvatHy7I9xr2RzywkAwJmlA&name=%5BVisit%20Telegram%20HindiAnimestuff%5D+Fullmetal+Alchemist+Brotherhood+S01E02+720p+HD+BluRay+Multi+Audio+ESub.mkv"
+  },
+  "fullmetal-alchemist-brotherhood-1x3": {
+    type: "stream",
+    src: process.env.VIDEO_SRC_FMAB_1X3 || "https://icy-feather-221c.jakcminasi.workers.dev/?id=_grTlDReq6UbQhLqqO8QoUY44qQ5Wzgq2BlXQI-GN62zXksrdhkmX3yMEEN783-7jMHFJF3WDmHgeE2HmphlBA&name=%5BVisit%20Telegram%20HindiAnimestuff%5D+Fullmetal+Alchemist+Brotherhood+S01E03+720p+HD+BluRay+Multi+Audio+ESub.mkv"
+  },
+  "fullmetal-alchemist-brotherhood-1x4": {
+    type: "stream",
+    src: process.env.VIDEO_SRC_FMAB_1X4 || "https://icy-feather-221c.jakcminasi.workers.dev/?id=xWjcHjCf6k_z4VNcLAfB31VYnVDhyG0Brn0iQuUgljfpeYy7QomkEnYhTWnkM9Yd1OJMVGaFTrrZYoMV6ZpCyw&name=%5BVisit%20Telegram%20HindiAnimestuff%5D+Fullmetal+Alchemist+Brotherhood+S01E04+720p+HD+BluRay+Multi+Audio+ESub.mkv"
   }
 
   // Add the matching entry here whenever a new episode id is added to

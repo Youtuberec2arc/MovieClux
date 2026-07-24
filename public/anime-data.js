@@ -55,7 +55,10 @@ const ANIME_DATABASE = [
   episodes: [
     // FIXED: source is a raw worker .mp4 link, not an embed/player PAGE —
     // must be "stream" so it plays via the native <video> tag through the proxy.
-    { number: 1, title: "Episode 1", id: "fullmetal-alchemist-brotherhood-1x1", embedType: "stream", seedViews: 0 }
+    { number: 1, title: "Episode 1", id: "fullmetal-alchemist-brotherhood-1x1", embedType: "stream", seedViews: 0 },
+    { number: 2, title: "Episode 2", id: "fullmetal-alchemist-brotherhood-1x2", embedType: "stream", seedViews: 0 },
+    { number: 3, title: "Episode 3", id: "fullmetal-alchemist-brotherhood-1x3", embedType: "stream", seedViews: 0 },
+    { number: 4, title: "Episode 4", id: "fullmetal-alchemist-brotherhood-1x4", embedType: "stream", seedViews: 0 }
   ]
 },
 {
@@ -89,6 +92,13 @@ const ANIME_DATABASE = [
         embedType: "stream",
         // Seed count only, shown until the live Firebase counter takes over.
         seedViews: 640000
+      },
+      {
+        number: 2,
+        title: "Episode 2",
+        id: "chainsmoker-cat-1x2",
+        embedType: "stream",
+        seedViews: 0
       }
     ]
   }

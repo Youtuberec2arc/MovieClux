@@ -1,0 +1,13 @@
+{
+  "name": "crunchyepisode",
+  "version": "1.0.0",
+  "private": true,
+  "description": "CrunchyEpisode — Hindi/multi-audio anime streaming site with a video-URL-hiding backend proxy.",
+  "scripts": {
+    "build": "node scripts/build-watch-pages.js",
+    "dev:build": "node scripts/build-watch-pages.js && echo Built. Serve /public with any static server + run `vercel dev` for /api."
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}

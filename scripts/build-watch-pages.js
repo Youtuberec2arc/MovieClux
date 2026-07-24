@@ -59,6 +59,8 @@ function renderPage(anime, episode) {
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>${esc(pageTitle)}</title>
 <link rel="icon" type="image/png" href="/crunchyepisode.png">
+<link rel="apple-touch-icon" href="/crunchyepisode.png">
+<link rel="manifest" href="/site.webmanifest">
 <script src="https://cdn.bitmovin.com/player/web/8/bitmovinplayer.js"></script>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>

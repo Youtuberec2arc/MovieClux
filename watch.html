@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Watch Anime — Anicraze</title>
+<script src="https://cdn.bitmovin.com/player/web/8/bitmovinplayer.js"></script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Anton&family=Manrope:wght@400;500;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="watch-style.css">
+</head>
+<body>
+
+<header class="site-nav">
+  <a href="index.html" class="brand"><img src="assets/logo.png" alt="Anicraze"></a>
+  <div class="nav-right">
+    <button class="icon-btn" aria-label="Bookmark" id="bookmarkBtn">
+      <svg viewBox="0 0 24 24"><path d="M6 3h12a1 1 0 0 1 1 1v17l-7-4-7 4V4a1 1 0 0 1 1-1z"/></svg>
+    </button>
+    <button class="icon-btn" aria-label="Sign in">
+      <svg viewBox="0 0 24 24"><path d="M15 3h4a1 1 0 0 1 1 1v16a1 1 0 0 1-1 1h-4M10 17l5-5-5-5M15 12H3"/></svg>
+    </button>
+  </div>
+</header>
+
+<div id="skeleton-loader" class="skeleton-active"></div>
+
+<div id="main-content" style="display:none;">
+
+  <section class="player-section">
+    <div id="bitmovin-player"></div>
+  </section>
+
+  <div class="episode-meta">
+    <h1 id="episodeTitle">Episode 1</h1>
+    <span class="views-count"><span id="liveCount">0</span> views</span>
+  </div>
+
+  <div class="series-row">
+    <img id="poster" class="series-thumb" src="" alt="Poster">
+    <div class="series-info">
+      <h3 id="title">Title</h3>
+      <span class="series-sub">Anime Series</span>
+    </div>
+    <button class="btn btn-ghost" id="moreInfoBtn">More Info</button>
+  </div>
+
+  <div class="action-row">
+    <button class="action-btn" id="prevBtn">⏮ Prev</button>
+    <button class="action-btn" id="nextBtn">Next ⏭</button>
+    <button class="action-btn server-btn active" data-server="0">🌐 Sub</button>
+    <button class="action-btn server-btn" data-server="1">▤ MegaPlay</button>
+  </div>
+
+  <div class="notice-bar" id="noticeBar">
+    <span>⚠ If the current server doesn't work, feel free to try the other available servers.</span>
+    <button class="notice-close" aria-label="Dismiss">✕</button>
+  </div>
+
+  <a id="downloadBtn" href="#" class="btn btn-primary btn-block">⬇ Download Now</a>
+
+  <nav class="tab-nav">
+    <button class="tab-link active" data-tab="episodes">Episodes</button>
+    <button class="tab-link" data-tab="related">Related</button>
+    <button class="tab-link" data-tab="recommendations">Recommendations</button>
+  </nav>
+
+  <section class="tab-panel" id="tab-episodes">
+    <div class="panel-header">
+      <span id="episodeCount">0 Episodes</span>
+      <div class="panel-actions">
+        <button class="icon-btn" aria-label="Refresh" id="refreshEpisodes">
+          <svg viewBox="0 0 24 24"><path d="M3 12a9 9 0 1 1 3 6.7M3 12v6h6"/></svg>
+        </button>
+        <button class="icon-btn" aria-label="Grid view">
+          <svg viewBox="0 0 24 24"><rect x="3" y="3" width="7" height="7"/><rect x="14" y="3" width="7" height="7"/><rect x="3" y="14" width="7" height="7"/><rect x="14" y="14" width="7" height="7"/></svg>
+        </button>
+      </div>
+    </div>
+    <div class="episode-grid" id="episodeGrid"></div>
+  </section>
+
+  <section class="tab-panel" id="tab-related" hidden>
+    <p class="empty-row">No related titles yet — more anime are being added soon.</p>
+  </section>
+
+  <section class="tab-panel" id="tab-recommendations" hidden>
+    <p class="empty-row">Recommendations will show up here once more titles are on the site.</p>
+  </section>
+
+  <section class="detail-section">
+    <div class="detail-banner" id="heroBanner"></div>
+    <p id="description" class="description"></p>
+    <div class="tag-row" id="genres"></div>
+    <div class="tag-row muted" id="languages"></div>
+  </section>
+
+  <section class="detail-section">
+    <h3>Cast</h3>
+    <div id="castList" class="cast-grid"></div>
+  </section>
+
+  <section class="detail-section glass-card">
+    <h3>Anime Information</h3>
+    <div class="info-grid">
+      <p><strong>Year:</strong> <span id="year"></span></p>
+      <p><strong>Rating:</strong> <span id="rating"></span> TMDB</p>
+      <p><strong>Type:</strong> <span id="type"></span></p>
+    </div>
+  </section>
+
+</div>
+
+<footer class="site-footer">
+  <img src="assets/logo.png" alt="Anicraze" class="footer-logo">
+  <p>Anicraze is a fan-made index of anime episodes. We don't host any video files ourselves — every episode links out to third-party servers.</p>
+  <div class="footer-links">
+    <a href="javascript:void(0)">Terms</a>
+    <a href="javascript:void(0)">Privacy</a>
+    <a href="javascript:void(0)">Contact</a>
+    <a href="javascript:void(0)">Sitemap</a>
+  </div>
+  <p class="footer-copy">© 2026 Anicraze. All rights reserved.</p>
+</footer>
+
+<script type="module">
+  import { initializeApp } from "https://www.gstatic.com/firebasejs/10.8.0/firebase-app.js";
+  import { getDatabase, ref, runTransaction, onValue } from "https://www.gstatic.com/firebasejs/10.8.0/firebase-database.js";
+
+  // ADD YOUR FIREBASE CONFIG HERE
+  const firebaseConfig = {
+    databaseURL: "https://YOUR-PROJECT-ID.firebaseio.com",
+  };
+  const app = initializeApp(firebaseConfig);
+  const db = getDatabase(app);
+
+  const urlParams = new URLSearchParams(window.location.search);
+  const animeId = urlParams.get('id') || 'chainsmoker-cat';
+  const viewsRef = ref(db, `watch/${animeId}/views`);
+
+  runTransaction(viewsRef, (currentViews) => (currentViews || 0) + 1);
+
+  onValue(viewsRef, (snapshot) => {
+    const data = snapshot.val();
+    document.getElementById('liveCount').innerText = data ? data.toLocaleString() : 0;
+  });
+</script>
+
+<script src="anime-data.js"></script>
+<script src="watch-player.js"></script>
+</body>
+</html>

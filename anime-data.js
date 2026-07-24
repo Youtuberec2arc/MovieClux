@@ -1,0 +1,69 @@
+/**
+ * anime-data.js
+ * ---------------------------------------------------------
+ * Single source of truth for every title on the site.
+ * Add a new object to ANIME_DATABASE for each new anime —
+ * generate-pages.js (homepage cards) and watch.html
+ * (episode page) both read from this file, so nothing has
+ * to be written twice.
+ *
+ * section: "latest" | "new" | "upcoming"   -> which homepage
+ *          row the card shows up in.
+ * isAvailable: false -> card still renders, but the watch
+ *          button is disabled (see generate-pages.js).
+ * --------------------------------------------------------- */
+
+const ANIME_DATABASE = [
+  {
+    id: "chainsmoker-cat",
+    title: "Chainsmoker Cat",
+    type: "TV",
+    ageRating: "PG-13",
+    year: "2026",
+    duration: "24m",
+    tmdbRating: "8.7",
+    siteRating: "6.8",
+    poster: "assets/chainsmoker-cat-poster.jpg",   // TODO: swap in real artwork
+    banner: "assets/chainsmoker-cat-banner.jpg",    // TODO: swap in real artwork
+    genres: ["Animation", "Anime", "Anime Series", "Comedy", "Sci-Fi & Fantasy"],
+    languages: ["English", "Hindi", "Japanese", "Tamil", "Telugu"],
+    tags: ["smoking", "chain smoking", "based on manga", "trashed house", "fantasy", "urban fantasy"],
+    description: "Yani is a catgirl with a seriously bad smoking habit. She smokes so much that her apartment smells like ash and is littered with cigarette butts — and plenty of other clutter besides. As her landlord's patience and her loved ones' concerns both run thin, Yani has to decide what she actually wants her future to look like.",
+    cast: ["Yuko Natsuyoshi", "Misato Matsuoka", "Yurie Funato", "Ayaka Shimizu", "Shiori Izawa"],
+    isAvailable: true,
+    section: "latest",
+    episodes: [
+      {
+        number: 1,
+        title: "Episode 1",
+        views: 640000,
+        servers: [
+          { name: "Sub", url: "https://as-cdn21.top/video/db31e0a485a2b6c73be7067dd95c0c5e" },
+          { name: "MegaPlay", url: "https://as-cdn21.top/video/db31e0a485a2b6c73be7067dd95c0c5e" }
+        ],
+        download: "https://icy-feather-221c.jakcminasi.workers.dev/?id=g6xnsj7ZDKW0gbrc5gXBDoyk8KvyeTyqXKvZZXyli8pVTQwND_vudnbgV5loXQG2n7c5uzvgHzmnFVt3dtnICA&name=Adams+Sweet+Agony+E01+Uncut+Hindi.mp4"
+      }
+    ]
+  }
+
+  // Add the next title here, e.g.:
+  // {
+  //   id: "one-piece",
+  //   title: "One Piece",
+  //   section: "upcoming",
+  //   isAvailable: false,
+  //   ...
+  // }
+];
+
+// Shared helpers -------------------------------------------------
+
+function findAnimeById(id) {
+  return ANIME_DATABASE.find(a => a.id === id) || null;
+}
+
+function formatViews(n) {
+  if (n >= 1000000) return (n / 1000000).toFixed(1).replace(/\.0$/, "") + "M";
+  if (n >= 1000) return (n / 1000).toFixed(0) + "K";
+  return String(n);
+}

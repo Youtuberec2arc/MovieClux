@@ -83,15 +83,6 @@ img { max-width: 100%; display: block; }
   box-shadow: 0 0 30px rgba(239, 39, 72, 0.2);
 }
 #player-frame iframe { width: 100%; height: 100%; border: 0; display: block; }
-#player-frame video { width: 100%; height: 100%; }
-#bitmovinContainer, #bitmovinContainer video {
-  -webkit-touch-callout: none; /* stop iOS long-press "Save/Copy" menu */
-  -webkit-user-select: none;
-  user-select: none;
-}
-/* Belt-and-braces: hide the download icon some Bitmovin UI presets ship
-   with, in case a future skin/config re-enables it. */
-.bmpui-ui-downloadbutton, .bmpui-ui-download-button { display: none !important; }
 
 .fs-btn {
   position: absolute;

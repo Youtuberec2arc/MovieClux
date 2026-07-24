@@ -24,9 +24,8 @@ const ANIME_DATABASE = [
     tmdbRating: "8.7",
     siteRating: "6.8",
     poster: "assets/chainsmoker-cat-poster.jpg",   // TODO: swap in real artwork
-    banner: "assets/chainsmoker-cat-poster.jpg",    // TODO: swap in real artwork
-    genres: ["Animation", "Anime", "Anime Series", "Comedy", "Sci-Fi & Fantasy"],
-    languages: ["English", "Hindi", "Japanese", "Tamil", "Telugu"],
+    banner: "assets/chainsmoker-cat-banner.jpg",    // TODO: swap in real artwork
+    genres: ["Animation", "Anime", "Anime Series", "Comedy", "Sci-Fi & Fantasy"],    languages: ["English", "Hindi", "Japanese", "Tamil", "Telugu"],
     tags: ["smoking", "chain smoking", "based on manga", "trashed house", "fantasy", "urban fantasy"],
     description: "Yani is a catgirl with a seriously bad smoking habit. She smokes so much that her apartment smells like ash and is littered with cigarette butts — and plenty of other clutter besides. As her landlord's patience and her loved ones' concerns both run thin, Yani has to decide what she actually wants her future to look like.",
     cast: ["Yuko Natsuyoshi", "Misato Matsuoka", "Yurie Funato", "Ayaka Shimizu", "Shiori Izawa"],

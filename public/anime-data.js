@@ -23,6 +23,13 @@
  * episodes[].id: the PUBLIC episode id passed to /api/play —
  *          this is what the frontend is allowed to know.
  *          The real CDN URL it maps to is server-side only.
+ * episodes[].embedType:
+ *          "stream" -> direct file link (.mp4/.m3u8/worker
+ *                      download link) — played with a plain
+ *                      native <video> tag through the proxy.
+ *          "iframe" -> third-party embed/player PAGE (not a
+ *                      raw file) — shown in an <iframe> via
+ *                      the proxy.
  * --------------------------------------------------------- */
 
 const ANIME_DATABASE = [
@@ -46,8 +53,9 @@ const ANIME_DATABASE = [
   section: "new",           // "New on Site" row mein dikhega — "latest" karna ho to yahan badal dena
   season: 1,
   episodes: [
+    // rubystm.com/e/... ek embed/player PAGE hai, raw file nahi — isliye "iframe" sahi hai.
     { number: 1, title: "Episode 1", id: "fullmetal-alchemist-brotherhood-1x1", embedType: "iframe", seedViews: 0 }
-    ]
+  ]
 },
 {
     id: "chainsmoker-cat",
@@ -74,9 +82,10 @@ const ANIME_DATABASE = [
         title: "Episode 1",
         // Public id only — resolved to a real source by /api/play server-side.
         id: "chainsmoker-cat-1x1",
-        // "stream"  -> direct mp4/hls file, played with Bitmovin through the proxy
-        // "iframe"  -> third-party embed page, shown in a sandboxed iframe via the proxy
-        embedType: "iframe",
+        // FIXED: this is a direct .mp4 worker link, not an embed page —
+        // must be "stream" so it plays through the native <video> tag
+        // instead of being forced into a broken download-triggering iframe.
+        embedType: "stream",
         // Seed count only, shown until the live Firebase counter takes over.
         seedViews: 640000
       }

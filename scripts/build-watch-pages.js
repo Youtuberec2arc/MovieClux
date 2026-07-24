@@ -59,7 +59,6 @@ function renderPage(anime, episode) {
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>${esc(pageTitle)}</title>
 <link rel="icon" type="image/png" href="/crunchyepisode.png">
-<script src="https://cdn.bitmovin.com/player/web/8/bitmovinplayer.js"></script>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Anton&family=Manrope:wght@400;500;700;800&display=swap" rel="stylesheet">
@@ -237,14 +236,13 @@ function renderPage(anime, episode) {
           if (req) req.call(el);
         };
       } else {
-        // Direct stream file, proxied byte-for-byte through /api/play.
-        const player = new bitmovin.player.Player(frame, {
-          key: ${JSON.stringify(process.env.BITMOVIN_PLAYER_KEY || "REPLACE_WITH_YOUR_BITMOVIN_KEY")},
-          playback: { autoplay: true, muted: false },
-          ui: { playbackSpeedSelectionEnabled: true },
-          cast: { enable: true }
-        });
-        await player.load({ title: ${JSON.stringify(anime.title)}, hls: playUrl });
+        // Direct file (mp4 etc.), proxied byte-for-byte through /api/play
+        // so the real CDN/worker URL is never visible in the Network tab.
+        // A plain <video> element is used — no external player license
+        // needed, and it has its own native fullscreen/controls that work
+        // reliably since the src is same-origin (our own /api/play).
+        frame.innerHTML = \`<video id="videoEl" controls autoplay playsinline
+          style="width:100%;height:100%;background:#000;" src="\${playUrl}"></video>\`;
       }
     } catch (err) {
       frame.innerHTML = '<p class="empty-row">Playback failed to load. Please refresh or try again shortly.</p>';

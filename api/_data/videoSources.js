@@ -21,7 +21,7 @@
 const VIDEO_SOURCES = {
 "fullmetal-alchemist-brotherhood-1x1": {
   type: "iframe",
-  src: process.env.VIDEO_SRC_FMAB_1X1 || "https://icy-feather-221c.jakcminasi.workers.dev/?id=FmLOHIbnApBmyMftes1dSAasKYa72YoVI4is9sSqw8-KzYCPidcB0QPqLqWj4e06feL5dtl_ZHmdkvdAUPALoA&name=%5BToonhub4u%5D+Fullmetal+Alchemist+Brotherhood+S01E01+1080p+HEVC+10bit+BluRay+Multi+Audio+ESub.mkv"
+  src: process.env.VIDEO_SRC_FMAB_1X1 || "https://stuffclone.vercel.app/api/video?url=https%3A%2F%2Ficy-feather-221c.jakcminasi.workers.dev%2F%3Fid%3DmHCDbpLigzHUX_TZyuuUvkcLv0K2BOU82HxrkGSUH9LeJ7_oe9oXjktu1u7eIBwOZSXgSsbbw8S7VeF3TJHKGw%26name%3Dpink.mp4"
   // download field jaan-bujh ke chhoda hai — neeche note dekho
 }
   "chainsmoker-cat-1x1": {

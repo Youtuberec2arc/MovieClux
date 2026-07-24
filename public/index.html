@@ -3,7 +3,8 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Anicraze — Watch Anime Online</title>
+<title>CrunchyEpisode — Watch Anime Online</title>
+<link rel="icon" type="image/png" href="/crunchyepisode.png">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Anton&family=Manrope:wght@400;500;700;800&display=swap" rel="stylesheet">
@@ -16,13 +17,18 @@
     <svg viewBox="0 0 24 24"><path d="M3 6h18M3 12h18M3 18h18"/></svg>
   </button>
   <a href="index.html" class="brand">
-    <img src="assets/logo.png" alt="Anicraze">
+    <img src="assets/logo.png" alt="CrunchyEpisode">
   </a>
+
+  <!-- Search: filters every anime on the site (title / genre / tag), live as you type -->
+  <div class="nav-search">
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="7"/><path d="M21 21l-4.3-4.3"/></svg>
+    <input type="text" id="searchInput" placeholder="Search anime…" autocomplete="off">
+  </div>
+
   <div class="nav-right">
-    <button class="icon-btn" aria-label="Search">
-      <svg viewBox="0 0 24 24"><circle cx="11" cy="11" r="7"/><path d="M21 21l-4.3-4.3"/></svg>
-    </button>
-    <a class="sign-in-btn" href="javascript:void(0)">Sign In</a>
+    <a href="#" id="cnt-series-link" class="nav-count-link">Series <span class="nav-count" id="cnt-series"></span></a>
+    <a href="#" id="cnt-movies-link" class="nav-count-link">Movies <span class="nav-count" id="cnt-movies"></span></a>
   </div>
 </header>
 
@@ -49,7 +55,14 @@
 
 <main class="site-main">
 
-  <section class="row" id="latestEpisodes">
+  <section class="row" id="searchResultsRow" style="display:none;">
+    <div class="row-header">
+      <h2 id="searchResultsTitle">Search Results</h2>
+    </div>
+    <div class="card-grid" id="searchResultsGrid"></div>
+  </section>
+
+  <section class="row" id="latestEpisodesRow">
     <div class="row-header">
       <h2>Latest Episodes</h2>
       <div class="row-tabs">
@@ -61,32 +74,25 @@
     <div class="card-grid" id="latestGrid"></div>
   </section>
 
-  <section class="row">
+  <section class="row" id="newRow">
     <div class="row-header">
       <h2>New on Site</h2>
     </div>
     <div class="card-grid" id="newGrid"></div>
   </section>
 
-  <section class="row">
-    <div class="row-header">
-      <h2>Upcoming</h2>
-    </div>
-    <div class="card-grid" id="upcomingGrid"></div>
-  </section>
-
 </main>
 
 <footer class="site-footer">
-  <img src="assets/logo.png" alt="Anicraze" class="footer-logo">
-  <p>Anicraze is a fan-made index of anime episodes. We don't host any video files ourselves — every episode links out to third-party servers.</p>
+  <img src="assets/logo.png" alt="CrunchyEpisode" class="footer-logo">
+  <p>CrunchyEpisode is a fan-made index of anime episodes. We don't host any video files ourselves — every episode links out to third-party servers.</p>
   <div class="footer-links">
     <a href="javascript:void(0)">Terms</a>
     <a href="javascript:void(0)">Privacy</a>
     <a href="javascript:void(0)">Contact</a>
     <a href="javascript:void(0)">Sitemap</a>
   </div>
-  <p class="footer-copy">© 2026 Anicraze. All rights reserved.</p>
+  <p class="footer-copy">© 2026 CrunchyEpisode. All rights reserved.</p>
 </footer>
 
 <script src="anime-data.js"></script>

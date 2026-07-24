@@ -57,15 +57,51 @@ img { max-width: 100%; display: block; }
 .icon-btn:hover { background: var(--surface-2); }
 .icon-btn svg { width: 20px; height: 20px; fill: none; stroke: currentColor; stroke-width: 2; stroke-linecap: round; }
 
-.sign-in-btn {
-  background: var(--accent);
-  color: white;
-  text-decoration: none;
-  font-weight: 700;
+/* ---------- Search (live, matches every anime on the site) ---------- */
+.nav-search {
+  flex: 1 1 auto;
+  max-width: 360px;
+  position: relative;
+}
+.nav-search svg {
+  position: absolute; left: 11px; top: 50%; transform: translateY(-50%);
+  width: 15px; height: 15px; opacity: 0.5; pointer-events: none;
+}
+.nav-search input {
+  width: 100%;
+  background: var(--surface);
+  border: 1px solid var(--border);
+  color: var(--text-main);
+  font-family: var(--font-body);
   font-size: 13px;
-  letter-spacing: 0.03em;
-  padding: 9px 16px;
+  padding: 9px 12px 9px 32px;
   border-radius: 8px;
+  outline: none;
+}
+.nav-search input::placeholder { color: var(--text-muted); }
+.nav-search input:focus { border-color: var(--accent); }
+
+/* ---------- Nav series/movie counts ---------- */
+.nav-count-link {
+  color: var(--text-muted);
+  text-decoration: none;
+  font-size: 13px;
+  font-weight: 700;
+  display: none;
+  align-items: center;
+  gap: 5px;
+}
+.nav-count-link:hover { color: var(--text-main); }
+.nav-count {
+  background: var(--accent-dim);
+  color: var(--accent);
+  font-size: 11px;
+  font-weight: 700;
+  padding: 1px 6px;
+  border-radius: 100px;
+}
+@media (min-width: 640px) {
+  .nav-count-link { display: inline-flex; }
 }
 
 /* ---------- Hero ---------- */

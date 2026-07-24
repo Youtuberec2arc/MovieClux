@@ -36,8 +36,8 @@ img { max-width: 100%; display: block; }
   border-bottom: 1px solid var(--border);
 }
 .brand img { height: 22px; }
-.brand { margin-right: auto; display: flex; }
-.nav-right { display: flex; align-items: center; gap: 10px; }
+.brand { margin-right: 14px; display: flex; }
+.nav-right { display: flex; align-items: center; gap: 10px; margin-left: auto; }
 .icon-btn {
   background: none; border: none; color: var(--text-main);
   width: 36px; height: 36px; display: grid; place-items: center;
@@ -45,6 +45,20 @@ img { max-width: 100%; display: block; }
 }
 .icon-btn:hover { background: var(--surface-2); }
 .icon-btn svg { width: 20px; height: 20px; fill: none; stroke: currentColor; stroke-width: 2; stroke-linecap: round; }
+
+/* ---------- Search (same behavior as the homepage, jumps back to index.html?q=) ---------- */
+.nav-search { flex: 1 1 auto; max-width: 320px; position: relative; }
+.nav-search svg {
+  position: absolute; left: 11px; top: 50%; transform: translateY(-50%);
+  width: 15px; height: 15px; opacity: 0.5; pointer-events: none;
+}
+.nav-search input {
+  width: 100%; background: var(--surface); border: 1px solid var(--border);
+  color: var(--text-main); font-family: var(--font-body); font-size: 13px;
+  padding: 9px 12px 9px 32px; border-radius: 8px; outline: none;
+}
+.nav-search input::placeholder { color: var(--text-muted); }
+.nav-search input:focus { border-color: var(--accent); }
 
 /* ---------- Skeleton ---------- */
 .skeleton-active {
@@ -61,14 +75,14 @@ img { max-width: 100%; display: block; }
 
 /* ---------- Player ---------- */
 .player-section { padding: 16px 16px 0; max-width: 1000px; margin: 0 auto; }
-#bitmovin-player {
+#player-frame {
   border-radius: 12px;
   overflow: hidden;
   aspect-ratio: 16/9;
   background: #000;
   box-shadow: 0 0 30px rgba(239, 39, 72, 0.2);
 }
-#bitmovin-player iframe { width: 100%; height: 100%; border: 0; }
+#player-frame iframe { width: 100%; height: 100%; border: 0; display: block; }
 
 .episode-meta {
   max-width: 1000px; margin: 0 auto; padding: 16px 16px 0;
@@ -108,7 +122,9 @@ img { max-width: 100%; display: block; }
 }
 .action-btn:hover { border-color: var(--accent); }
 .action-btn.active { background: var(--accent); border-color: var(--accent); color: white; }
-.action-btn:disabled { opacity: 0.4; cursor: not-allowed; }
+.action-btn:disabled, .action-btn.disabled-link { opacity: 0.4; pointer-events: none; }
+.action-row { justify-content: flex-start; }
+.action-row .action-btn { text-decoration: none; display: inline-flex; align-items: center; }
 
 /* ---------- Notice ---------- */
 .notice-bar {

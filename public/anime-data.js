@@ -26,6 +26,29 @@
  * --------------------------------------------------------- */
 
 const ANIME_DATABASE = [
+{
+  id: "fullmetal-alchemist-brotherhood",
+  title: "Fullmetal Alchemist: Brotherhood",
+  type: "TV",
+  ageRating: "PG-13",      // ⚠ tumne nahi diya, maine default rakha — change kar lena agar chahiye
+  year: "2009",
+  duration: "25m",
+  tmdbRating: "8.7",
+  siteRating: "8.7",
+  poster: "assets/fullmetal-alchemist-brotherhood-poster.jpg",
+  banner: "assets/fullmetal-alchemist-brotherhood-poster.jpg",
+  genres: ["Action & Adventure", "Animation", "Anime Series", "Drama", "Sci-Fi & Fantasy"],
+  languages: ["Hindi", "English", "Japanese"],
+  tags: ["Amazon Prime Video", "Animetimes"],
+  description: "Disregard for alchemy's laws ripped half of Edward Elric's limbs from his body and left his brother Alphonse's soul clinging to a suit of armor. To restore what was lost, the brothers seek the Philosopher's Stone. Enemies and allies – the corrupt military, the Homunculi, and foreign alchemists – will alter the Elric brothers course, but their purpose will remain unchanged and their bond unbreakable.",
+  cast: ["Romi Park", "Rie Kugimiya", "Shin-ichiro Miki", "Fumiko Orikasa", "Megumi Takamoto"],
+  isAvailable: true,
+  section: "new",           // "New on Site" row mein dikhega — "latest" karna ho to yahan badal dena
+  season: 1,
+  episodes: [
+    { number: 1, title: "Episode 1", id: "fullmetal-alchemist-brotherhood-1x1", embedType: "iframe", seedViews: 0 }
+  ]
+}
   {
     id: "chainsmoker-cat",
     title: "Chainsmoker Cat",

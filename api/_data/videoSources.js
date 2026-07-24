@@ -19,6 +19,11 @@
  * --------------------------------------------------------- */
 
 const VIDEO_SOURCES = {
+"fullmetal-alchemist-brotherhood-1x1": {
+  type: "iframe",
+  src: process.env.VIDEO_SRC_FMAB_1X1 || "https://rubystm.com/e/1tcn36y95s5f.html"
+  // download field jaan-bujh ke chhoda hai — neeche note dekho
+}
   "chainsmoker-cat-1x1": {
     // "iframe" -> we 302-redirect the player's <iframe> straight to this
     //             page (used for third-party embed pages that are not a

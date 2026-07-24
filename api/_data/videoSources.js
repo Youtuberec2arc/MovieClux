@@ -25,16 +25,9 @@ const VIDEO_SOURCES = {
   // download field jaan-bujh ke chhoda hai — neeche note dekho
 }
   "chainsmoker-cat-1x1": {
-    // "iframe" -> we 302-redirect the player's <iframe> straight to this
-    //             page (used for third-party embed pages that are not a
-    //             raw stream file, e.g. as-cdn21.top style embeds).
-    // "stream" -> we proxy/stream the bytes ourselves so the origin URL
-    //             never appears anywhere in the browser, not even Network tab.
-    type: "iframe",
-    src: process.env.VIDEO_SRC_CHAINSMOKER_CAT_1X1 || "https://as-cdn21.top/video/db31e0a485a2b6c73be7067dd95c0c5e",
-    download: process.env.DOWNLOAD_SRC_CHAINSMOKER_CAT_1X1 ||
-      "https://icy-feather-221c.jakcminasi.workers.dev/?id=g6xnsj7ZDKW0gbrc5gXBDoyk8KvyeTyqXKvZZXyli8pVTQwND_vudnbgV5loXQG2n7c5uzvgHzmnFVt3dtnICA&name=Adams+Sweet+Agony+E01+Uncut+Hindi.mp4"
-  }
+  type: "stream",
+  src: process.env.VIDEO_SRC_CHAINSMOKER_CAT_1X1 || "https://icy-feather-221c.jakcminasi.workers.dev/?id=g6xnsj7ZDKW0gbrc5gXBDoyk8KvyeTyqXKvZZXyli8pVTQwND_vudnbgV5loXQG2n7c5uzvgHzmnFVt3dtnICA&name=Chainsmoker%20Cat%20Episode%2001.mp4"
+}
 
   // Add the matching entry here whenever a new episode id is added to
   // anime-data.js. Nothing else in the repo needs the real URL.

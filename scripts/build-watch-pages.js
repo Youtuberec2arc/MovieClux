@@ -59,8 +59,6 @@ function renderPage(anime, episode) {
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>${esc(pageTitle)}</title>
 <link rel="icon" type="image/png" href="/crunchyepisode.png">
-<link rel="apple-touch-icon" href="/crunchyepisode.png">
-<link rel="manifest" href="/site.webmanifest">
 <script src="https://cdn.bitmovin.com/player/web/8/bitmovinplayer.js"></script>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -82,10 +80,14 @@ function renderPage(anime, episode) {
   </div>
 </header>
 
-<section class="player-section">
+<section class="player-section" style="position:relative;">
   <!-- Filled at runtime by an <iframe> or <video>/Bitmovin player pointed at
        /api/play — the real video URL never appears in this HTML. -->
   <div id="player-frame"></div>
+  <!-- Backup fullscreen button: some embed players' own fullscreen icon
+       doesn't work reliably inside a cross-origin iframe on mobile, so
+       this calls the Fullscreen API directly on the iframe element. -->
+  <button id="fullscreenBtn" class="fs-btn" aria-label="Fullscreen" hidden>⛶</button>
 </section>
 
 <div class="episode-meta">
@@ -216,9 +218,24 @@ function renderPage(anime, episode) {
         // guess-and-fallback (that mismatch was why the preview used to
         // fail to load). allowfullscreen + the allow list below cover
         // autoplay, fullscreen, and Chromecast/PiP inside the embed.
-        frame.innerHTML = \`<iframe src="\${playUrl}" allowfullscreen
+        // webkitallowfullscreen/mozallowfullscreen are legacy duplicates
+        // some mobile browsers still check before granting fullscreen to
+        // a cross-origin iframe.
+        frame.innerHTML = \`<iframe id="embedFrame" src="\${playUrl}"
+          allowfullscreen webkitallowfullscreen mozallowfullscreen
           allow="autoplay; fullscreen; encrypted-media; picture-in-picture"
           referrerpolicy="strict-origin-when-cross-origin"></iframe>\`;
+
+        // Show our own backup fullscreen button, since the embed's
+        // internal fullscreen icon can silently fail inside an iframe
+        // on some mobile browsers.
+        const fsBtn = document.getElementById("fullscreenBtn");
+        fsBtn.hidden = false;
+        fsBtn.onclick = () => {
+          const el = document.getElementById("embedFrame");
+          const req = el.requestFullscreen || el.webkitRequestFullscreen || el.mozRequestFullScreen;
+          if (req) req.call(el);
+        };
       } else {
         // Direct stream file, proxied byte-for-byte through /api/play.
         const player = new bitmovin.player.Player(frame, {

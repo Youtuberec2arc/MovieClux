@@ -19,15 +19,19 @@
  * --------------------------------------------------------- */
 
 const VIDEO_SOURCES = {
-"fullmetal-alchemist-brotherhood-1x1": {
-  type: "iframe",
-  src: process.env.VIDEO_SRC_FMAB_1X1 || "https://stuffclone.vercel.app/api/video?url=https%3A%2F%2Ficy-feather-221c.jakcminasi.workers.dev%2F%3Fid%3DmHCDbpLigzHUX_TZyuuUvkcLv0K2BOU82HxrkGSUH9LeJ7_oe9oXjktu1u7eIBwOZSXgSsbbw8S7VeF3TJHKGw%26name%3Dpink.mp4"
-  // download field jaan-bujh ke chhoda hai — neeche note dekho
-}
+  // FIXED: this was tagged "iframe" but the URL is actually a raw worker
+  // .mp4 link (same shape as chainsmoker-cat below), not an embed PAGE —
+  // "stream" is correct so it's proxied byte-for-byte and played with a
+  // plain <video> tag instead of being (mis)loaded in an <iframe>.
+  "fullmetal-alchemist-brotherhood-1x1": {
+    type: "stream",
+    src: process.env.VIDEO_SRC_FMAB_1X1 || "https://icy-feather-221c.jakcminasi.workers.dev/?id=mHCDbpLigzHUX_TZyuuUvkcLv0K2BOU82HxrkGSUH9LeJ7_oe9oXjktu1u7eIBwOZSXgSsbbw8S7VeF3TJHKGw&name=pink.mp4"
+    // download field jaan-bujh ke chhoda hai — neeche note dekho
+  },
   "chainsmoker-cat-1x1": {
-  type: "stream",
-  src: process.env.VIDEO_SRC_CHAINSMOKER_CAT_1X1 || "https://icy-feather-221c.jakcminasi.workers.dev/?id=g6xnsj7ZDKW0gbrc5gXBDoyk8KvyeTyqXKvZZXyli8pVTQwND_vudnbgV5loXQG2n7c5uzvgHzmnFVt3dtnICA&name=Chainsmoker%20Cat%20Episode%2001.mp4"
-}
+    type: "stream",
+    src: process.env.VIDEO_SRC_CHAINSMOKER_CAT_1X1 || "https://icy-feather-221c.jakcminasi.workers.dev/?id=g6xnsj7ZDKW0gbrc5gXBDoyk8KvyeTyqXKvZZXyli8pVTQwND_vudnbgV5loXQG2n7c5uzvgHzmnFVt3dtnICA&name=Chainsmoker%20Cat%20Episode%2001.mp4"
+  }
 
   // Add the matching entry here whenever a new episode id is added to
   // anime-data.js. Nothing else in the repo needs the real URL.

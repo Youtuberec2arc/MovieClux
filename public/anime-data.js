@@ -53,8 +53,9 @@ const ANIME_DATABASE = [
   section: "new",           // "New on Site" row mein dikhega — "latest" karna ho to yahan badal dena
   season: 1,
   episodes: [
-    // rubystm.com/e/... ek embed/player PAGE hai, raw file nahi — isliye "iframe" sahi hai.
-    { number: 1, title: "Episode 1", id: "fullmetal-alchemist-brotherhood-1x1", embedType: "iframe", seedViews: 0 }
+    // FIXED: source is a raw worker .mp4 link, not an embed/player PAGE —
+    // must be "stream" so it plays via the native <video> tag through the proxy.
+    { number: 1, title: "Episode 1", id: "fullmetal-alchemist-brotherhood-1x1", embedType: "stream", seedViews: 0 }
   ]
 },
 {

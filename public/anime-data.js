@@ -37,17 +37,17 @@ const ANIME_DATABASE = [
   id: "tamons-b-side",
   title: "Tamon's B-Side",
   type: "TV",
-  ageRating: "PG-13",       // ⚠ tumne nahi diya, default rakha
+  ageRating: "PG-13",       // ⚠ nahi diya tha, default rakha — change kar lena
   year: "2026",
   duration: "24m",
-  tmdbRating: "N/A",        // ⚠ rating nahi di gayi
+  tmdbRating: "N/A",        // ⚠ nahi diya tha
   siteRating: "N/A",
   poster: "https://image.tmdb.org/t/p/original/1iTCxEIK1xlmIXjHcLjt0UyOU8w.jpg",
   banner: "https://image.tmdb.org/t/p/original/1iTCxEIK1xlmIXjHcLjt0UyOU8w.jpg",
-  genres: ["Animation", "Comedy", "Romance", "Anime Series"],
+  genres: ["Animation", "Comedy", "Romance"],
   languages: ["Hindi"],
-  tags: ["HindiAnimestuff", "WEB-DL", "Uncensored"],
-  description: "A slice-of-life romance-comedy anime series, Hindi dubbed, uncensored WEB-DL, 1080p FHD.",
+  tags: ["Multi Audio", "WEB-DL", "Uncensored"],
+  description: "A 2026 TV anime series, 24 minutes per episode, dubbed in Hindi with multi-audio WEB-DL releases.",
   cast: [],
   isAvailable: true,
   section: "new",
@@ -60,6 +60,7 @@ const ANIME_DATABASE = [
     { number: 5, title: "Episode 5", id: "tamons-b-side-1x5", embedType: "stream", seedViews: 0 },
     { number: 6, title: "Episode 6", id: "tamons-b-side-1x6", embedType: "stream", seedViews: 0 },
     { number: 7, title: "Episode 7", id: "tamons-b-side-1x7", embedType: "stream", seedViews: 0 }
+    // Episodes 8-13 not added yet — bhejo jab mile
   ]
 },
 {

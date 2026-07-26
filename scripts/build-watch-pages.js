@@ -272,25 +272,12 @@ function renderPage(anime, episode) {
     }
   }
 
-  document.getElementById("downloadBtn").addEventListener("click", async (e) => {
-    const btn = e.currentTarget;
-    const originalLabel = btn.textContent;
-    btn.disabled = true;
-    btn.textContent = "Preparing download…";
+  document.getElementById("downloadBtn").addEventListener("click", async () => {
     try {
-      // /api/download-link builds the real, token-protected download URL
-      // and auto-runs it through GPLinks — no per-episode shortening needed,
-      // it just happens for every download link site-wide.
-      const res = await fetch(\`/api/download-link?id=\${encodeURIComponent(EPISODE_ID)}\`);
-      if (!res.ok) throw new Error("download-link request failed");
-      const { url } = await res.json();
-      window.location.href = url;
+      const { token } = await getPlayToken();
+      window.location.href = \`/api/play?id=\${encodeURIComponent(EPISODE_ID)}&token=\${encodeURIComponent(token)}&mode=download\`;
     } catch (err) {
       alert("Download link could not be generated. Please try again.");
-      console.error(err);
-    } finally {
-      btn.disabled = false;
-      btn.textContent = originalLabel;
     }
   });
 

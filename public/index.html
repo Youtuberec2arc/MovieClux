@@ -5,8 +5,9 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>CrunchyEpisode — Watch Anime Online</title>
 <link rel="icon" type="image/png" href="/crunchyepisode.png">
-<link rel="apple-touch-icon" href="/crunchyepisode.png">
+<link rel="apple-touch-icon" href="/crunchyepisode-180.png">
 <link rel="manifest" href="/site.webmanifest">
+<meta name="theme-color" content="#ef2748">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Anton&family=Manrope:wght@400;500;700;800&display=swap" rel="stylesheet">
@@ -33,6 +34,28 @@
     <a href="#" id="cnt-movies-link" class="nav-count-link">Movies <span class="nav-count" id="cnt-movies"></span></a>
   </div>
 </header>
+
+<!-- Slide-in menu drawer: static links + a genre grid built live from
+     ANIME_DATABASE. If anime-data.js has zero titles, the Genre section
+     just shows a friendly empty message instead of breaking. -->
+<div class="drawer-overlay" id="drawerOverlay"></div>
+<aside class="drawer" id="drawer">
+  <button class="drawer-back" id="drawerClose" aria-label="Close menu">
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M19 12H5M12 19l-7-7 7-7"/></svg>
+  </button>
+  <nav class="drawer-links">
+    <a href="index.html">Home</a>
+    <a href="#" id="drawer-az-link">A-Z Anime List</a>
+    <a href="#" id="drawer-series-link">Anime Series</a>
+    <a href="#" id="drawer-movies-link">Anime Movies</a>
+    <a href="javascript:void(0)">How To Download</a>
+    <a href="javascript:void(0)">Report Link Not Working</a>
+  </nav>
+  <div class="drawer-genre-block">
+    <h4>Genre</h4>
+    <div class="drawer-genre-grid" id="drawerGenreGrid"></div>
+  </div>
+</aside>
 
 <section class="hero" id="heroSection">
   <div class="hero-content">
@@ -83,6 +106,13 @@
     <div class="card-grid" id="newGrid"></div>
   </section>
 
+  <section class="row" id="favoritesSection">
+    <div class="row-header">
+      <h2>♥ Favorites</h2>
+    </div>
+    <div class="card-grid" id="favoritesGrid"></div>
+  </section>
+
 </main>
 
 <footer class="site-footer">
@@ -96,6 +126,29 @@
   </div>
   <p class="footer-copy">© 2026 CrunchyEpisode. All rights reserved.</p>
 </footer>
+
+<nav class="mobile-bottom-nav" id="mobileBottomNav">
+  <a href="index.html" class="mbn-item active">
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 12l9-9 9 9"/><path d="M5 10v10h14V10"/></svg>
+    Home
+  </a>
+  <button class="mbn-item" id="mbnTrending">
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M13 2s-6 6-6 12a6 6 0 0 0 12 0c0-2-1-3-1-3s-1 2-2 2c1-3-1-6-3-11z"/></svg>
+    Trending
+  </button>
+  <button class="mbn-item" id="mbnSearch">
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="7"/><path d="M21 21l-4.3-4.3"/></svg>
+    Search
+  </button>
+  <button class="mbn-item" id="mbnFavorites">
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20.8 4.6a5.5 5.5 0 0 0-7.8 0L12 5.6l-1-1a5.5 5.5 0 0 0-7.8 7.8l1 1L12 21l7.8-7.6 1-1a5.5 5.5 0 0 0 0-7.8z"/></svg>
+    Favorites
+  </button>
+  <button class="mbn-item" id="mbnMenu">
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="4" y1="7" x2="20" y2="7"/><line x1="4" y1="12" x2="20" y2="12"/><line x1="4" y1="17" x2="20" y2="17"/></svg>
+    Menu
+  </button>
+</nav>
 
 <script src="anime-data.js"></script>
 <script src="generate-pages.js"></script>

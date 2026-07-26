@@ -5,15 +5,13 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Episode 1 — Chainsmoker Cat — CrunchyEpisode</title>
 <link rel="icon" type="image/png" href="/crunchyepisode.png">
+<link rel="apple-touch-icon" href="/crunchyepisode-180.png">
+<link rel="manifest" href="/site.webmanifest">
+<meta name="theme-color" content="#ef2748">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Anton&family=Manrope:wght@400;500;700;800&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="../watch-style.css">
-<!-- Bitmovin Player: used for direct/"stream" sources so the download UI,
-     right-click "Save video as", and long-press context menu are fully
-     controlled by us instead of the browser's native <video> chrome. -->
-<link rel="stylesheet" href="https://cdn.bitmovin.com/player/web/8/bitmovinplayer-ui.css">
-<script src="https://cdn.bitmovin.com/player/web/8/bitmovinplayer.js"></script>
 </head>
 <body>
 
@@ -31,13 +29,13 @@
 </header>
 
 <section class="player-section" style="position:relative;">
-  <!-- Filled at runtime by an <iframe> or <video>/Bitmovin player pointed at
-       /api/play — the real video URL never appears in this HTML. -->
+  <!-- Filled at runtime by an <iframe> or <video> pointed at /api/play —
+       the real video URL never appears in this HTML. -->
   <div id="player-frame"></div>
-  <!-- Backup fullscreen button: some embed players' own fullscreen icon
-       doesn't work reliably inside a cross-origin iframe on mobile, so
-       this calls the Fullscreen API directly on the iframe element. -->
-  <button id="fullscreenBtn" class="fs-btn" aria-label="Fullscreen" hidden>⛶</button>
+  <!-- Backup fullscreen button: fullscreens the whole player-frame
+       container (not the inner iframe/video directly), which sidesteps
+       cross-origin iframe fullscreen quirks on mobile browsers. -->
+  <button id="fullscreenBtn" class="fs-btn" aria-label="Fullscreen">⛶</button>
 </section>
 
 <div class="episode-meta">
@@ -56,7 +54,7 @@
 
 <div class="action-row">
   <a class="action-btn disabled-link" aria-disabled="true">⏮ Prev</a>
-  <a class="action-btn disabled-link" aria-disabled="true">Next ⏭</a>
+  <a class="action-btn " href="chainsmoker-cat-1x2.html">Next ⏭</a>
 </div>
 
 <div class="notice-bar" id="noticeBar">
@@ -74,12 +72,16 @@
 
 <section class="tab-panel" id="tab-episodes">
   <div class="panel-header">
-    <span>1 Episode</span>
+    <span>2 Episodes</span>
   </div>
   <div class="episode-grid">
     <a class="episode-card active"
        href="chainsmoker-cat-1x1.html">
       EP 1
+    </a>
+    <a class="episode-card "
+       href="chainsmoker-cat-1x2.html">
+      EP 2
     </a></div>
 </section>
 
@@ -154,14 +156,6 @@
   // ---------------------------------------------------------
   const EPISODE_ID = "chainsmoker-cat-1x1";
   const EMBED_TYPE = "stream";
-  const EPISODE_TITLE = "Episode 1";
-  // Bitmovin player key — only enables the SDK, it isn't a secret that
-  // needs hiding, but the actual video URL still only ever comes from
-  // our own /api/play token flow below.
-  const BITMOVIN_KEY = "ca3325d1-4688-4f50-925f-ff6b003a41bc";
-
-  let currentPlayUrl = null; // kept only so the download button can reuse it
-  let bitmovinPlayer = null;
 
   async function getPlayToken() {
     const res = await fetch(`/api/token?id=${encodeURIComponent(EPISODE_ID)}`);
@@ -169,73 +163,63 @@
     return res.json();
   }
 
-  // Blocks the right-click / long-press ("Save video as…", "Copy video
-  // address", iOS callout, etc.) menu on the player itself.
-  function lockDownContextMenu(el) {
-    el.addEventListener("contextmenu", (e) => e.preventDefault());
-    el.style.webkitTouchCallout = "none";
-    el.style.userSelect = "none";
-  }
-
-  function wireFullscreenButton(getFsTarget, useBitmovinApi) {
-    const fsBtn = document.getElementById("fullscreenBtn");
-    fsBtn.hidden = false;
-    fsBtn.onclick = () => {
-      if (useBitmovinApi && bitmovinPlayer) {
-        bitmovinPlayer.isFullscreen() ? bitmovinPlayer.exitFullscreen() : bitmovinPlayer.enterFullscreen();
-        return;
-      }
-      const el = getFsTarget();
-      if (!el) return;
-      const req = el.requestFullscreen || el.webkitRequestFullscreen || el.mozRequestFullScreen;
-      if (req) req.call(el);
-    };
-  }
-
   async function mountPlayer() {
     const frame = document.getElementById("player-frame");
-    lockDownContextMenu(frame);
     try {
       const { token } = await getPlayToken();
       const playUrl = `/api/play?id=${encodeURIComponent(EPISODE_ID)}&token=${encodeURIComponent(token)}`;
-      currentPlayUrl = playUrl;
 
       if (EMBED_TYPE === "iframe") {
-        // Third-party embed page — shown directly in an iframe. We don't
-        // control the page inside it, so its own download/long-press
-        // behavior (if any) is outside our reach — this is the one case
-        // Bitmovin can't help with, since there's no direct media URL to
-        // hand it, only a whole embed page.
+        // Third-party embed page — shown directly in an iframe, no HLS
+        // guess-and-fallback (that mismatch was why the preview used to
+        // fail to load).
         frame.innerHTML = `<iframe id="embedFrame" src="${playUrl}"
           allowfullscreen webkitallowfullscreen mozallowfullscreen
           allow="autoplay; fullscreen; encrypted-media; picture-in-picture"
           referrerpolicy="strict-origin-when-cross-origin"></iframe>`;
-
-        wireFullscreenButton(() => document.getElementById("embedFrame"), false);
       } else {
         // Direct file (mp4 etc.), proxied byte-for-byte through /api/play
         // so the real CDN/worker URL is never visible in the Network tab.
-        // Bitmovin renders its own UI here, so the browser's native
-        // <video> right-click/long-press "download" entry never appears,
-        // and there is no separate player-side download button to strip —
-        // only our own #downloadBtn below offers a download.
-        frame.innerHTML = '<div id="bitmovinContainer" style="width:100%;height:100%;"></div>';
-        const container = document.getElementById("bitmovinContainer");
-        lockDownContextMenu(container);
-
-        const conf = {
-          key: BITMOVIN_KEY,
-          playback: { autoplay: true, muted: false },
-          ui: true
-        };
-        bitmovinPlayer = new bitmovin.player.Player(container, conf);
-        bitmovinPlayer.load({
-          title: EPISODE_TITLE,
-          progressive: playUrl
-        }).catch((err) => console.error("Bitmovin load error:", err));
-
-        wireFullscreenButton(() => container, true);
+        // A plain <video> element is used — no external player license
+        // needed.
+        //
+        // Hardening against casual long-press "download"/"copy link":
+        //  - controlsList="nodownload" removes the browser's own download
+        //    button from the native control bar.
+        //  - oncontextmenu blocks the long-press/right-click menu that
+        //    would otherwise offer "Save video" / "Copy video address".
+        //  - disablePictureInPicture / disableRemotePlayback close a
+        //    couple of side-channels some browsers offer.
+        // None of this hides the URL any further than the proxy already
+        // does — the /api/play link itself is what would appear if
+        // someone dug through devtools — but it does stop the one-tap
+        // paths a casual visitor would try, and the link is only valid
+        // for a few minutes anyway (the signed token expires).
+        frame.innerHTML = `<video id="videoEl" controls autoplay playsinline
+          controlsList="nodownload noremoteplayback"
+          disablePictureInPicture disableRemotePlayback
+          oncontextmenu="return false"
+          style="width:100%;height:100%;background:#000;" src="${playUrl}"></video>`;
       }
+
+      // Fullscreen the *container* (works uniformly for both the iframe
+      // and the video, and avoids relying on the embed's own fullscreen
+      // button, which can silently fail inside a cross-origin iframe on
+      // some mobile browsers).
+      const fsBtn = document.getElementById("fullscreenBtn");
+      const playerSection = document.querySelector(".player-section");
+      fsBtn.onclick = () => {
+        const isFs = document.fullscreenElement || document.webkitFullscreenElement;
+        if (isFs) {
+          (document.exitFullscreen || document.webkitExitFullscreen)?.call(document);
+          return;
+        }
+        const req = playerSection.requestFullscreen || playerSection.webkitRequestFullscreen || playerSection.mozRequestFullScreen;
+        if (req) req.call(playerSection).catch(() => {});
+      };
+      document.addEventListener("fullscreenchange", () => {
+        fsBtn.textContent = document.fullscreenElement ? "✕" : "⛶";
+      });
     } catch (err) {
       frame.innerHTML = '<p class="empty-row">Playback failed to load. Please refresh or try again shortly.</p>';
       console.error(err);
@@ -244,8 +228,6 @@
 
   document.getElementById("downloadBtn").addEventListener("click", async () => {
     try {
-      // Always fetches a fresh download token+link rather than reusing
-      // currentPlayUrl, so an expired playback token can't break downloads.
       const { token } = await getPlayToken();
       window.location.href = `/api/play?id=${encodeURIComponent(EPISODE_ID)}&token=${encodeURIComponent(token)}&mode=download`;
     } catch (err) {

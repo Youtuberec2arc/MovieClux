@@ -81,8 +81,18 @@ module.exports = async function handler(req, res) {
     });
 
     if (mode === "download") {
-      const filename = `${id}.mp4`;
-      res.setHeader("Content-Disposition", `attachment; filename="${filename}"`);
+      // Uses the branded filename set per-episode in videoSources.js
+      // (e.g. "[ Visit On Telegram - @yourchannel ] Anime S01E01 1080p.mp4"),
+      // falling back to a plain id-based name if none was set. Sends both
+      // a plain quoted filename (readable in most browsers) and the
+      // percent-encoded filename* form (correct per RFC 6266 for any
+      // special characters like brackets/@).
+      const filename = source.downloadName || `${id}.mp4`;
+      const safeName = filename.replace(/["\\]/g, "");
+      res.setHeader(
+        "Content-Disposition",
+        `attachment; filename="${safeName}"; filename*=UTF-8''${encodeURIComponent(filename)}`
+      );
     }
 
     if (!upstream.body) return res.end();

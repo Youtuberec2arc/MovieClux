@@ -6,7 +6,9 @@
   "background_color": "#0a0a0f",
   "theme_color": "#ef2748",
   "icons": [
-    { "src": "/crunchyepisode.png", "sizes": "192x192", "type": "image/png" },
-    { "src": "/crunchyepisode.png", "sizes": "512x512", "type": "image/png" }
+    { "src": "/crunchyepisode-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any" },
+    { "src": "/crunchyepisode.png", "sizes": "512x512", "type": "image/png", "purpose": "any" },
+    { "src": "/crunchyepisode-192.png", "sizes": "192x192", "type": "image/png", "purpose": "maskable" },
+    { "src": "/crunchyepisode.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" }
   ]
 }

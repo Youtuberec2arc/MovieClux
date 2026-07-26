@@ -30,7 +30,7 @@
  *             `src` — only works if `src` is itself a direct file.
  *   downloadName: optional — the branded filename shown to the visitor
  *             when they download, e.g.
- *             "[ Visit On Telegram - @yourchannel ] Anime S01E01 1080p.mp4"
+ *             "[ Visit On Telegram - @HindiAnimestuff ] Anime S01E01 1080p.mp4"
  *             If omitted, falls back to "{episodeId}.mp4".
  *
  * ⚠️ IMPORTANT: every object in this list except the last one MUST end
@@ -40,24 +40,42 @@
  * --------------------------------------------------------- */
 
 const VIDEO_SOURCES = {
-  "fullmetal-alchemist-brotherhood-1x1": {
-    type: "iframe",
-    src: process.env.VIDEO_SRC_FMAB_1X1 || "https://rubystm.com/e/1tcn36y95s5f.html"
-    // No downloadName set — this episode currently has no separate raw
-    // download file, only the embed page above.
+"fullmetal-alchemist-brotherhood-1x1": {
+    type: "stream",
+    src: process.env.VIDEO_SRC_FMAB_1X1 ||
+      "https://icy-feather-221c.jakcminasi.workers.dev/?id=qknJphjSQE1q_aXOVe9c1cGe8JEaPheM5RMF_hrMsmtMNSvu-H6f5CvRcepErp27TxFcrCI-cveYpRk5JFRDQw&name=%5BVisit%20Telegram%20HindiAnimestuff%5D+Fullmetal+Alchemist+Brotherhood+S01E01+720p+HD+BluRay+Multi+Audio+ESub.mkv",
+    downloadName: "[ Visit Telegram HindiAnimestuff ] Fullmetal Alchemist Brotherhood S01E01 720p.mkv"
+  },
+  "fullmetal-alchemist-brotherhood-1x2": {
+    type: "stream",
+    src: process.env.VIDEO_SRC_FMAB_1X2 ||
+      "https://icy-feather-221c.jakcminasi.workers.dev/?id=vj1hL9uWmifLildsOrY-1_R3iHjha1upDUluLL5NN-IcbEPhiis7YYQNseFH9VEWvatHy7I9xr2RzywkAwJmlA&name=%5BVisit%20Telegram%20HindiAnimestuff%5D+Fullmetal+Alchemist+Brotherhood+S01E02+720p+HD+BluRay+Multi+Audio+ESub.mkv",
+    downloadName: "[ Visit Telegram HindiAnimestuff ] Fullmetal Alchemist Brotherhood S01E02 720p.mkv"
+  },
+  "fullmetal-alchemist-brotherhood-1x3": {
+    type: "stream",
+    src: process.env.VIDEO_SRC_FMAB_1X3 ||
+      "https://icy-feather-221c.jakcminasi.workers.dev/?id=_grTlDReq6UbQhLqqO8QoUY44qQ5Wzgq2BlXQI-GN62zXksrdhkmX3yMEEN783-7jMHFJF3WDmHgeE2HmphlBA&name=%5BVisit%20Telegram%20HindiAnimestuff%5D+Fullmetal+Alchemist+Brotherhood+S01E03+720p+HD+BluRay+Multi+Audio+ESub.mkv",
+    downloadName: "[ Visit Telegram HindiAnimestuff ] Fullmetal Alchemist Brotherhood S01E03 720p.mkv"
+  },
+  "fullmetal-alchemist-brotherhood-1x4": {
+    type: "stream",
+    src: process.env.VIDEO_SRC_FMAB_1X4 ||
+      "https://icy-feather-221c.jakcminasi.workers.dev/?id=xWjcHjCf6k_z4VNcLAfB31VYnVDhyG0Brn0iQuUgljfpeYy7QomkEnYhTWnkM9Yd1OJMVGaFTrrZYoMV6ZpCyw&name=%5BVisit%20Telegram%20HindiAnimestuff%5D+Fullmetal+Alchemist+Brotherhood+S01E04+720p+HD+BluRay+Multi+Audio+ESub.mkv",
+    downloadName: "[ Visit Telegram HindiAnimestuff ] Fullmetal Alchemist Brotherhood S01E04 720p.mkv"
   },
 
   "chainsmoker-cat-1x1": {
-    // Direct .mp4 worker link, not an embed page — must be "stream" so
-    // the byte-proxy path is used instead of the redirect path (a
-    // redirect to a download-forcing link just triggers a file download
-    // instead of playing).
     type: "stream",
     src: process.env.VIDEO_SRC_CHAINSMOKER_CAT_1X1 ||
       "https://icy-feather-221c.jakcminasi.workers.dev/?id=g6xnsj7ZDKW0gbrc5gXBDoyk8KvyeTyqXKvZZXyli8pVTQwND_vudnbgV5loXQG2n7c5uzvgHzmnFVt3dtnICA&name=Chainsmoker%20Cat%20Episode%2001.mp4",
-    // Shown as the saved filename when the Download button is used —
-    // change "@yourchannel" to your real Telegram handle.
-    downloadName: "[ Visit On Telegram - @yourchannel ] Chainsmoker Cat S1E01 1080p.mp4"
+    downloadName: "[ Visit Telegram HindiAnimestuff ] Chainsmoker Cat S01E01.mp4"
+  },
+  "chainsmoker-cat-1x2": {
+    type: "stream",
+    src: process.env.VIDEO_SRC_CHAINSMOKER_CAT_1X2 ||
+      "https://icy-feather-221c.jakcminasi.workers.dev/?id=Wa9cLd1bTrSEZNY7IekL-zFQHBu7niMHYd-fwJq-3D6OtPzjnByKAysWiR5-hnGD9gADtbBxopHYL23BhruQvw&name=%5BVisit%20Telegram%20%40HindiAnimestuff%5D+Chainsmoker+Cat+S01E02+1080p+x265+10bit+NF+WEB-DL+Multi+Audio+ESub.mkv",
+    downloadName: "[ Visit Telegram HindiAnimestuff ] Chainsmoker Cat S01E02 1080p.mkv"
   }
 
   // Add the matching entry here whenever a new episode id is added to

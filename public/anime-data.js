@@ -34,6 +34,35 @@
 
 const ANIME_DATABASE = [
 {
+  id: "tamons-b-side",
+  title: "Tamon's B-Side",
+  type: "TV",
+  ageRating: "PG-13",       // ⚠ tumne nahi diya, default rakha
+  year: "2026",
+  duration: "24m",
+  tmdbRating: "N/A",        // ⚠ rating nahi di gayi
+  siteRating: "N/A",
+  poster: "https://image.tmdb.org/t/p/original/1iTCxEIK1xlmIXjHcLjt0UyOU8w.jpg",
+  banner: "https://image.tmdb.org/t/p/original/1iTCxEIK1xlmIXjHcLjt0UyOU8w.jpg",
+  genres: ["Animation", "Comedy", "Romance", "Anime Series"],
+  languages: ["Hindi"],
+  tags: ["HindiAnimestuff", "WEB-DL", "Uncensored"],
+  description: "A slice-of-life romance-comedy anime series, Hindi dubbed, uncensored WEB-DL, 1080p FHD.",
+  cast: [],
+  isAvailable: true,
+  section: "new",
+  season: 1,
+  episodes: [
+    { number: 1, title: "Episode 1", id: "tamons-b-side-1x1", embedType: "stream", seedViews: 0 },
+    { number: 2, title: "Episode 2", id: "tamons-b-side-1x2", embedType: "stream", seedViews: 0 },
+    { number: 3, title: "Episode 3", id: "tamons-b-side-1x3", embedType: "stream", seedViews: 0 },
+    { number: 4, title: "Episode 4", id: "tamons-b-side-1x4", embedType: "stream", seedViews: 0 },
+    { number: 5, title: "Episode 5", id: "tamons-b-side-1x5", embedType: "stream", seedViews: 0 },
+    { number: 6, title: "Episode 6", id: "tamons-b-side-1x6", embedType: "stream", seedViews: 0 },
+    { number: 7, title: "Episode 7", id: "tamons-b-side-1x7", embedType: "stream", seedViews: 0 }
+  ]
+},
+{
   id: "fullmetal-alchemist-brotherhood",
   title: "Fullmetal Alchemist: Brotherhood",
   type: "TV",

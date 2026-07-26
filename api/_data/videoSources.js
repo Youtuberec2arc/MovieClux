@@ -40,6 +40,49 @@
  * --------------------------------------------------------- */
 
 const VIDEO_SOURCES = {
+"tamons-b-side-1x1": {
+  type: "stream",
+  src: process.env.VIDEO_SRC_TAMONS_B_SIDE_1X1 ||
+    "https://icy-feather-221c.jakcminasi.workers.dev/?id=A9BsOUG7lAaE1hi1LY-X6-6JI21F1OZBZ91IzMdGHWnWl3pLT_nZj7GC4RTXKMM3TFVC2eUWlLtY9izZ1ZjcBQ&name=%5BVisit%20Telegram%20HindiAnimestuff%5D+Tamons+B-Side+S01E01+1080p+HEVC+10bit+WEB-DL+Multi+Audio+ESub.mkv",
+  downloadName: "[ Visit Telegram HindiAnimestuff ] Tamons B-Side S01E01 1080p HEVC 10bit WEB-DL Multi Audio ESub.mkv"
+},
+"tamons-b-side-1x2": {
+  type: "stream",
+  src: process.env.VIDEO_SRC_TAMONS_B_SIDE_1X2 ||
+    "https://icy-feather-221c.jakcminasi.workers.dev/?id=_s-Ky4giImncvzyfaVYLwj2GcKY9wJ5UfNQL92HnAvhmgf7x7mmSJ6_GgY_vvy10kBkqdYvOQp0S4rYkhzIEJg&name=%5BVisit%20Telegram%20HindiAnimestuff%5D+Tamons+B-Side+S01E02+1080p+HEVC+10bit+WEB-DL+Multi+Audio+ESub.mkv",
+  downloadName: "[ Visit Telegram HindiAnimestuff ] Tamons B-Side S01E02 1080p HEVC 10bit WEB-DL Multi Audio ESub.mkv"
+},
+"tamons-b-side-1x3": {
+  type: "stream",
+  src: process.env.VIDEO_SRC_TAMONS_B_SIDE_1X3 ||
+    "https://icy-feather-221c.jakcminasi.workers.dev/?id=6mUurl5Bx3EQXsGN4SxWO1-ENT2a8Q8FzHuSlDN1JRq8ypeFQzrpxJTGAQFnqXFtCcMueWyVc5ABoVsJDcOd4A&name=%5BVisit%20Telegram%20HindiAnimestuff%5D+Tamons+B-Side+S01E03+1080p+HEVC+10bit+WEB-DL+Multi+Audio+ESub.mkv",
+  downloadName: "[ Visit Telegram HindiAnimestuff ] Tamons B-Side S01E03 1080p HEVC 10bit WEB-DL Multi Audio ESub.mkv"
+},
+"tamons-b-side-1x4": {
+  type: "stream",
+  src: process.env.VIDEO_SRC_TAMONS_B_SIDE_1X4 ||
+    "https://icy-feather-221c.jakcminasi.workers.dev/?id=VBrwdKT5eXndYyu8D9pHSuLeUqHJRX-bkPg_w96EWaePNxCbLY9VpmPAB181PJJKzu2RBlYr6fFAyvcvIAGleQ&name=%5BVisit%20Telegram%20HindiAnimestuff%5D+Tamons+B-Side+S01E04+1080p+HEVC+10bit+WEB-DL+Multi+Audio+ESub.mkv",
+  downloadName: "[ Visit Telegram HindiAnimestuff ] Tamons B-Side S01E04 1080p HEVC 10bit WEB-DL Multi Audio ESub.mkv"
+},
+"tamons-b-side-1x5": {
+  type: "stream",
+  src: process.env.VIDEO_SRC_TAMONS_B_SIDE_1X5 ||
+    "https://icy-feather-221c.jakcminasi.workers.dev/?id=TZSfRnmA8eRq9WNjUwtCWKVoRi_TV1r3eLEcNemovmSMPubLYsVxHbvVi-2XqwoSLqv8TKbGeIVHyldu3BIN8A&name=%5BVisit%20Telegram%20HindiAnimestuff%5D+Tamons+B-Side+S01E05+1080p+HEVC+10bit+WEB-DL+Multi+Audio+ESub.mkv",
+  downloadName: "[ Visit Telegram HindiAnimestuff ] Tamons B-Side S01E05 1080p HEVC 10bit WEB-DL Multi Audio ESub.mkv"
+},
+"tamons-b-side-1x6": {
+  type: "stream",
+  src: process.env.VIDEO_SRC_TAMONS_B_SIDE_1X6 ||
+    "https://icy-feather-221c.jakcminasi.workers.dev/?id=s3vJ0zfuzu4cQODSJ8cJUgEtZ5WUsFUCfNf_FMRUQTg5IQJsuXSRPBow8_lR8_rH9WSLxy-VlRQSP09ewoLypg&name=%5BVisit%20Telegram%20HindiAnimestuff%5D+Tamons+B-Side+S01E06+1080p+HEVC+10bit+WEB-DL+Multi+Audio+ESub.mkv",
+  downloadName: "[ Visit Telegram HindiAnimestuff ] Tamons B-Side S01E06 1080p HEVC 10bit WEB-DL Multi Audio ESub.mkv"
+},
+"tamons-b-side-1x7": {
+  type: "stream",
+  src: process.env.VIDEO_SRC_TAMONS_B_SIDE_1X7 ||
+    "https://icy-feather-221c.jakcminasi.workers.dev/?id=kUY_CWe2Pbp3waivE1B-3KCr-XcWY4BuuYOvbi470_lnLrufgN10QiLvaCSgD33hweDsK9LWNtfhq4NfeaZhVw&name=%5BVisit%20Telegram%20HindiAnimestuff%5D+Tamons+B-Side+S01E07+1080p+HEVC+10bit+WEB-DL+Multi+Audio+ESub.mkv",
+  downloadName: "[ Visit Telegram HindiAnimestuff ] Tamons B-Side S01E07 1080p HEVC 10bit WEB-DL Multi Audio ESub.mkv"
+}, 
+
 "fullmetal-alchemist-brotherhood-1x1": {
     type: "stream",
     src: process.env.VIDEO_SRC_FMAB_1X1 ||

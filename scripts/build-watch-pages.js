@@ -36,6 +36,16 @@ function episodePagePath(animeId, season, epNumber) {
   return `${animeId}-${season}x${epNumber}.html`;
 }
 
+/** Watch pages live one folder down (/WatchOnline/), so relative asset
+ * paths like "assets/poster.jpg" need a "../" prefix to resolve — but an
+ * absolute URL (e.g. a direct TMDB image link) must NOT get that prefix,
+ * or it turns into "../https://..." which the browser resolves relative
+ * to the current page, producing a broken URL like
+ * "crunchyepisode.vercel.app/https://image.tmdb.org/...". */
+function resolveAsset(p) {
+  return /^https?:\/\//i.test(p || "") ? p : `../${p}`;
+}
+
 function renderEpisodeGridItems(anime, currentEpNumber) {
   return anime.episodes.map(e => `
     <a class="episode-card ${e.number === currentEpNumber ? "active" : ""}"
@@ -65,7 +75,7 @@ function renderPage(anime, episode) {
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Anton&family=Manrope:wght@400;500;700;800&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="../watch-style.css?v=2">
+<link rel="stylesheet" href="../watch-style.css?v=3">
 </head>
 <body>
 
@@ -98,7 +108,7 @@ function renderPage(anime, episode) {
 </div>
 
 <div class="series-row">
-  <img class="series-thumb" src="../${anime.poster}" alt="Poster">
+  <img class="series-thumb" src="${resolveAsset(anime.poster)}" alt="Poster">
   <div class="series-info">
     <h3>${esc(anime.title)}</h3>
     <span class="series-sub">Anime Series</span>
@@ -140,7 +150,7 @@ function renderPage(anime, episode) {
 </section>
 
 <section class="detail-section">
-  <div class="detail-banner" style="background-image:url('../${anime.banner}')"></div>
+  <div class="detail-banner" style="background-image:url('${resolveAsset(anime.banner)}')"></div>
   <p class="description">${esc(anime.description)}</p>
   <div class="tag-row">${(anime.genres || []).map(g => `<span>${esc(g)}</span>`).join("")}</div>
   <div class="tag-row muted">${(anime.languages || []).map(l => `<span>${esc(l)}</span>`).join("")}</div>

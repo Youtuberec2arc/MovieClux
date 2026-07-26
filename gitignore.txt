@@ -1,0 +1,10 @@
+# Never commit real secrets — these only live in Vercel's Environment
+# Variables dashboard (or a local, untracked .env for `vercel dev`).
+.env
+.env.local
+.env*.local
+
+# Editor/OS junk
+.DS_Store
+node_modules/
+.vercel/

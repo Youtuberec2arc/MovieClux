@@ -34,6 +34,40 @@
 
 const ANIME_DATABASE = [
 {
+  id: "farming-life-in-another-world",
+  title: "Farming Life in Another World",
+  type: "TV",
+  ageRating: "PG-13",
+  year: "2023",
+  duration: "24m",
+  tmdbRating: "7.2",        // IMDb rating (tumne bola tha IMDb se lena)
+  siteRating: "7.2",
+  poster: "https://image.tmdb.org/t/p/original/pT4OoVQE8zGJ0Z0GZpJotK5Vzsj.jpg",
+  banner: "https://image.tmdb.org/t/p/original/pT4OoVQE8zGJ0Z0GZpJotK5Vzsj.jpg",
+  genres: ["Animation", "Romance", "Fantasy"],
+  languages: ["Japanese", "English", "Hindi"],
+  tags: ["Multi Audio", "BluRay", "1st Dub"],
+  description: "When a godlike figure gives Hiraku a chance to live again, he wishes to be healthy, to live peacefully, to speak the local language, and to spend his days on an idyllic farm.",
+  cast: [],
+  isAvailable: true,
+  section: "new",
+  season: 1,
+  episodes: [
+    { number: 1, title: "Episode 1", id: "farming-life-in-another-world-1x1", embedType: "stream", seedViews: 0 },
+    { number: 2, title: "Episode 2", id: "farming-life-in-another-world-1x2", embedType: "stream", seedViews: 0 },
+    { number: 3, title: "Episode 3", id: "farming-life-in-another-world-1x3", embedType: "stream", seedViews: 0 },
+    { number: 4, title: "Episode 4", id: "farming-life-in-another-world-1x4", embedType: "stream", seedViews: 0 },
+    { number: 5, title: "Episode 5", id: "farming-life-in-another-world-1x5", embedType: "stream", seedViews: 0 },
+    { number: 6, title: "Episode 6", id: "farming-life-in-another-world-1x6", embedType: "stream", seedViews: 0 },
+    { number: 7, title: "Episode 7", id: "farming-life-in-another-world-1x7", embedType: "stream", seedViews: 0 },
+    { number: 8, title: "Episode 8", id: "farming-life-in-another-world-1x8", embedType: "stream", seedViews: 0 },
+    { number: 9, title: "Episode 9", id: "farming-life-in-another-world-1x9", embedType: "stream", seedViews: 0 },
+    { number: 10, title: "Episode 10", id: "farming-life-in-another-world-1x10", embedType: "stream", seedViews: 0 },
+    { number: 11, title: "Episode 11", id: "farming-life-in-another-world-1x11", embedType: "stream", seedViews: 0 },
+    { number: 12, title: "Episode 12", id: "farming-life-in-another-world-1x12", embedType: "stream", seedViews: 0 }
+  ]
+},
+{
   id: "tamons-b-side",
   title: "Tamon's B-Side",
   type: "TV",
@@ -50,7 +84,7 @@ const ANIME_DATABASE = [
   description: "A 2026 TV anime series, 24 minutes per episode, dubbed in Hindi with multi-audio WEB-DL releases.",
   cast: [],
   isAvailable: true,
-  section: "new",
+  section: "latest",
   season: 1,
   episodes: [
     { number: 1, title: "Episode 1", id: "tamons-b-side-1x1", embedType: "stream", seedViews: 0 },
@@ -108,7 +142,7 @@ const ANIME_DATABASE = [
     description: "Yani is a catgirl with a seriously bad smoking habit. She smokes so much that her apartment smells like ash and is littered with cigarette butts — and plenty of other clutter besides. As her landlord's patience and her loved ones' concerns both run thin, Yani has to decide what she actually wants her future to look like.",
     cast: ["Yuko Natsuyoshi", "Misato Matsuoka", "Yurie Funato", "Ayaka Shimizu", "Shiori Izawa"],
     isAvailable: true,
-    section: "new",
+    section: "Latest",
     season: 1,
     episodes: [
       {

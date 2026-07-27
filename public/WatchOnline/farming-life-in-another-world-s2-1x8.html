@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Episode 8 — Farming Life in Another World (Season 2) — CrunchyEpisode</title>
+<link rel="icon" type="image/png" href="/crunchyepisode.png">
+<link rel="apple-touch-icon" href="/crunchyepisode-180.png">
+<link rel="manifest" href="/site.webmanifest">
+<meta name="theme-color" content="#ef2748">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Anton&family=Manrope:wght@400;500;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../watch-style.css?v=3">
+</head>
+<body>
+
+<header class="site-nav">
+  <a href="../index.html" class="brand"><img src="../assets/logo.png" alt="CrunchyEpisode"></a>
+  <div class="nav-search">
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="7"/><path d="M21 21l-4.3-4.3"/></svg>
+    <input type="text" id="searchInput" placeholder="Search anime…" autocomplete="off">
+  </div>
+  <div class="nav-right">
+    <button class="icon-btn" aria-label="Bookmark" id="bookmarkBtn">
+      <svg viewBox="0 0 24 24"><path d="M6 3h12a1 1 0 0 1 1 1v17l-7-4-7 4V4a1 1 0 0 1 1-1z"/></svg>
+    </button>
+  </div>
+</header>
+
+<section class="player-section" style="position:relative;">
+  <!-- Filled at runtime by an <iframe> or <video> pointed at /api/play —
+       the real video URL never appears in this HTML. -->
+  <div id="player-frame"></div>
+  <!-- Backup fullscreen button: fullscreens the whole player-frame
+       container (not the inner iframe/video directly), which sidesteps
+       cross-origin iframe fullscreen quirks on mobile browsers. -->
+  <button id="fullscreenBtn" class="fs-btn" aria-label="Fullscreen">⛶</button>
+</section>
+
+<div class="episode-meta">
+  <h1>Episode 8</h1>
+  <span class="views-count"><span id="liveCount">0</span> views</span>
+</div>
+
+<div class="series-row">
+  <img class="series-thumb" src="https://image.tmdb.org/t/p/original/zkrJW2bzwzeY0yqGaQ36rO2UBi2.jpg" alt="Poster">
+  <div class="series-info">
+    <h3>Farming Life in Another World (Season 2)</h3>
+    <span class="series-sub">Anime Series</span>
+  </div>
+  <button class="btn btn-ghost" id="moreInfoBtn">More Info</button>
+</div>
+
+<div class="action-row">
+  <a class="action-btn " href="farming-life-in-another-world-s2-1x7.html">⏮ Prev</a>
+  <a class="action-btn " href="farming-life-in-another-world-s2-1x9.html">Next ⏭</a>
+</div>
+
+<div class="notice-bar" id="noticeBar">
+  <span>⚠ If playback doesn't start, please refresh the page.</span>
+  <button class="notice-close" aria-label="Dismiss">✕</button>
+</div>
+
+<button id="downloadBtn" class="btn btn-primary btn-block">⬇ Download Now</button>
+
+<nav class="tab-nav">
+  <button class="tab-link active" data-tab="episodes">Episodes</button>
+  <button class="tab-link" data-tab="related">Related</button>
+  <button class="tab-link" data-tab="recommendations">Recommendations</button>
+</nav>
+
+<section class="tab-panel" id="tab-episodes">
+  <div class="panel-header">
+    <span>12 Episodes</span>
+  </div>
+  <div class="episode-grid">
+    <a class="episode-card "
+       href="farming-life-in-another-world-s2-1x1.html">
+      EP 1
+    </a>
+    <a class="episode-card "
+       href="farming-life-in-another-world-s2-1x2.html">
+      EP 2
+    </a>
+    <a class="episode-card "
+       href="farming-life-in-another-world-s2-1x3.html">
+      EP 3
+    </a>
+    <a class="episode-card "
+       href="farming-life-in-another-world-s2-1x4.html">
+      EP 4
+    </a>
+    <a class="episode-card "
+       href="farming-life-in-another-world-s2-1x5.html">
+      EP 5
+    </a>
+    <a class="episode-card "
+       href="farming-life-in-another-world-s2-1x6.html">
+      EP 6
+    </a>
+    <a class="episode-card "
+       href="farming-life-in-another-world-s2-1x7.html">
+      EP 7
+    </a>
+    <a class="episode-card active"
+       href="farming-life-in-another-world-s2-1x8.html">
+      EP 8
+    </a>
+    <a class="episode-card "
+       href="farming-life-in-another-world-s2-1x9.html">
+      EP 9
+    </a>
+    <a class="episode-card "
+       href="farming-life-in-another-world-s2-1x10.html">
+      EP 10
+    </a>
+    <a class="episode-card "
+       href="farming-life-in-another-world-s2-1x11.html">
+      EP 11
+    </a>
+    <a class="episode-card "
+       href="farming-life-in-another-world-s2-1x12.html">
+      EP 12
+    </a></div>
+</section>
+
+<section class="tab-panel" id="tab-related" hidden>
+  <p class="empty-row">No related titles yet — more anime are being added soon.</p>
+</section>
+
+<section class="tab-panel" id="tab-recommendations" hidden>
+  <p class="empty-row">Recommendations will show up here once more titles are on the site.</p>
+</section>
+
+<section class="detail-section">
+  <div class="detail-banner" style="background-image:url('https://image.tmdb.org/t/p/original/zkrJW2bzwzeY0yqGaQ36rO2UBi2.jpg')"></div>
+  <p class="description">When a godlike figure gives Hiraku a chance to live again, he wishes to be healthy, to live peacefully, to speak the local language, and to spend his days on an idyllic farm.</p>
+  <div class="tag-row"><span>Animation</span><span>Romance</span><span>Fantasy</span></div>
+  <div class="tag-row muted"><span>Japanese</span><span>English</span><span>Hindi</span></div>
+</section>
+
+<section class="detail-section">
+  <h3>Cast</h3>
+  <div class="cast-grid"></div>
+</section>
+
+<section class="detail-section glass-card">
+  <h3>Anime Information</h3>
+  <div class="info-grid">
+    <p><strong>Year:</strong> <span>2026</span></p>
+    <p><strong>Rating:</strong> <span>7.2</span> TMDB</p>
+    <p><strong>Type:</strong> <span>TV</span></p>
+  </div>
+</section>
+
+<footer class="site-footer">
+  <img src="../assets/logo.png" alt="CrunchyEpisode" class="footer-logo">
+  <p>CrunchyEpisode is a fan-made index of anime episodes. We don't host any video files ourselves — every episode links out to third-party servers.</p>
+  <div class="footer-links">
+    <a href="javascript:void(0)">Terms</a>
+    <a href="javascript:void(0)">Privacy</a>
+    <a href="javascript:void(0)">Contact</a>
+    <a href="javascript:void(0)">Sitemap</a>
+  </div>
+  <p class="footer-copy">© 2026 CrunchyEpisode. All rights reserved.</p>
+</footer>
+
+<script type="module">
+  import { initializeApp } from "https://www.gstatic.com/firebasejs/10.8.0/firebase-app.js";
+  import { getDatabase, ref, runTransaction, onValue } from "https://www.gstatic.com/firebasejs/10.8.0/firebase-database.js";
+
+  // ADD YOUR FIREBASE CONFIG HERE (same project for every page)
+  const firebaseConfig = { databaseURL: "https://YOUR-PROJECT-ID.firebaseio.com" };
+  const app = initializeApp(firebaseConfig);
+  const db = getDatabase(app);
+
+  // Per-episode live view counter. Nothing on the page can edit this value —
+  // it only ever goes up, once per page load, via the transaction below.
+  const EPISODE_ID = "farming-life-in-another-world-s2-1x8";
+  const viewsRef = ref(db, `watch/${EPISODE_ID}/views`);
+  runTransaction(viewsRef, (current) => (current || 0) + 1);
+  onValue(viewsRef, (snap) => {
+    const v = snap.val();
+    document.getElementById("liveCount").innerText = v ? v.toLocaleString() : "0";
+  });
+</script>
+
+<script>
+  // ---------------------------------------------------------
+  // Loads the player through the secure backend proxy. The
+  // real CDN URL is never present in this file or in the
+  // network request the browser makes visible — /api/play
+  // either 302-redirects (embed type) or streams the bytes
+  // itself (stream type) after verifying a short-lived token.
+  // ---------------------------------------------------------
+  const EPISODE_ID = "farming-life-in-another-world-s2-1x8";
+  const EMBED_TYPE = "stream";
+
+  async function getPlayToken() {
+    const res = await fetch(`/api/token?id=${encodeURIComponent(EPISODE_ID)}`);
+    if (!res.ok) throw new Error("Could not get playback token");
+    return res.json();
+  }
+
+  async function mountPlayer() {
+    const frame = document.getElementById("player-frame");
+    try {
+      const { token } = await getPlayToken();
+      const playUrl = `/api/play?id=${encodeURIComponent(EPISODE_ID)}&token=${encodeURIComponent(token)}`;
+
+      if (EMBED_TYPE === "iframe") {
+        // Third-party embed page — shown directly in an iframe, no HLS
+        // guess-and-fallback (that mismatch was why the preview used to
+        // fail to load).
+        frame.innerHTML = `<iframe id="embedFrame" src="${playUrl}"
+          allowfullscreen webkitallowfullscreen mozallowfullscreen
+          allow="autoplay; fullscreen; encrypted-media; picture-in-picture"
+          referrerpolicy="strict-origin-when-cross-origin"></iframe>`;
+      } else {
+        // Direct file (mp4 etc.), proxied byte-for-byte through /api/play
+        // so the real CDN/worker URL is never visible in the Network tab.
+        // A plain <video> element is used — no external player license
+        // needed.
+        //
+        // Hardening against casual long-press "download"/"copy link":
+        //  - controlsList="nodownload" removes the browser's own download
+        //    button from the native control bar.
+        //  - oncontextmenu blocks the long-press/right-click menu that
+        //    would otherwise offer "Save video" / "Copy video address".
+        //  - disablePictureInPicture / disableRemotePlayback close a
+        //    couple of side-channels some browsers offer.
+        // None of this hides the URL any further than the proxy already
+        // does — the /api/play link itself is what would appear if
+        // someone dug through devtools — but it does stop the one-tap
+        // paths a casual visitor would try, and the link is only valid
+        // for a few minutes anyway (the signed token expires).
+        frame.innerHTML = `<video id="videoEl" controls autoplay playsinline
+          controlsList="nodownload noremoteplayback"
+          disablePictureInPicture disableRemotePlayback
+          oncontextmenu="return false"
+          style="width:100%;height:100%;background:#000;" src="${playUrl}"></video>`;
+      }
+
+      // Fullscreen the *container* (works uniformly for both the iframe
+      // and the video, and avoids relying on the embed's own fullscreen
+      // button, which can silently fail inside a cross-origin iframe on
+      // some mobile browsers).
+      const fsBtn = document.getElementById("fullscreenBtn");
+      const playerSection = document.querySelector(".player-section");
+      fsBtn.onclick = () => {
+        const isFs = document.fullscreenElement || document.webkitFullscreenElement;
+        if (isFs) {
+          (document.exitFullscreen || document.webkitExitFullscreen)?.call(document);
+          return;
+        }
+        const req = playerSection.requestFullscreen || playerSection.webkitRequestFullscreen || playerSection.mozRequestFullScreen;
+        if (req) req.call(playerSection).catch(() => {});
+      };
+      document.addEventListener("fullscreenchange", () => {
+        fsBtn.textContent = document.fullscreenElement ? "✕" : "⛶";
+      });
+    } catch (err) {
+      frame.innerHTML = '<p class="empty-row">Playback failed to load. Please refresh or try again shortly.</p>';
+      console.error(err);
+    }
+  }
+
+  document.getElementById("downloadBtn").addEventListener("click", async (e) => {
+    const btn = e.currentTarget;
+    const originalLabel = btn.textContent;
+    btn.disabled = true;
+    btn.textContent = "Preparing download…";
+    try {
+      // /api/download-link builds the real, token-protected download URL
+      // and auto-runs it through GPLinks — no per-episode shortening needed,
+      // it just happens for every download link site-wide.
+      const res = await fetch(`/api/download-link?id=${encodeURIComponent(EPISODE_ID)}`);
+      if (!res.ok) throw new Error("download-link request failed");
+      const { url } = await res.json();
+      window.location.href = url;
+    } catch (err) {
+      alert("Download link could not be generated. Please try again.");
+      console.error(err);
+    } finally {
+      btn.disabled = false;
+      btn.textContent = originalLabel;
+    }
+  });
+
+  document.getElementById("moreInfoBtn").addEventListener("click", () => {
+    document.querySelector(".detail-section").scrollIntoView({ behavior: "smooth" });
+  });
+
+  document.querySelectorAll(".tab-link").forEach(link => {
+    link.addEventListener("click", () => {
+      document.querySelectorAll(".tab-link").forEach(l => l.classList.remove("active"));
+      document.querySelectorAll(".tab-panel").forEach(p => p.hidden = true);
+      link.classList.add("active");
+      document.getElementById(`tab-${link.dataset.tab}`).hidden = false;
+    });
+  });
+
+  document.getElementById("noticeBar").querySelector(".notice-close").addEventListener("click", (e) => {
+    e.target.closest(".notice-bar").style.display = "none";
+  });
+
+  document.getElementById("searchInput").addEventListener("keydown", (e) => {
+    if (e.key === "Enter") {
+      window.location.href = `../index.html?q=${encodeURIComponent(e.target.value)}`;
+    }
+  });
+
+  mountPlayer();
+</script>
+</body>
+</html>

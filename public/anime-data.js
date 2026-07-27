@@ -68,6 +68,40 @@ const ANIME_DATABASE = [
   ]
 },
 {
+  id: "farming-life-in-another-world-s2",
+  title: "Farming Life in Another World (Season 2)",
+  type: "TV",
+  ageRating: "PG-13",
+  year: "2026",
+  duration: "24m",
+  tmdbRating: "7.2",        // IMDb rating — same combined series entry as Season 1
+  siteRating: "7.2",
+  poster: "https://image.tmdb.org/t/p/original/zkrJW2bzwzeY0yqGaQ36rO2UBi2.jpg",
+  banner: "https://image.tmdb.org/t/p/original/zkrJW2bzwzeY0yqGaQ36rO2UBi2.jpg",
+  genres: ["Animation", "Romance", "Fantasy"],
+  languages: ["Japanese", "English", "Hindi"],
+  tags: ["Multi Audio", "WEB-DL", "1st Dub"],
+  description: "When a godlike figure gives Hiraku a chance to live again, he wishes to be healthy, to live peacefully, to speak the local language, and to spend his days on an idyllic farm.",
+  cast: [],
+  isAvailable: true,
+  section: "new",
+  season: 1,
+  episodes: [
+    { number: 1, title: "Episode 1", id: "farming-life-in-another-world-s2-1x1", embedType: "stream", seedViews: 0 },
+    { number: 2, title: "Episode 2", id: "farming-life-in-another-world-s2-1x2", embedType: "stream", seedViews: 0 },
+    { number: 3, title: "Episode 3", id: "farming-life-in-another-world-s2-1x3", embedType: "stream", seedViews: 0 },
+    { number: 4, title: "Episode 4", id: "farming-life-in-another-world-s2-1x4", embedType: "stream", seedViews: 0 },
+    { number: 5, title: "Episode 5", id: "farming-life-in-another-world-s2-1x5", embedType: "stream", seedViews: 0 },
+    { number: 6, title: "Episode 6", id: "farming-life-in-another-world-s2-1x6", embedType: "stream", seedViews: 0 },
+    { number: 7, title: "Episode 7", id: "farming-life-in-another-world-s2-1x7", embedType: "stream", seedViews: 0 },
+    { number: 8, title: "Episode 8", id: "farming-life-in-another-world-s2-1x8", embedType: "stream", seedViews: 0 },
+    { number: 9, title: "Episode 9", id: "farming-life-in-another-world-s2-1x9", embedType: "stream", seedViews: 0 },
+    { number: 10, title: "Episode 10", id: "farming-life-in-another-world-s2-1x10", embedType: "stream", seedViews: 0 },
+    { number: 11, title: "Episode 11", id: "farming-life-in-another-world-s2-1x11", embedType: "stream", seedViews: 0 },
+    { number: 12, title: "Episode 12", id: "farming-life-in-another-world-s2-1x12", embedType: "stream", seedViews: 0 }
+  ]
+},
+{
   id: "tamons-b-side",
   title: "Tamon's B-Side",
   type: "TV",

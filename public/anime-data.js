@@ -142,7 +142,7 @@ const ANIME_DATABASE = [
     description: "Yani is a catgirl with a seriously bad smoking habit. She smokes so much that her apartment smells like ash and is littered with cigarette butts — and plenty of other clutter besides. As her landlord's patience and her loved ones' concerns both run thin, Yani has to decide what she actually wants her future to look like.",
     cast: ["Yuko Natsuyoshi", "Misato Matsuoka", "Yurie Funato", "Ayaka Shimizu", "Shiori Izawa"],
     isAvailable: true,
-    section: "Latest",
+    section: "latest",
     season: 1,
     episodes: [
       {

@@ -35,7 +35,7 @@
 const ANIME_DATABASE = [
 {
   id: "that-time-i-got-reincarnated-as-a-slime-s4",
-  title: "That Time I Got Reincarnated as a Slime (Season 4)",
+  title: "That Time I Got Reincarnated as a Slime Season 4",
   type: "TV",
   ageRating: "PG-13",
   year: "2026",
@@ -43,7 +43,7 @@ const ANIME_DATABASE = [
   tmdbRating: "8.1",
   siteRating: "8.1",
   poster: "https://image.tmdb.org/t/p/original/94MjsZUyxubodMPJdWOVkcJ0bdU.jpg",
-  banner: "https://iili.io/CKxK5Ij.jpg",
+  banner: "https://image.tmdb.org/t/p/original/94MjsZUyxubodMPJdWOVkcJ0bdU.jpg",
   genres: ["Animation", "Action", "Adventure"],
   languages: ["Hindi", "Tamil", "Telugu", "English", "Japanese"],
   tags: ["Multi Audio", "WEB-DL", "1st Dub"],
@@ -66,7 +66,7 @@ const ANIME_DATABASE = [
 
 {
   id: "daemons-of-the-shadow-realm-s1",
-  title: "Daemons of the Shadow Realm (Season 1)",
+  title: "Daemons of the Shadow Realm Season 1",
   type: "TV",
   ageRating: "PG-13",
   year: "2026",
@@ -74,7 +74,7 @@ const ANIME_DATABASE = [
   tmdbRating: "7.5",
   siteRating: "7.5",
   poster: "https://image.tmdb.org/t/p/original/i4t9z7QDNPJjg59vJunCHdh0mj2.jpg",
-  banner: "https://iili.io/BzgetEv.jpg",
+  banner: "https://image.tmdb.org/t/p/original/i4t9z7QDNPJjg59vJunCHdh0mj2.jpg",
   genres: ["Animation", "Anime", "Drama"],
   languages: ["Hindi", "Japanese"],
   tags: ["Multi Audio", "WEB-DL", "1st Dub"],

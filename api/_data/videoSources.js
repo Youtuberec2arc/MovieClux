@@ -40,6 +40,108 @@
  * --------------------------------------------------------- */
 
 const VIDEO_SOURCES = {
+"that-time-i-got-reincarnated-as-a-slime-s4-1x1": {
+  type: "stream",
+  src: process.env.VIDEO_SRC_SLIME_S4_1X1 || "https://icy-feather-221c.jakcminasi.workers.dev/?id=b2vPxZJOnWA39Eq2APo0KW2liZtEh_9kkEtbLVJ4Pd4kaWWkbQ2NaQbjiA2DpQt4OieF4E1T0bUR2lQCX-OrPw&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20That%20Time%20I%20Got%20Reincarnated%20as%20a%20Slime%20S04E01%20720p%20x264%20WEB-DL%20Multi%20Audio%20ESub.mkv",
+  downloadName: "[Visit On Telegram @HindiAnimestuff] That Time I Got Reincarnated as a Slime S04E01 720p x264 WEB-DL Multi Audio ESub.mkv"
+},
+"that-time-i-got-reincarnated-as-a-slime-s4-1x2": {
+  type: "stream",
+  src: process.env.VIDEO_SRC_SLIME_S4_1X2 || "https://icy-feather-221c.jakcminasi.workers.dev/?id=GK5qyjmzXEEmd2DcxkeYbU1TeMxWqvhJsAn5Etbi0pZtZ1io5JcCo69e2wIs8BOPtFheJvmTNamvHrqfb_DrmA&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20That%20Time%20I%20Got%20Reincarnated%20as%20a%20Slime%20S04E02%20720p%20x264%20WEB-DL%20Multi%20Audio%20ESub.mkv",
+  downloadName: "[Visit On Telegram @HindiAnimestuff] That Time I Got Reincarnated as a Slime S04E02 720p x264 WEB-DL Multi Audio ESub.mkv"
+},
+"that-time-i-got-reincarnated-as-a-slime-s4-1x3": {
+  type: "stream",
+  src: process.env.VIDEO_SRC_SLIME_S4_1X3 || "https://icy-feather-221c.jakcminasi.workers.dev/?id=ZpH6u4HsxI6pnnI0V-8vdDjKgoBIpwt3sZE2KQe-tHcmvP__HfJyhmAFtBPMINC0GgglNz-xdWEw930Zw2U_BQ&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20That%20Time%20I%20Got%20Reincarnated%20as%20a%20Slime%20S04E03%20720p%20x264%20WEB-DL%20Multi%20Audio%20ESub.mkv",
+  downloadName: "[Visit On Telegram @HindiAnimestuff] That Time I Got Reincarnated as a Slime S04E03 720p x264 WEB-DL Multi Audio ESub.mkv"
+},
+"that-time-i-got-reincarnated-as-a-slime-s4-1x4": {
+  type: "stream",
+  src: process.env.VIDEO_SRC_SLIME_S4_1X4 || "https://icy-feather-221c.jakcminasi.workers.dev/?id=1C7giiXIhKdFtBCLhR0H_Zrsxw9juyGjcvpkhyE24fQud177wnCeO_asLWyiYvri30-pqs3fm3M7SPC3BxPisQ&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20That%20Time%20I%20Got%20Reincarnated%20as%20a%20Slime%20S04E04%20720p%20x264%20WEB-DL%20Multi%20Audio%20ESub.mkv",
+  downloadName: "[Visit On Telegram @HindiAnimestuff] That Time I Got Reincarnated as a Slime S04E04 720p x264 WEB-DL Multi Audio ESub.mkv"
+},
+"that-time-i-got-reincarnated-as-a-slime-s4-1x5": {
+  type: "stream",
+  src: process.env.VIDEO_SRC_SLIME_S4_1X5 || "https://icy-feather-221c.jakcminasi.workers.dev/?id=xCuOPVxmvEFQ_noo-1pSIOOC4NpZPGQ0pvVLoPHQSzDiJ1mzAzGH59TsBKq5zl3gzqbPFYgW2XURMLGS9MhjJA&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20That%20Time%20I%20Got%20Reincarnated%20as%20a%20Slime%20S04E05%20720p%20x264%20WEB-DL%20Multi%20Audio%20ESub.mkv",
+  downloadName: "[Visit On Telegram @HindiAnimestuff] That Time I Got Reincarnated as a Slime S04E05 720p x264 WEB-DL Multi Audio ESub.mkv"
+},
+"that-time-i-got-reincarnated-as-a-slime-s4-1x6": {
+  type: "stream",
+  src: process.env.VIDEO_SRC_SLIME_S4_1X6 || "https://icy-feather-221c.jakcminasi.workers.dev/?id=r5nD4OTH8y9MKreQUMxgeJA2k51uobKP0drJTvgD443Off7jdpmBiDbN0sqi_Q72MqthEqtzBVEGwKc_stesww&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20That%20Time%20I%20Got%20Reincarnated%20as%20a%20Slime%20S04E06%20720p%20x264%20WEB-DL%20Multi%20Audio%20ESub.mkv",
+  downloadName: "[Visit On Telegram @HindiAnimestuff] That Time I Got Reincarnated as a Slime S04E06 720p x264 WEB-DL Multi Audio ESub.mkv"
+},
+"that-time-i-got-reincarnated-as-a-slime-s4-1x7": {
+  type: "stream",
+  src: process.env.VIDEO_SRC_SLIME_S4_1X7 || "https://icy-feather-221c.jakcminasi.workers.dev/?id=fS0H4pJ4850LigUA7RwXoB0aJE_saphca64HP6dv43X-Cf8md4mgy-njMvp0vcnQs-mcbnA-z2dYgVnSsFlfWQ&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20That%20Time%20I%20Got%20Reincarnated%20as%20a%20Slime%20S04E07%20720p%20x264%20WEB-DL%20Multi%20Audio%20ESub.mkv",
+  downloadName: "[Visit On Telegram @HindiAnimestuff] That Time I Got Reincarnated as a Slime S04E07 720p x264 WEB-DL Multi Audio ESub.mkv"
+},
+"that-time-i-got-reincarnated-as-a-slime-s4-1x8": {
+  type: "stream",
+  src: process.env.VIDEO_SRC_SLIME_S4_1X8 || "https://icy-feather-221c.jakcminasi.workers.dev/?id=a7uLtzTAySrAtJRQ5D9NqUxqOz0xQflYIrUImla1T6gNDgrQQN8rcahpso-NS_bcuh4hdlpWBiKts5wgWUgmyg&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20That%20Time%20I%20Got%20Reincarnated%20as%20a%20Slime%20S04E08%20720p%20x264%20WEB-DL%20Multi%20Audio%20ESub.mkv",
+  downloadName: "[Visit On Telegram @HindiAnimestuff] That Time I Got Reincarnated as a Slime S04E08 720p x264 WEB-DL Multi Audio ESub.mkv"
+},
+
+"daemons-of-the-shadow-realm-s1-1x1": {
+  type: "stream",
+  src: process.env.VIDEO_SRC_DAEMONS_S1_1X1 || "https://icy-feather-221c.jakcminasi.workers.dev/?id=QnBrWMEkgk9Xo-VujWxPGpZFRDPdtabdNWfur7uowa_jl67jzRegp2ToJyo5qUprXSYocqhH1tLZWSwVyNVBug&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Daemons%20of%20the%20Shadow%20Realm%20S01E01%20720p%20x264%20WEB-DL%20Multi%20Audio%20ESub.mkv",
+  downloadName: "[Visit On Telegram @HindiAnimestuff] Daemons of the Shadow Realm S01E01 720p x264 WEB-DL Multi Audio ESub.mkv"
+},
+"daemons-of-the-shadow-realm-s1-1x2": {
+  type: "stream",
+  src: process.env.VIDEO_SRC_DAEMONS_S1_1X2 || "https://icy-feather-221c.jakcminasi.workers.dev/?id=RFkvqg9O9yBLs2pySACAsD3gHXY5QNZ0qf_EHs6GPHnPfTLtxkhvXLr7l1DSDyZyNhn8eeEKoRP84ahr0Zv6MA&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Daemons%20of%20the%20Shadow%20Realm%20S01E02%20720p%20x264%20WEB-DL%20Multi%20Audio%20ESub.mkv",
+  downloadName: "[Visit On Telegram @HindiAnimestuff] Daemons of the Shadow Realm S01E02 720p x264 WEB-DL Multi Audio ESub.mkv"
+},
+"daemons-of-the-shadow-realm-s1-1x3": {
+  type: "stream",
+  src: process.env.VIDEO_SRC_DAEMONS_S1_1X3 || "https://icy-feather-221c.jakcminasi.workers.dev/?id=rqn0WbC6k1U1Al92yz7ioNXt9O5Zt2AwhO4pLNRjocet_2dTRos259HcVOcwZRyOMiHBCWS_xmtj9qfbAsM5ow&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Daemons%20of%20the%20Shadow%20Realm%20S01E03%20720p%20x264%20WEB-DL%20Multi%20Audio%20ESub.mkv",
+  downloadName: "[Visit On Telegram @HindiAnimestuff] Daemons of the Shadow Realm S01E03 720p x264 WEB-DL Multi Audio ESub.mkv"
+},
+"daemons-of-the-shadow-realm-s1-1x4": {
+  type: "stream",
+  src: process.env.VIDEO_SRC_DAEMONS_S1_1X4 || "https://icy-feather-221c.jakcminasi.workers.dev/?id=T-UA5OGl8HxlrZUV0q3Bpdnhq-ATLbzhKL2XN5_Mdn2sGfQurcWmmjbqwOz9PSQEWgnp967aJ9xDy7i9H30OlA&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Daemons%20of%20the%20Shadow%20Realm%20S01E04%20720p%20x264%20WEB-DL%20Multi%20Audio%20ESub.mkv",
+  downloadName: "[Visit On Telegram @HindiAnimestuff] Daemons of the Shadow Realm S01E04 720p x264 WEB-DL Multi Audio ESub.mkv"
+},
+"daemons-of-the-shadow-realm-s1-1x5": {
+  type: "stream",
+  src: process.env.VIDEO_SRC_DAEMONS_S1_1X5 || "https://icy-feather-221c.jakcminasi.workers.dev/?id=5HyOOnIH4zIDpziZaVfuRC2lTQJ5Cb_hMEhS1hJ1OfZfilqvMC6NXrEChURHmlPn0g6R99zChxvwXjHTitD9bA&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Daemons%20of%20the%20Shadow%20Realm%20S01E05%20720p%20x264%20WEB-DL%20Multi%20Audio%20ESub.mkv",
+  downloadName: "[Visit On Telegram @HindiAnimestuff] Daemons of the Shadow Realm S01E05 720p x264 WEB-DL Multi Audio ESub.mkv"
+},
+"daemons-of-the-shadow-realm-s1-1x6": {
+  type: "stream",
+  src: process.env.VIDEO_SRC_DAEMONS_S1_1X6 || "https://icy-feather-221c.jakcminasi.workers.dev/?id=VYh77qjpIZ0NwsI5yunRtcQtXvrtsTOoSmCg6HLTbKdxPCVMIGLvMJMBfw74OT16NmaRifX9KypTfIjh-c-bAA&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Daemons%20of%20the%20Shadow%20Realm%20S01E06%20720p%20x264%20WEB-DL%20Multi%20Audio%20ESub.mkv",
+  downloadName: "[Visit On Telegram @HindiAnimestuff] Daemons of the Shadow Realm S01E06 720p x264 WEB-DL Multi Audio ESub.mkv"
+},
+"daemons-of-the-shadow-realm-s1-1x7": {
+  type: "stream",
+  src: process.env.VIDEO_SRC_DAEMONS_S1_1X7 || "https://icy-feather-221c.jakcminasi.workers.dev/?id=nLX2wewziaNf6muHrw0FqoR3tizvOcmqUepIfQJSk88ab2mr_3JwmfhkVkGTDpUQzDgLPsKAog6-rU4zwk6kjw&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Daemons%20of%20the%20Shadow%20Realm%20S01E07%20720p%20x264%20WEB-DL%20Multi%20Audio%20ESub.mkv",
+  downloadName: "[Visit On Telegram @HindiAnimestuff] Daemons of the Shadow Realm S01E07 720p x264 WEB-DL Multi Audio ESub.mkv"
+},
+"daemons-of-the-shadow-realm-s1-1x8": {
+  type: "stream",
+  src: process.env.VIDEO_SRC_DAEMONS_S1_1X8 || "https://icy-feather-221c.jakcminasi.workers.dev/?id=tFmlFBqZhUMwh6_Rj_glZzkQZrunil7jtSuuHPtThkJqPuwIXjkI7W-k7f9f0BviRf6yGijmVcs3wAHMJKRvMA&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Daemons%20of%20the%20Shadow%20Realm%20S01E08%20720p%20x264%20WEB-DL%20Multi%20Audio%20ESub.mkv",
+  downloadName: "[Visit On Telegram @HindiAnimestuff] Daemons of the Shadow Realm S01E08 720p x264 WEB-DL Multi Audio ESub.mkv"
+},
+"daemons-of-the-shadow-realm-s1-1x9": {
+  type: "stream",
+  src: process.env.VIDEO_SRC_DAEMONS_S1_1X9 || "https://icy-feather-221c.jakcminasi.workers.dev/?id=DZN9t6BnKgdzQ6Q-uKu8VO45KtdX5evJqUMO4YEvUJ452e3B-Kh8Bbrex5Jg_vB8kcoi4RxpIUOPDGs0Ea5XqQ&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Daemons%20of%20the%20Shadow%20Realm%20S01E09%20720p%20x264%20WEB-DL%20Multi%20Audio%20ESub.mkv",
+  downloadName: "[Visit On Telegram @HindiAnimestuff] Daemons of the Shadow Realm S01E09 720p x264 WEB-DL Multi Audio ESub.mkv"
+},
+"daemons-of-the-shadow-realm-s1-1x10": {
+  type: "stream",
+  src: process.env.VIDEO_SRC_DAEMONS_S1_1X10 || "https://icy-feather-221c.jakcminasi.workers.dev/?id=0Qcl84dHR04lFGaYnMSfAgdNpHSbG2C0vA9Z4HUyBuBADxDSeRrzfL6TFxPwBXKqdWwoDrqAvW_unEmIeNVfRg&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Daemons%20of%20the%20Shadow%20Realm%20S01E10%20720p%20x264%20WEB-DL%20Multi%20Audio%20ESub.mkv",
+  downloadName: "[Visit On Telegram @HindiAnimestuff] Daemons of the Shadow Realm S01E10 720p x264 WEB-DL Multi Audio ESub.mkv"
+},
+"daemons-of-the-shadow-realm-s1-1x11": {
+  type: "stream",
+  src: process.env.VIDEO_SRC_DAEMONS_S1_1X11 || "https://icy-feather-221c.jakcminasi.workers.dev/?id=RofimM2X_DkJcvV_WplBkF0bzujk9i4KjC-gXpnmnwP2VpUV0bYa4KBkgL35-OeC5uwSm-Q3wTxcPSM-gOrdAA&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Daemons%20of%20the%20Shadow%20Realm%20S01E11%20720p%20x264%20WEB-DL%20Multi%20Audio%20ESub.mkv",
+  downloadName: "[Visit On Telegram @HindiAnimestuff] Daemons of the Shadow Realm S01E11 720p x264 WEB-DL Multi Audio ESub.mkv"
+},
+"daemons-of-the-shadow-realm-s1-1x12": {
+  type: "stream",
+  src: process.env.VIDEO_SRC_DAEMONS_S1_1X12 || "https://icy-feather-221c.jakcminasi.workers.dev/?id=nrCt6_p6xwx8KtUvpG6NMSdN_T68if51EvusCpfqyEq0PUFcD_ZONXK20gMIrgIL2Pdohy2Syj9EzouaM3WHeA&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Daemons%20of%20the%20Shadow%20Realm%20S01E12%20720p%20x264%20WEB-DL%20Multi%20Audio%20ESub.mkv",
+  downloadName: "[Visit On Telegram @HindiAnimestuff] Daemons of the Shadow Realm S01E12 720p x264 WEB-DL Multi Audio ESub.mkv"
+},
+
 "farming-life-in-another-world-s2-1x1": {
   type: "stream",
   src: process.env.VIDEO_SRC_FARMLIFE_S2_1X1 ||

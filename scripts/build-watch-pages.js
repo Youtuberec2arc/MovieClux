@@ -86,6 +86,9 @@ function renderPage(anime, episode) {
     <input type="text" id="searchInput" placeholder="Search anime…" autocomplete="off">
   </div>
   <div class="nav-right">
+    <button class="icon-btn" aria-label="Share" id="shareBtn">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="18" cy="5" r="3"/><circle cx="6" cy="12" r="3"/><circle cx="18" cy="19" r="3"/><line x1="8.6" y1="10.6" x2="15.4" y2="6.4"/><line x1="8.6" y1="13.4" x2="15.4" y2="17.6"/></svg>
+    </button>
     <button class="icon-btn" aria-label="Bookmark" id="bookmarkBtn">
       <svg viewBox="0 0 24 24"><path d="M6 3h12a1 1 0 0 1 1 1v17l-7-4-7 4V4a1 1 0 0 1 1-1z"/></svg>
     </button>
@@ -315,6 +318,39 @@ function renderPage(anime, episode) {
 
   document.getElementById("moreInfoBtn").addEventListener("click", () => {
     document.querySelector(".detail-section").scrollIntoView({ behavior: "smooth" });
+  });
+
+  // ---------------------------------------------------------
+  // Share button — builds a formatted info block (title, rating,
+  // genres, quality, audio, episode count) and shares it via the
+  // native share sheet where available, falling back to copying
+  // the text to the clipboard.
+  // ---------------------------------------------------------
+  document.getElementById("shareBtn").addEventListener("click", async () => {
+    const shareText = ${JSON.stringify(
+      `• ${anime.title} Season ${season}\n` +
+      `— Rating: ${anime.siteRating || anime.tmdbRating || "N/A"}/10\n` +
+      `— Genres: ${(anime.genres || []).join(" | ")}\n` +
+      `— Quality: ${anime.quality || "HD"}\n` +
+      `— Audio Tracks: Hindi\n` +
+      `— Total Episode: ${eps.length}\n\n` +
+      `Watch here: `
+    )} + window.location.href;
+
+    if (navigator.share) {
+      try {
+        await navigator.share({ title: ${JSON.stringify(anime.title)}, text: shareText });
+      } catch (err) {
+        // User cancelled the share sheet — nothing to do.
+      }
+    } else {
+      try {
+        await navigator.clipboard.writeText(shareText);
+        alert("Copied to clipboard!");
+      } catch (err) {
+        alert(shareText);
+      }
+    }
   });
 
   document.querySelectorAll(".tab-link").forEach(link => {

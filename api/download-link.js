@@ -42,6 +42,7 @@ module.exports = async function handler(req, res) {
   }
 
   const id = String(req.query.id || "");
+  const quality = req.query.quality ? String(req.query.quality) : "";
   const source = getVideoSource(id);
   if (!source) return res.status(404).json({ error: "Unknown episode id" });
 
@@ -50,7 +51,8 @@ module.exports = async function handler(req, res) {
   // SITE_ORIGIN lets you pin this to your real domain explicitly; falls
   // back to whatever host the request actually came in on.
   const siteOrigin = process.env.SITE_ORIGIN || `https://${req.headers.host}`;
-  const longUrl = `${siteOrigin}/api/play?id=${encodeURIComponent(id)}&token=${encodeURIComponent(token)}&mode=download`;
+  const qualityParam = quality ? `&quality=${encodeURIComponent(quality)}` : "";
+  const longUrl = `${siteOrigin}/api/play?id=${encodeURIComponent(id)}&token=${encodeURIComponent(token)}&mode=download${qualityParam}`;
 
   const shortUrl = await shortenUrl(longUrl);
 

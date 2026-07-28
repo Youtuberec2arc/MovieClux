@@ -30,6 +30,26 @@
  *          "iframe" -> third-party embed/player PAGE (not a
  *                      raw file) — shown in an <iframe> via
  *                      the proxy.
+ * seriesGroup: shared string across every season of the same
+ *          franchise (e.g. every "Farming Life..." season uses
+ *          "farming-life-in-another-world"). Powers the "Other
+ *          Seasons" tab on the watch page. Defaults to the
+ *          anime's own id if omitted (so it just won't match
+ *          anything else, which is safe for standalone titles).
+ * quality: plain text shown on the share card and used as the
+ *          single download-button label when an episode doesn't
+ *          define a `qualities` array (see below). e.g. "720p HD".
+ * episodes[].qualities: OPTIONAL array like ["480p","720p","1080p"]
+ *          — only add this once you actually have more than one
+ *          print of that episode AND have added the matching
+ *          `qualities: {...}` object for it in
+ *          api/_data/videoSources.js. This array is just the
+ *          public list of which quality buttons to render; the
+ *          real URLs stay server-side. Omit it entirely for a
+ *          normal single-quality episode.
+ * zip: OPTIONAL — set to `true` on an anime object once you've
+ *          added a `zip` link for it in videoSources.js, to show
+ *          the "Zip Pack Download" button on its watch pages.
  * --------------------------------------------------------- */
 
 const ANIME_DATABASE = [
@@ -42,6 +62,7 @@ const ANIME_DATABASE = [
   duration: "24m",
   tmdbRating: "8.1",
   siteRating: "8.1",
+  quality: "720p",
   poster: "https://image.tmdb.org/t/p/original/94MjsZUyxubodMPJdWOVkcJ0bdU.jpg",
   banner: "https://image.tmdb.org/t/p/original/94MjsZUyxubodMPJdWOVkcJ0bdU.jpg",
   genres: ["Animation", "Action", "Adventure"],
@@ -73,6 +94,7 @@ const ANIME_DATABASE = [
   duration: "24m",
   tmdbRating: "7.5",
   siteRating: "7.5",
+  quality: "720p",
   poster: "https://image.tmdb.org/t/p/original/i4t9z7QDNPJjg59vJunCHdh0mj2.jpg",
   banner: "https://image.tmdb.org/t/p/original/i4t9z7QDNPJjg59vJunCHdh0mj2.jpg",
   genres: ["Animation", "Anime", "Drama"],
@@ -107,6 +129,8 @@ const ANIME_DATABASE = [
   duration: "24m",
   tmdbRating: "7.2",        // IMDb rating (tumne bola tha IMDb se lena)
   siteRating: "7.2",
+  quality: "720p",
+  seriesGroup: "farming-life-in-another-world",
   poster: "https://image.tmdb.org/t/p/original/pT4OoVQE8zGJ0Z0GZpJotK5Vzsj.jpg",
   banner: "https://image.tmdb.org/t/p/original/pT4OoVQE8zGJ0Z0GZpJotK5Vzsj.jpg",
   genres: ["Animation", "Romance", "Fantasy"],
@@ -141,6 +165,8 @@ const ANIME_DATABASE = [
   duration: "24m",
   tmdbRating: "7.2",        // IMDb rating — same combined series entry as Season 1
   siteRating: "7.2",
+  quality: "720p",
+  seriesGroup: "farming-life-in-another-world",
   poster: "https://image.tmdb.org/t/p/original/zkrJW2bzwzeY0yqGaQ36rO2UBi2.jpg",
   banner: "https://image.tmdb.org/t/p/original/zkrJW2bzwzeY0yqGaQ36rO2UBi2.jpg",
   genres: ["Animation", "Romance", "Fantasy"],
@@ -175,6 +201,7 @@ const ANIME_DATABASE = [
   duration: "24m",
   tmdbRating: "N/A",        // ⚠ nahi diya tha
   siteRating: "N/A",
+  quality: "720p",
   poster: "https://image.tmdb.org/t/p/original/1iTCxEIK1xlmIXjHcLjt0UyOU8w.jpg",
   banner: "https://image.tmdb.org/t/p/original/1iTCxEIK1xlmIXjHcLjt0UyOU8w.jpg",
   genres: ["Animation", "Comedy", "Romance"],
@@ -205,6 +232,7 @@ const ANIME_DATABASE = [
   duration: "25m",
   tmdbRating: "8.7",
   siteRating: "8.7",
+  quality: "720p",
   poster: "assets/fullmetal-alchemist-brotherhood-poster.jpg",
   banner: "assets/fullmetal-alchemist-brotherhood-poster.jpg",
   genres: ["Action & Adventure", "Animation", "Anime Series", "Drama", "Sci-Fi & Fantasy"],
@@ -233,6 +261,7 @@ const ANIME_DATABASE = [
     duration: "24m",
     tmdbRating: "8.7",
     siteRating: "6.8",
+    quality: "1080p",
     poster: "assets/chainsmoker-cat-poster.jpg",
     banner: "assets/chainsmoker-cat-poster.jpg",
     genres: ["Animation", "Anime", "Anime Series", "Comedy", "Sci-Fi & Fantasy"],
@@ -289,8 +318,21 @@ function formatViews(n) {
   return String(n || 0);
 }
 
+/** "Farming Life in Another World (Season 2)" -> "Farming Life in Another
+ * World Season 2" — strips a single trailing "(...)" without touching
+ * anything else in the title. Used everywhere a title is displayed. */
+function cleanTitle(title) {
+  return String(title || "").replace(/\s*\(([^)]+)\)\s*$/, " $1").trim();
+}
+
+/** Falls back to the anime's own id when seriesGroup isn't set, so an
+ * un-grouped title just never matches anything else (safe default). */
+function getSeriesGroup(anime) {
+  return anime.seriesGroup || anime.id;
+}
+
 // Node (build script) needs to `require` this file; browsers just use the
 // globals above. This export is a no-op in the browser.
 if (typeof module !== "undefined" && module.exports) {
-  module.exports = { ANIME_DATABASE, findAnimeById, formatViews };
+  module.exports = { ANIME_DATABASE, findAnimeById, formatViews, cleanTitle, getSeriesGroup };
 }

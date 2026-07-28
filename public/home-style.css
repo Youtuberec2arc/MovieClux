@@ -421,3 +421,30 @@ img { max-width: 100%; display: block; }
   .mobile-bottom-nav { display: flex; }
   body { padding-bottom: 58px; }
 }
+/* ---------------------------------------------------------
+ * APPEND THIS TO THE END OF public/home-style.css
+ * (home-style.css itself wasn't re-uploaded this round, so this is
+ * a separate small file rather than a full replace — safe to just
+ * paste onto the end of whatever you currently have.)
+ *
+ * Powers the Terms / Privacy / Contact / Sitemap / How To Download
+ * modal wired up by generate-pages.js's FOOTER_PAGES + openInfoModal().
+ * --------------------------------------------------------- */
+
+.info-modal-overlay {
+  position: fixed; inset: 0; background: rgba(0,0,0,0.6); z-index: 95;
+  opacity: 0; pointer-events: none; transition: opacity 0.2s ease;
+}
+.info-modal-overlay.open { opacity: 1; pointer-events: auto; }
+.info-modal {
+  position: fixed; left: 50%; top: 50%; transform: translate(-50%, -50%) scale(0.96);
+  width: min(440px, 90vw); max-height: 80vh; overflow-y: auto;
+  background: var(--surface); border: 1px solid var(--border); border-radius: 14px;
+  z-index: 96; padding: 18px; opacity: 0; pointer-events: none; transition: all 0.18s ease;
+}
+.info-modal.open { opacity: 1; pointer-events: auto; transform: translate(-50%, -50%) scale(1); }
+.info-modal-head { display: flex; align-items: center; justify-content: space-between; margin-bottom: 12px; }
+.info-modal-head h3 { margin: 0; font-family: var(--font-display, inherit); font-size: 18px; }
+.info-modal-close { background: none; border: none; color: var(--text-muted); font-size: 16px; cursor: pointer; }
+.info-modal-body { color: var(--text-muted); font-size: 14px; line-height: 1.6; }
+.info-modal-body p { margin: 0 0 12px; }

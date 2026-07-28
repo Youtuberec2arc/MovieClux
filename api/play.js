@@ -27,6 +27,36 @@ const { getVideoSource } = require("./_data/videoSources");
 const { verifyToken } = require("./_lib/tokens");
 const { isAllowedRequest, rateLimit, clientIp } = require("./_lib/security");
 
+/**
+ * Resolves the actual { type, src, download, downloadName } object to use
+ * for a given request. Supports two shapes for backward compatibility:
+ *
+ *  - Legacy / single-quality entries (most of the existing catalog):
+ *      { type, src, download, downloadName }
+ *    -> used as-is, `quality` query param is ignored.
+ *
+ *  - Multi-quality entries (new episodes with more than one print):
+ *      { qualities: { "480p": {...}, "720p": {...}, "1080p": {...} }, zip: "..." }
+ *    -> picks entry.qualities[quality], falling back to the first quality
+ *       listed if the requested one doesn't exist. quality="zip" returns
+ *       the zip pack link (mode is forced to "download" for zip).
+ */
+function resolveQualitySource(entry, quality) {
+  if (!entry.qualities) return { source: entry, isZip: false };
+
+  if (quality === "zip") {
+    if (!entry.zip) return { source: null, isZip: true };
+    return {
+      source: { type: "stream", src: entry.zip, downloadName: entry.zipName || undefined },
+      isZip: true
+    };
+  }
+
+  const keys = Object.keys(entry.qualities);
+  const picked = quality && entry.qualities[quality] ? quality : keys[0];
+  return { source: entry.qualities[picked] || null, isZip: false };
+}
+
 module.exports = async function handler(req, res) {
   if (req.method !== "GET") {
     res.setHeader("Allow", "GET");
@@ -46,14 +76,18 @@ module.exports = async function handler(req, res) {
   const id = String(req.query.id || "");
   const token = String(req.query.token || "");
   const mode = req.query.mode === "download" ? "download" : "stream";
+  const quality = req.query.quality ? String(req.query.quality) : "";
 
-  const source = getVideoSource(id);
-  if (!source) return res.status(404).json({ error: "Unknown episode id" });
+  const entry = getVideoSource(id);
+  if (!entry) return res.status(404).json({ error: "Unknown episode id" });
 
   const check = verifyToken(id, token);
   if (!check.valid) {
     return res.status(403).json({ error: `Invalid or expired token (${check.reason})` });
   }
+
+  const { source, isZip } = resolveQualitySource(entry, quality);
+  if (!source) return res.status(404).json({ error: isZip ? "No zip pack available" : "Unknown quality for this episode" });
 
   // --- Third-party embed page: hand off with a redirect. ---------
   if (mode === "stream" && source.type === "iframe") {
@@ -61,8 +95,8 @@ module.exports = async function handler(req, res) {
     return res.redirect(302, source.src);
   }
 
-  // --- Direct file (stream or download): proxy the bytes. --------
-  const upstreamUrl = mode === "download" ? (source.download || source.src) : source.src;
+  // --- Direct file (stream, download, or zip): proxy the bytes. --------
+  const upstreamUrl = (mode === "download" || isZip) ? (source.download || source.src) : source.src;
   if (!upstreamUrl) return res.status(404).json({ error: "No source available for this mode" });
 
   try {

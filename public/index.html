@@ -11,7 +11,7 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Anton&family=Manrope:wght@400;500;700;800&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="home-style.css?v=2">
+<link rel="stylesheet" href="home-style.css?v=3">
 </head>
 <body>
 
@@ -48,8 +48,8 @@
     <a href="#" id="drawer-az-link">A-Z Anime List</a>
     <a href="#" id="drawer-series-link">Anime Series</a>
     <a href="#" id="drawer-movies-link">Anime Movies</a>
-    <a href="javascript:void(0)">How To Download</a>
-    <a href="javascript:void(0)">Report Link Not Working</a>
+    <a href="javascript:void(0)" data-info-page="how-to-download">How To Download</a>
+    <a href="https://t.me/+xo_0Z-JlYIU5NDg1" target="_blank" rel="noopener">Report Link Not Working</a>
   </nav>
   <div class="drawer-genre-block">
     <h4>Genre</h4>
@@ -90,11 +90,6 @@
   <section class="row" id="latestEpisodesRow">
     <div class="row-header">
       <h2>Latest Episodes</h2>
-      <div class="row-tabs">
-        <button class="tab-btn active">All</button>
-        <button class="tab-btn">Sub</button>
-        <button class="tab-btn">Dub</button>
-      </div>
     </div>
     <div class="card-grid" id="latestGrid"></div>
   </section>
@@ -119,10 +114,10 @@
   <img src="assets/logo.png" alt="CrunchyEpisode" class="footer-logo">
   <p>CrunchyEpisode is a fan-made index of anime episodes. We don't host any video files ourselves — every episode links out to third-party servers.</p>
   <div class="footer-links">
-    <a href="javascript:void(0)">Terms</a>
-    <a href="javascript:void(0)">Privacy</a>
-    <a href="javascript:void(0)">Contact</a>
-    <a href="javascript:void(0)">Sitemap</a>
+    <a href="javascript:void(0)" data-info-page="terms">Terms</a>
+    <a href="javascript:void(0)" data-info-page="privacy">Privacy</a>
+    <a href="javascript:void(0)" data-info-page="contact">Contact</a>
+    <a href="javascript:void(0)" data-info-page="sitemap">Sitemap</a>
   </div>
   <p class="footer-copy">© 2026 CrunchyEpisode. All rights reserved.</p>
 </footer>
@@ -150,7 +145,18 @@
   </button>
 </nav>
 
-<script src="anime-data.js?v=2"></script>
-<script src="generate-pages.js?v=2"></script>
+<!-- Shared modal for Terms/Privacy/Contact/Sitemap + How To Download.
+     Content is filled in by generate-pages.js's FOOTER_PAGES object. -->
+<div class="info-modal-overlay" id="infoModalOverlay"></div>
+<div class="info-modal" id="infoModal">
+  <div class="info-modal-head">
+    <h3 id="infoModalTitle">Title</h3>
+    <button class="info-modal-close" id="infoModalClose" aria-label="Close">✕</button>
+  </div>
+  <div class="info-modal-body" id="infoModalBody"></div>
+</div>
+
+<script src="anime-data.js?v=3"></script>
+<script src="generate-pages.js?v=3"></script>
 </body>
 </html>

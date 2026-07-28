@@ -16,22 +16,40 @@
  * environment variables (e.g. VIDEO_SRC_CHAINSMOKER_CAT_1X1) so
  * the URLs aren't sitting in a source file at all.
  *
- * Fields per entry:
- *   type: "iframe" -> src is an embed/player PAGE (HTML), not a raw
- *                      file — we 302-redirect the <iframe> to it.
- *         "stream" -> src is a direct file (mp4 etc.) — we proxy the
- *                      bytes ourselves so the origin URL never appears
- *                      anywhere in the browser, not even Network tab.
- *   src:  the real video URL (embed page or direct file).
- *   download: optional — a separate real file URL to use specifically
- *             for the Download button, if it's different from `src`
- *             (e.g. src is an embed page but you also have a raw file
- *             link for downloads). If omitted, downloads fall back to
- *             `src` — only works if `src` is itself a direct file.
- *   downloadName: optional — the branded filename shown to the visitor
- *             when they download, e.g.
- *             "[ Visit On Telegram @HindiAnimestuff ] Anime S01E01 1080p.mp4"
- *             If omitted, falls back to "{episodeId}.mp4".
+ * Fields per entry — TWO supported shapes:
+ *
+ *  1) Single-quality (legacy, still the default — used by everything in
+ *     this file today):
+ *       type: "iframe" -> src is an embed/player PAGE (HTML), not a raw
+ *                          file — we 302-redirect the <iframe> to it.
+ *             "stream" -> src is a direct file (mp4 etc.) — we proxy the
+ *                          bytes ourselves so the origin URL never appears
+ *                          anywhere in the browser, not even Network tab.
+ *       src:  the real video URL (embed page or direct file).
+ *       download: optional — a separate real file URL to use specifically
+ *             for the Download button, if it's different from `src`.
+ *             If omitted, downloads fall back to `src`.
+ *       downloadName: optional — the branded filename shown to the visitor
+ *             when they download. Falls back to "{episodeId}.mp4".
+ *
+ *  2) Multi-quality (use this once you actually have more than one print
+ *     of an episode — 480p/720p/1080p — and want the quality switcher +
+ *     the three separate download buttons to show up on that episode's
+ *     page):
+ *       {
+ *         qualities: {
+ *           "480p":  { type: "stream", src: "...", downloadName: "..." },
+ *           "720p":  { type: "stream", src: "...", downloadName: "..." },
+ *           "1080p": { type: "stream", src: "...", downloadName: "..." }
+ *         },
+ *         zip: "https://...",       // optional — powers the separate
+ *         zipName: "Pack.zip"       // "Zip Pack Download" button
+ *       }
+ *     You only need to include the qualities you actually have — e.g. an
+ *     entry with just `qualities: { "720p": {...} }` behaves the same as
+ *     the single-quality shape. The matching episode in anime-data.js
+ *     also needs a `qualities: ["480p","720p","1080p"]` array (public,
+ *     no real URLs) so the build script knows which buttons to render.
  *
  * ⚠️ IMPORTANT: every object in this list except the last one MUST end
  * with a comma. A missing comma here is a JavaScript syntax error that

@@ -8,6 +8,11 @@
  * whatever's actually in ANIME_DATABASE) and the mobile
  * bottom nav (Home/Trending/Search/Favorites/Menu).
  *
+ * Favorites can only be ADDED from a watch page's "Favorite"
+ * button now (no heart icon on the homepage cards) — this file
+ * still reads/displays whatever's already in localStorage so
+ * the Favorites row keeps working.
+ *
  * Everything that reads ANIME_DATABASE here is defensive: if
  * it's ever emptied out, sections just show an empty-state
  * message instead of throwing.
@@ -20,50 +25,34 @@ function watchHref(anime, episodeNumber) {
   return `WatchOnline/${anime.id}-${anime.season || 1}x${ep}.html`;
 }
 
-// ---------------- Favorites (localStorage, per-device) ----------------
+// ---------------- Favorites (localStorage, shared with watch pages) ----------------
+// Same key/format as the "Favorite" button on watch pages (api key: ce_favorites,
+// a plain array of anime ids). This file only ever READS it for the Favorites
+// row — adding/removing now happens exclusively from a watch page.
 function loadFavorites() {
   try { return JSON.parse(localStorage.getItem("ce_favorites") || "[]"); } catch { return []; }
 }
-let FAVORITES = loadFavorites();
-function saveFavorites() {
-  try { localStorage.setItem("ce_favorites", JSON.stringify(FAVORITES)); } catch { /* storage unavailable */ }
-}
-function isFavorited(id) { return FAVORITES.includes(id); }
-function toggleFavorite(id) {
-  const idx = FAVORITES.indexOf(id);
-  if (idx > -1) FAVORITES.splice(idx, 1); else FAVORITES.unshift(id);
-  saveFavorites();
-  document.querySelectorAll(`.card-fav[data-id="${id}"]`).forEach(btn => btn.classList.toggle("active", isFavorited(id)));
-  renderFavorites();
-}
+function isFavorited(id) { return loadFavorites().includes(id); }
 
-/** Builds a single card's inner HTML. */
+/** Builds a single card's inner HTML. No heart/like button — favoriting
+ * only happens from the watch page now. */
 function generateAnimeCard(anime) {
+  const epCount = (anime.episodes || []).length;
   return `
-    <div class="anime-card ${anime.isAvailable ? "" : "disabled-card"}">
-      <a href="${watchHref(anime)}" class="card-link">
-        <div class="card-thumb">
-          <img src="${anime.poster}" alt="${anime.title}" loading="lazy"
-               onerror="this.parentElement.classList.add('no-art')">
-          <span class="badge badge-rating">★ ${anime.siteRating || anime.tmdbRating || "N/A"}</span>
-          <span class="badge badge-age">${anime.ageRating || "N/A"}</span>
-          ${!anime.isAvailable ? '<span class="badge badge-soon">Coming Soon</span>' : ""}
-        </div>
-        <div class="card-info">
-          <h4 class="card-title">${anime.title}</h4>
-          <span class="card-meta">${anime.type || "TV"} • ${anime.duration || "--"}</span>
-        </div>
-      </a>
-      <button class="card-fav ${isFavorited(anime.id) ? "active" : ""}" data-id="${anime.id}" aria-label="Toggle favorite">♥</button>
-    </div>`;
+    <a class="anime-card ${anime.isAvailable ? "" : "disabled-card"}" href="${watchHref(anime)}">
+      <div class="card-thumb">
+        <img src="${anime.poster}" alt="${cleanTitle(anime.title)}" loading="lazy"
+             onerror="this.parentElement.classList.add('no-art')">
+        <span class="badge badge-rating">★ ${anime.siteRating || anime.tmdbRating || "N/A"}</span>
+        <span class="badge badge-age">${epCount} EP</span>
+        ${!anime.isAvailable ? '<span class="badge badge-soon">Coming Soon</span>' : ""}
+      </div>
+      <div class="card-info">
+        <h4 class="card-title">${cleanTitle(anime.title)}</h4>
+        <span class="card-meta">${anime.type || "TV"} • ${anime.duration || "--"}</span>
+      </div>
+    </a>`;
 }
-
-document.addEventListener("click", (e) => {
-  const favBtn = e.target.closest(".card-fav");
-  if (!favBtn) return;
-  e.preventDefault();
-  toggleFavorite(favBtn.dataset.id);
-});
 
 /** Renders every anime whose `section` matches into the given container id. */
 function renderSection(containerId, sectionName) {
@@ -87,7 +76,7 @@ function renderFavorites() {
 
   const items = ANIME_DATABASE.filter(a => isFavorited(a.id));
   if (items.length === 0) {
-    grid.innerHTML = `<p class="empty-row">No favorites yet — tap the ♥ on any title to save it here.</p>`;
+    grid.innerHTML = `<p class="empty-row">No favorites yet — open any episode and tap "Favorite" to save it here.</p>`;
   } else {
     grid.innerHTML = items.map(generateAnimeCard).join("");
   }
@@ -109,7 +98,7 @@ function renderHero() {
   document.getElementById("heroRating").innerText = `★ ${featured.siteRating || featured.tmdbRating}`;
   document.getElementById("heroType").innerText = featured.type || "TV";
   document.getElementById("heroYear").innerText = featured.year || "";
-  document.getElementById("heroTitle").innerText = featured.title;
+  document.getElementById("heroTitle").innerText = cleanTitle(featured.title);
   document.getElementById("heroDescription").innerText = featured.description;
   document.getElementById("heroWatchBtn").href = watchHref(featured);
 }
@@ -124,8 +113,6 @@ function renderNavCounts() {
 }
 
 // ---------------- Shared "filtered results" view ----------------
-// Used by search, the Series/Movies nav counts, the drawer's A-Z/Series/
-// Movies links, and genre taps — one code path so behavior stays consistent.
 function showFilteredResults(items, label) {
   document.getElementById("heroSection").style.display = "none";
   document.getElementById("latestEpisodesRow").style.display = "none";
@@ -151,9 +138,6 @@ function showHomeView() {
 }
 
 // ---------------- Live search ----------------
-// Searches every anime uploaded on the site (title, genres, tags), not just
-// the ones shown in Latest/New — so nothing on the site is unreachable by
-// search even if a title only ever appears in one row.
 function performSearch(rawQuery) {
   const query = rawQuery.trim().toLowerCase();
   if (!query) { showHomeView(); return; }
@@ -170,7 +154,6 @@ function wireSearch() {
   if (!input) return;
   input.addEventListener("input", () => performSearch(input.value));
 
-  // Support ?q= coming from a watch page's own search box.
   const q = new URLSearchParams(window.location.search).get("q");
   if (q) {
     input.value = q;
@@ -181,19 +164,11 @@ function wireSearch() {
 function wireNavCountFilters() {
   const seriesLink = document.getElementById("cnt-series-link");
   const moviesLink = document.getElementById("cnt-movies-link");
-  if (seriesLink) seriesLink.addEventListener("click", e => {
-    e.preventDefault();
-    showFilteredResults(ANIME_DATABASE.filter(a => a.type !== "Movie"), "Anime Series").scrollIntoView({ behavior: "smooth" });
-  });
-  if (moviesLink) moviesLink.addEventListener("click", e => {
-    e.preventDefault();
-    showFilteredResults(ANIME_DATABASE.filter(a => a.type === "Movie"), "Anime Movies").scrollIntoView({ behavior: "smooth" });
-  });
+  if (seriesLink) seriesLink.addEventListener("click", e => { e.preventDefault(); showFilteredResults(ANIME_DATABASE.filter(a => a.type !== "Movie"), "Anime Series").scrollIntoView({ behavior: "smooth" }); });
+  if (moviesLink) moviesLink.addEventListener("click", e => { e.preventDefault(); showFilteredResults(ANIME_DATABASE.filter(a => a.type === "Movie"), "Anime Movies").scrollIntoView({ behavior: "smooth" }); });
 }
 
 // ---------------- Hamburger drawer ----------------
-// A rotating color palette for genre chips — purely cosmetic, cycles
-// through regardless of how many/few genres actually exist in the data.
 const GENRE_COLORS = ["#5ec8f0", "#4ee6a8", "#c9e04e", "#f0a24e", "#e05ecb", "#8a7bf0", "#f05e5e", "#4ef0d1"];
 
 function renderDrawerGenres() {
@@ -274,6 +249,66 @@ function wireMobileBottomNav() {
   });
 }
 
+// ---------------- Footer / drawer info modal ----------------
+// One shared lightweight modal for Terms / Privacy / Contact / Sitemap and
+// "How To Download". Content is placeholder text you can edit directly
+// below (FOOTER_PAGES) whenever you're ready.
+const FOOTER_PAGES = {
+  terms: {
+    title: "Terms & Conditions",
+    html: `<p>Placeholder terms text — replace this with your real Terms & Conditions whenever you're ready.</p>
+           <p>CrunchyEpisode does not host any video files. Every episode links out to third-party servers; we are not responsible for their content or availability.</p>`
+  },
+  privacy: {
+    title: "Privacy Policy",
+    html: `<p>Placeholder privacy text — replace this with your real Privacy Policy whenever you're ready.</p>
+           <p>We don't collect personal information beyond what's needed for basic site functionality (e.g. your on-device Favorites list, stored only in your browser).</p>`
+  },
+  contact: {
+    title: "Contact",
+    html: `<p>Placeholder contact info — replace this with your real contact details (email, Telegram, etc.) whenever you're ready.</p>`
+  },
+  sitemap: {
+    title: "Sitemap",
+    html: `<p>Placeholder sitemap — replace this with a real list of site sections/links whenever you're ready.</p>`
+  },
+  "how-to-download": {
+    title: "How To Download",
+    html: `<div style="aspect-ratio:16/9;border-radius:10px;overflow:hidden;margin-bottom:12px;">
+             <iframe src="https://drive.google.com/file/d/1cSYc_7gEJ4MsSk0Td00CavLCKknJWx_x/preview"
+               style="width:100%;height:100%;border:0;" allow="autoplay" allowfullscreen></iframe>
+           </div>
+           <p>Tap the Download Now button on any episode page, pick a quality, and follow the on-screen steps.</p>`
+  }
+};
+
+function openInfoModal(key) {
+  const page = FOOTER_PAGES[key];
+  if (!page) return;
+  document.getElementById("infoModalTitle").textContent = page.title;
+  document.getElementById("infoModalBody").innerHTML = page.html;
+  document.getElementById("infoModalOverlay").classList.add("open");
+  document.getElementById("infoModal").classList.add("open");
+}
+function closeInfoModal() {
+  document.getElementById("infoModalOverlay").classList.remove("open");
+  document.getElementById("infoModal").classList.remove("open");
+  // Stop any embedded video (e.g. the How To Download iframe) from
+  // continuing to play in the background once the modal is closed.
+  document.getElementById("infoModalBody").innerHTML = "";
+}
+
+function wireInfoModal() {
+  document.querySelectorAll("[data-info-page]").forEach(el => {
+    el.addEventListener("click", e => {
+      e.preventDefault();
+      openInfoModal(el.dataset.infoPage);
+    });
+  });
+  document.getElementById("infoModalClose")?.addEventListener("click", closeInfoModal);
+  document.getElementById("infoModalOverlay")?.addEventListener("click", closeInfoModal);
+}
+
 document.addEventListener("DOMContentLoaded", () => {
   renderHero();
   renderSection("latestGrid", "latest");
@@ -285,6 +320,7 @@ document.addEventListener("DOMContentLoaded", () => {
   wireNavCountFilters();
   wireDrawer();
   wireMobileBottomNav();
+  wireInfoModal();
 
   document.querySelector(".notice-close")?.addEventListener("click", (e) => {
     e.target.closest(".notice-bar").style.display = "none";

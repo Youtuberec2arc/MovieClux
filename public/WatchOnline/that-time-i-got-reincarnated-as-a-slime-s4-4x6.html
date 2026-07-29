@@ -52,7 +52,9 @@
 
 <div class="episode-meta">
   <h1>Episode 6</h1>
-  
+  <div class="quality-switch" id="qualitySwitch">
+    <button class="qs-btn active" data-quality="480p">480p</button><button class="qs-btn " data-quality="720p">720p HD</button><button class="qs-btn " data-quality="1080p">1080p FHD</button>
+  </div>
 </div>
 
 <div class="series-row">
@@ -74,7 +76,15 @@
   <button class="notice-close" aria-label="Dismiss">✕</button>
 </div>
 
-<button id="downloadBtn" class="btn btn-primary btn-block" data-quality="">⬇ Download Now</button>
+
+    <div class="dl-quality-row"><button class="dl-quality-btn" data-quality="480p" >
+      ⬇ 480p
+    </button><button class="dl-quality-btn" data-quality="720p" >
+      ⬇ 720p HD
+    </button><button class="dl-quality-btn" data-quality="1080p" >
+      ⬇ 1080p FHD
+    </button></div>
+    
 
 <nav class="tab-nav">
   <button class="tab-link active" data-tab="episodes">Episodes</button>
@@ -150,6 +160,22 @@
     <a class="mini-card" href="chainsmoker-cat-1x1.html">
       <img src="../assets/chainsmoker-cat-poster.jpg" alt="Chainsmoker Cat" loading="lazy">
       <span class="mini-card-title">Chainsmoker Cat</span>
+    </a>
+    <a class="mini-card" href="solo-leveling-1x1.html">
+      <img src="https://i.imgur.com/HPAScdZ.jpg" alt="Solo Leveling" loading="lazy">
+      <span class="mini-card-title">Solo Leveling</span>
+    </a>
+    <a class="mini-card" href="solo-leveling-s2-1x1.html">
+      <img src="https://image.tmdb.org/t/p/original/rsOApVLbIQEcNkqSlOxNPyg3FyI.jpg" alt="Solo Leveling Season 2" loading="lazy">
+      <span class="mini-card-title">Solo Leveling Season 2</span>
+    </a>
+    <a class="mini-card" href="yowayowa-sensei-1x1.html">
+      <img src="https://image.tmdb.org/t/p/original/1WDp9RjN7odYw490WLNw79iceLa.jpg" alt="Yowayowa Sensei" loading="lazy">
+      <span class="mini-card-title">Yowayowa Sensei</span>
+    </a>
+    <a class="mini-card" href="demon-slayer-kimetsu-no-yaiba-1x1.html">
+      <img src="https://image.tmdb.org/t/p/original/xUfRZu2mi8jH6SzQEJGP6tjBuYj.jpg" alt="Demon Slayer Kimetsu no Yaiba" loading="lazy">
+      <span class="mini-card-title">Demon Slayer Kimetsu no Yaiba</span>
     </a></div>
 </section>
 
@@ -209,7 +235,7 @@
   // ---------------------------------------------------------
   const EPISODE_ID = "that-time-i-got-reincarnated-as-a-slime-s4-1x6";
   const EMBED_TYPE = "stream";
-  let currentQuality = "";
+  let currentQuality = "480p";
 
   async function getPlayToken() {
     const res = await fetch(`/api/token?id=${encodeURIComponent(EPISODE_ID)}`);

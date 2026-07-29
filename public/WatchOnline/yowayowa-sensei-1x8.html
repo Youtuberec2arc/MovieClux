@@ -11,7 +11,7 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Anton&family=Manrope:wght@400;500;700;800&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="../watch-style.css?v=4">
+<link rel="stylesheet" href="../watch-style.css?v=5">
 </head>
 <body>
 
@@ -73,16 +73,6 @@
   <span>⚠ If playback doesn't start, please refresh the page.</span>
   <button class="notice-close" aria-label="Dismiss">✕</button>
 </div>
-
-
-    <div class="dl-quality-row"><button class="dl-quality-btn" data-quality="480p" disabled>
-      ⬇ 480p
-    </button><button class="dl-quality-btn" data-quality="720p" disabled>
-      ⬇ 720p HD
-    </button><button class="dl-quality-btn" data-quality="1080p" >
-      ⬇ 1080p FHD
-    </button></div>
-    
 
 <nav class="tab-nav">
   <button class="tab-link active" data-tab="episodes">Episodes</button>
@@ -186,6 +176,18 @@
   <div class="tag-row muted"><span>Audio: Hindi</span></div>
 </section>
 
+
+    <div class="dl-section">
+      <div class="dl-quality-row"><button class="dl-quality-btn" data-quality="480p" disabled>
+      480p ↗
+    </button><button class="dl-quality-btn" data-quality="720p" disabled>
+      720p HD ↗
+    </button><button class="dl-quality-btn" data-quality="1080p" >
+      1080p FHD ↗
+    </button></div>
+      <a class="dl-zip-btn" href="/quality-not-available.html" target="_blank" rel="noopener">📦 Zip Pack Files ↗</a>
+    </div>
+
 <section class="detail-section">
   <h3>Cast</h3>
   <div class="cast-grid"></div>
@@ -259,8 +261,17 @@
         frame.innerHTML = `<video id="videoEl" controls autoplay playsinline
           controlsList="nodownload noremoteplayback"
           disablePictureInPicture disableRemotePlayback
-          oncontextmenu="return false"
-          style="width:100%;height:100%;background:#000;" src="${playUrl}"></video>`;
+          oncontextmenu="return false" ondragstart="return false"
+          style="width:100%;height:100%;background:#000;
+          -webkit-touch-callout:none; -webkit-user-select:none; user-select:none;"
+          src="${playUrl}"></video>`;
+
+        // Belt-and-braces on top of the inline oncontextmenu attribute —
+        // some Android WebViews only honour a JS-added listener for the
+        // long-press "contextmenu" event, not the inline HTML attribute.
+        const videoEl = document.getElementById("videoEl");
+        videoEl.addEventListener("contextmenu", (e) => e.preventDefault());
+        videoEl.addEventListener("dragstart", (e) => e.preventDefault());
       }
 
       const fsBtn = document.getElementById("fullscreenBtn");
@@ -330,7 +341,6 @@
   document.querySelectorAll(".dl-quality-btn").forEach(btn => {
     btn.addEventListener("click", (e) => startDownload(e.currentTarget, e.currentTarget.dataset.quality));
   });
-  document.getElementById("zipDownloadBtn")?.addEventListener("click", (e) => startDownload(e.currentTarget, "zip"));
 
   document.getElementById("moreInfoBtn").addEventListener("click", () => {
     document.querySelector(".detail-section").scrollIntoView({ behavior: "smooth" });

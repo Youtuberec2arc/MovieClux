@@ -105,17 +105,22 @@ function renderDownloadButtons(anime, episode) {
   const buttons = Object.keys(QUALITY_LABELS).map(q => {
     const available = qualities.includes(q);
     return `<button class="dl-quality-btn" data-quality="${q}" ${available ? "" : "disabled"}>
-      ⬇ ${QUALITY_LABELS[q]}
+      ${QUALITY_LABELS[q]} ↗
     </button>`;
   }).join("");
 
-  const zipBtn = anime.zip
-    ? `<button id="zipDownloadBtn" class="dl-zip-btn">📦 Zip Pack Download</button>`
+  // Plain link, not routed through the token/proxy system — this is meant
+  // to be a simple, directly-editable URL (set anime.zipUrl in
+  // anime-data.js) rather than something wired into videoSources.js.
+  const zipBtn = anime.zipUrl
+    ? `<a class="dl-zip-btn" href="${esc(anime.zipUrl)}" target="_blank" rel="noopener">📦 Zip Pack Files ↗</a>`
     : "";
 
   return `
-    <div class="dl-quality-row">${buttons}</div>
-    ${zipBtn}`;
+    <div class="dl-section">
+      <div class="dl-quality-row">${buttons}</div>
+      ${zipBtn}
+    </div>`;
 }
 
 /** Quality switcher pills next to the episode title — only rendered when
@@ -152,7 +157,7 @@ function renderPage(anime, episode) {
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Anton&family=Manrope:wght@400;500;700;800&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="../watch-style.css?v=4">
+<link rel="stylesheet" href="../watch-style.css?v=5">
 </head>
 <body>
 
@@ -215,8 +220,6 @@ function renderPage(anime, episode) {
   <button class="notice-close" aria-label="Dismiss">✕</button>
 </div>
 
-${renderDownloadButtons(anime, episode)}
-
 <nav class="tab-nav">
   <button class="tab-link active" data-tab="episodes">Episodes</button>
   <button class="tab-link" data-tab="related">Other Seasons</button>
@@ -246,6 +249,8 @@ ${renderDownloadButtons(anime, episode)}
        Hindi here even if the underlying file is multi-audio. -->
   <div class="tag-row muted"><span>Audio: Hindi</span></div>
 </section>
+
+${renderDownloadButtons(anime, episode)}
 
 <section class="detail-section">
   <h3>Cast</h3>
@@ -320,8 +325,17 @@ ${renderDownloadButtons(anime, episode)}
         frame.innerHTML = \`<video id="videoEl" controls autoplay playsinline
           controlsList="nodownload noremoteplayback"
           disablePictureInPicture disableRemotePlayback
-          oncontextmenu="return false"
-          style="width:100%;height:100%;background:#000;" src="\${playUrl}"></video>\`;
+          oncontextmenu="return false" ondragstart="return false"
+          style="width:100%;height:100%;background:#000;
+          -webkit-touch-callout:none; -webkit-user-select:none; user-select:none;"
+          src="\${playUrl}"></video>\`;
+
+        // Belt-and-braces on top of the inline oncontextmenu attribute —
+        // some Android WebViews only honour a JS-added listener for the
+        // long-press "contextmenu" event, not the inline HTML attribute.
+        const videoEl = document.getElementById("videoEl");
+        videoEl.addEventListener("contextmenu", (e) => e.preventDefault());
+        videoEl.addEventListener("dragstart", (e) => e.preventDefault());
       }
 
       const fsBtn = document.getElementById("fullscreenBtn");
@@ -391,7 +405,6 @@ ${renderDownloadButtons(anime, episode)}
   document.querySelectorAll(".dl-quality-btn").forEach(btn => {
     btn.addEventListener("click", (e) => startDownload(e.currentTarget, e.currentTarget.dataset.quality));
   });
-  document.getElementById("zipDownloadBtn")?.addEventListener("click", (e) => startDownload(e.currentTarget, "zip"));
 
   document.getElementById("moreInfoBtn").addEventListener("click", () => {
     document.querySelector(".detail-section").scrollIntoView({ behavior: "smooth" });

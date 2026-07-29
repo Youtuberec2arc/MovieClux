@@ -54,7 +54,12 @@ function resolveQualitySource(entry, quality) {
 
   const keys = Object.keys(entry.qualities);
   const picked = quality && entry.qualities[quality] ? quality : keys[0];
-  return { source: entry.qualities[picked] || null, isZip: false };
+  const q = entry.qualities[picked];
+  if (!q) return { source: null, isZip: false };
+  // Fall back to an episode-level downloadName only if this specific
+  // quality doesn't have its own (older/partial entries).
+  const source = q.downloadName ? q : { ...q, downloadName: entry.downloadName };
+  return { source, isZip: false };
 }
 
 module.exports = async function handler(req, res) {

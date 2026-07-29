@@ -54,6 +54,31 @@
 
 const ANIME_DATABASE = [
 {
+  id: "demon-slayer-kimetsu-no-yaiba-infinity-castle",
+  title: "Demon Slayer: Kimetsu no Yaiba Infinity Castle",
+  type: "Movie",
+  ageRating: "PG-13",
+  year: "2025",
+  duration: "2h 35m",
+  tmdbRating: "8.4",
+  siteRating: "8.4",
+  quality: "1080p",
+  zipUrl: "/quality-not-available.html",
+  poster: "https://image.tmdb.org/t/p/original/fWVSwgjpT2D78VUh6X8UBd2rorW.jpg",
+  banner: "https://image.tmdb.org/t/p/original/fWVSwgjpT2D78VUh6X8UBd2rorW.jpg",
+  genres: ["Animation", "Action", "Adventure"],
+  languages: ["Hindi"],
+  tags: ["Multi Audio", "BluRay", "BDRip"],
+  description: "The Demon Slayer Corps are drawn into the Infinity Castle, where Tanjiro and the Hashira face terrifying Upper Rank demons in a desperate fight as the final battle against Muzan Kibutsuji begins.",
+  cast: [],
+  isAvailable: true,
+  section: "latest",
+  season: 1,
+  episodes: [
+    { number: 1, title: "Full Movie", id: "demon-slayer-kimetsu-no-yaiba-infinity-castle-1x1", embedType: "stream", qualities: ["480p","720p","1080p"], seedViews: 0 }
+  ]
+},
+{
   id: "that-time-i-got-reincarnated-as-a-slime-s4",
   title: "That Time I Got Reincarnated as a Slime Season 4",
   type: "TV",

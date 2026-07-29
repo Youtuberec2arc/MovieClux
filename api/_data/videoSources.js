@@ -40,6 +40,13 @@
  * --------------------------------------------------------- */
 
 const VIDEO_SOURCES = {
+"demon-slayer-kimetsu-no-yaiba-infinity-castle-1x1": {
+  qualities: {
+    "480p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=ep9yhwzFIZlUm-0LpkYpFYakdfRf3dW08PZ6nfQ2JEI-RR7BzqGE6LszApRr6aOCk9UrQ18_sGZl6UYIDjErtg&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Demon%20Slayer%20Kimetsu%20no%20Yaiba%20Infinity%20Castle%202025%20480p%20BluRay%20Multi%20Audio%20ESub.mkv", downloadName: "[ Visit On Telegram @HindiAnimestuff ] Demon Slayer Kimetsu no Yaiba Infinity Castle 2025 480p.mkv" },
+    "720p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=wmtRlrtIzhflxID8cs5h0vEnLfbkehbiKBLy5irCZWg7YBq0eNOJbJIHXFXVQVDbTkntnZUIdDLkyODA3eEyfw&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Demon%20Slayer%20Kimetsu%20no%20Yaiba%20Infinity%20Castle%202025%20720p%20HD%20BluRay%20Multi%20Audio%20ESub.mkv", downloadName: "[ Visit On Telegram @HindiAnimestuff ] Demon Slayer Kimetsu no Yaiba Infinity Castle 2025 720p HD.mkv" },
+    "1080p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=QCkzMu3Zk5o5WJ4qpgvodYJrAZ9YiaYB2pez3vL4eMEwVEQ-icSMhZD-WmoJ86NmrOIgum0RIbxVXFSvOsn3eg&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Demon%20Slayer%20Kimetsu%20no%20Yaiba%20Infinity%20Castle%202025%201080p%20HD%20BluRay%20Multi%20Audio%20ESub.mkv", downloadName: "[ Visit On Telegram @HindiAnimestuff ] Demon Slayer Kimetsu no Yaiba Infinity Castle 2025 1080p FHD.mkv" }
+  }
+},
   "that-time-i-got-reincarnated-as-a-slime-s4-1x1": {
     qualities: {
       "480p": { type: "stream", src: 'https://icy-feather-221c.jakcminasi.workers.dev/?id=MvK8MA-UUYONZLGpmLIvI0mHh1SFMGrRtvL9NKOiWOpAg_KKCTYHvzbWRcvy_Q_a2w3e9sAl8zMZY_PUenJJdg&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20That%20Time%20I%20Got%20Reincarnated%20as%20a%20Slime%20S04E01%20480p%20x264%20WEB-DL%20Multi%20Audio%20ESub.mkv', downloadName: '[ Visit On Telegram @HindiAnimestuff ] That Time I Got Reincarnated as a Slime S01E01 480p.mkv' },

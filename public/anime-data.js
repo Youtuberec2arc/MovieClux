@@ -74,14 +74,14 @@ const ANIME_DATABASE = [
   section: "latest",
   season: 4,
   episodes: [
-        { number: 1, title: "Episode 1", id: "that-time-i-got-reincarnated-as-a-slime-s4-1x1", embedType: "stream", qualities: ["480p","720p","1080p"], seedViews: 0 },
-    { number: 2, title: "Episode 2", id: "that-time-i-got-reincarnated-as-a-slime-s4-1x2", embedType: "stream", qualities: ["480p","720p","1080p"], seedViews: 0 },
-    { number: 3, title: "Episode 3", id: "that-time-i-got-reincarnated-as-a-slime-s4-1x3", embedType: "stream", qualities: ["480p","720p","1080p"], seedViews: 0 },
-    { number: 4, title: "Episode 4", id: "that-time-i-got-reincarnated-as-a-slime-s4-1x4", embedType: "stream", qualities: ["480p","720p","1080p"], seedViews: 0 },
-    { number: 5, title: "Episode 5", id: "that-time-i-got-reincarnated-as-a-slime-s4-1x5", embedType: "stream", qualities: ["480p","720p","1080p"], seedViews: 0 },
-    { number: 6, title: "Episode 6", id: "that-time-i-got-reincarnated-as-a-slime-s4-1x6", embedType: "stream", qualities: ["480p","720p","1080p"], seedViews: 0 },
-    { number: 7, title: "Episode 7", id: "that-time-i-got-reincarnated-as-a-slime-s4-1x7", embedType: "stream", qualities: ["480p","720p","1080p"], seedViews: 0 },
-    { number: 8, title: "Episode 8", id: "that-time-i-got-reincarnated-as-a-slime-s4-1x8", embedType: "stream", qualities: ["480p","720p","1080p"], seedViews: 0 }
+    { number: 1, title: "Episode 1", id: "that-time-i-got-reincarnated-as-a-slime-s4-1x1", embedType: "stream", seedViews: 0 },
+    { number: 2, title: "Episode 2", id: "that-time-i-got-reincarnated-as-a-slime-s4-1x2", embedType: "stream", seedViews: 0 },
+    { number: 3, title: "Episode 3", id: "that-time-i-got-reincarnated-as-a-slime-s4-1x3", embedType: "stream", seedViews: 0 },
+    { number: 4, title: "Episode 4", id: "that-time-i-got-reincarnated-as-a-slime-s4-1x4", embedType: "stream", seedViews: 0 },
+    { number: 5, title: "Episode 5", id: "that-time-i-got-reincarnated-as-a-slime-s4-1x5", embedType: "stream", seedViews: 0 },
+    { number: 6, title: "Episode 6", id: "that-time-i-got-reincarnated-as-a-slime-s4-1x6", embedType: "stream", seedViews: 0 },
+    { number: 7, title: "Episode 7", id: "that-time-i-got-reincarnated-as-a-slime-s4-1x7", embedType: "stream", seedViews: 0 },
+    { number: 8, title: "Episode 8", id: "that-time-i-got-reincarnated-as-a-slime-s4-1x8", embedType: "stream", seedViews: 0 }
   ]
 },
 
@@ -117,8 +117,7 @@ const ANIME_DATABASE = [
     { number: 9, title: "Episode 9", id: "daemons-of-the-shadow-realm-s1-1x9", embedType: "stream", seedViews: 0 },
     { number: 10, title: "Episode 10", id: "daemons-of-the-shadow-realm-s1-1x10", embedType: "stream", seedViews: 0 },
     { number: 11, title: "Episode 11", id: "daemons-of-the-shadow-realm-s1-1x11", embedType: "stream", seedViews: 0 },
-    { number: 12, title: "Episode 12", id: "daemons-of-the-shadow-realm-s1-1x12", embedType: "stream", seedViews: 0 },
-{ number: 13, title: "Episode 13", id: "daemons-of-the-shadow-realm-s1-1x13", embedType: "stream", qualities: ["480p","720p"], seedViews: 0 }
+    { number: 12, title: "Episode 12", id: "daemons-of-the-shadow-realm-s1-1x12", embedType: "stream", seedViews: 0 }
   ]
 },
 {
@@ -294,161 +293,7 @@ const ANIME_DATABASE = [
         seedViews: 0
       }
     ]
-  },
-
-{
-  id: "solo-leveling",
-  title: "Solo Leveling",
-  type: "TV",
-  ageRating: "PG-13",
-  year: "2024",
-  duration: "24m",
-  tmdbRating: "8.5",
-  siteRating: "8.5",
-  quality: "1080p",
-  seriesGroup: "solo-leveling",
-  poster: "https://i.imgur.com/HPAScdZ.jpg",
-  banner: "https://i.imgur.com/HPAScdZ.jpg",
-  genres: ["Animation", "Action", "Adventure"],
-  languages: ["Hindi"],
-  tags: ["Multi Audio", "WEB-DL"],
-  description: "In a world of gifted hunters and monsters, a weak hunter Sung Jinwoo gains extraordinary powers through a mysterious program, leading him to become one of the strongest hunters and conquering even the strongest dungeons.",
-  cast: [],
-  isAvailable: true,
-  section: "latest",
-  season: 1,
-  episodes: [
-    { number: 1, title: "Episode 1", id: "solo-leveling-1x1", embedType: "stream", qualities: ["480p","720p","1080p"], seedViews: 0 },
-    { number: 2, title: "Episode 2", id: "solo-leveling-1x2", embedType: "stream", qualities: ["480p","720p","1080p"], seedViews: 0 },
-    { number: 3, title: "Episode 3", id: "solo-leveling-1x3", embedType: "stream", qualities: ["480p","720p","1080p"], seedViews: 0 },
-    { number: 4, title: "Episode 4", id: "solo-leveling-1x4", embedType: "stream", qualities: ["480p","720p","1080p"], seedViews: 0 },
-    { number: 5, title: "Episode 5", id: "solo-leveling-1x5", embedType: "stream", qualities: ["480p","720p","1080p"], seedViews: 0 },
-    { number: 6, title: "Episode 6", id: "solo-leveling-1x6", embedType: "stream", qualities: ["480p","720p","1080p"], seedViews: 0 },
-    { number: 7, title: "Episode 7", id: "solo-leveling-1x7", embedType: "stream", qualities: ["480p","720p","1080p"], seedViews: 0 },
-    { number: 8, title: "Episode 8", id: "solo-leveling-1x8", embedType: "stream", qualities: ["480p","720p","1080p"], seedViews: 0 },
-    { number: 9, title: "Episode 9", id: "solo-leveling-1x9", embedType: "stream", qualities: ["480p","720p","1080p"], seedViews: 0 },
-    { number: 10, title: "Episode 10", id: "solo-leveling-1x10", embedType: "stream", qualities: ["480p","720p","1080p"], seedViews: 0 },
-    { number: 11, title: "Episode 11", id: "solo-leveling-1x11", embedType: "stream", qualities: ["480p","720p","1080p"], seedViews: 0 },
-    { number: 12, title: "Episode 12", id: "solo-leveling-1x12", embedType: "stream", qualities: ["480p","720p","1080p"], seedViews: 0 }
-  ]
-},
-{
-  id: "solo-leveling-s2",
-  title: "Solo Leveling Season 2",
-  type: "TV",
-  ageRating: "PG-13",
-  year: "2025",
-  duration: "24m",
-  tmdbRating: "8.5",
-  siteRating: "8.5",
-  quality: "1080p",
-  seriesGroup: "solo-leveling",
-  poster: "https://image.tmdb.org/t/p/original/rsOApVLbIQEcNkqSlOxNPyg3FyI.jpg",
-  banner: "https://image.tmdb.org/t/p/original/rsOApVLbIQEcNkqSlOxNPyg3FyI.jpg",
-  genres: ["Animation", "Action", "Adventure"],
-  languages: ["Hindi"],
-  tags: ["Multi Audio", "WEB-DL"],
-  description: "In a world of gifted hunters and monsters, a weak hunter Sung Jinwoo gains extraordinary powers through a mysterious program, leading him to become one of the strongest hunters and conquering even the strongest dungeons.",
-  cast: [],
-  isAvailable: true,
-  section: "latest",
-  season: 1,
-  episodes: [
-    { number: 1, title: "Episode 1", id: "solo-leveling-s2-1x1", embedType: "stream", qualities: ["480p","720p","1080p"], seedViews: 0 },
-    { number: 2, title: "Episode 2", id: "solo-leveling-s2-1x2", embedType: "stream", qualities: ["480p","720p","1080p"], seedViews: 0 },
-    { number: 3, title: "Episode 3", id: "solo-leveling-s2-1x3", embedType: "stream", qualities: ["480p","720p","1080p"], seedViews: 0 },
-    { number: 4, title: "Episode 4", id: "solo-leveling-s2-1x4", embedType: "stream", qualities: ["480p","720p","1080p"], seedViews: 0 },
-    { number: 5, title: "Episode 5", id: "solo-leveling-s2-1x5", embedType: "stream", qualities: ["480p","720p","1080p"], seedViews: 0 },
-    { number: 6, title: "Episode 6", id: "solo-leveling-s2-1x6", embedType: "stream", qualities: ["480p","720p","1080p"], seedViews: 0 },
-    { number: 7, title: "Episode 7", id: "solo-leveling-s2-1x7", embedType: "stream", qualities: ["480p","720p","1080p"], seedViews: 0 },
-    { number: 8, title: "Episode 8", id: "solo-leveling-s2-1x8", embedType: "stream", qualities: ["480p","720p","1080p"], seedViews: 0 },
-    { number: 9, title: "Episode 9", id: "solo-leveling-s2-1x9", embedType: "stream", qualities: ["480p","720p","1080p"], seedViews: 0 },
-    { number: 10, title: "Episode 10", id: "solo-leveling-s2-1x10", embedType: "stream", qualities: ["480p","720p","1080p"], seedViews: 0 },
-    { number: 11, title: "Episode 11", id: "solo-leveling-s2-1x11", embedType: "stream", qualities: ["480p","720p","1080p"], seedViews: 0 },
-    { number: 12, title: "Episode 12", id: "solo-leveling-s2-1x12", embedType: "stream", qualities: ["480p","720p","1080p"], seedViews: 0 },
-    { number: 13, title: "Episode 13", id: "solo-leveling-s2-1x13", embedType: "stream", qualities: ["480p","720p","1080p"], seedViews: 0 }
-  ]
-},
-{
-  id: "yowayowa-sensei",
-  title: "Yowayowa Sensei",
-  type: "TV",
-  ageRating: "18+",
-  year: "2026",
-  duration: "24m",
-  tmdbRating: "N/A",
-  siteRating: "N/A",
-  quality: "1080p",
-  poster: "https://image.tmdb.org/t/p/original/1WDp9RjN7odYw490WLNw79iceLa.jpg",
-  banner: "https://image.tmdb.org/t/p/original/1WDp9RjN7odYw490WLNw79iceLa.jpg",
-  genres: ["Animation", "Comedy", "Adult"],
-  languages: ["Hindi"],
-  tags: ["Multi Audio", "WEB-DL", "Uncensored"],
-  description: "The comedic days of a nervous teacher who everyone sees as fearsome.",
-  cast: [],
-  isAvailable: true,
-  section: "new",
-  season: 1,
-  episodes: [
-    { number: 1, title: "Episode 1", id: "yowayowa-sensei-1x1", embedType: "stream", qualities: ["480p","720p","1080p"], seedViews: 0 },
-    { number: 2, title: "Episode 2", id: "yowayowa-sensei-1x2", embedType: "stream", qualities: ["480p","720p","1080p"], seedViews: 0 },
-    { number: 3, title: "Episode 3", id: "yowayowa-sensei-1x3", embedType: "stream", qualities: ["480p","720p","1080p"], seedViews: 0 },
-    { number: 4, title: "Episode 4", id: "yowayowa-sensei-1x4", embedType: "stream", qualities: ["480p","720p","1080p"], seedViews: 0 },
-    { number: 5, title: "Episode 5", id: "yowayowa-sensei-1x5", embedType: "stream", qualities: ["480p","720p","1080p"], seedViews: 0 },
-    { number: 6, title: "Episode 6", id: "yowayowa-sensei-1x6", embedType: "stream", qualities: ["480p","720p","1080p"], seedViews: 0 },
-    { number: 7, title: "Episode 7", id: "yowayowa-sensei-1x7", embedType: "stream", qualities: ["480p","720p","1080p"], seedViews: 0 },
-    { number: 8, title: "Episode 8", id: "yowayowa-sensei-1x8", embedType: "stream", qualities: ["1080p"], seedViews: 0 }
-  ]
-},
-{
-  id: "demon-slayer-kimetsu-no-yaiba",
-  title: "Demon Slayer Kimetsu no Yaiba",
-  type: "TV",
-  ageRating: "PG-13",
-  year: "2019",
-  duration: "25m",
-  tmdbRating: "8.6",
-  siteRating: "8.6",
-  quality: "1080p",
-  poster: "https://image.tmdb.org/t/p/original/xUfRZu2mi8jH6SzQEJGP6tjBuYj.jpg",
-  banner: "https://image.tmdb.org/t/p/original/xUfRZu2mi8jH6SzQEJGP6tjBuYj.jpg",
-  genres: ["Animation", "Action", "Adventure"],
-  languages: ["Hindi"],
-  tags: ["Multi Audio", "BluRay"],
-  description: "A family is attacked by demons and only two members survive, Tanjiro and his sister Nezuko, who is turning into a demon slowly. Tanjiro sets out to become a demon slayer to avenge his family and cure his sister.",
-  cast: [],
-  isAvailable: true,
-  section: "new",
-  season: 1,
-  episodes: [
-    { number: 1, title: "Episode 1", id: "demon-slayer-kimetsu-no-yaiba-1x1", embedType: "stream", qualities: ["480p","720p","1080p"], seedViews: 0 },
-    { number: 2, title: "Episode 2", id: "demon-slayer-kimetsu-no-yaiba-1x2", embedType: "stream", qualities: ["480p","720p","1080p"], seedViews: 0 },
-    { number: 3, title: "Episode 3", id: "demon-slayer-kimetsu-no-yaiba-1x3", embedType: "stream", qualities: ["480p","720p","1080p"], seedViews: 0 },
-    { number: 4, title: "Episode 4", id: "demon-slayer-kimetsu-no-yaiba-1x4", embedType: "stream", qualities: ["480p","720p","1080p"], seedViews: 0 },
-    { number: 5, title: "Episode 5", id: "demon-slayer-kimetsu-no-yaiba-1x5", embedType: "stream", qualities: ["480p","720p","1080p"], seedViews: 0 },
-    { number: 6, title: "Episode 6", id: "demon-slayer-kimetsu-no-yaiba-1x6", embedType: "stream", qualities: ["480p","720p","1080p"], seedViews: 0 },
-    { number: 7, title: "Episode 7", id: "demon-slayer-kimetsu-no-yaiba-1x7", embedType: "stream", qualities: ["480p","720p","1080p"], seedViews: 0 },
-    { number: 8, title: "Episode 8", id: "demon-slayer-kimetsu-no-yaiba-1x8", embedType: "stream", qualities: ["480p","720p","1080p"], seedViews: 0 },
-    { number: 9, title: "Episode 9", id: "demon-slayer-kimetsu-no-yaiba-1x9", embedType: "stream", qualities: ["480p","720p","1080p"], seedViews: 0 },
-    { number: 10, title: "Episode 10", id: "demon-slayer-kimetsu-no-yaiba-1x10", embedType: "stream", qualities: ["480p","720p","1080p"], seedViews: 0 },
-    { number: 11, title: "Episode 11", id: "demon-slayer-kimetsu-no-yaiba-1x11", embedType: "stream", qualities: ["480p","720p","1080p"], seedViews: 0 },
-    { number: 12, title: "Episode 12", id: "demon-slayer-kimetsu-no-yaiba-1x12", embedType: "stream", qualities: ["480p","720p","1080p"], seedViews: 0 },
-    { number: 13, title: "Episode 13", id: "demon-slayer-kimetsu-no-yaiba-1x13", embedType: "stream", qualities: ["480p","720p","1080p"], seedViews: 0 },
-    { number: 14, title: "Episode 14", id: "demon-slayer-kimetsu-no-yaiba-1x14", embedType: "stream", qualities: ["480p","720p","1080p"], seedViews: 0 },
-    { number: 15, title: "Episode 15", id: "demon-slayer-kimetsu-no-yaiba-1x15", embedType: "stream", qualities: ["480p","720p","1080p"], seedViews: 0 },
-    { number: 16, title: "Episode 16", id: "demon-slayer-kimetsu-no-yaiba-1x16", embedType: "stream", qualities: ["480p","720p","1080p"], seedViews: 0 },
-    { number: 17, title: "Episode 17", id: "demon-slayer-kimetsu-no-yaiba-1x17", embedType: "stream", qualities: ["480p","720p","1080p"], seedViews: 0 },
-    { number: 18, title: "Episode 18", id: "demon-slayer-kimetsu-no-yaiba-1x18", embedType: "stream", qualities: ["480p","720p","1080p"], seedViews: 0 },
-    { number: 19, title: "Episode 19", id: "demon-slayer-kimetsu-no-yaiba-1x19", embedType: "stream", qualities: ["480p","720p","1080p"], seedViews: 0 },
-    { number: 20, title: "Episode 20", id: "demon-slayer-kimetsu-no-yaiba-1x20", embedType: "stream", qualities: ["480p","720p","1080p"], seedViews: 0 },
-    { number: 21, title: "Episode 21", id: "demon-slayer-kimetsu-no-yaiba-1x21", embedType: "stream", qualities: ["480p","720p","1080p"], seedViews: 0 },
-    { number: 22, title: "Episode 22", id: "demon-slayer-kimetsu-no-yaiba-1x22", embedType: "stream", qualities: ["480p","720p","1080p"], seedViews: 0 },
-    { number: 23, title: "Episode 23", id: "demon-slayer-kimetsu-no-yaiba-1x23", embedType: "stream", qualities: ["480p","720p","1080p"], seedViews: 0 },
-    { number: 24, title: "Episode 24", id: "demon-slayer-kimetsu-no-yaiba-1x24", embedType: "stream", qualities: ["480p","720p","1080p"], seedViews: 0 },
-    { number: 25, title: "Episode 25", id: "demon-slayer-kimetsu-no-yaiba-1x25", embedType: "stream", qualities: ["480p","720p","1080p"], seedViews: 0 },
-    { number: 26, title: "Episode 26", id: "demon-slayer-kimetsu-no-yaiba-1x26", embedType: "stream", qualities: ["480p","720p","1080p"], seedViews: 0 }
-  ]
-}
+  }
 
   // Add the next title here, e.g.:
   // {
@@ -459,6 +304,123 @@ const ANIME_DATABASE = [
   //   season: 1,
   //   episodes: [ { number: 1, title: "Episode 1", id: "one-piece-1x1", embedType: "stream", seedViews: 0 } ]
   // }
+  {
+  "id": "solo-leveling-s1",
+  "title": "Solo Leveling Season 1",
+  "type": "TV",
+  "ageRating": "R",
+  "year": "2024",
+  "duration": "24min",
+  "tmdbRating": "8.3",
+  "siteRating": "8.5",
+  "quality": "1080p FHD",
+  "seriesGroup": "solo-leveling",
+  "poster": "https://i.imgur.com/HPAScdZ.jpg",
+  "banner": "https://i.imgur.com/HPAScdZ.jpg",
+  "genres": [
+    "Animation",
+    "Action",
+    "Adventure"
+  ],
+  "languages": [
+    "Hindi Dubbed"
+  ],
+  "tags": [
+    "Multi Audio",
+    "WEB-DL"
+  ],
+  "description": "In a world of gifted hunters and monsters, a weak hunter Sung Jinwoo gains extraordinary powers through a mysterious program, leading him to become one of the strongest hunters and conquering even the strongest dungeons.",
+  "cast": [],
+  "isAvailable": true,
+  "section": "latest",
+  "season": 1,
+  "episodes": [
+    {
+      "number": 1,
+      "title": "Episode 1",
+      "id": "solo-leveling-s1-1x01",
+      "embedType": "stream",
+      "seedViews": 0
+    },
+    {
+      "number": 2,
+      "title": "Episode 2",
+      "id": "solo-leveling-s1-1x02",
+      "embedType": "stream",
+      "seedViews": 0
+    },
+    {
+      "number": 3,
+      "title": "Episode 3",
+      "id": "solo-leveling-s1-1x03",
+      "embedType": "stream",
+      "seedViews": 0
+    },
+    {
+      "number": 4,
+      "title": "Episode 4",
+      "id": "solo-leveling-s1-1x04",
+      "embedType": "stream",
+      "seedViews": 0
+    },
+    {
+      "number": 5,
+      "title": "Episode 5",
+      "id": "solo-leveling-s1-1x05",
+      "embedType": "stream",
+      "seedViews": 0
+    },
+    {
+      "number": 6,
+      "title": "Episode 6",
+      "id": "solo-leveling-s1-1x06",
+      "embedType": "stream",
+      "seedViews": 0
+    },
+    {
+      "number": 7,
+      "title": "Episode 7",
+      "id": "solo-leveling-s1-1x07",
+      "embedType": "stream",
+      "seedViews": 0
+    },
+    {
+      "number": 8,
+      "title": "Episode 8",
+      "id": "solo-leveling-s1-1x08",
+      "embedType": "stream",
+      "seedViews": 0
+    },
+    {
+      "number": 9,
+      "title": "Episode 9",
+      "id": "solo-leveling-s1-1x09",
+      "embedType": "stream",
+      "seedViews": 0
+    },
+    {
+      "number": 10,
+      "title": "Episode 10",
+      "id": "solo-leveling-s1-1x10",
+      "embedType": "stream",
+      "seedViews": 0
+    },
+    {
+      "number": 11,
+      "title": "Episode 11",
+      "id": "solo-leveling-s1-1x11",
+      "embedType": "stream",
+      "seedViews": 0
+    },
+    {
+      "number": 12,
+      "title": "Episode 12",
+      "id": "solo-leveling-s1-1x12",
+      "embedType": "stream",
+      "seedViews": 0
+    }
+  ]
+},
 ];
 
 // Shared helpers -------------------------------------------------

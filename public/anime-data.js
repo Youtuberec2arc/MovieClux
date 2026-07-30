@@ -61,7 +61,7 @@ const ANIME_DATABASE = [
   year: "2025",
   duration: "45m",
   tmdbRating: "7.8",
-  siteRating: "10",
+  siteRating: "",
   quality: "1080p",
   zipUrl: "/quality-not-available.html",
   seriesGroup: "clevatess",

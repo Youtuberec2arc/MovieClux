@@ -10,7 +10,7 @@
  *
  * Maps the PUBLIC episode id (the one used in anime-data.js
  * and in /WatchOnline/*.html) to the REAL, private video
- * source. /api/play.js is the only file that reads this map.
+ * sofullmetalurce. /api/play.js is the only file that reads this map.
  *
  * For real production use, prefer moving the "src" values into
  * environment variables (e.g. VIDEO_SRC_CHAINSMOKER_CAT_1X1) so
@@ -643,29 +643,410 @@ const VIDEO_SOURCES = {
 },
 
 "fullmetal-alchemist-brotherhood-1x1": {
-    type: "stream",
-    src: process.env.VIDEO_SRC_FMAB_1X1 ||
-      "https://icy-feather-221c.jakcminasi.workers.dev/?id=qknJphjSQE1q_aXOVe9c1cGe8JEaPheM5RMF_hrMsmtMNSvu-H6f5CvRcepErp27TxFcrCI-cveYpRk5JFRDQw&name=%5BVisit%20Telegram%20HindiAnimestuff%5D+Fullmetal+Alchemist+Brotherhood+S01E01+720p+HD+BluRay+Multi+Audio+ESub.mkv",
-    downloadName: "[ Visit On Telegram @HindiAnimestuff ] Fullmetal Alchemist Brotherhood S01E01 720p.mkv"
-  },
-  "fullmetal-alchemist-brotherhood-1x2": {
-    type: "stream",
-    src: process.env.VIDEO_SRC_FMAB_1X2 ||
-      "https://icy-feather-221c.jakcminasi.workers.dev/?id=vj1hL9uWmifLildsOrY-1_R3iHjha1upDUluLL5NN-IcbEPhiis7YYQNseFH9VEWvatHy7I9xr2RzywkAwJmlA&name=%5BVisit%20Telegram%20HindiAnimestuff%5D+Fullmetal+Alchemist+Brotherhood+S01E02+720p+HD+BluRay+Multi+Audio+ESub.mkv",
-    downloadName: "[ Visit On Telegram @HindiAnimestuff ] Fullmetal Alchemist Brotherhood S01E02 720p.mkv"
-  },
-  "fullmetal-alchemist-brotherhood-1x3": {
-    type: "stream",
-    src: process.env.VIDEO_SRC_FMAB_1X3 ||
-      "https://icy-feather-221c.jakcminasi.workers.dev/?id=_grTlDReq6UbQhLqqO8QoUY44qQ5Wzgq2BlXQI-GN62zXksrdhkmX3yMEEN783-7jMHFJF3WDmHgeE2HmphlBA&name=%5BVisit%20Telegram%20HindiAnimestuff%5D+Fullmetal+Alchemist+Brotherhood+S01E03+720p+HD+BluRay+Multi+Audio+ESub.mkv",
-    downloadName: "[ Visit On Telegram @HindiAnimestuff ] Fullmetal Alchemist Brotherhood S01E03 720p.mkv"
-  },
-  "fullmetal-alchemist-brotherhood-1x4": {
-    type: "stream",
-    src: process.env.VIDEO_SRC_FMAB_1X4 ||
-      "https://icy-feather-221c.jakcminasi.workers.dev/?id=xWjcHjCf6k_z4VNcLAfB31VYnVDhyG0Brn0iQuUgljfpeYy7QomkEnYhTWnkM9Yd1OJMVGaFTrrZYoMV6ZpCyw&name=%5BVisit%20Telegram%20HindiAnimestuff%5D+Fullmetal+Alchemist+Brotherhood+S01E04+720p+HD+BluRay+Multi+Audio+ESub.mkv",
-    downloadName: "[ Visit On Telegram @HindiAnimestuff ] Fullmetal Alchemist Brotherhood S01E04 720p.mkv"
-  },
+  qualities: {
+    "480p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=FR89OQ3wwhsBQuxzTiNp0FSt35qlBusdCH_RLO8ICimZxg1oV5kgPPA4tATxGsrbEonm3ZZzRPm_xoy3Kcy7Mw&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Sword%20of%20the%20Demon%20Hunter%20S01E01%20480p%20AMZN%20WEB-DL%20Dual%20Audio%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Sword of the Demon Hunter S01E01 480p AMZN WEB-DL Dual Audio ESub.mkv" },
+    "720p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=-dmSzpVrScFxyHcbUZ25Gyai5LSG6WyRVA-c4BB4wWn9RaOcXP_letn7ngBwduyFhS1a-OJCbLbLWBtB-nebsQ&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Sword%20of%20the%20Demon%20Hunter%20S01E01%20720p%20HD%20AMZN%20WEB-DL%20Dual%20Audio%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Sword of the Demon Hunter S01E01 720p HD AMZN WEB-DL Dual Audio ESub.mkv" },
+    "1080p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=W92eW3edowifBE19P0DI1eRHyZ7K0hH9akAtoNeEiwummIgsA4bkbbsqHk5x7X6E67g8auDib5_MMT2Cnl5GtQ&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Sword%20of%20the%20Demon%20Hunter%20S01E01%201080p%20HEVC%20AMZN%20WEB-DL%20Dual%20Audio%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Sword of the Demon Hunter S01E01 1080p HEVC AMZN WEB-DL Dual Audio ESub.mkv" }
+  }
+},
+"fullmetal-alchemist-brotherhood-1x2": {
+  qualities: {
+    "480p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=HLfZX8HAp3Z4jcKoqT0KEoYZkGnCp-Vfp_USsnITWKeYBpcEuNnWybHJ0MJ82sHBsyRuInqfrgp9YvUKLA501w&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Sword%20of%20the%20Demon%20Hunter%20S01E02%20480p%20AMZN%20WEB-DL%20Dual%20Audio%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Sword of the Demon Hunter S01E02 480p AMZN WEB-DL Dual Audio ESub.mkv" },
+    "720p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=mIVEt99EatpB_KkpoaO14x6Nwx-yf__EWnMaLTA3klExwKxyV2tXgkN3GLYhWG4kwetrtVW-Ov-gJqrAffvofQ&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Sword%20of%20the%20Demon%20Hunter%20S01E02%20720p%20HD%20AMZN%20WEB-DL%20Dual%20Audio%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Sword of the Demon Hunter S01E02 720p HD AMZN WEB-DL Dual Audio ESub.mkv" },
+    "1080p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=LV2G5Y2udlj30wr0agg4GByW2cRFYJhtQPbAl9AtMae8MqZESJCDGYWIIKh8VCuijhhgIhai4PRrcxhkLCkCSQ&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Sword%20of%20the%20Demon%20Hunter%20S01E02%201080p%20HEVC%20AMZN%20WEB-DL%20Dual%20Audio%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Sword of the Demon Hunter S01E02 1080p HEVC AMZN WEB-DL Dual Audio ESub.mkv" }
+  }
+},
+"fullmetal-alchemist-brotherhood-1x3": {
+  qualities: {
+    "480p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=VOY0tI3cu26jZDHxAu6Vux3NWJaex-fLU5rkknuLbN7sssCS6lSSb7MZvCUh2uOt1YURXjnFigC5D0TZGBExEw&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Sword%20of%20the%20Demon%20Hunter%20S01E03%20480p%20AMZN%20WEB-DL%20Dual%20Audio%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Sword of the Demon Hunter S01E03 480p AMZN WEB-DL Dual Audio ESub.mkv" },
+    "720p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=VurXkC-aQZhJVA8XEe5oeswJlS5ZVH9U0KtSHkv9xhW0yFZ1UnFObryoNAa1q3n0FZvkvM3yLZUs-wd-rLyp9g&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Sword%20of%20the%20Demon%20Hunter%20S01E03%20720p%20HD%20AMZN%20WEB-DL%20Dual%20Audio%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Sword of the Demon Hunter S01E03 720p HD AMZN WEB-DL Dual Audio ESub.mkv" },
+    "1080p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=c8VfToHtGB5mJEmI8Sq19pE2TvFvWqoN8s-DA-ydum_B9wSi-7JH5b6UkCBKnZkrAklsHeDaqFWTikdiLiwJjA&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Sword%20of%20the%20Demon%20Hunter%20S01E03%201080p%20HEVC%20AMZN%20WEB-DL%20Dual%20Audio%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Sword of the Demon Hunter S01E03 1080p HEVC AMZN WEB-DL Dual Audio ESub.mkv" }
+  }
+},
+"fullmetal-alchemist-brotherhood-1x4": {
+  qualities: {
+    "480p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=lLBKkw5jHSBWl18vtGrY9k8fHza_h1Lavp2buQ4sqSgF7pS5_vI-5sHYpp4bsb9vn_qHgXLcbsRXF9KTe4sRpg&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Sword%20of%20the%20Demon%20Hunter%20S01E04%20480p%20AMZN%20WEB-DL%20Dual%20Audio%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Sword of the Demon Hunter S01E04 480p AMZN WEB-DL Dual Audio ESub.mkv" },
+    "720p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=_jVTor_dvykiZfly-wdP0WUE2L-xLGUskrPS9jwsYpvDuxV5vznlGwk3uZ0CrcWGA2UJ5nQ62FA5D23cUYAuaw&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Sword%20of%20the%20Demon%20Hunter%20S01E04%20720p%20HD%20AMZN%20WEB-DL%20Dual%20Audio%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Sword of the Demon Hunter S01E04 720p HD AMZN WEB-DL Dual Audio ESub.mkv" },
+    "1080p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=arJOTyhqWvmuTmfOXU_qlaSAYqnhYCObdVONbY0_Qbn7vGWv69-kaW2sjQQuoemDBS0JkOHRElviVdzUfcDLog&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Sword%20of%20the%20Demon%20Hunter%20S01E04%201080p%20HEVC%20AMZN%20WEB-DL%20Dual%20Audio%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Sword of the Demon Hunter S01E04 1080p HEVC AMZN WEB-DL Dual Audio ESub.mkv" }
+  }
+},
+"fullmetal-alchemist-brotherhood-1x5": {
+  qualities: {
+    "480p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=A3F9UMxJF6pvoN_t0MhCZsSz0fp4c_SIz_GiBySBxvRAIYHUHJ9iBVhNgvlBtiW10BWouQDvsX4nSP_DesDQvA&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Sword%20of%20the%20Demon%20Hunter%20S01E05%20480p%20AMZN%20WEB-DL%20Dual%20Audio%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Sword of the Demon Hunter S01E05 480p AMZN WEB-DL Dual Audio ESub.mkv" },
+    "720p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=ldfgXMib2KRjimQgAAR7iDBzoY1LNR8gqxut-UbTlAuXVbRL1xB-9Ta7NjeTQqwCag5FS1q1fZJl70qWsnScJQ&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Sword%20of%20the%20Demon%20Hunter%20S01E05%20720p%20HD%20AMZN%20WEB-DL%20Dual%20Audio%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Sword of the Demon Hunter S01E05 720p HD AMZN WEB-DL Dual Audio ESub.mkv" },
+    "1080p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=tFt-j8W2ewd3rGp-9fKAslF_fSB-v1tG2Me1m2KUlVLcRnztQjD9xqSFCKqBd36Zu8GYNvIqY_j3rua0DK9uvA&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Sword%20of%20the%20Demon%20Hunter%20S01E05%201080p%20HEVC%20AMZN%20WEB-DL%20Dual%20Audio%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Sword of the Demon Hunter S01E05 1080p HEVC AMZN WEB-DL Dual Audio ESub.mkv" }
+  }
+},
+"fullmetal-alchemist-brotherhood-1x6": {
+  qualities: {
+    "480p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=0SxSMioVEe8WEDjJiEykh8rD7gVi-pehPKhDwJ0s0LDi1EXroxlvstu8f6xM8TcGW2IIuzBXmWSy5hdXCfNvTQ&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Sword%20of%20the%20Demon%20Hunter%20S01E06%20480p%20AMZN%20WEB-DL%20Dual%20Audio%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Sword of the Demon Hunter S01E06 480p AMZN WEB-DL Dual Audio ESub.mkv" },
+    "720p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=n__kABnPUJ2158bETfFiLa6XyARnjHu_xEwVurL86CSj4YMDYGGcn1DJjyNlTrG8f0nQSebJMwS2lAyPsq963w&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Sword%20of%20the%20Demon%20Hunter%20S01E06%20720p%20HD%20AMZN%20WEB-DL%20Dual%20Audio%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Sword of the Demon Hunter S01E06 720p HD AMZN WEB-DL Dual Audio ESub.mkv" },
+    "1080p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=e2a5c1TJ3gU7nnkfm6UO6EVxiSapaBvrged8rr8txgUuDgNmt5dfClB32156Ghwg0YJobOCvQzaU8WOlPG_xgw&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Sword%20of%20the%20Demon%20Hunter%20S01E06%201080p%20HEVC%20AMZN%20WEB-DL%20Dual%20Audio%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Sword of the Demon Hunter S01E06 1080p HEVC AMZN WEB-DL Dual Audio ESub.mkv" }
+  }
+},
+"fullmetal-alchemist-brotherhood-1x7": {
+  qualities: {
+    "480p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=6yhn8lH75EpjuqBydFax0_oEuBZvs8FUUMWTnuSe-uczrCy5F-1w3ZBWNvPiTYTp6u3SwFYunn12HMU6o9YKmg&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Sword%20of%20the%20Demon%20Hunter%20S01E07%20480p%20AMZN%20WEB-DL%20Dual%20Audio%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Sword of the Demon Hunter S01E07 480p AMZN WEB-DL Dual Audio ESub.mkv" },
+    "720p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=LBB7GKzbKc_YubFR07OoTXnpKsvM4dPyttBwyJPiDzLItXZgnCZsUbKgsNujbF_xkH6Yye6EG7jb1Ro1FIfPQQ&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Sword%20of%20the%20Demon%20Hunter%20S01E07%20720p%20HD%20AMZN%20WEB-DL%20Dual%20Audio%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Sword of the Demon Hunter S01E07 720p HD AMZN WEB-DL Dual Audio ESub.mkv" },
+    "1080p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=vfKTGPQ0qT5ScyldvhaZ8yqU3WLfjt_8gXXO0w3lhbLic3ivq-DHpMbozM3NaZwDI80VKe0cd4WTXHF7-Mo1MA&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Sword%20of%20the%20Demon%20Hunter%20S01E07%201080p%20HEVC%20AMZN%20WEB-DL%20Dual%20Audio%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Sword of the Demon Hunter S01E07 1080p HEVC AMZN WEB-DL Dual Audio ESub.mkv" }
+  }
+},
+"fullmetal-alchemist-brotherhood-1x8": {
+  qualities: {
+    "480p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=keYgt-7OwDbHmmQqbScDb3S6Pl3q9rW8Bw3eYcQTnQ62sFAE_50pSTZEyEJNVOwKhz_aK2s21P7E7OqOiKjRrw&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Sword%20of%20the%20Demon%20Hunter%20S01E08%20480p%20AMZN%20WEB-DL%20Dual%20Audio%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Sword of the Demon Hunter S01E08 480p AMZN WEB-DL Dual Audio ESub.mkv" },
+    "720p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=c_9ZMrRSCuOVjv1trG34tcFF_QrUL_O4EavuU5YH2Bag2isMMWOWE3EvDWoUL6cfogQjIHs6ALOlOzUdpJTtAA&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Sword%20of%20the%20Demon%20Hunter%20S01E08%20720p%20HD%20AMZN%20WEB-DL%20Dual%20Audio%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Sword of the Demon Hunter S01E08 720p HD AMZN WEB-DL Dual Audio ESub.mkv" },
+    "1080p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=NYZl5hQLepjybBp7xXDyhXkLjnxSdhfOWaVrd1QWUmXXi76M6iEjiXvywcGIVXisprDRm_-LlXhwK8PFo28GFQ&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Sword%20of%20the%20Demon%20Hunter%20S01E08%201080p%20HEVC%20AMZN%20WEB-DL%20Dual%20Audio%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Sword of the Demon Hunter S01E08 1080p HEVC AMZN WEB-DL Dual Audio ESub.mkv" }
+  }
+},
+"fullmetal-alchemist-brotherhood-1x9": {
+  qualities: {
+    "480p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=SfNRJdhbn_OFcOFGAY87u3QaXnA6TinqvgTQPMd50fX54nOEuvlFjiwMfZZdYMpuXz7KIGChJHGhBjY5mRSCOg&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Sword%20of%20the%20Demon%20Hunter%20S01E09%20480p%20AMZN%20WEB-DL%20Dual%20Audio%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Sword of the Demon Hunter S01E09 480p AMZN WEB-DL Dual Audio ESub.mkv" },
+    "720p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=mFc7NmEETFPJDNGWwX6r8SW5rvUOVmgkaRn5Vgrvif6jtkhnktBZSlVtVi38HlgXqsmAHNM2iir-_csykydoVQ&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Sword%20of%20the%20Demon%20Hunter%20S01E09%20720p%20HD%20AMZN%20WEB-DL%20Dual%20Audio%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Sword of the Demon Hunter S01E09 720p HD AMZN WEB-DL Dual Audio ESub.mkv" },
+    "1080p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=NjtNRKxFEqenqNQCsLf_rLzmJonwi7t5lwcSO25NAkhgVwl6ta48QE9adqj7OkpPe6Sn4zgI2F-0XAmyjfvY6Q&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Sword%20of%20the%20Demon%20Hunter%20S01E09%201080p%20HEVC%20AMZN%20WEB-DL%20Dual%20Audio%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Sword of the Demon Hunter S01E09 1080p HEVC AMZN WEB-DL Dual Audio ESub.mkv" }
+  }
+},
+"fullmetal-alchemist-brotherhood-1x10": {
+  qualities: {
+    "480p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=j6NCAwUyDIgGBy9sDEJ5gcK5QPpiCfNzxzHCPH279dNpaC0LnpmY_p-WDVmoOmDth4tKBJmmGRDdFYpTTvUI2w&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Sword%20of%20the%20Demon%20Hunter%20S01E10%20480p%20AMZN%20WEB-DL%20Dual%20Audio%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Sword of the Demon Hunter S01E10 480p AMZN WEB-DL Dual Audio ESub.mkv" },
+    "720p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=VRpiv1V5MCt4dnkjulNrp-VUiwFQI8qarILFgH1E-5_wbm1APwX-Fd33CLlLLOWyjgZKT2bSpIxRBKuHSO8FVg&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Sword%20of%20the%20Demon%20Hunter%20S01E10%20720p%20HD%20AMZN%20WEB-DL%20Dual%20Audio%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Sword of the Demon Hunter S01E10 720p HD AMZN WEB-DL Dual Audio ESub.mkv" },
+    "1080p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=33pg-QtSOSkhs1kAFQmDYKhyMJcDzDCfkqboXKLR1IQiyYcgFMY-kGsG2ZA6TXbcYyiTQM2lE_4Zz4bcfhlsJg&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Sword%20of%20the%20Demon%20Hunter%20S01E10%201080p%20HEVC%20AMZN%20WEB-DL%20Dual%20Audio%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Sword of the Demon Hunter S01E10 1080p HEVC AMZN WEB-DL Dual Audio ESub.mkv" }
+  }
+},
+"fullmetal-alchemist-brotherhood-1x11": {
+  qualities: {
+    "480p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=8IEDj_-pDLknUdcRdlGbQvIOv7a0mTTE2P4QIeuKNrz95lWpVrtYT9O0GOwUzQENVx-XLYX6aed4lztKPqMCXw&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Sword%20of%20the%20Demon%20Hunter%20S01E11%20480p%20AMZN%20WEB-DL%20Dual%20Audio%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Sword of the Demon Hunter S01E11 480p AMZN WEB-DL Dual Audio ESub.mkv" },
+    "720p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=DFIqdMGw6eoFwcqkoWzgJhaPAO3PMeBEV0cagkwOQimieerHR-fRwvZDmQxmiwQjKHNWyqKuHSG56GEoSZppwQ&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Sword%20of%20the%20Demon%20Hunter%20S01E11%20720p%20HD%20AMZN%20WEB-DL%20Dual%20Audio%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Sword of the Demon Hunter S01E11 720p HD AMZN WEB-DL Dual Audio ESub.mkv" },
+    "1080p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=H7l_dy5eiDBOmvrhPYrEgGYlmieZ3Y2FuZdANJtO6xoytT00TJtOYPk9zzK1UBPx-jWqRUxN3aa_0ni9Tpu7dA&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Sword%20of%20the%20Demon%20Hunter%20S01E11%201080p%20HEVC%20AMZN%20WEB-DL%20Dual%20Audio%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Sword of the Demon Hunter S01E11 1080p HEVC AMZN WEB-DL Dual Audio ESub.mkv" }
+  }
+},
+"fullmetal-alchemist-brotherhood-1x12": {
+  qualities: {
+    "480p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=GBfhcgYR39L-f7dkjGfdpeoMIbJsQ0sHtywcyKR5v86n0ojR5VBpDd1Bhh98jDMhffKdzuTg8MokbX45-ABSVA&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Sword%20of%20the%20Demon%20Hunter%20S01E12%20480p%20AMZN%20WEB-DL%20Dual%20Audio%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Sword of the Demon Hunter S01E12 480p AMZN WEB-DL Dual Audio ESub.mkv" },
+    "720p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=baF3jyyFRHOhmWJ9twuBjYIHlVSifPFqbhzfTQ2NoeFb4VSLE4qGl0M7I9QVdo25O14HBvUOxL4V5_ZWBOaEUQ&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Sword%20of%20the%20Demon%20Hunter%20S01E12%20720p%20HD%20AMZN%20WEB-DL%20Dual%20Audio%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Sword of the Demon Hunter S01E12 720p HD AMZN WEB-DL Dual Audio ESub.mkv" },
+    "1080p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=anpxnmJRhr6PJKr_ARL9xp9M9oWCHr64gBaazzKvNEm-UB6D7zMxxX5jJBxaw9zuU-1sPL31JZ8l5Hg9LBQ51w&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Sword%20of%20the%20Demon%20Hunter%20S01E12%201080p%20HEVC%20AMZN%20WEB-DL%20Dual%20Audio%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Sword of the Demon Hunter S01E12 1080p HEVC AMZN WEB-DL Dual Audio ESub.mkv" }
+  }
+},
+"fullmetal-alchemist-brotherhood-1x13": {
+  qualities: {
+    "480p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=pYBV28TGd0aYCZpHSbL6k8sr5f_y2LHVCaelhqShIv1CSGVwNX107Y6fd95RvjCcJii7zdioKfWa5vQg9JLKjA&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Sword%20of%20the%20Demon%20Hunter%20S01E13%20480p%20AMZN%20WEB-DL%20Dual%20Audio%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Sword of the Demon Hunter S01E13 480p AMZN WEB-DL Dual Audio ESub.mkv" },
+    "720p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=Vq63CBmrNYzMLEpO3I5_s0viQUC-5ryunfWaUyA_YZaw4ceHPcAbWjHY0CMBk-osHci92DX1jTN3UoN437XI2A&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Sword%20of%20the%20Demon%20Hunter%20S01E13%20720p%20HD%20AMZN%20WEB-DL%20Dual%20Audio%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Sword of the Demon Hunter S01E13 720p HD AMZN WEB-DL Dual Audio ESub.mkv" },
+    "1080p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=OAXC6FjvId2jas7n54gk3URmoxNtzCkrsCdSQsYQ6yhSiQsK5Fja4RB07pB_p-M9hInE2zKsbkkld_5YDgRWpg&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Sword%20of%20the%20Demon%20Hunter%20S01E13%201080p%20HEVC%20AMZN%20WEB-DL%20Dual%20Audio%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Sword of the Demon Hunter S01E13 1080p HEVC AMZN WEB-DL Dual Audio ESub.mkv" }
+  }
+},
+"fullmetal-alchemist-brotherhood-1x14": {
+  qualities: {
+    "480p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=TELZjPCG76vY5hbc0zSN9p1YJjqUImOi5kwn1ZEGoOXNWzEGN8n4I-piX4N5M0BlAT6H4xscQQr_L2yPVHhwYw&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Sword%20of%20the%20Demon%20Hunter%20S01E14%20480p%20AMZN%20WEB-DL%20Dual%20Audio%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Sword of the Demon Hunter S01E14 480p AMZN WEB-DL Dual Audio ESub.mkv" },
+    "720p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=Y-wErbItW8KQo7OJTwbrh3axFjtcsFwD6v3QpvreVVRUYS2P01YuQHyWnDF7L7siv-etOgngFc0CtVvltk9xgg&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Sword%20of%20the%20Demon%20Hunter%20S01E14%20720p%20HD%20AMZN%20WEB-DL%20Dual%20Audio%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Sword of the Demon Hunter S01E14 720p HD AMZN WEB-DL Dual Audio ESub.mkv" },
+    "1080p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=9RoMBhSvuK2aN3fhlZIhzkb1jzFQQXaDZ_7LFJIFz-4z5BrMiF8psTCyv68TFjTqvoCfZ344sBRrtiXOPs0Fng&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Sword%20of%20the%20Demon%20Hunter%20S01E14%201080p%20HEVC%20AMZN%20WEB-DL%20Dual%20Audio%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Sword of the Demon Hunter S01E14 1080p HEVC AMZN WEB-DL Dual Audio ESub.mkv" }
+  }
+},
+"fullmetal-alchemist-brotherhood-1x15": {
+  qualities: {
+    "480p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=EuLlcat6_FAlhq7NswHenZuEf8yj9iOSQ7B-QAspnmjjXHGZC7omISBbpJLbGGt5HRwCxa_T6-yd6az112tWgA&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Sword%20of%20the%20Demon%20Hunter%20S01E15%20480p%20AMZN%20WEB-DL%20Dual%20Audio%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Sword of the Demon Hunter S01E15 480p AMZN WEB-DL Dual Audio ESub.mkv" },
+    "720p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=79b0s0bVAu-5lhTPgqstUhy7Kw0-C6QC-anA01QzTSz-HB2u9vLbOwiWGClQLx_FuDg1b_KcRqDbvw4p4-58Dw&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Sword%20of%20the%20Demon%20Hunter%20S01E15%20720p%20HD%20AMZN%20WEB-DL%20Dual%20Audio%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Sword of the Demon Hunter S01E15 720p HD AMZN WEB-DL Dual Audio ESub.mkv" },
+    "1080p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=4pxZ-wlQw7eHsZx_vKv36YOfasQJCOCVNJ1RBwtNpahyslGe6lmXBJoWWfsO7Iin3m4vZS-8d6NXCEs9rEplrA&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Sword%20of%20the%20Demon%20Hunter%20S01E15%201080p%20HEVC%20AMZN%20WEB-DL%20Dual%20Audio%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Sword of the Demon Hunter S01E15 1080p HEVC AMZN WEB-DL Dual Audio ESub.mkv" }
+  }
+},
+"fullmetal-alchemist-brotherhood-1x16": {
+  qualities: {
+    "480p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=TjM2OW7SWabViDdH_2VkA2ohdES0rrynSXFdpc6Ckokjn71fQoaJTSqmdVR8m8ZZ7v-c0EL69rPXHoTGw3AfFA&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Sword%20of%20the%20Demon%20Hunter%20S01E16%20480p%20AMZN%20WEB-DL%20Dual%20Audio%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Sword of the Demon Hunter S01E16 480p AMZN WEB-DL Dual Audio ESub.mkv" },
+    "720p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=kPGZYaesvsNe-jOA4Rhafo-IjVXqEfatPzkKfAWhuv9jxNjdyxIF2ItzWHKq8xtBox9jel3glJROyxqvXFehwQ&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Sword%20of%20the%20Demon%20Hunter%20S01E16%20720p%20HD%20AMZN%20WEB-DL%20Dual%20Audio%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Sword of the Demon Hunter S01E16 720p HD AMZN WEB-DL Dual Audio ESub.mkv" },
+    "1080p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=AnM8wNJC0rplRRH-_5dSWtQgYHA_fmhDKh7KIMNdP9xJadIYuB61ZE_J-xwaf-v8sDdAu9kLWejLaOepkb0Cwg&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Sword%20of%20the%20Demon%20Hunter%20S01E16%201080p%20HEVC%20AMZN%20WEB-DL%20Dual%20Audio%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Sword of the Demon Hunter S01E16 1080p HEVC AMZN WEB-DL Dual Audio ESub.mkv" }
+  }
+},
+"fullmetal-alchemist-brotherhood-1x17": {
+  qualities: {
+    "480p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=9jHSApjxg8hlG6kJNYdVDqM6QrFUDikmkontPJCfN7M1Ok2fxgr6xWWlNDU6rHmjchZN04AyL0Zy0ylwKWulEQ&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Sword%20of%20the%20Demon%20Hunter%20S01E17%20480p%20AMZN%20WEB-DL%20Dual%20Audio%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Sword of the Demon Hunter S01E17 480p AMZN WEB-DL Dual Audio ESub.mkv" },
+    "1080p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=l_C3AlYRGKMv2zNepUQvheg9hjoi6T1N1G0QaLo-CHEz29_H_k67IRp3n2wDOtvh-Dwzs--HrlFcjQMiqL6TKA&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Sword%20of%20the%20Demon%20Hunter%20S01E17%201080p%20HEVC%20AMZN%20WEB-DL%20Dual%20Audio%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Sword of the Demon Hunter S01E17 1080p HEVC AMZN WEB-DL Dual Audio ESub.mkv" }
+  }
+},
+"fullmetal-alchemist-brotherhood-1x18": {
+  qualities: {
+    "480p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=5RNQcUn9PkB1vNdjNdz3sHpusf06gP4o5He-r6DxLn5naX6LK_o1xVg8Dg99z1rjUwgamzeXJDPgO4M1-gwKXA&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Sword%20of%20the%20Demon%20Hunter%20S01E18%20480p%20AMZN%20WEB-DL%20Dual%20Audio%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Sword of the Demon Hunter S01E18 480p AMZN WEB-DL Dual Audio ESub.mkv" },
+    "720p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=Lxzb22VA5EmDzfPbibiKp0FP8tjLkqphumhxEc9AQxqsdMbP1E6wD8qVCYDGg3kZeQVo89a1CWgoeu7b6d50UQ&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Sword%20of%20the%20Demon%20Hunter%20S01E18%20720p%20HD%20AMZN%20WEB-DL%20Dual%20Audio%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Sword of the Demon Hunter S01E18 720p HD AMZN WEB-DL Dual Audio ESub.mkv" },
+    "1080p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=urdgpLwSHfdsCoIsMBsyG3X_Aa9HsOyW1FO3LALsYYQSkUdzD6pdX4CL0GJCnOAm0a7fx0mh9AJ-6BzS76k_9Q&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Sword%20of%20the%20Demon%20Hunter%20S01E18%201080p%20HEVC%20AMZN%20WEB-DL%20Dual%20Audio%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Sword of the Demon Hunter S01E18 1080p HEVC AMZN WEB-DL Dual Audio ESub.mkv" }
+  }
+},
+"fullmetal-alchemist-brotherhood-1x19": {
+  qualities: {
+    "480p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=vgj3r4ZvjyJz_5R4nM1x3QiBAvHNfveXxnqES-VXC5DmcqRLbqKi3ZPu8rERnAJ1C8z0ZNGRhl52umNSynoHzA&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Sword%20of%20the%20Demon%20Hunter%20S01E19%20480p%20AMZN%20WEB-DL%20Dual%20Audio%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Sword of the Demon Hunter S01E19 480p AMZN WEB-DL Dual Audio ESub.mkv" },
+    "720p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=8gpJwhRiPp2DC6XfKwpTHef2tHul84q0ZiStNVVM2rlpoFUfhFbecrgXCZCc2cCV19wiBHPjsVg2cxNelvYN3Q&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Sword%20of%20the%20Demon%20Hunter%20S01E19%20720p%20HD%20AMZN%20WEB-DL%20Dual%20Audio%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Sword of the Demon Hunter S01E19 720p HD AMZN WEB-DL Dual Audio ESub.mkv" },
+    "1080p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=S50mASaoKIr_VuxQg69Wy6v6NZfW_8PtYcY_xdVneI3hbNnrYntyYxfgqg_vJRca0ukZIkLHkbJESOGteFUNeg&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Sword%20of%20the%20Demon%20Hunter%20S01E19%201080p%20HEVC%20AMZN%20WEB-DL%20Dual%20Audio%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Sword of the Demon Hunter S01E19 1080p HEVC AMZN WEB-DL Dual Audio ESub.mkv" }
+  }
+},
+"fullmetal-alchemist-brotherhood-1x20": {
+  qualities: {
+    "480p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=P5v-66pTz9PHlF8vatMgd87S8HLt1zWPCLjYjyh65m6IXoqNCIZoTNV25dNzcOVTq5GsR7Y7At71PEgq974mHw&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Sword%20of%20the%20Demon%20Hunter%20S01E20%20480p%20AMZN%20WEB-DL%20Dual%20Audio%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Sword of the Demon Hunter S01E20 480p AMZN WEB-DL Dual Audio ESub.mkv" },
+    "720p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=GPsa4ep6E1k9Ot83QdiUg6-AbqfdzaCyi6iTNFr1PvUjnNM0-B0a6_kAgKnsdRJ5kZbPPcLPCtpuSo4oYFGKvQ&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Sword%20of%20the%20Demon%20Hunter%20S01E20%20720p%20HD%20AMZN%20WEB-DL%20Dual%20Audio%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Sword of the Demon Hunter S01E20 720p HD AMZN WEB-DL Dual Audio ESub.mkv" },
+    "1080p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=QvjyQByOQ4Fzpo8ygNVVUjSSADcmoIjLNPTxz5atIcENV_fAtqGIJkYSH0ELTU99928hvQ3VlKAOnWFjGS6U5g&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Sword%20of%20the%20Demon%20Hunter%20S01E20%201080p%20HEVC%20AMZN%20WEB-DL%20Dual%20Audio%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Sword of the Demon Hunter S01E20 1080p HEVC AMZN WEB-DL Dual Audio ESub.mkv" }
+  }
+},
+"fullmetal-alchemist-brotherhood-1x21": {
+  qualities: {
+    "480p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=PveCs7qi_FJHpnkfBMNaiKsQGUQNrVrdEkU7voJGLCUL9ONPQxOzcfwkteBbOyXQKYoWh6qgMuIYIRe163MqVQ&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Sword%20of%20the%20Demon%20Hunter%20S01E21%20480p%20AMZN%20WEB-DL%20Dual%20Audio%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Sword of the Demon Hunter S01E21 480p AMZN WEB-DL Dual Audio ESub.mkv" },
+    "720p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=3pX_XmtCfeTjvQT1wr5d7YOkWOv1oXsja9N4BnHZehol0yxjtsV8TDsQhHXi0zzvNUjpgJF_WVrqKYZbFNMs5Q&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Sword%20of%20the%20Demon%20Hunter%20S01E21%20720p%20HD%20AMZN%20WEB-DL%20Dual%20Audio%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Sword of the Demon Hunter S01E21 720p HD AMZN WEB-DL Dual Audio ESub.mkv" },
+    "1080p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=sP1naKHv5-vgmNad9V8tOivoBsAE-ZH9tDr04d7akDAqEcPP8y2MAU3CcXb6GssN2rESqTC7RuqR2NvK2nwTVQ&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Sword%20of%20the%20Demon%20Hunter%20S01E21%201080p%20HEVC%20AMZN%20WEB-DL%20Dual%20Audio%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Sword of the Demon Hunter S01E21 1080p HEVC AMZN WEB-DL Dual Audio ESub.mkv" }
+  }
+},
+"fullmetal-alchemist-brotherhood-1x22": {
+  qualities: {
+    "480p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=8zQH8-rgtFe1M8cp2uWyhs5DrHrHKiHypHokcnhIfks2qRWm2QbZ9xjZdK6n2_GLSv_qErTWPP0-z0vr2OsFBQ&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Sword%20of%20the%20Demon%20Hunter%20S01E22%20480p%20AMZN%20WEB-DL%20Dual%20Audio%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Sword of the Demon Hunter S01E22 480p AMZN WEB-DL Dual Audio ESub.mkv" },
+    "720p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=oTA3q94F1gHsO4w_Xq5PYCN4yBjU7tl2ZC5_BxZ4FoeULPCCWO6rVVSC4Q8eqX4KxPCpePWOEtt50MY5NNxixA&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Sword%20of%20the%20Demon%20Hunter%20S01E22%20720p%20HD%20AMZN%20WEB-DL%20Dual%20Audio%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Sword of the Demon Hunter S01E22 720p HD AMZN WEB-DL Dual Audio ESub.mkv" },
+    "1080p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=zJBgnyZdNEjjVUDK9obNKII1MaLyA_YX5KgpL8kKCjqyMuWUgQe_I3QHlfdlDyRdjcKr_4YkTZLfNWkCQTbuiw&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Sword%20of%20the%20Demon%20Hunter%20S01E22%201080p%20HEVC%20AMZN%20WEB-DL%20Dual%20Audio%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Sword of the Demon Hunter S01E22 1080p HEVC AMZN WEB-DL Dual Audio ESub.mkv" }
+  }
+},
+"fullmetal-alchemist-brotherhood-1x23": {
+  qualities: {
+    "480p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=S93ztrMSivsId1-tO6MB6SXqaxtlFMYQbHncny7ST8j-AxAOFp78gqJCeSKJJmlC8RaHhf67VUPS6LzmANijbQ&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Sword%20of%20the%20Demon%20Hunter%20S01E23%20480p%20AMZN%20WEB-DL%20Dual%20Audio%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Sword of the Demon Hunter S01E23 480p AMZN WEB-DL Dual Audio ESub.mkv" },
+    "720p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=9t82ZZUS6vlgzE3BoH1uGAdo8EGyKtH5bHYmjtxHsViclc04ZrZbhMsUOERBVEWbd9kymHHtt84t6Y7m2zEQww&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Sword%20of%20the%20Demon%20Hunter%20S01E23%20720p%20HD%20AMZN%20WEB-DL%20Dual%20Audio%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Sword of the Demon Hunter S01E23 720p HD AMZN WEB-DL Dual Audio ESub.mkv" },
+    "1080p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=rX1jV4iHAO3f91EXW61pnHMoQII9sEtjNnAIGBurpltQNlv11fVasMXfhff-5-7NtwxrWTvGxQivTEjjCCfZ3g&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Sword%20of%20the%20Demon%20Hunter%20S01E23%201080p%20HEVC%20AMZN%20WEB-DL%20Dual%20Audio%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Sword of the Demon Hunter S01E23 1080p HEVC AMZN WEB-DL Dual Audio ESub.mkv" }
+  }
+},
+"fullmetal-alchemist-brotherhood-1x24": {
+  qualities: {
+    "480p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=76mhBSN0ffsxdeWktYna88zQYWo8KJhcBi80fKTVdwg3rgcDcQ5D4qgCV5cyQrvQiX1RhGG0tLlh-LN4jSfrTA&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Sword%20of%20the%20Demon%20Hunter%20S01E24%20480p%20AMZN%20WEB-DL%20Dual%20Audio%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Sword of the Demon Hunter S01E24 480p AMZN WEB-DL Dual Audio ESub.mkv" },
+    "720p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=Dx7drMLayCNHUPiGfVQW2e9V-3WZxBUcrrEAqK5-yrVDvTr0f2HLK03eEwpo-yuJcFc9CApCP8BNvoC2oeaZpQ&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Sword%20of%20the%20Demon%20Hunter%20S01E24%20720p%20HD%20AMZN%20WEB-DL%20Dual%20Audio%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Sword of the Demon Hunter S01E24 720p HD AMZN WEB-DL Dual Audio ESub.mkv" },
+    "1080p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=8gj82ZbonYlLalLVaqXGvK8jBULDGvvmXAy2eTrZhpCYPsgGk2ZY0jva4HZy5upCWZcFxV-L4rlzuC58WDu3Sg&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Sword%20of%20the%20Demon%20Hunter%20S01E24%201080p%20HEVC%20AMZN%20WEB-DL%20Dual%20Audio%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Sword of the Demon Hunter S01E24 1080p HEVC AMZN WEB-DL Dual Audio ESub.mkv" }
+  }
+},
+"fullmetal-alchemist-brotherhood-1x27": {
+  qualities: {
+    "480p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=BAnOq52hdR4zk_hHtbLDrkmCSIC7EGA8iKaaNKaO1gQBFS5-ca5vK7S9h0op3KGo3MB-sAMfaZOrR3QMEBXcYg&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Fullmetal%20Alchemist%20Brotherhood%20S01E27%20480p%20BluRay%20Multi%20Audio%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Fullmetal Alchemist Brotherhood S01E27 480p BluRay Multi Audio ESub.mkv" },
+    "720p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=0HEP73V1lJmR6dXd2DZEux7o6OOGVMPFWeKGF_YSMDM3DdLNGcfBULU3oKY6SUovX3STuoCAx_5LAJpn4AEU0A&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Fullmetal%20Alchemist%20Brotherhood%20S01E27%20720p%20HD%20BluRay%20Multi%20Audio%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Fullmetal Alchemist Brotherhood S01E27 720p HD BluRay Multi Audio ESub.mkv" },
+    "1080p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=uO4v5_nnx7pFddrkeXVpIl_J_T-0C-fdaWzc04VA9KSKV9vdvcbz-2I53yJ5Y-47fdwevXGWbQgNv3n_GuBCYg&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Fullmetal%20Alchemist%20Brotherhood%20S01E27%201080p%20HEVC%2010bit%20BluRay%20Multi%20Audio%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Fullmetal Alchemist Brotherhood S01E27 1080p HEVC 10bit BluRay Multi Audio ESub.mkv" }
+  }
+},
+"fullmetal-alchemist-brotherhood-1x28": {
+  qualities: {
+    "480p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=C9jNOJW1V9IXfF-Ml6PNTtdnk-kXAUXBeYxaiiO4e-RlIpgZQ9LshEQmbYedrU70pGtWKj_x-dY8ZlNDW6kNRA&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Fullmetal%20Alchemist%20Brotherhood%20S01E28%20480p%20BluRay%20Multi%20Audio%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Fullmetal Alchemist Brotherhood S01E28 480p BluRay Multi Audio ESub.mkv" },
+    "720p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=0yxxHhBZUyofTmzQxozn991dieOtkMg2UA01wvaUTV13XU6AXWZU9oVBj90mEF7J1LmRAWnrqCqzqT1JwyXCeA&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Fullmetal%20Alchemist%20Brotherhood%20S01E28%20720p%20HD%20BluRay%20Multi%20Audio%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Fullmetal Alchemist Brotherhood S01E28 720p HD BluRay Multi Audio ESub.mkv" },
+    "1080p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=lpVBKbC1SPE3Fzzk0cru5ZlbIqC-6ixM-EiiJV1TUZcweXTO9YQmnG5l7Ug3d5VW2OEztjYioq2OXILmj19Xzg&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Fullmetal%20Alchemist%20Brotherhood%20S01E28%201080p%20HEVC%2010bit%20BluRay%20Multi%20Audio%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Fullmetal Alchemist Brotherhood S01E28 1080p HEVC 10bit BluRay Multi Audio ESub.mkv" }
+  }
+},
+"fullmetal-alchemist-brotherhood-1x29": {
+  qualities: {
+    "480p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=RK3y-EbgmWAXNTHZFaXbPEG93SJu_CPPHPSvs2K2a3gOusAsk3pksO2IDPZX1KlyjUTSxc6e1Der6r3miIkNCw&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Fullmetal%20Alchemist%20Brotherhood%20S01E29%20480p%20BluRay%20Multi%20Audio%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Fullmetal Alchemist Brotherhood S01E29 480p BluRay Multi Audio ESub.mkv" },
+    "720p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=iwJPwU2j5KOmoPVJqzB9LZpL2JLzfM5saV8lcpzgHOQj8Y4CfhaHVcqOQ7ozJE9bcqcX_DLavKGrGj3tCB6fNw&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Fullmetal%20Alchemist%20Brotherhood%20S01E29%20720p%20HD%20BluRay%20Multi%20Audio%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Fullmetal Alchemist Brotherhood S01E29 720p HD BluRay Multi Audio ESub.mkv" },
+    "1080p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=8vwqGuRCV3EUixIyR2FN2UpuVUMUnpzh7hB6QvOSnBJyzxj1f-wLwovMd41Iy2TLwQiA2sHZrul4XqWtJvGSKA&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Fullmetal%20Alchemist%20Brotherhood%20S01E29%201080p%20HEVC%2010bit%20BluRay%20Multi%20Audio%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Fullmetal Alchemist Brotherhood S01E29 1080p HEVC 10bit BluRay Multi Audio ESub.mkv" }
+  }
+},
+"fullmetal-alchemist-brotherhood-1x30": {
+  qualities: {
+    "480p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=z657jROEs6LjX5Jaen-r5BxwzqTwi1JvaNrc2YzAmREUrFIrX2q_8vhbOZqbLeE2P8FxfLrwmviLVvU0r1hg3Q&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Fullmetal%20Alchemist%20Brotherhood%20S01E30%20480p%20BluRay%20Multi%20Audio%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Fullmetal Alchemist Brotherhood S01E30 480p BluRay Multi Audio ESub.mkv" },
+    "720p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=uD9zac6v5Bzfy2VArTjEFr1Kl7mydGC7Ga_Ns1UIFeXAiyS2gllocGOzPBRE-ii5CAP9tZdFTtFrVsgcOd369A&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Fullmetal%20Alchemist%20Brotherhood%20S01E30%20720p%20HD%20BluRay%20Multi%20Audio%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Fullmetal Alchemist Brotherhood S01E30 720p HD BluRay Multi Audio ESub.mkv" },
+    "1080p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=d9Is5SxXb4trEs9ZBIu4RRQpXAnaDPzmynY2SHyR80c70ksj7-yy0pZaCYwzmGwJeJgpLuBC15Eaik0N2QwQQg&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Fullmetal%20Alchemist%20Brotherhood%20S01E30%201080p%20HEVC%2010bit%20BluRay%20Multi%20Audio%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Fullmetal Alchemist Brotherhood S01E30 1080p HEVC 10bit BluRay Multi Audio ESub.mkv" }
+  }
+},
+"fullmetal-alchemist-brotherhood-1x31": {
+  qualities: {
+    "480p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=9qbHysp2LQuCU4GisyW0EU_-7UFnpWXpP-BlT9qrY1orr6bDmLdUnznbqUQjnV--BaDmnw9Eb200bhr4vfd31g&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Fullmetal%20Alchemist%20Brotherhood%20S01E31%20480p%20BluRay%20Multi%20Audio%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Fullmetal Alchemist Brotherhood S01E31 480p BluRay Multi Audio ESub.mkv" },
+    "720p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=XhYeh2ReBXAROjduVcqgupSmh3rcdRC8BN9whDp6tVT1I5cb_O-LOI6CvSpvgdAAJ7fmwxlD-ww0cAb5_D8XQQ&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Fullmetal%20Alchemist%20Brotherhood%20S01E31%20720p%20HD%20BluRay%20Multi%20Audio%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Fullmetal Alchemist Brotherhood S01E31 720p HD BluRay Multi Audio ESub.mkv" },
+    "1080p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=u4qJmCN6jMH3gVNvPAGgnubdu3_Sm00dXDXaicfW8oHzzrftB1d62EICpCnHErEvOtO9sgmv7mIWvIErviQXuA&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Fullmetal%20Alchemist%20Brotherhood%20S01E31%201080p%20HEVC%2010bit%20BluRay%20Multi%20Audio%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Fullmetal Alchemist Brotherhood S01E31 1080p HEVC 10bit BluRay Multi Audio ESub.mkv" }
+  }
+},
+"fullmetal-alchemist-brotherhood-1x32": {
+  qualities: {
+    "480p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=qu2DJE-Gmj4dT5g733T9NFVUlWAKztEGka7OuYvTzjg3OEOBBOcRpbzxt7GJpbD7HFAcy71j55lHcuytbSRd2w&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Fullmetal%20Alchemist%20Brotherhood%20S01E32%20480p%20BluRay%20Multi%20Audio%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Fullmetal Alchemist Brotherhood S01E32 480p BluRay Multi Audio ESub.mkv" },
+    "720p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=GgRQA-bmGoaPy0Q_g-l8jxfPMdy1JpMTBTUoaAX8xmUZze7QbmRWqwPE0lOh339nrK3OC6PUOfm6jxO7ycAUZg&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Fullmetal%20Alchemist%20Brotherhood%20S01E32%20720p%20HD%20BluRay%20Multi%20Audio%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Fullmetal Alchemist Brotherhood S01E32 720p HD BluRay Multi Audio ESub.mkv" },
+    "1080p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=0ZpvpzTHdGvTeVJGCpzP144mC7UEERzL_cUcYqApdzo-zRKsHOdc58b9c5JRYk7WU0hdtI0qaMxLlR9B3RKkUQ&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Fullmetal%20Alchemist%20Brotherhood%20S01E32%201080p%20HEVC%2010bit%20BluRay%20Multi%20Audio%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Fullmetal Alchemist Brotherhood S01E32 1080p HEVC 10bit BluRay Multi Audio ESub.mkv" }
+  }
+},
+"fullmetal-alchemist-brotherhood-1x33": {
+  qualities: {
+    "480p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=PqyOg2Mn4hUPXF-WPqYwaCPakkqzm-JqHlScSSa_mLr_mGTXIsNWs4Ux1uDGs3B6YK_ee8EwzxTEaFUWfTreIg&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Fullmetal%20Alchemist%20Brotherhood%20S01E33%20480p%20BluRay%20Multi%20Audio%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Fullmetal Alchemist Brotherhood S01E33 480p BluRay Multi Audio ESub.mkv" },
+    "720p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=vF6hP-5eeKTVqYmV2AoatLg-TsvfSzQ-rESAeLDqlskdaEpQnotRglCBhigqLh1UqwDva1bfsUtAtN6LdSB-Aw&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Fullmetal%20Alchemist%20Brotherhood%20S01E33%20720p%20HD%20BluRay%20Multi%20Audio%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Fullmetal Alchemist Brotherhood S01E33 720p HD BluRay Multi Audio ESub.mkv" },
+    "1080p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=rBAalGYaB4qkLdFPVOcngwwAke5ziPFUNiaS5wLuTR_6XPgrWziD9ZDgohLm-zqPsuaiQJR-3icj1RnI5UJuEQ&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Fullmetal%20Alchemist%20Brotherhood%20S01E33%201080p%20HEVC%2010bit%20BluRay%20Multi%20Audio%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Fullmetal Alchemist Brotherhood S01E33 1080p HEVC 10bit BluRay Multi Audio ESub.mkv" }
+  }
+},
+"fullmetal-alchemist-brotherhood-1x34": {
+  qualities: {
+    "480p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=hDcF3k23RYg4uUauC8xVkQ39R0xs1aNCFw81hnYXiz_GqBXlC4t5nS2cfD_WH1JHXUH56MmoflZ63BI4-YPsjg&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Fullmetal%20Alchemist%20Brotherhood%20S01E34%20480p%20BluRay%20Multi%20Audio%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Fullmetal Alchemist Brotherhood S01E34 480p BluRay Multi Audio ESub.mkv" },
+    "720p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=hLWQ4IOHUnX17WdVqfAUqjkMAoGlc7Waj9B_MxkrHLPHx-4FN3CzCEtInJhrcR8VMeN5L6RsTzu2FtyXy5WETQ&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Fullmetal%20Alchemist%20Brotherhood%20S01E34%20720p%20HD%20BluRay%20Multi%20Audio%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Fullmetal Alchemist Brotherhood S01E34 720p HD BluRay Multi Audio ESub.mkv" },
+    "1080p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=aI0i-jJ5xqGQD4b5YPJiTGdvRqCAqyh4viIIOYMUhDq11LJpvDVD32TrIychg8clGpFSL0z9cmTrxlv2hO2tRA&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Fullmetal%20Alchemist%20Brotherhood%20S01E34%201080p%20HEVC%2010bit%20BluRay%20Multi%20Audio%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Fullmetal Alchemist Brotherhood S01E34 1080p HEVC 10bit BluRay Multi Audio ESub.mkv" }
+  }
+},
+"fullmetal-alchemist-brotherhood-1x35": {
+  qualities: {
+    "480p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=zAHOrLJJpj_g_ojvUop3NIvVMQixTBRwppyTPXGzGTRiAjqWUGpwhXd3OVr3OwyRhe5PDypi9KCjcY5N5rXkuw&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Fullmetal%20Alchemist%20Brotherhood%20S01E35%20480p%20BluRay%20Multi%20Audio%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Fullmetal Alchemist Brotherhood S01E35 480p BluRay Multi Audio ESub.mkv" },
+    "720p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=KK1ErJi94Z8ZOsdyCQJ-jfuTb_oJtEis4Gz4WigSXTeawLhrJAIfWyz_3h_MBqPKJMUlKTY4qVIwgyORAgA5Cw&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Fullmetal%20Alchemist%20Brotherhood%20S01E35%20720p%20HD%20BluRay%20Multi%20Audio%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Fullmetal Alchemist Brotherhood S01E35 720p HD BluRay Multi Audio ESub.mkv" },
+    "1080p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=gHvX5XcCpgTEfDaUVbDrdHUMlVw-Zwv8k8CkFu9I1qD7xrAD_BEol-QOPj4C7weLZv2YnNEFfPSyfkTWy_lS8Q&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Fullmetal%20Alchemist%20Brotherhood%20S01E35%201080p%20HEVC%2010bit%20BluRay%20Multi%20Audio%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Fullmetal Alchemist Brotherhood S01E35 1080p HEVC 10bit BluRay Multi Audio ESub.mkv" }
+  }
+},
+"fullmetal-alchemist-brotherhood-1x36": {
+  qualities: {
+    "480p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=iKh3NmzT4P8wuo82tO8eWspjZBrSkTcAAaDD0EftRgMrHnRBnSHUiMiAhEIG7d-e2syfj3F6B-5Pns9FTzgPIA&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Fullmetal%20Alchemist%20Brotherhood%20S01E36%20480p%20BluRay%20Multi%20Audio%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Fullmetal Alchemist Brotherhood S01E36 480p BluRay Multi Audio ESub.mkv" },
+    "720p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=FqqQG1vTCaZjNV2ZDN_OdN7Um5_jwboY9ltk3x948NRaOmPiBMS42lxsUCIpR4OfZURiN_cKexwgD3yV_iXs3Q&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Fullmetal%20Alchemist%20Brotherhood%20S01E36%20720p%20HD%20BluRay%20Multi%20Audio%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Fullmetal Alchemist Brotherhood S01E36 720p HD BluRay Multi Audio ESub.mkv" },
+    "1080p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=qv6bv6IQ3spdCv0-IVBj5cV44VxvOcFRyYnZOqQpp8crRxh8K5uoaWkH9uVEvYZb8SUwKW82gXFaFkkLsE1lqQ&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Fullmetal%20Alchemist%20Brotherhood%20S01E36%201080p%20HEVC%2010bit%20BluRay%20Multi%20Audio%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Fullmetal Alchemist Brotherhood S01E36 1080p HEVC 10bit BluRay Multi Audio ESub.mkv" }
+  }
+},
+"fullmetal-alchemist-brotherhood-1x37": {
+  qualities: {
+    "480p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=-heSMKEFllyYH3HCxG_9ThRaiizvbV4diYE_EXLFqc3LzvnGooIc2otqpAJc0lv4FJiJkoGfDDNDDjozv5rsnA&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Fullmetal%20Alchemist%20Brotherhood%20S01E37%20480p%20BluRay%20Multi%20Audio%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Fullmetal Alchemist Brotherhood S01E37 480p BluRay Multi Audio ESub.mkv" },
+    "720p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=yFdkiBwDOtK_2JcWeldWCTvh6s_P84J9cN_ckNfQyS6OI7bKGrrxu9DXphe5fq8dQszjt6faZqpW8z7FsKjbZg&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Fullmetal%20Alchemist%20Brotherhood%20S01E37%20720p%20HD%20BluRay%20Multi%20Audio%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Fullmetal Alchemist Brotherhood S01E37 720p HD BluRay Multi Audio ESub.mkv" },
+    "1080p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=HI0ZPvsNhjZxXOLzfGbLaYbnBR8HZddHRqrHyWofjs0GJj9yzqDECWVY8GFWuB3hE-87MjeLLLeGKAOcgeYGCA&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Fullmetal%20Alchemist%20Brotherhood%20S01E37%201080p%20HEVC%2010bit%20BluRay%20Multi%20Audio%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Fullmetal Alchemist Brotherhood S01E37 1080p HEVC 10bit BluRay Multi Audio ESub.mkv" }
+  }
+},
+"fullmetal-alchemist-brotherhood-1x38": {
+  qualities: {
+    "480p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=mWTk487tIQtCTad6RNWah6nBnA-vsBEYSEgawBgaYtJyClDiixkcQ10IR4ZKelgFKS-hGD854UQtA55ZbX9kNw&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Fullmetal%20Alchemist%20Brotherhood%20S01E38%20480p%20BluRay%20Multi%20Audio%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Fullmetal Alchemist Brotherhood S01E38 480p BluRay Multi Audio ESub.mkv" },
+    "720p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=u0qO5CkOqujhz6ZvB93CAYKjkhOUi1O9is-aL8pjjoOjTjha3zhaCssarWHsVIKdpF-OXGVqIOrraNyLPcroDw&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Fullmetal%20Alchemist%20Brotherhood%20S01E38%20720p%20HD%20BluRay%20Multi%20Audio%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Fullmetal Alchemist Brotherhood S01E38 720p HD BluRay Multi Audio ESub.mkv" },
+    "1080p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=SiCBKeZ2lYV9-H_4ntOm5yHCINI_agsjotn-RYxA6wd3CO7g85pbMiHtxI4trvOMC6dhWGS3COh23OCRdi49yw&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Fullmetal%20Alchemist%20Brotherhood%20S01E38%201080p%20HEVC%2010bit%20BluRay%20Multi%20Audio%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Fullmetal Alchemist Brotherhood S01E38 1080p HEVC 10bit BluRay Multi Audio ESub.mkv" }
+  }
+},
+"fullmetal-alchemist-brotherhood-1x39": {
+  qualities: {
+    "480p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=AIizHb2JhlVmnWoK2iIwqRT3aybPHTxEMfvtX3XtLi09xxifB0gJmdqq901V8RUX0uXeCQ4p-6Ofx2TzVH-tpg&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Fullmetal%20Alchemist%20Brotherhood%20S01E39%20480p%20BluRay%20Multi%20Audio%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Fullmetal Alchemist Brotherhood S01E39 480p BluRay Multi Audio ESub.mkv" },
+    "720p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=6c8WiBbbJzsEwqtAJsQiM3GfowrJw2ugce-uTQQRGIGdXCpJcAWbiv5813UBYQI4ZipuacImvXx5Brxia7K2Kw&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Fullmetal%20Alchemist%20Brotherhood%20S01E39%20720p%20HD%20BluRay%20Multi%20Audio%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Fullmetal Alchemist Brotherhood S01E39 720p HD BluRay Multi Audio ESub.mkv" },
+    "1080p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=QtwTL-3BzMPMEZUiocqzJAKHN_thAQgUN0RXGZ8qG6Tfs6wmTBibX6zqgXwvo2NQa9sbR49LbCaQCVvybwe4qg&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Fullmetal%20Alchemist%20Brotherhood%20S01E39%201080p%20HEVC%2010bit%20BluRay%20Multi%20Audio%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Fullmetal Alchemist Brotherhood S01E39 1080p HEVC 10bit BluRay Multi Audio ESub.mkv" }
+  }
+},
+"fullmetal-alchemist-brotherhood-1x40": {
+  qualities: {
+    "480p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=o4In-49wZJeT3JB_qMpLXhMkzhHI0XzGQbpXnTfRrIEUg5xPhxWYwrMh2zhOdsPdriU4oJ0NmavXuG6bWT2mKg&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Fullmetal%20Alchemist%20Brotherhood%20S01E40%20480p%20BluRay%20Multi%20Audio%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Fullmetal Alchemist Brotherhood S01E40 480p BluRay Multi Audio ESub.mkv" },
+    "720p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=VLN6TiFVpnuThYcY22FzZO5R_g9DHJDWRT2gyKG7GwVZwljqMFugwU1Nu86VyhicTaJQyQsY2Nk4LSzDQgLi1Q&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Fullmetal%20Alchemist%20Brotherhood%20S01E40%20720p%20HD%20BluRay%20Multi%20Audio%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Fullmetal Alchemist Brotherhood S01E40 720p HD BluRay Multi Audio ESub.mkv" },
+    "1080p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=-XPB7cjRdPCDTFcwghGrGPRtNiXAG3ldPNDCsFPncNepoi0OS4_Z8wilSJhtKSjDGU6HeoP5Z9JPrIh6agfOoQ&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Fullmetal%20Alchemist%20Brotherhood%20S01E40%201080p%20HEVC%2010bit%20BluRay%20Multi%20Audio%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Fullmetal Alchemist Brotherhood S01E40 1080p HEVC 10bit BluRay Multi Audio ESub.mkv" }
+  }
+},
+"fullmetal-alchemist-brotherhood-1x41": {
+  qualities: {
+    "480p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=OXD-ZuV8JKiVbh0YcuUBC9O1O-6OEUQ3oYDHe79iYBSCSQJMUr3wCC0k9hiSLWbvAXmaNWMRMM-8UMeeZB4H2A&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Fullmetal%20Alchemist%20Brotherhood%20S01E41%20480p%20BluRay%20Multi%20Audio%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Fullmetal Alchemist Brotherhood S01E41 480p BluRay Multi Audio ESub.mkv" },
+    "720p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=Eh66FEaMt6D-L_k9VLo_kbe1d6tjwu-uKs-5shmBmWA5o4KwLPBo7GBqgnjM1armuzm6097BC66c3dLJPgM8hA&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Fullmetal%20Alchemist%20Brotherhood%20S01E41%20720p%20HD%20BluRay%20Multi%20Audio%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Fullmetal Alchemist Brotherhood S01E41 720p HD BluRay Multi Audio ESub.mkv" },
+    "1080p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=VLUH82W1HXd-R2C8AmN3BJIYxHG69VM3g_o-xrbrL6Zfs1NGwdO9lw0c2E7oym9cvseb_NDnuemXNnBdDkDAfw&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Fullmetal%20Alchemist%20Brotherhood%20S01E41%201080p%20HEVC%2010bit%20BluRay%20Multi%20Audio%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Fullmetal Alchemist Brotherhood S01E41 1080p HEVC 10bit BluRay Multi Audio ESub.mkv" }
+  }
+},
+"fullmetal-alchemist-brotherhood-1x42": {
+  qualities: {
+    "480p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=26wQ3j2iabhGxTaXszsiSWv0dJ-jOVv0JUsExIF6sPr-C1QpZScNs-DpR3fL5HYwQZ5eyDzWI7mmVAY5VgmFZw&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Fullmetal%20Alchemist%20Brotherhood%20S01E42%20480p%20BluRay%20Multi%20Audio%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Fullmetal Alchemist Brotherhood S01E42 480p BluRay Multi Audio ESub.mkv" },
+    "720p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=MJ2dDsIlvH8HhyHa9LN02x3UlbfPVGpVDz-tp3z1S6OudOt1mDLmrlCmJpOHIRwDbYRrCUEnGZVM7p4sXPGPmQ&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Fullmetal%20Alchemist%20Brotherhood%20S01E42%20720p%20HD%20BluRay%20Multi%20Audio%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Fullmetal Alchemist Brotherhood S01E42 720p HD BluRay Multi Audio ESub.mkv" },
+    "1080p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=T35pEnMgHziMhoalzqvG-fHTSL4z3MeVw_WQDDgwHpJltbFg9lJlau3WqLKXy7oEYPJ8QEVb-gVdHxKmGOX_vQ&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Fullmetal%20Alchemist%20Brotherhood%20S01E42%201080p%20HEVC%2010bit%20BluRay%20Multi%20Audio%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Fullmetal Alchemist Brotherhood S01E42 1080p HEVC 10bit BluRay Multi Audio ESub.mkv" }
+  }
+},
+"fullmetal-alchemist-brotherhood-1x43": {
+  qualities: {
+    "480p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=1qCgp5TqlZ7hwfghEr3fLJNpEyby4fE2T78rgdgSASGDimlEX-u_Be-gN2J6Ito8gAgPvSiFXe2ff9ALCa-zxg&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Fullmetal%20Alchemist%20Brotherhood%20S01E43%20480p%20BluRay%20Multi%20Audio%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Fullmetal Alchemist Brotherhood S01E43 480p BluRay Multi Audio ESub.mkv" },
+    "720p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=B_9OTY_I1ywdrR0icvwRBX-ExYFZxUdyW-Yoyr04mvRmCfP5jmJ0Q_LrwyLJqfV3NyOjDnFCLRMuuUIeAb9n6Q&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Fullmetal%20Alchemist%20Brotherhood%20S01E43%20720p%20HD%20BluRay%20Multi%20Audio%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Fullmetal Alchemist Brotherhood S01E43 720p HD BluRay Multi Audio ESub.mkv" },
+    "1080p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=OpAQ8LncKceVhsYiPXzJzH1trQ-FJHmuEy5emuC72K7uXjHW3J5HiBdtNxq7zJ54iat4VnnEY0OIYzIyTsUoUw&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Fullmetal%20Alchemist%20Brotherhood%20S01E43%201080p%20HEVC%2010bit%20BluRay%20Multi%20Audio%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Fullmetal Alchemist Brotherhood S01E43 1080p HEVC 10bit BluRay Multi Audio ESub.mkv" }
+  }
+},
+"fullmetal-alchemist-brotherhood-1x44": {
+  qualities: {
+    "480p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=m83bqaG5GaY_t85LQA4WHW0pzmYBFwzEPrriUaNeFbv2FtVf2hy6LnHZKpRsiyZdwOjS_QsQGHc0rCwErTdn1w&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Fullmetal%20Alchemist%20Brotherhood%20S01E44%20480p%20BluRay%20Multi%20Audio%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Fullmetal Alchemist Brotherhood S01E44 480p BluRay Multi Audio ESub.mkv" },
+    "720p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=1yd5a5rWHYmeut_1K6Y8Jn_be8Uj7u2MrusZo9ZXs7IyCSIkGsre4BdsmVcBl3znWBXvUYtFAmmeugLOu07PXg&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Fullmetal%20Alchemist%20Brotherhood%20S01E44%20720p%20HD%20BluRay%20Multi%20Audio%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Fullmetal Alchemist Brotherhood S01E44 720p HD BluRay Multi Audio ESub.mkv" },
+    "1080p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=9Ozhq_KNlpaZtDi_g7d7iXZ4Pb6UjhgndFkXP4CT2Y87Dtyigyn3o9lNZpndNFpfajLI5NW1zXR7rsnRlPwcnA&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Fullmetal%20Alchemist%20Brotherhood%20S01E44%201080p%20HEVC%2010bit%20BluRay%20Multi%20Audio%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Fullmetal Alchemist Brotherhood S01E44 1080p HEVC 10bit BluRay Multi Audio ESub.mkv" }
+  }
+},
+"fullmetal-alchemist-brotherhood-1x45": {
+  qualities: {
+    "480p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=KhYyrXXyGCsTjq8bdrbR-7n33bKTeZNmUv9Q_2fVUpjqOlU2K0pAPDXktqOX-eqXtiYhBDmiNs_TyP9LUc1JlQ&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Fullmetal%20Alchemist%20Brotherhood%20S01E45%20480p%20BluRay%20Multi%20Audio%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Fullmetal Alchemist Brotherhood S01E45 480p BluRay Multi Audio ESub.mkv" },
+    "720p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=vkQOxIkmVELwgiDCoi7r9ux-3fWIBt_rbrvk9JkL53P72smOSL03bhkozkrXgVrgdG-LDTWmDhYp8k-SJcYEQA&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Fullmetal%20Alchemist%20Brotherhood%20S01E45%20720p%20HD%20BluRay%20Multi%20Audio%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Fullmetal Alchemist Brotherhood S01E45 720p HD BluRay Multi Audio ESub.mkv" },
+    "1080p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=SYZf1gxX_otPzQ-e1eDE6dpdrlxQ7M_qWrVrHrV4VoNFiF3u18DVAXVpyPEetGbGCTrFIbXH8ACTopTHwxXhrw&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Fullmetal%20Alchemist%20Brotherhood%20S01E45%201080p%20HEVC%2010bit%20BluRay%20Multi%20Audio%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Fullmetal Alchemist Brotherhood S01E45 1080p HEVC 10bit BluRay Multi Audio ESub.mkv" }
+  }
+},
+"fullmetal-alchemist-brotherhood-1x46": {
+  qualities: {
+    "480p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=-djkkOli2sjVycJJMtjlJ9ZvVIvixCKeBXMeOSROK30iiYxxOsqpPQK-tc9DYxeGhqaf49NtF3PN0YkdQhfcgg&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Fullmetal%20Alchemist%20Brotherhood%20S01E46%20480p%20BluRay%20Multi%20Audio%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Fullmetal Alchemist Brotherhood S01E46 480p BluRay Multi Audio ESub.mkv" },
+    "720p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=GVC_m9d7IchSfvF7PgcqIvXu2e5a6C-QU_AdHap7tm4PIE8acQQuJesUQeiLEOFxchPqLnoRW4Rlh8XNBSC5ZQ&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Fullmetal%20Alchemist%20Brotherhood%20S01E46%20720p%20HD%20BluRay%20Multi%20Audio%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Fullmetal Alchemist Brotherhood S01E46 720p HD BluRay Multi Audio ESub.mkv" },
+    "1080p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=45zd9Q80Wy4Q8sy9lPQBa_sdnzseYmR1bUU_G_u1hc8HkoWIGGYqrn9KZ8pC_4_Id300DuAzuIc3pfGc3jYsJQ&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Fullmetal%20Alchemist%20Brotherhood%20S01E46%201080p%20HEVC%2010bit%20BluRay%20Multi%20Audio%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Fullmetal Alchemist Brotherhood S01E46 1080p HEVC 10bit BluRay Multi Audio ESub.mkv" }
+  }
+},
+"fullmetal-alchemist-brotherhood-1x47": {
+  qualities: {
+    "480p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=WO3_dn0GVZFE8jTomRi3K4mfTLk3_PN2AiJFc8Omi42tti3T7fSK8HwD3Mdp7hqIo5T-Tiy_kso4cYkbBncV1Q&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Fullmetal%20Alchemist%20Brotherhood%20S01E47%20480p%20BluRay%20Multi%20Audio%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Fullmetal Alchemist Brotherhood S01E47 480p BluRay Multi Audio ESub.mkv" },
+    "720p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=tlCiVIGY42knT_WhYpDOnqRq4oY8mufoNQiurYXwdHMGi5VmZt2hx4-lOTeV688Oq645PjWIpO4HRjfoWm7rdA&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Fullmetal%20Alchemist%20Brotherhood%20S01E47%20720p%20HD%20BluRay%20Multi%20Audio%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Fullmetal Alchemist Brotherhood S01E47 720p HD BluRay Multi Audio ESub.mkv" },
+    "1080p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=OPOWpF5-M_C0Dh3aemY1PHBoRzFQSnOeyTSNwBYIkiNYPykNzNRs3SC1tU8jCMBY9JExZlwiP26hUZaBNRI6hQ&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Fullmetal%20Alchemist%20Brotherhood%20S01E47%201080p%20HEVC%2010bit%20BluRay%20Multi%20Audio%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Fullmetal Alchemist Brotherhood S01E47 1080p HEVC 10bit BluRay Multi Audio ESub.mkv" }
+  }
+},
+"fullmetal-alchemist-brotherhood-1x48": {
+  qualities: {
+    "480p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=Ahj_2XQKBzoH2_NWnZrWqDHb6XtadfrfODXUtgcr3SWDRn4dtf0nXMcN_5jkPN0bSjhzez-zetilo12u4UIwcQ&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Fullmetal%20Alchemist%20Brotherhood%20S01E48%20480p%20BluRay%20Multi%20Audio%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Fullmetal Alchemist Brotherhood S01E48 480p BluRay Multi Audio ESub.mkv" },
+    "720p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=DaLRr_5Ssu6t_4avgY30Iiwn6L2qyULz9r01Q8u8N9YB4WczuRCC6Q_hzObcqeRc_qNDYru9PlEMCkOgV7Sagg&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Fullmetal%20Alchemist%20Brotherhood%20S01E48%20720p%20HD%20BluRay%20Multi%20Audio%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Fullmetal Alchemist Brotherhood S01E48 720p HD BluRay Multi Audio ESub.mkv" },
+    "1080p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=MTTS4chZZ4pwgNCHrmMGgMcN4Jvhfz3RI2YtEZxZ1vHcJRSsaAmH6p8mSeSrnVY2AGA83Vz2QBMk0rEj7ymB8Q&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Fullmetal%20Alchemist%20Brotherhood%20S01E48%201080p%20HEVC%2010bit%20BluRay%20Multi%20Audio%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Fullmetal Alchemist Brotherhood S01E48 1080p HEVC 10bit BluRay Multi Audio ESub.mkv" }
+  }
+},
+"fullmetal-alchemist-brotherhood-1x49": {
+  qualities: {
+    "480p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=SgF2QavcY7Yoj1EKb8r4F8u23VDCEoGz2L-HDpvCyKX6FiZwAGvI7o4i03NZS6p468m4hYT5kUDeX2SUaSdQYQ&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Fullmetal%20Alchemist%20Brotherhood%20S01E49%20480p%20BluRay%20Multi%20Audio%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Fullmetal Alchemist Brotherhood S01E49 480p BluRay Multi Audio ESub.mkv" },
+    "720p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=Ak_6YknkITWe9EGZTnIzdsN1ke8ZtxKyqMa3al-hYVG9-jniwIEsWvQXiyMDunR36ZqEQQR0k44cD3-fyMojBA&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Fullmetal%20Alchemist%20Brotherhood%20S01E49%20720p%20HD%20BluRay%20Multi%20Audio%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Fullmetal Alchemist Brotherhood S01E49 720p HD BluRay Multi Audio ESub.mkv" },
+    "1080p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=XCgILC5A0GZkpgvNWNhrv0tziflTagEpAJgzzh19LD3uHiXl3QId32HmvWFWyU8eWnEvUiplKCIxki7SGusKWA&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Fullmetal%20Alchemist%20Brotherhood%20S01E49%201080p%20HEVC%2010bit%20BluRay%20Multi%20Audio%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Fullmetal Alchemist Brotherhood S01E49 1080p HEVC 10bit BluRay Multi Audio ESub.mkv" }
+  }
+},
+"fullmetal-alchemist-brotherhood-1x50": {
+  qualities: {
+    "480p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=gaPuCQi33n_0jMWgwgonYrxGUI5Fcs1YddJfGdclw5OzpPe6-c-nnoQ0nMsEviBDeIOu-pElj6ytMVD_ni4ilw&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Fullmetal%20Alchemist%20Brotherhood%20S01E50%20480p%20BluRay%20Multi%20Audio%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Fullmetal Alchemist Brotherhood S01E50 480p BluRay Multi Audio ESub.mkv" },
+    "720p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=dvvSrplT9khsMZqDQvarxz3XuHdgcAbjASP8GTIoOmsl6fW0cAkzafnoiAljF0JikzrtONm6JSdIVXNpQx_v3Q&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Fullmetal%20Alchemist%20Brotherhood%20S01E50%20720p%20HD%20BluRay%20Multi%20Audio%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Fullmetal Alchemist Brotherhood S01E50 720p HD BluRay Multi Audio ESub.mkv" },
+    "1080p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=nu28DVrU4paDyu-snnT--NyedIoMpZRIbXSfoPEEnacg85f71FfTgVRsp-I6XO83PN4yEMvT5LJY5irZ9J3uWA&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Fullmetal%20Alchemist%20Brotherhood%20S01E50%201080p%20HEVC%2010bit%20BluRay%20Multi%20Audio%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Fullmetal Alchemist Brotherhood S01E50 1080p HEVC 10bit BluRay Multi Audio ESub.mkv" }
+  }
+},
+"fullmetal-alchemist-brotherhood-1x51": {
+  qualities: {
+    "480p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=X_A4vRFo67I-JFrnBNon5WFVkqZuZZyUpFNoHdoxAG-0f-0TtpKlqqnw_Rwgbsp6BViOwgxIdGZzRJpWR0WvRw&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Fullmetal%20Alchemist%20Brotherhood%20S01E51%20480p%20BluRay%20Multi%20Audio%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Fullmetal Alchemist Brotherhood S01E51 480p BluRay Multi Audio ESub.mkv" },
+    "720p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=pB4GNFKWN0xaCJik_iWdjSOcDaOE0EE1rUo9-IGakJkk1jWQTEv6epQPpp39P-xoY1L1bHR74tCNo92xFPSLwA&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Fullmetal%20Alchemist%20Brotherhood%20S01E51%20720p%20HD%20BluRay%20Multi%20Audio%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Fullmetal Alchemist Brotherhood S01E51 720p HD BluRay Multi Audio ESub.mkv" },
+    "1080p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=AaMbmhUFRkYeA-nZTKcBG4MBvIgZc_ZVsc2NrNuX5MUkt7bbdymmVScqwLXe9aEro3D_RPvREpoKYTOPODQ6AA&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Fullmetal%20Alchemist%20Brotherhood%20S01E51%201080p%20HEVC%2010bit%20BluRay%20Multi%20Audio%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Fullmetal Alchemist Brotherhood S01E51 1080p HEVC 10bit BluRay Multi Audio ESub.mkv" }
+  }
+},
+"fullmetal-alchemist-brotherhood-1x52": {
+  qualities: {
+    "480p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=E7azmzW5lEBLE57eBehpl0KHtxm2iCgjAy9ewyUT3_j2p7VyI4A1nm8YLlv-PQB2KfKycfl7CU546ICZu0Irhw&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Fullmetal%20Alchemist%20Brotherhood%20S01E52%20480p%20BluRay%20Multi%20Audio%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Fullmetal Alchemist Brotherhood S01E52 480p BluRay Multi Audio ESub.mkv" },
+    "720p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=n2t2g6HDnKgCH0z-4ShEEQszY4S755JBXAZ2g4x2XPyZGYwFQuXtJy-LPiLr_byA6ONNuU6UbXJkXLhUVkH7fQ&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Fullmetal%20Alchemist%20Brotherhood%20S01E52%20720p%20HD%20BluRay%20Multi%20Audio%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Fullmetal Alchemist Brotherhood S01E52 720p HD BluRay Multi Audio ESub.mkv" },
+    "1080p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=n2t2g6HDnKgCH0z-4ShEEQszY4S755JBXAZ2g4x2XPyZGYwFQuXtJy-LPiLr_byA6ONNuU6UbXJkXLhUVkH7fQ&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Fullmetal%20Alchemist%20Brotherhood%20S01E52%201080p%20HD%20BluRay%20Multi%20Audio%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Fullmetal Alchemist Brotherhood S01E52 1080p HD BluRay Multi Audio ESub.mkv" }
+  }
+},
+"fullmetal-alchemist-brotherhood-1x53": {
+  qualities: {
+    "480p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=cySzIfgGNxUKlcxeYOsvIIIxriDHx_ZSpkzNZeneryRLhuWLN6-NoA71DCJUTP5gv0ArP5RLlEVzzfwDFRReow&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Fullmetal%20Alchemist%20Brotherhood%20S01E53%20480p%20BluRay%20Multi%20Audio%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Fullmetal Alchemist Brotherhood S01E53 480p BluRay Multi Audio ESub.mkv" },
+    "720p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=w6oR7ESWrJ4LTfW0FuY3oVlZMNSopnQ4TK9SW5_-rhrqkkftZaYyJP4NYJEooLOWS7ftmEKCNFVrpW3nwqCJRQ&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Fullmetal%20Alchemist%20Brotherhood%20S01E53%20720p%20HD%20BluRay%20Multi%20Audio%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Fullmetal Alchemist Brotherhood S01E53 720p HD BluRay Multi Audio ESub.mkv" },
+    "1080p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=VGkiiaptLRQzqU834sOZ08SQTtJIhnj08nKl-5ZiEUPh1HNsOQwB5kLmQwmq3LfrhaD8dsqn_SrNaDHizupcHw&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Fullmetal%20Alchemist%20Brotherhood%20S01E53%201080p%20HEVC%2010bit%20BluRay%20Multi%20Audio%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Fullmetal Alchemist Brotherhood S01E53 1080p HEVC 10bit BluRay Multi Audio ESub.mkv" }
+  }
+},
+"fullmetal-alchemist-brotherhood-1x54": {
+  qualities: {
+    "480p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=Pz8jFbdS3avnPXdAO7tVxkYWSixkOY7LGdnwheJXeMc7OgVzmuYmtSN1K2Rgh5SiTYDSBLUG8sXk48HdhBcCdw&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Fullmetal%20Alchemist%20Brotherhood%20S01E54%20480p%20BluRay%20Multi%20Audio%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Fullmetal Alchemist Brotherhood S01E54 480p BluRay Multi Audio ESub.mkv" },
+    "720p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=7L812PCc2ukWeTDGcJmisTDTPlgzrlOIM237B1j631DzmHv_w2hZsQqRp3T1MRCFRPAl1pi82yvQYOzzTaue7Q&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Fullmetal%20Alchemist%20Brotherhood%20S01E54%20720p%20HD%20BluRay%20Multi%20Audio%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Fullmetal Alchemist Brotherhood S01E54 720p HD BluRay Multi Audio ESub.mkv" },
+    "1080p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=hWT_oOPx1TFuY_F0eKhNOs1UxeAwXlvVproxrFZ0pEG0G8UToq1Gzt1vY2tnXWatrBYDdi4icsNV-zRQVXJdgw&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Fullmetal%20Alchemist%20Brotherhood%20S01E54%201080p%20HEVC%2010bit%20BluRay%20Multi%20Audio%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Fullmetal Alchemist Brotherhood S01E54 1080p HEVC 10bit BluRay Multi Audio ESub.mkv" }
+  }
+},
+"fullmetal-alchemist-brotherhood-1x55": {
+  qualities: {
+    "480p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=v39rmj7D6z07q2TVKe6L3g-61cROtO49-1-16N1x9uJlnBnIQ8_qaoZANqfixGBc_gdKo7GuYkr-gFwDk_flgQ&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Fullmetal%20Alchemist%20Brotherhood%20S01E55%20480p%20BluRay%20Multi%20Audio%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Fullmetal Alchemist Brotherhood S01E55 480p BluRay Multi Audio ESub.mkv" },
+    "720p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=qW98CEcLFDsx1622N-fuJ_uYgfkVmIyYS6BxOfkVs6OcFtWMEEZSi6IPyO7WRhbMsKe2Ufoq-TMDH78TfU1FQQ&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Fullmetal%20Alchemist%20Brotherhood%20S01E55%20720p%20HD%20BluRay%20Multi%20Audio%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Fullmetal Alchemist Brotherhood S01E55 720p HD BluRay Multi Audio ESub.mkv" },
+    "1080p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=tIG8vSaB_fr03bqGfAwPXX_Eqcsb3nSaglqN0Hz-JERw-Gm92e1mZTDe0KZWFO8p4AzyvUmSVquTeTNRKE-Fbw&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Fullmetal%20Alchemist%20Brotherhood%20S01E55%201080p%20HEVC%2010bit%20BluRay%20Multi%20Audio%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Fullmetal Alchemist Brotherhood S01E55 1080p HEVC 10bit BluRay Multi Audio ESub.mkv" }
+  }
+},
+"fullmetal-alchemist-brotherhood-1x56": {
+  qualities: {
+    "480p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=9FX5BMkSJRYQAMo0AtAn1IkwSm5BR0C7MSgI4nPwg4crjZ8lAd7tBryS_kNej7_L68vOiGis90ewPo4M5UEqsA&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Fullmetal%20Alchemist%20Brotherhood%20S01E56%20480p%20BluRay%20Multi%20Audio%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Fullmetal Alchemist Brotherhood S01E56 480p BluRay Multi Audio ESub.mkv" },
+    "720p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=h9olCCg6H0MwOpjEysrI74AESVICOr79wYPUDottDV6cJsBvYz7rJK4GTu1T5sp5sCjrNVLdfTSre5JIohNRFg&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Fullmetal%20Alchemist%20Brotherhood%20S01E56%20720p%20HD%20BluRay%20Multi%20Audio%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Fullmetal Alchemist Brotherhood S01E56 720p HD BluRay Multi Audio ESub.mkv" },
+    "1080p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=nIGlOGEH24euzKrurLJ8aNyZIucESEwQFFHYwqK8CJgQbVjW3C6TZWiLqRzvW9y3rpV950Pmscx3mZtLNva-nA&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Fullmetal%20Alchemist%20Brotherhood%20S01E56%201080p%20HEVC%2010bit%20BluRay%20Multi%20Audio%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Fullmetal Alchemist Brotherhood S01E56 1080p HEVC 10bit BluRay Multi Audio ESub.mkv" }
+  }
+},
+"fullmetal-alchemist-brotherhood-1x57": {
+  qualities: {
+    "480p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=9r4P8Jtxeliqm8O02On8JWXyIzSam4DTgoIVRyU5Lrur8UFttP_DGZYJ2kFXAQ7a3oENgI61PPJGWq7QqQQTkA&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Fullmetal%20Alchemist%20Brotherhood%20S01E57%20480p%20BluRay%20Multi%20Audio%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Fullmetal Alchemist Brotherhood S01E57 480p BluRay Multi Audio ESub.mkv" },
+    "720p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=NGtZJrewT4Ox1fyyUXyF6BFpGComvrP96dd67s9YKt1hFq_YxeIRPoR3TbIcAOqt_BVnGc_7fR6X5l_cNs5PxQ&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Fullmetal%20Alchemist%20Brotherhood%20S01E57%20720p%20HD%20BluRay%20Multi%20Audio%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Fullmetal Alchemist Brotherhood S01E57 720p HD BluRay Multi Audio ESub.mkv" },
+    "1080p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=B7EntE8sR03HAJ6uLLZtLoyIDoeE69Cprj0EDGyJELSqcu8CCj894xupayvTMNebijB0MJrumpC_5wEHVt-JNw&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Fullmetal%20Alchemist%20Brotherhood%20S01E57%201080p%20HEVC%2010bit%20BluRay%20Multi%20Audio%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Fullmetal Alchemist Brotherhood S01E57 1080p HEVC 10bit BluRay Multi Audio ESub.mkv" }
+  }
+},
+"fullmetal-alchemist-brotherhood-1x58": {
+  qualities: {
+    "480p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=1hawqRINMNfsSWcX2o5fPiGc58Phz_MEDKDQAifZSwPO16tjncWETB-aaljMFv58mky2o1t0rQnHsMSPXVOz7Q&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Fullmetal%20Alchemist%20Brotherhood%20S01E58%20480p%20BluRay%20Multi%20Audio%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Fullmetal Alchemist Brotherhood S01E58 480p BluRay Multi Audio ESub.mkv" },
+    "720p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=D9RtMSknmnsvkGjhyvt4m9qs2N0xGgkbnCYJdCERvJhuLFmpe60Mr8DE5EPypnF7E1hwfG5yKavzn2uMBaGD6g&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Fullmetal%20Alchemist%20Brotherhood%20S01E58%20720p%20HD%20BluRay%20Multi%20Audio%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Fullmetal Alchemist Brotherhood S01E58 720p HD BluRay Multi Audio ESub.mkv" },
+    "1080p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=tRzxUvAJ0-IgA7Qerq9GoG0tahZ7B6eUXUD4rKg3DT7ELz9yNeW93pgq0tSngtYYJANIges85A30Ig-zDP3ZwA&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Fullmetal%20Alchemist%20Brotherhood%20S01E58%201080p%20HEVC%2010bit%20BluRay%20Multi%20Audio%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Fullmetal Alchemist Brotherhood S01E58 1080p HEVC 10bit BluRay Multi Audio ESub.mkv" }
+  }
+},
+"fullmetal-alchemist-brotherhood-1x59": {
+  qualities: {
+    "480p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=fpbRDXO-PSYF1O9oyaoaku_RIhB8vf1zheZIBAT4MtGC5d4HSuWEVmhZZPNXZ2HTBtJV-xEJBhW09SVxATrU_g&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Fullmetal%20Alchemist%20Brotherhood%20S01E59%20480p%20BluRay%20Multi%20Audio%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Fullmetal Alchemist Brotherhood S01E59 480p BluRay Multi Audio ESub.mkv" },
+    "720p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=4OPjrrAtV6SodkxwSc6w43aWe0AE3w9PpqtC6K4rXwhzvjh1k3Vj1Fb8dU-VIUE6i1bdwSKP-0Hnpa6jY7phTw&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Fullmetal%20Alchemist%20Brotherhood%20S01E59%20720p%20HD%20BluRay%20Multi%20Audio%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Fullmetal Alchemist Brotherhood S01E59 720p HD BluRay Multi Audio ESub.mkv" },
+    "1080p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=73zsh_FplK4xOVhqccf2LYNMkUhygxTcpvVsKv2K6p1VxtPqLQw74PPE6KQC_-99YyGKrkPd0qiO70rJP4iIWw&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Fullmetal%20Alchemist%20Brotherhood%20S01E59%201080p%20HEVC%2010bit%20BluRay%20Multi%20Audio%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Fullmetal Alchemist Brotherhood S01E59 1080p HEVC 10bit BluRay Multi Audio ESub.mkv" }
+  }
+},
+"fullmetal-alchemist-brotherhood-1x60": {
+  qualities: {
+    "480p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=A__nieUnyWWY2Ghm8KawPqS_A_7o9jqB-HIW4ktvR6vneo72tPS4xRryLdT6VUIsvYW6Uxc_u7K3t9PVzHZQsQ&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Fullmetal%20Alchemist%20Brotherhood%20S01E60%20480p%20BluRay%20Multi%20Audio%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Fullmetal Alchemist Brotherhood S01E60 480p BluRay Multi Audio ESub.mkv" },
+    "720p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=j4VY6YMNvCqHQuuKlx7PBxPoECX4ViSJOZRtva0tawwkTrcnyE7u0wTIzII99Bg6728JnnDsbDLR-5fHxS2goQ&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Fullmetal%20Alchemist%20Brotherhood%20S01E60%20720p%20HD%20BluRay%20Multi%20Audio%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Fullmetal Alchemist Brotherhood S01E60 720p HD BluRay Multi Audio ESub.mkv" },
+    "1080p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=aCq7MEDUcPe7OinEmsrLCBvWYgGE3mG_GVjt2-BFxkJstk89EGpWQwzQcK17PrAdX6G7MBn_TNXsEmds2z9_eg&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Fullmetal%20Alchemist%20Brotherhood%20S01E60%201080p%20HEVC%2010bit%20BluRay%20Multi%20Audio%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Fullmetal Alchemist Brotherhood S01E60 1080p HEVC 10bit BluRay Multi Audio ESub.mkv" }
+  }
+},
 
   "chainsmoker-cat-1x1": {
     type: "stream",

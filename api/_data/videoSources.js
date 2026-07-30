@@ -104,72 +104,104 @@ const VIDEO_SOURCES = {
     }
   },
 
-"daemons-of-the-shadow-realm-s1-1x1": {
-  type: "stream",
-  src: process.env.VIDEO_SRC_DAEMONS_S1_1X1 || "https://icy-feather-221c.jakcminasi.workers.dev/?id=QnBrWMEkgk9Xo-VujWxPGpZFRDPdtabdNWfur7uowa_jl67jzRegp2ToJyo5qUprXSYocqhH1tLZWSwVyNVBug&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Daemons%20of%20the%20Shadow%20Realm%20S01E01%20720p%20x264%20WEB-DL%20Multi%20Audio%20ESub.mkv",
-  downloadName: "[Visit On Telegram @HindiAnimestuff] Daemons of the Shadow Realm S01E01 720p x264 WEB-DL Multi Audio ESub.mkv"
+"id-daemons-of-the-shadow-realm-s1-1x1": {
+  qualities: {
+    "480p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=KoJbb3pJ4kHjhOirufw4MgDZz1AIcpsMM5N9z1eJYAGOm8xYnOIn4aCkJvlZSq7DuMCZl-rU-SOTric8swDyAA&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Daemons%20of%20the%20Shadow%20Realm%20S01E01%20480p%20x264%20WEB-DL%20Multi%20Audio%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Daemons of the Shadow Realm S01E01 480p x264 WEB-DL Multi Audio ESub.mkv" },
+    "720p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=cJpJGNKVynjbfsc7J03965o4Srx2-YFiiLyoIPcAgu8-AQ4_Yjlvhy4Dez7gB4DW0lDlktvmXXiEtb2kDFPrOA&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Daemons%20of%20the%20Shadow%20Realm%20S01E01%20720p%20x264%20WEB-DL%20Multi%20Audio%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Daemons of the Shadow Realm S01E01 720p x264 WEB-DL Multi Audio ESub.mkv" },
+    "1080p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=NOMpK71uwzoMGZze-WngaLU15W5e1VnhkXq5S818ZxGumepWgb2IGhRrcLV7Jx5sHq5nQ6hOcmcH78hIK_EU_A&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Daemons%20of%20the%20Shadow%20Realm%20S01E01%201080p%20x265%2010bit%20WEB-DL%20Multi%20Audio%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Daemons of the Shadow Realm S01E01 1080p x265 10bit WEB-DL Multi Audio ESub.mkv" }
+  }
 },
-"daemons-of-the-shadow-realm-s1-1x2": {
-  type: "stream",
-  src: process.env.VIDEO_SRC_DAEMONS_S1_1X2 || "https://icy-feather-221c.jakcminasi.workers.dev/?id=RFkvqg9O9yBLs2pySACAsD3gHXY5QNZ0qf_EHs6GPHnPfTLtxkhvXLr7l1DSDyZyNhn8eeEKoRP84ahr0Zv6MA&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Daemons%20of%20the%20Shadow%20Realm%20S01E02%20720p%20x264%20WEB-DL%20Multi%20Audio%20ESub.mkv",
-  downloadName: "[Visit On Telegram @HindiAnimestuff] Daemons of the Shadow Realm S01E02 720p x264 WEB-DL Multi Audio ESub.mkv"
+"id-daemons-of-the-shadow-realm-s1-1x2": {
+  qualities: {
+    "480p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=qV9XxFlbBB6F09RIx-R8lkgDUHd6niNsINPcWYb38SFCBtpPVjBNaFTb827WK-gY0LpKRY5qzESciHKAWzLnyQ&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Daemons%20of%20the%20Shadow%20Realm%20S01E02%20480p%20x264%20WEB-DL%20Multi%20Audio%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Daemons of the Shadow Realm S01E02 480p x264 WEB-DL Multi Audio ESub.mkv" },
+    "720p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=u3VL3ZfZnXnZpUq3Ubv0LGGAMCzrVEtt91363z3TOeuKe1QDcE_fFu1YESce_IH1mV6E5uCl8ELDaGYeMHQA7Q&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Daemons%20of%20the%20Shadow%20Realm%20S01E02%20720p%20x264%20WEB-DL%20Multi%20Audio%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Daemons of the Shadow Realm S01E02 720p x264 WEB-DL Multi Audio ESub.mkv" },
+    "1080p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=-e7p-nuqPXK8NTcv7c0hpNYvvRRz3i2nWNxKL7j3X8LzK7fZxPZMqDZ-CTj7MUYAs2iEhpY4E1DqmOguBCom_g&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Daemons%20of%20the%20Shadow%20Realm%20S01E02%201080p%20x265%2010bit%20WEB-DL%20Multi%20Audio%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Daemons of the Shadow Realm S01E02 1080p x265 10bit WEB-DL Multi Audio ESub.mkv" }
+  }
 },
-"daemons-of-the-shadow-realm-s1-1x3": {
-  type: "stream",
-  src: process.env.VIDEO_SRC_DAEMONS_S1_1X3 || "https://icy-feather-221c.jakcminasi.workers.dev/?id=rqn0WbC6k1U1Al92yz7ioNXt9O5Zt2AwhO4pLNRjocet_2dTRos259HcVOcwZRyOMiHBCWS_xmtj9qfbAsM5ow&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Daemons%20of%20the%20Shadow%20Realm%20S01E03%20720p%20x264%20WEB-DL%20Multi%20Audio%20ESub.mkv",
-  downloadName: "[Visit On Telegram @HindiAnimestuff] Daemons of the Shadow Realm S01E03 720p x264 WEB-DL Multi Audio ESub.mkv"
+"id-daemons-of-the-shadow-realm-s1-1x3": {
+  qualities: {
+    "480p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=endxSNlV5EevRy7jiIbvP84rxmwNM0yGdkwX786wOPWII47v570y-FOm0wg-gFPCcwPin2-29a3g-swbxUVY5w&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Daemons%20of%20the%20Shadow%20Realm%20S01E03%20480p%20x264%20WEB-DL%20Multi%20Audio%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Daemons of the Shadow Realm S01E03 480p x264 WEB-DL Multi Audio ESub.mkv" },
+    "720p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=dD7To_VYw5BMzF3qhqUPTtf2Oz2acWVj5FRIQLRi9klSIWoL0goMxt-BU8_lsgaiRy3nbI30LPZFJHerUQnmVQ&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Daemons%20of%20the%20Shadow%20Realm%20S01E03%20720p%20x264%20WEB-DL%20Multi%20Audio%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Daemons of the Shadow Realm S01E03 720p x264 WEB-DL Multi Audio ESub.mkv" },
+    "1080p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=131vDzwpYb7n4wNou7ap-RWMsp5vBuDJdp_2jNLGahoWqB7POo1oIKo_Hj_pfW81pqTyScoTzj-lcTJ031eQ2A&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Daemons%20of%20the%20Shadow%20Realm%20S01E03%201080p%20x265%2010bit%20WEB-DL%20Multi%20Audio%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Daemons of the Shadow Realm S01E03 1080p x265 10bit WEB-DL Multi Audio ESub.mkv" }
+  }
 },
-"daemons-of-the-shadow-realm-s1-1x4": {
-  type: "stream",
-  src: process.env.VIDEO_SRC_DAEMONS_S1_1X4 || "https://icy-feather-221c.jakcminasi.workers.dev/?id=T-UA5OGl8HxlrZUV0q3Bpdnhq-ATLbzhKL2XN5_Mdn2sGfQurcWmmjbqwOz9PSQEWgnp967aJ9xDy7i9H30OlA&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Daemons%20of%20the%20Shadow%20Realm%20S01E04%20720p%20x264%20WEB-DL%20Multi%20Audio%20ESub.mkv",
-  downloadName: "[Visit On Telegram @HindiAnimestuff] Daemons of the Shadow Realm S01E04 720p x264 WEB-DL Multi Audio ESub.mkv"
+"id-daemons-of-the-shadow-realm-s1-1x4": {
+  qualities: {
+    "480p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=_rAC7ksrdl378EI7rWXYR1BT8KdUKBe_qTqIhkMLuv6dCdXXKUf_4Da_0UhlyeQ0bW2Q_wMaPIfSqEfu4g7lcA&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Daemons%20of%20the%20Shadow%20Realm%20S01E04%20480p%20x264%20WEB-DL%20Multi%20Audio%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Daemons of the Shadow Realm S01E04 480p x264 WEB-DL Multi Audio ESub.mkv" },
+    "720p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=4ML-3zQ2_XkHZZ2Lixv0j6Szv3Nng8J6w19VN-TNTju0-BlCiU9zoBlpxevdKryyGOTUJ3T-4nFY6DzjJmx6Sw&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Daemons%20of%20the%20Shadow%20Realm%20S01E04%20720p%20x264%20WEB-DL%20Multi%20Audio%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Daemons of the Shadow Realm S01E04 720p x264 WEB-DL Multi Audio ESub.mkv" },
+    "1080p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=ho7lWOVlnse9CufWHNzf-2UB0A1DytS1PsqZE7lIYb6MIpMXo0uyzIlIApZh9sS9ucGWnHVjjGcWU2HLA37XnQ&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Daemons%20of%20the%20Shadow%20Realm%20S01E04%201080p%20x265%2010bit%20WEB-DL%20Multi%20Audio%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Daemons of the Shadow Realm S01E04 1080p x265 10bit WEB-DL Multi Audio ESub.mkv" }
+  }
 },
-"daemons-of-the-shadow-realm-s1-1x5": {
-  type: "stream",
-  src: process.env.VIDEO_SRC_DAEMONS_S1_1X5 || "https://icy-feather-221c.jakcminasi.workers.dev/?id=5HyOOnIH4zIDpziZaVfuRC2lTQJ5Cb_hMEhS1hJ1OfZfilqvMC6NXrEChURHmlPn0g6R99zChxvwXjHTitD9bA&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Daemons%20of%20the%20Shadow%20Realm%20S01E05%20720p%20x264%20WEB-DL%20Multi%20Audio%20ESub.mkv",
-  downloadName: "[Visit On Telegram @HindiAnimestuff] Daemons of the Shadow Realm S01E05 720p x264 WEB-DL Multi Audio ESub.mkv"
+"id-daemons-of-the-shadow-realm-s1-1x5": {
+  qualities: {
+    "480p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=_fDjDGbU5Fg228JxL6wedf4CgiIjy474qjjZovEaG3v59aUxkcUBiNqGM_PdqBDIIJhe08H8L9Iv4kH4yIisrA&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Daemons%20of%20the%20Shadow%20Realm%20S01E05%20480p%20x264%20WEB-DL%20Multi%20Audio%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Daemons of the Shadow Realm S01E05 480p x264 WEB-DL Multi Audio ESub.mkv" },
+    "720p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=6wXLVsjdHfvbO741YhTrgE5QhcCtGX4qcA-4Tx3DTEMJ62ljas4yD8jIUCkFJMsEq1wg01Nj2p7jxgzwxRIHCQ&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Daemons%20of%20the%20Shadow%20Realm%20S01E05%20720p%20x264%20WEB-DL%20Multi%20Audio%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Daemons of the Shadow Realm S01E05 720p x264 WEB-DL Multi Audio ESub.mkv" },
+    "1080p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=gojJ4Kryj8pf3ORbd8XvULc33baPwVMTyLp5ohIoI_nEOXcl1k6kmiwW-o0UW7WlLga10S4G46UpkGFQE4KYgQ&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Daemons%20of%20the%20Shadow%20Realm%20S01E05%201080p%20x265%2010bit%20WEB-DL%20Multi%20Audio%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Daemons of the Shadow Realm S01E05 1080p x265 10bit WEB-DL Multi Audio ESub.mkv" }
+  }
 },
-"daemons-of-the-shadow-realm-s1-1x6": {
-  type: "stream",
-  src: process.env.VIDEO_SRC_DAEMONS_S1_1X6 || "https://icy-feather-221c.jakcminasi.workers.dev/?id=VYh77qjpIZ0NwsI5yunRtcQtXvrtsTOoSmCg6HLTbKdxPCVMIGLvMJMBfw74OT16NmaRifX9KypTfIjh-c-bAA&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Daemons%20of%20the%20Shadow%20Realm%20S01E06%20720p%20x264%20WEB-DL%20Multi%20Audio%20ESub.mkv",
-  downloadName: "[Visit On Telegram @HindiAnimestuff] Daemons of the Shadow Realm S01E06 720p x264 WEB-DL Multi Audio ESub.mkv"
+"id-daemons-of-the-shadow-realm-s1-1x6": {
+  qualities: {
+    "480p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=QiOgnhvk1IcPTjGpRqbVgSHVZbhATMCRYuPFn6t7wUBxdQPAy2448p5Zn4vJXrW8KFDpPYhMx3115lFxG0H3lQ&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Daemons%20of%20the%20Shadow%20Realm%20S01E06%20480p%20x264%20WEB-DL%20Multi%20Audio%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Daemons of the Shadow Realm S01E06 480p x264 WEB-DL Multi Audio ESub.mkv" },
+    "720p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=RndsWIOvqPRszusqzES6ObKert2CAZLkPfgG2ssmBYVS6pwu6vGN7rqAu0h0jrFEyGhWfTfYjo1Xdr-JTPDNCQ&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Daemons%20of%20the%20Shadow%20Realm%20S01E06%20720p%20x264%20WEB-DL%20Multi%20Audio%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Daemons of the Shadow Realm S01E06 720p x264 WEB-DL Multi Audio ESub.mkv" },
+    "1080p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=_Nqmg_v2GCm7h1qU5B28II_705Jvm2cR9cPgKgei34wGHhWbaekAHXTV-4DwZFsodbBzzk-mmh9NBWznFz94qw&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Daemons%20of%20the%20Shadow%20Realm%20S01E06%201080p%20x265%2010bit%20WEB-DL%20Multi%20Audio%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Daemons of the Shadow Realm S01E06 1080p x265 10bit WEB-DL Multi Audio ESub.mkv" }
+  }
 },
-"daemons-of-the-shadow-realm-s1-1x7": {
-  type: "stream",
-  src: process.env.VIDEO_SRC_DAEMONS_S1_1X7 || "https://icy-feather-221c.jakcminasi.workers.dev/?id=nLX2wewziaNf6muHrw0FqoR3tizvOcmqUepIfQJSk88ab2mr_3JwmfhkVkGTDpUQzDgLPsKAog6-rU4zwk6kjw&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Daemons%20of%20the%20Shadow%20Realm%20S01E07%20720p%20x264%20WEB-DL%20Multi%20Audio%20ESub.mkv",
-  downloadName: "[Visit On Telegram @HindiAnimestuff] Daemons of the Shadow Realm S01E07 720p x264 WEB-DL Multi Audio ESub.mkv"
+"id-daemons-of-the-shadow-realm-s1-1x7": {
+  qualities: {
+    "480p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=0yIUbkzYGT5XtXZD_baMnuHfE1MwSoP9_fKXoOW7f5ODUdgST3cs4f_CxkHZBnLeLNH3q2nSPS8bNyb3Lgqh9w&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Daemons%20of%20the%20Shadow%20Realm%20S01E07%20480p%20x264%20WEB-DL%20Multi%20Audio%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Daemons of the Shadow Realm S01E07 480p x264 WEB-DL Multi Audio ESub.mkv" },
+    "720p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=NiBurWfD1UUW472fW3IvArJ8SlbwyyO9TEdobJdPdwGRAPEo-CdRgrZnrJXYkbrCq3cPqyNOWCPuLLWmHrHnZw&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Daemons%20of%20the%20Shadow%20Realm%20S01E07%20720p%20x264%20WEB-DL%20Multi%20Audio%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Daemons of the Shadow Realm S01E07 720p x264 WEB-DL Multi Audio ESub.mkv" },
+    "1080p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=aHVLUCv8DnFGWHh0ddIwq6_3u2Ub9JhY8vxuj2pz-fDDD5b17JNOGKKmzodz_Mou4Wm8znGtzRK8i2zBSmWixQ&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Daemons%20of%20the%20Shadow%20Realm%20S01E07%201080p%20x265%2010bit%20WEB-DL%20Multi%20Audio%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Daemons of the Shadow Realm S01E07 1080p x265 10bit WEB-DL Multi Audio ESub.mkv" }
+  }
 },
-"daemons-of-the-shadow-realm-s1-1x8": {
-  type: "stream",
-  src: process.env.VIDEO_SRC_DAEMONS_S1_1X8 || "https://icy-feather-221c.jakcminasi.workers.dev/?id=tFmlFBqZhUMwh6_Rj_glZzkQZrunil7jtSuuHPtThkJqPuwIXjkI7W-k7f9f0BviRf6yGijmVcs3wAHMJKRvMA&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Daemons%20of%20the%20Shadow%20Realm%20S01E08%20720p%20x264%20WEB-DL%20Multi%20Audio%20ESub.mkv",
-  downloadName: "[Visit On Telegram @HindiAnimestuff] Daemons of the Shadow Realm S01E08 720p x264 WEB-DL Multi Audio ESub.mkv"
+"id-daemons-of-the-shadow-realm-s1-1x8": {
+  qualities: {
+    "480p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=ZHo7AJ75xUaT5MOlQe0qrS7cMthYuUbh_Pyr9WiQT6lB9mVhUPXL7wIiqwrzs3cc3oSL2ayPvdLJmMGLNrj16g&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Yowayowa%20Sensei%20S01E08%20480p%20WEB-DL%20Dual%20Audio%20ESub%20Uncensored.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Yowayowa Sensei S01E08 480p WEB-DL Dual Audio ESub Uncensored.mkv" },
+    "720p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=pQBrBtuDiA9U_o_dD3YtcC_RdvR7qWYZAa1ds2zIXa8uoMZSUTH9JAaRqRg5ieLaBqrnN2f9u7A1odufCY2x-Q&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Daemons%20of%20the%20Shadow%20Realm%20S01E08%20720p%20x264%20WEB-DL%20Multi%20Audio%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Daemons of the Shadow Realm S01E08 720p x264 WEB-DL Multi Audio ESub.mkv" },
+    "1080p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=xirhA5S4IfgIdpPBLkdTey3r96JOkxDvXRJHk8a4h61ToPY2p4u_kbqO0IDsLO61uigVY8MDP8eiyb9I5LEakg&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Daemons%20of%20the%20Shadow%20Realm%20S01E08%201080p%20x265%2010bit%20WEB-DL%20Multi%20Audio%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Daemons of the Shadow Realm S01E08 1080p x265 10bit WEB-DL Multi Audio ESub.mkv" }
+  }
 },
-"daemons-of-the-shadow-realm-s1-1x9": {
-  type: "stream",
-  src: process.env.VIDEO_SRC_DAEMONS_S1_1X9 || "https://icy-feather-221c.jakcminasi.workers.dev/?id=DZN9t6BnKgdzQ6Q-uKu8VO45KtdX5evJqUMO4YEvUJ452e3B-Kh8Bbrex5Jg_vB8kcoi4RxpIUOPDGs0Ea5XqQ&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Daemons%20of%20the%20Shadow%20Realm%20S01E09%20720p%20x264%20WEB-DL%20Multi%20Audio%20ESub.mkv",
-  downloadName: "[Visit On Telegram @HindiAnimestuff] Daemons of the Shadow Realm S01E09 720p x264 WEB-DL Multi Audio ESub.mkv"
+"id-daemons-of-the-shadow-realm-s1-1x9": {
+  qualities: {
+    "480p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=gQJLTUHxJ6r21n4S0WwQMkTXpkSFO0YfetnpcR349TXNojyBfY3SN7WrPKYPocEpv8_QJdrfnl6sDDEytRYA1Q&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Daemons%20of%20the%20Shadow%20Realm%20S01E09%20480p%20x264%20WEB-DL%20Multi%20Audio%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Daemons of the Shadow Realm S01E09 480p x264 WEB-DL Multi Audio ESub.mkv" },
+    "720p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=guBKk92xa8LsAWIRM1W6NliPx5kH9calH3lH5jT1ZhONsysHjx5HaBmHP4z1CNvgM1x1CsRMXb9Om1w_dJt7zA&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Daemons%20of%20the%20Shadow%20Realm%20S01E09%20720p%20x264%20WEB-DL%20Multi%20Audio%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Daemons of the Shadow Realm S01E09 720p x264 WEB-DL Multi Audio ESub.mkv" },
+    "1080p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=B5e8as2ryvCqOiWnunWOMo6wITn8H99ksw5qY8EqqsmeeoBuD0HVKTMmc2YVZwGHeBdMNrz9dHEK_-VntE6N8g&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Daemons%20of%20the%20Shadow%20Realm%20S01E09%201080p%20x265%2010bit%20WEB-DL%20Multi%20Audio%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Daemons of the Shadow Realm S01E09 1080p x265 10bit WEB-DL Multi Audio ESub.mkv" }
+  }
 },
-"daemons-of-the-shadow-realm-s1-1x10": {
-  type: "stream",
-  src: process.env.VIDEO_SRC_DAEMONS_S1_1X10 || "https://icy-feather-221c.jakcminasi.workers.dev/?id=0Qcl84dHR04lFGaYnMSfAgdNpHSbG2C0vA9Z4HUyBuBADxDSeRrzfL6TFxPwBXKqdWwoDrqAvW_unEmIeNVfRg&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Daemons%20of%20the%20Shadow%20Realm%20S01E10%20720p%20x264%20WEB-DL%20Multi%20Audio%20ESub.mkv",
-  downloadName: "[Visit On Telegram @HindiAnimestuff] Daemons of the Shadow Realm S01E10 720p x264 WEB-DL Multi Audio ESub.mkv"
+"id-daemons-of-the-shadow-realm-s1-1x10": {
+  qualities: {
+    "480p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=iHCZk3ZL0T8_7YSdMT-3eMDHpANbTFXfPnhUs7MtzOfwtAWWXYpR3sNOE2oADHnCaWc76ktXyFycOB5CDM2CNw&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Daemons%20of%20the%20Shadow%20Realm%20S01E10%20480p%20x264%20WEB-DL%20Multi%20Audio%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Daemons of the Shadow Realm S01E10 480p x264 WEB-DL Multi Audio ESub.mkv" },
+    "720p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=pTSwNjo08-fo8iCvmsDf1VQ4KFVG5coD316kPhrr7V81WVtik0HViRUseVrCRVy5jhwH9L8baCzK8uOTaSGeAw&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Daemons%20of%20the%20Shadow%20Realm%20S01E10%20720p%20x264%20WEB-DL%20Multi%20Audio%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Daemons of the Shadow Realm S01E10 720p x264 WEB-DL Multi Audio ESub.mkv" },
+    "1080p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=aocM6jRMNdrEGoc0XNaqXMb8F2tSmJ1ud8yWegHFRrcsJs1oQEndo4mBjGPe7MTBjFnfUtjEQPYDz_IdTV1zHA&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Daemons%20of%20the%20Shadow%20Realm%20S01E10%201080p%20x265%2010bit%20WEB-DL%20Multi%20Audio%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Daemons of the Shadow Realm S01E10 1080p x265 10bit WEB-DL Multi Audio ESub.mkv" }
+  }
 },
-"daemons-of-the-shadow-realm-s1-1x11": {
-  type: "stream",
-  src: process.env.VIDEO_SRC_DAEMONS_S1_1X11 || "https://icy-feather-221c.jakcminasi.workers.dev/?id=RofimM2X_DkJcvV_WplBkF0bzujk9i4KjC-gXpnmnwP2VpUV0bYa4KBkgL35-OeC5uwSm-Q3wTxcPSM-gOrdAA&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Daemons%20of%20the%20Shadow%20Realm%20S01E11%20720p%20x264%20WEB-DL%20Multi%20Audio%20ESub.mkv",
-  downloadName: "[Visit On Telegram @HindiAnimestuff] Daemons of the Shadow Realm S01E11 720p x264 WEB-DL Multi Audio ESub.mkv"
+"id-daemons-of-the-shadow-realm-s1-1x11": {
+  qualities: {
+    "480p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=7DvVHhOvgual5KQEUDAnmec4VM6JGH6ut8objCkiTKq4Z6ZVCTrNGZD5-LyoZiPYJf_wSP7ctcZxICLC_LN-5g&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Daemons%20of%20the%20Shadow%20Realm%20S01E11%20480p%20x264%20WEB-DL%20Multi%20Audio%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Daemons of the Shadow Realm S01E11 480p x264 WEB-DL Multi Audio ESub.mkv" },
+    "720p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=tkAAbP8ekDR89Xobuh1IzInhY8s2kio1-qeiA_rgFPgNhUazix_rHA683DrybcoqQIz1VuVszcC5hId_O9hIFw&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Daemons%20of%20the%20Shadow%20Realm%20S01E11%20720p%20x264%20WEB-DL%20Multi%20Audio%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Daemons of the Shadow Realm S01E11 720p x264 WEB-DL Multi Audio ESub.mkv" },
+    "1080p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=ESOY_rEYDMD8YAEQMbfO87r6cwqi4VNib4YDSUDqibdOx8Cr2lCpWIqc9xabv3Vv-3XPn0BuG4YA1knhRqw3Yw&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Daemons%20of%20the%20Shadow%20Realm%20S01E11%201080p%20x265%2010bit%20WEB-DL%20Multi%20Audio%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Daemons of the Shadow Realm S01E11 1080p x265 10bit WEB-DL Multi Audio ESub.mkv" }
+  }
 },
-"daemons-of-the-shadow-realm-s1-1x12": {
-  type: "stream",
-  src: process.env.VIDEO_SRC_DAEMONS_S1_1X12 || "https://icy-feather-221c.jakcminasi.workers.dev/?id=nrCt6_p6xwx8KtUvpG6NMSdN_T68if51EvusCpfqyEq0PUFcD_ZONXK20gMIrgIL2Pdohy2Syj9EzouaM3WHeA&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Daemons%20of%20the%20Shadow%20Realm%20S01E12%20720p%20x264%20WEB-DL%20Multi%20Audio%20ESub.mkv",
-  downloadName: "[Visit On Telegram @HindiAnimestuff] Daemons of the Shadow Realm S01E12 720p x264 WEB-DL Multi Audio ESub.mkv"
+"id-daemons-of-the-shadow-realm-s1-1x12": {
+  qualities: {
+    "480p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=xRCB9U8tHTnLKRIEwezuh01RJRfNmeIPnee_2avlIdHc2LA6zvXUv2UIckQ_1j6IeSfR9rsPpwV6vQxjWhqjnw&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Daemons%20of%20the%20Shadow%20Realm%20S01E12%20480p%20x264%20WEB-DL%20Multi%20Audio%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Daemons of the Shadow Realm S01E12 480p x264 WEB-DL Multi Audio ESub.mkv" },
+    "720p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=gLA6k9-PcG65AI7FJApKQ2sUnPCmdkIzXOABvpa1R8CxWUlDcBMJNraKMW3R7JiHQZbMaKgIrh2HSVEBmlcS0w&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Daemons%20of%20the%20Shadow%20Realm%20S01E12%20720p%20x264%20WEB-DL%20Multi%20Audio%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Daemons of the Shadow Realm S01E12 720p x264 WEB-DL Multi Audio ESub.mkv" },
+    "1080p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=SR8smdjYBAikRNNRPmhjKMFOJIVp9mvcJaRvWRl_tuO6GBZJhHAjaS4dRHyXDYtMDjXxorcoNZ8oywmx88jfmw&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Daemons%20of%20the%20Shadow%20Realm%20S01E12%201080p%20x265%2010bit%20WEB-DL%20Multi%20Audio%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Daemons of the Shadow Realm S01E12 1080p x265 10bit WEB-DL Multi Audio ESub.mkv" }
+  }
 },
-  "daemons-of-the-shadow-realm-s1-1x13": {
-    qualities: {
-      "480p": { type: "stream", src: 'https://icy-feather-221c.jakcminasi.workers.dev/?id=XBtQIM8Sv7lNQxxPF3HHtAIKgmnMkUIPRMERYeCuscZhpeYDteytTzrOAl5VNvOmSo8Wn3FlLrYZhsXn0-UhVA&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Daemons%20of%20the%20Shadow%20Realm%20S01E13%20480p%20x264%20WEB-DL%20Multi%20Audio%20ESub.mkv', downloadName: '[ Visit On Telegram @HindiAnimestuff ] Daemons of the Shadow Realm S01E13 480p.mkv' },
-      "720p": { type: "stream", src: 'https://icy-feather-221c.jakcminasi.workers.dev/?id=Fclw4MpkM9wNQGthx--pRcE8jUbU-UATkyT05g9qoxQTuZ3r4b9V8o5glzcOE1m30-dpomvx7H5mUIyyQtAiGA&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Daemons%20of%20the%20Shadow%20Realm%20S01E13%20720p%20x264%20WEB-DL%20Multi%20Audio%20ESub.mkv', downloadName: '[ Visit On Telegram @HindiAnimestuff ] Daemons of the Shadow Realm S01E13 720p HD.mkv' }
-    }
-  },
+"id-daemons-of-the-shadow-realm-s1-1x13": {
+  qualities: {
+    "720p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=83w78ShfOqf_sWBl1sH2mc3Ox_tFyFmKPe_pJHcNcUqH-VZgg2YAWV4699Rlnxk6zCVrj4rsWuB_Pb6stH2dAw&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Daemons%20of%20the%20Shadow%20Realm%20S01E13%20720p%20x264%20WEB-DL%20Multi%20Audio%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Daemons of the Shadow Realm S01E13 720p x264 WEB-DL Multi Audio ESub.mkv" },
+    "1080p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=phalXvrB4KA4r4vgyLHDEHsgtuKmbPgKh2dmudKEtDhkYgxaNjA_wDO7lc96Goojw1UwHtS5YtafYaq8qhPQ5w&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Daemons%20of%20the%20Shadow%20Realm%20S01E13%201080p%20x265%2010bit%20WEB-DL%20Multi%20Audio%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Daemons of the Shadow Realm S01E13 1080p x265 10bit WEB-DL Multi Audio ESub.mkv" }
+  }
+},
+"id-daemons-of-the-shadow-realm-s1-1x14": {
+  qualities: {
+    "480p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=K1zPQ3l-o4p3OsCT4OyXGd3Ju3buuRbhESiboUdzkrjL1QDjjN4O8CMWvjea3I9J5NfzdcBQ_WT_3Uo3uBkd8w&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Daemons%20of%20the%20Shadow%20Realm%20S01E14%20480p%20x264%20WEB-DL%20Multi%20Audio%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Daemons of the Shadow Realm S01E14 480p x264 WEB-DL Multi Audio ESub.mkv" },
+    "720p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=uFaAuGAGmW0OkebvQqN_8TINnOM3-cODKkf9B654ARIuJ-nlRV1cOT5TxMuSwibb99FZUTUvuenk5o7ZKZmKoQ&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Daemons%20of%20the%20Shadow%20Realm%20S01E14%20720p%20x264%20WEB-DL%20Multi%20Audio%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Daemons of the Shadow Realm S01E14 720p x264 WEB-DL Multi Audio ESub.mkv" },
+    "1080p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=XcdmagANF-AEvvUJBNnRWQFzYCHVnA8ULrr_8MUC6SOp6MyqSty_69flepo45l-Bg7nfCFY0KKOwVc_PO71sPQ&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Daemons%20of%20the%20Shadow%20Realm%20S01E14%201080p%20x265%2010bit%20WEB-DL%20Multi%20Audio%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Daemons of the Shadow Realm S01E14 1080p x265 10bit WEB-DL Multi Audio ESub.mkv" }
+  }
+},
+
 "farming-life-in-another-world-s2-1x1": {
   type: "stream",
   src: process.env.VIDEO_SRC_FARMLIFE_S2_1X1 ||

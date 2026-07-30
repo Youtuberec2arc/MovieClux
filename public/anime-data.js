@@ -54,6 +54,45 @@
 
 const ANIME_DATABASE = [
 {
+  id: "clevatess",
+  title: "Clevatess",
+  type: "TV",
+  ageRating: "PG-13",
+  year: "2025",
+  duration: "45m",
+  tmdbRating: "7.8",
+  siteRating: "10",
+  quality: "1080p",
+  zipUrl: "/quality-not-available.html",
+  seriesGroup: "clevatess",
+  poster: "https://image.tmdb.org/t/p/original/jMQ7IMljkAOV2DqQtK82dWjWm76.jpg",
+  banner: "https://image.tmdb.org/t/p/original/jMQ7IMljkAOV2DqQtK82dWjWm76.jpg",
+  genres: ["Animation", "Fantasy", "Drama"],
+  languages: ["Hindi"],
+  tags: ["Multi Audio"],
+  description: "One of the Lords of Dark Beasts, Clevatess’s reign shatters when he revives a hero he personally slayed and adopts an orphaned humanoid baby—the last hope to save a dying world. Now bound together, what fate awaits this unlikely trio?",
+  cast: [],
+  isAvailable: true,
+  section: "new",
+  season: 1,
+  episodes: [
+    { number: 1, title: "Episode 1", id: "clevatess-1x1", embedType: "stream", qualities: ["480p","720p","1080p"], seedViews: 0 },
+    { number: 2, title: "Episode 2", id: "clevatess-1x2", embedType: "stream", qualities: ["480p","720p","1080p"], seedViews: 0 },
+    { number: 3, title: "Episode 3", id: "clevatess-1x3", embedType: "stream", qualities: ["480p","720p","1080p"], seedViews: 0 },
+    { number: 4, title: "Episode 4", id: "clevatess-1x4", embedType: "stream", qualities: ["480p","720p","1080p"], seedViews: 0 },
+    { number: 5, title: "Episode 5", id: "clevatess-1x5", embedType: "stream", qualities: ["480p","720p","1080p"], seedViews: 0 },
+    { number: 6, title: "Episode 6", id: "clevatess-1x6", embedType: "stream", qualities: ["480p","720p","1080p"], seedViews: 0 },
+    { number: 7, title: "Episode 7", id: "clevatess-1x7", embedType: "stream", qualities: ["480p","720p","1080p"], seedViews: 0 },
+    { number: 8, title: "Episode 8", id: "clevatess-1x8", embedType: "stream", qualities: ["480p","720p","1080p"], seedViews: 0 },
+    { number: 9, title: "Episode 9", id: "clevatess-1x9", embedType: "stream", qualities: ["480p","720p","1080p"], seedViews: 0 },
+    { number: 10, title: "Episode 10", id: "clevatess-1x10", embedType: "stream", qualities: ["480p","720p","1080p"], seedViews: 0 },
+    { number: 11, title: "Episode 11", id: "clevatess-1x11", embedType: "stream", qualities: ["480p","720p","1080p"], seedViews: 0 },
+    { number: 12, title: "Episode 12", id: "clevatess-1x12", embedType: "stream", qualities: ["480p","720p","1080p"], seedViews: 0 }
+  ]
+},
+
+
+{
   id: "demon-slayer-kimetsu-no-yaiba-infinity-castle",
   title: "Demon Slayer: Kimetsu no Yaiba Infinity Castle",
   type: "Movie",

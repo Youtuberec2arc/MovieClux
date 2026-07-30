@@ -40,6 +40,91 @@
  * --------------------------------------------------------- */
 
 const VIDEO_SOURCES = {
+"clevatess-1x1": {
+  qualities: {
+    "480p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=6pJWtw5USjwsKht-D5wBwIGsg_FY3rJaLtV6UtwfJnKridvUjawBfEiDkLyZS3gWqwElWQZvw1Yx6mnjX7WsJQ&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Clevatess%20S01E01%20480p%20x264%20WEB-DL%20Multi%20Audio%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Clevatess S01E01 480p x264 WEB-DL Multi Audio ESub.mkv" },
+    "720p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=go7dO_YY4RIIZAYcOC4PghhmfbeAQ88wWbTK-EkCM4uuQyzMRAeJZnBSEWniU-ZpOdmbcMFfswEzjiGMpBSsxw&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Clevatess%20S01E01%20720p%20x264%20WEB-DL%20Multi%20Audio%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Clevatess S01E01 720p x264 WEB-DL Multi Audio ESub.mkv" },
+    "1080p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=28bSyWGuaGDr9s0GEANdrAEOAjnYWGge2agzKIYm7xrezg1Wyp1DqCTZGoy4lJA3htFQcDehkB4xuvztNr5NQw&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Clevatess%20S01E01%201080p%20x265%2010bit%20WEB-DL%20Multi%20Audio%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Clevatess S01E01 1080p x265 10bit WEB-DL Multi Audio ESub.mkv" }
+  }
+},
+"clevatess-1x2": {
+  qualities: {
+    "480p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=0ddrRgMqpQAEfJ08Be5JM10auzu1uueKWqZr93dUubfhO_jbLlNHMQtWYe5aq6bcxFB8DtDuj_15dPPxxjDPzw&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Clevatess%20S01E02%20480p%20x264%20WEB-DL%20Multi%20Audio%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Clevatess S01E02 480p x264 WEB-DL Multi Audio ESub.mkv" },
+    "720p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=nnWR7iCkll_dqlyj0V1gYOz6Ya6zw8SMPc-oeUKGfPnbyGIv3kQFs9zMrrR1puoU7y-E4CigFzSNtmOOUB6Rqw&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Clevatess%20S01E02%20720p%20x264%20WEB-DL%20Multi%20Audio%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Clevatess S01E02 720p x264 WEB-DL Multi Audio ESub.mkv" },
+    "1080p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=ryWZomWzdqwP9BZV61a_EDc28zZ6dBGQSYWxVNCc0nkEURnq1yMh0zUjfrIi32bB_y2sdmX12Bt6AvnwFn1LSQ&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Clevatess%20S01E02%201080p%20x265%2010bit%20WEB-DL%20Multi%20Audio%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Clevatess S01E02 1080p x265 10bit WEB-DL Multi Audio ESub.mkv" }
+  }
+},
+"clevatess-1x3": {
+  qualities: {
+    "480p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=cwoi7T03iNRvRilMlopst65YKqyu9AKgOJyfb8GnRY8G_HLTDmTa-ILaLQ7aMkxHi39kIxErh8gu5qs2ObdNKg&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Clevatess%20S01E03%20480p%20x264%20WEB-DL%20Multi%20Audio%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Clevatess S01E03 480p x264 WEB-DL Multi Audio ESub.mkv" },
+    "720p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=YQYIVuLo7tn5958jNcANEmMhwVYqqxKjWITxZpu9JRbRHT9lOWHAriCjtWLmZ85uT76EySwGgmnfn6ix-AGbIw&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Clevatess%20S01E03%20720p%20x264%20WEB-DL%20Multi%20Audio%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Clevatess S01E03 720p x264 WEB-DL Multi Audio ESub.mkv" },
+    "1080p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=O0RL-6vWrq_NJoOWXhz6ru1XtLEVxjWkarVvLQ5Q69XCJjBooamxwRyjVQAHydJZOd1mb72ewVIANjRZGKgFuQ&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Clevatess%20S01E03%201080p%20x265%2010bit%20WEB-DL%20Multi%20Audio%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Clevatess S01E03 1080p x265 10bit WEB-DL Multi Audio ESub.mkv" }
+  }
+},
+"clevatess-1x4": {
+  qualities: {
+    "480p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=3PfoBGBY-NnR7d5UmdknMAi2g0JIsvuQYwPvcQUW6GVD6Og3NwqZEO3JehEH5OMBZ8Y7rLd-H1pOvQUwd0SNMQ&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Clevatess%20S01E04%20480p%20x264%20WEB-DL%20Multi%20Audio%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Clevatess S01E04 480p x264 WEB-DL Multi Audio ESub.mkv" },
+    "720p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=VKz5Wwn4xJK4g5Z4cwFCMBPH1m86GchNTS924RTrdLqS0kb9l0pknvOMnxuFRRJS9yCVZe1LaonwmbHRaERFBA&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Clevatess%20S01E04%20720p%20x264%20WEB-DL%20Multi%20Audio%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Clevatess S01E04 720p x264 WEB-DL Multi Audio ESub.mkv" },
+    "1080p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=i_FvT7UxVW0OrE2g1U4lKcldZg45FBINPWo6dDfyKVVyKOEazft2EnlixzjIpg-itYVy046GfUKQsLZdQDWPWg&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Clevatess%20S01E04%201080p%20x265%2010bit%20WEB-DL%20Multi%20Audio%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Clevatess S01E04 1080p x265 10bit WEB-DL Multi Audio ESub.mkv" }
+  }
+},
+"clevatess-1x5": {
+  qualities: {
+    "480p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=RKNyM5FmUu0M2KKqW8LkxA9-pae40kCIkQRvlxGtWWMBYcNRJNtaf0pf4cgyth8YZ2GsM3A6ja9UmebEs5kE0g&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Clevatess%20S01E05%20480p%20x264%20WEB-DL%20Multi%20Audio%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Clevatess S01E05 480p x264 WEB-DL Multi Audio ESub.mkv" },
+    "720p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=EaQgf4wuDvEj83AcVjS-SMwWekE4wMEPqz0Hhx5-w54O3fvKxn9tlflvdxewEddBtkk8j0_wy6pWVEoYj5op8g&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Clevatess%20S01E05%20720p%20x264%20WEB-DL%20Multi%20Audio%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Clevatess S01E05 720p x264 WEB-DL Multi Audio ESub.mkv" },
+    "1080p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=uXpRtPq4yxSss5MUBUYxJeKCzFjFbk4554wv0vB6a3VPcPTlXtrzhe2Yv_Am-0rV_MgZVGhZro1rjpN8C7kgXg&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Clevatess%20S01E05%201080p%20x265%2010bit%20WEB-DL%20Multi%20Audio%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Clevatess S01E05 1080p x265 10bit WEB-DL Multi Audio ESub.mkv" }
+  }
+},
+"clevatess-1x6": {
+  qualities: {
+    "480p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=64P-svXddbvurFxj720Z1YeSpE6s8tkIuxuyfqf4TMW52LPJ4ud1Hktw3s1ujJ0zu6OyL-4wq115bCzoSdhqCg&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Clevatess%20S01E06%20480p%20x264%20WEB-DL%20Multi%20Audio%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Clevatess S01E06 480p x264 WEB-DL Multi Audio ESub.mkv" },
+    "720p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=70V8NiqYnwCmb2yimuXIUN1PXbI7k69FtIW8kSg3O1x8sbXLXdl47a1T6q_utF9nzjf5V7AjplCCGUj_lSVucQ&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Clevatess%20S01E06%20720p%20x264%20WEB-DL%20Multi%20Audio%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Clevatess S01E06 720p x264 WEB-DL Multi Audio ESub.mkv" },
+    "1080p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=hbxmhCHtSsNMSOCFp1fwS7Oi6GAXT1SG1v8kE2n7gqwSKhjryzc_xhy4YQzKa-yeQXf1Rk1n3TS9tTKzviO_Ug&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Clevatess%20S01E06%201080p%20x265%2010bit%20WEB-DL%20Multi%20Audio%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Clevatess S01E06 1080p x265 10bit WEB-DL Multi Audio ESub.mkv" }
+  }
+},
+"clevatess-1x7": {
+  qualities: {
+    "480p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=CqkFMPsey1wY1lxpUgKFF2fiqodchZWH7TpZE0QQQkyP4GA7nXMqI05H1nWKMP40E3nvLyHikZknKwYPmSvEWQ&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Clevatess%20S01E07%20480p%20x264%20WEB-DL%20Multi%20Audio%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Clevatess S01E07 480p x264 WEB-DL Multi Audio ESub.mkv" },
+    "720p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=iv0JrUhDtmRzR1CR1vGgWcTfWApz9wa5jsOd-_BhomQo6SGl9G43asZyXGtHT-RhDQk1anFinzhM9jWYTyn1nQ&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Clevatess%20S01E07%20720p%20x264%20WEB-DL%20Multi%20Audio%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Clevatess S01E07 720p x264 WEB-DL Multi Audio ESub.mkv" },
+    "1080p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=aiCsp8nAVYWMhRVLXeigQPkPfwdwr5a_U2PpNGeh7rd4AbjFm04wqiMy-b5sUq2n_3r1KaursVpjWd59fkDWsw&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Clevatess%20S01E07%201080p%20x265%2010bit%20WEB-DL%20Multi%20Audio%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Clevatess S01E07 1080p x265 10bit WEB-DL Multi Audio ESub.mkv" }
+  }
+},
+"clevatess-1x8": {
+  qualities: {
+    "480p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=E4vQ6yKscflOKhSIzkQkObM70XQvQ52TL2LOHfG6xS8kB1VHEROT0YVcMDMgh6DgQk_U-8na20kdoOZLR6_aDw&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Clevatess%20S01E08%20480p%20x264%20WEB-DL%20Multi%20Audio%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Clevatess S01E08 480p x264 WEB-DL Multi Audio ESub.mkv" },
+    "720p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=joS1rdAJ7dKy7pMYXTieBN969xOP1rsLbogJ2LxCJfD9VXtOtpVqPYZgxJmyq_JgX8ZvUgM2wPud8T47CQmZTA&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Clevatess%20S01E08%20720p%20x264%20WEB-DL%20Multi%20Audio%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Clevatess S01E08 720p x264 WEB-DL Multi Audio ESub.mkv" },
+    "1080p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=AuOsS9QmXvtPxZpKkvS4vBngCiIutzN65mZWpuR3glfQtDmD5LW0Ep50dWXLvwPlwYtCO_6jngKIuinOF22FUw&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Clevatess%20S01E08%201080p%20x265%2010bit%20WEB-DL%20Multi%20Audio%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Clevatess S01E08 1080p x265 10bit WEB-DL Multi Audio ESub.mkv" }
+  }
+},
+"clevatess-1x9": {
+  qualities: {
+    "480p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=HXh-3QKgZE_jAv8nRZ8t1YRd-3v9h_f24RDI2HdiA-X_kaYUwn-0PNFmGaa59LPMcmHEz8-KLHPwTKtFfAss4w&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Clevatess%20S01E09%20480p%20x264%20WEB-DL%20Multi%20Audio%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Clevatess S01E09 480p x264 WEB-DL Multi Audio ESub.mkv" },
+    "720p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=14ULN0uLeOD_JtDnaryx6FxUX59Sq1kiFK5V2UwrnWGL2miUR28CLv8NST_YhoIoD634pvRTltKk9pgB7Le4Nw&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Clevatess%20S01E09%20720p%20x264%20WEB-DL%20Multi%20Audio%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Clevatess S01E09 720p x264 WEB-DL Multi Audio ESub.mkv" },
+    "1080p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=DG02pdBCZ9ldOJgDow8Gzi1UMQA2EMUMbKUgxptaqTgPrgbUj-3l5FuTahkxPbsMdi4SK7rXnhzCVJd0bbBXpw&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Clevatess%20S01E09%201080p%20x265%2010bit%20WEB-DL%20Multi%20Audio%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Clevatess S01E09 1080p x265 10bit WEB-DL Multi Audio ESub.mkv" }
+  }
+},
+"clevatess-1x10": {
+  qualities: {
+    "480p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=-G_tOWzd11kGt7LAEr3NFEHLTYXu00v2gvTITPvM6C7BpDACYmloj7qZHgysTTc7UIw7Hv9uvPWEmkRR1OrlnQ&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Clevatess%20S01E10%20480p%20x264%20WEB-DL%20Multi%20Audio%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Clevatess S01E10 480p x264 WEB-DL Multi Audio ESub.mkv" },
+    "720p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=d4YMlUR8rskOna_jOcorJsb7oNJNHjArYaUITpjDiL9Zi1Tof7KPDo4pwU9pQ0SzHW6IpHOJP06o-Qh3wNZ9RQ&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Clevatess%20S01E10%20720p%20x264%20WEB-DL%20Multi%20Audio%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Clevatess S01E10 720p x264 WEB-DL Multi Audio ESub.mkv" },
+    "1080p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=EjiMle5wekSm78z0GDgowWzAQC2i8tW2mOupvM7V7F7hPSq3PfT0WhUdOezIIXcq2ZYmhisZ9AgF__Vebv6aoQ&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Clevatess%20S01E10%201080p%20x265%2010bit%20WEB-DL%20Multi%20Audio%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Clevatess S01E10 1080p x265 10bit WEB-DL Multi Audio ESub.mkv" }
+  }
+},
+"clevatess-1x11": {
+  qualities: {
+    "480p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=nk2RxPJ83fCv3_w1E5QLssOhgoLKFXxwMncwtZ20riO_UZ5m6mAEF-jbIBOQhpBPp0py2bnAwzsXfTYyb0KS7g&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Clevatess%20S01E11%20480p%20x264%20WEB-DL%20Multi%20Audio%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Clevatess S01E11 480p x264 WEB-DL Multi Audio ESub.mkv" },
+    "720p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=Hr9j4yCxmu1G8aU0kPVLdO3fx1LicfBNNVGthk8Wk0dVAJ4RtJSkC1kbydpm_T8fTUWB20Ewa2jCbE9AWtyv6g&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Clevatess%20S01E11%20720p%20x264%20WEB-DL%20Multi%20Audio%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Clevatess S01E11 720p x264 WEB-DL Multi Audio ESub.mkv" },
+    "1080p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=wBHJXkWp4XSroznQ1kXn_RFKPugfuimbjxz5cRaITx2CfCT93x3rVs1mYyaXovNHanYe7dAEB9x4zUvJzjtNPw&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Clevatess%20S01E11%201080p%20x265%2010bit%20WEB-DL%20Multi%20Audio%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Clevatess S01E11 1080p x265 10bit WEB-DL Multi Audio ESub.mkv" }
+  }
+},
+"clevatess-1x12": {
+  qualities: {
+    "480p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=e10wcmCY46sGewiVePEMZe1DkvX5JRFSBeGQEmxQUNIKVJRh3IPODpMqgaPwWAiM28j8MsodNbJ5ipHT42JatQ&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Clevatess%20S01E12%20480p%20x264%20WEB-DL%20Multi%20Audio%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Clevatess S01E12 480p x264 WEB-DL Multi Audio ESub.mkv" },
+    "720p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=iDr-iZg9bI4-v4a3ydDIoR8TECRr-D3gOMJAqF_UugIhTJxoJo_YgriIwVg2YaS5dQYbGRWpwOpzxNJtmafxRg&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Clevatess%20S01E12%20720p%20x264%20WEB-DL%20Multi%20Audio%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Clevatess S01E12 720p x264 WEB-DL Multi Audio ESub.mkv" },
+    "1080p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=CCJB-cRgLZ2hLRgKhl7ZPR9cvIgo05mAr_ka5IQWrMYGe5GhJDX_21PTZ2EvdRSHVNuqpH-OdTklHLiRmhaVwQ&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Clevatess%20S01E12%201080p%20x265%2010bit%20WEB-DL%20Multi%20Audio%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Clevatess S01E12 1080p x265 10bit WEB-DL Multi Audio ESub.mkv" }
+  }
+},
+
 "demon-slayer-kimetsu-no-yaiba-infinity-castle-1x1": {
   qualities: {
     "480p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=ep9yhwzFIZlUm-0LpkYpFYakdfRf3dW08PZ6nfQ2JEI-RR7BzqGE6LszApRr6aOCk9UrQ18_sGZl6UYIDjErtg&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Demon%20Slayer%20Kimetsu%20no%20Yaiba%20Infinity%20Castle%202025%20480p%20BluRay%20Multi%20Audio%20ESub.mkv", downloadName: "[ Visit On Telegram @HindiAnimestuff ] Demon Slayer Kimetsu no Yaiba Infinity Castle 2025 480p.mkv" },

@@ -40,6 +40,596 @@
  * --------------------------------------------------------- */
 
 const VIDEO_SOURCES = {
+"tokyo-ghoul-s3-3x1": {
+  qualities: {
+    "480p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=ErOtNJkqz6ERdG6qBqzmB5H6okS1t-natN-D9X0ywO_dpq6c3Qs0kNXIAeNiL0OLC7py-Ej8stywX6ncwSfj-Q&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Tokyo%20Ghoul%20S03E01%20480p%20BluRay%20Multi%20Audio%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Tokyo Ghoul S03E01 480p BluRay Multi Audio ESub.mkv" },
+    "720p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=15LK2QX39Ori0jFlSvMsFuQc9A1SplN-69NbkWh36O5018jHLNsH3HpUgy9H9At4C51B4W4ZnajIiOVSXmjkQA&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Tokyo%20Ghoul%20S03E01%20720p%20HD%20BluRay%20Multi%20Audio%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Tokyo Ghoul S03E01 720p HD BluRay Multi Audio ESub.mkv" },
+    "1080p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=b_bmX0GydHtwPMPXsXwhUEP9sgN8iV66Mk3PQAkGwiDj3d6PKSGcZ34wQMNoradjm3sScpKu0X7MUrM-ATUl0Q&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Tokyo%20Ghoul%20S03E01%201080p%20HEVC%2010bit%20BluRay%20Multi%20Audio%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Tokyo Ghoul S03E01 1080p HEVC 10bit BluRay Multi Audio ESub.mkv" }
+  }
+},
+"tokyo-ghoul-s3-3x2": {
+  qualities: {
+    "480p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=dSDeidGUIKIGEs4BvCncOjav1ncMehwMGhIWfEbsMQlw42FerNw-ODGCLmu4V4WHJs6rY7ptzfJ29IVTkBo9Jw&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Tokyo%20Ghoul%20S03E02%20480p%20BluRay%20Multi%20Audio%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Tokyo Ghoul S03E02 480p BluRay Multi Audio ESub.mkv" },
+    "720p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=KpXKtVB3ox_omricyKnA7IdUfcVrfUDZ4YKfC7_xkuCfkwf7Zm68-LnIZ1qEZBT75gMfsOPcoEOUKOw8d1rxww&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Tokyo%20Ghoul%20S03E02%20720p%20HD%20BluRay%20Multi%20Audio%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Tokyo Ghoul S03E02 720p HD BluRay Multi Audio ESub.mkv" },
+    "1080p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=3-omh8kByy1fpVRhUZpZlnksJIi11yq2g6yQG3r_SCHr26GFVVMi4rS_SFqsuYHXN_xZl1xxFQ7vApDi3-CGRQ&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Tokyo%20Ghoul%20S03E02%201080p%20HEVC%2010bit%20BluRay%20Multi%20Audio%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Tokyo Ghoul S03E02 1080p HEVC 10bit BluRay Multi Audio ESub.mkv" }
+  }
+},
+"tokyo-ghoul-s3-3x3": {
+  qualities: {
+    "480p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=AISNHxg8_mAr2L0nr2V3vPR4wtqyvfV8Ho-gA1gOpf4aNpgVDEA69OvyGeG_Yv8dpJCKlVMKU_BKeOLodXlsBQ&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Tokyo%20Ghoul%20S03E03%20480p%20BluRay%20Multi%20Audio%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Tokyo Ghoul S03E03 480p BluRay Multi Audio ESub.mkv" },
+    "720p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=xaJWpbbMLxf3HLZcDzrDUalnv4N8h85IOXI9DaFpwkriTjD3yC_NLrHY2DSeAXql03Rqq2EqMWNBqIIAaakDpw&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Tokyo%20Ghoul%20S03E03%20720p%20HD%20BluRay%20Multi%20Audio%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Tokyo Ghoul S03E03 720p HD BluRay Multi Audio ESub.mkv" },
+    "1080p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=dJijQseRvTZ83RN-lxO84bOQxudJqjqQLovnN9D9P0LDP3c1r96J_6d2bGawbDvSoQUwyfU8R_A2ZfUNQpGM2g&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Tokyo%20Ghoul%20S03E03%201080p%20HEVC%2010bit%20BluRay%20Multi%20Audio%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Tokyo Ghoul S03E03 1080p HEVC 10bit BluRay Multi Audio ESub.mkv" }
+  }
+},
+"tokyo-ghoul-s3-3x4": {
+  qualities: {
+    "480p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=-JPwEu50AYj-eN3o-PV0N4kXwSmYYjjEjjLYPzfBkULDn5BhHDZ_saHz-9Oe2bVehWjaBvyxpdUnyHWPkuCGDQ&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Tokyo%20Ghoul%20S03E04%20480p%20BluRay%20Multi%20Audio%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Tokyo Ghoul S03E04 480p BluRay Multi Audio ESub.mkv" },
+    "720p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=YepCGywLJJdmIUXqsfwqYDbLsk6DmXjDdk8mAzbI_UAXF1H019emGKlK7x4_-aFQQdttLLJ6Zgp-z6Bkl1h4Mg&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Tokyo%20Ghoul%20S03E04%20720p%20HD%20BluRay%20Multi%20Audio%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Tokyo Ghoul S03E04 720p HD BluRay Multi Audio ESub.mkv" },
+    "1080p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=3ZhJqiz12t1i2BFBCFXMj0kGSSgz8AnSmhiiODgXmbAqqB2CYkxFgikMI8xdkGv0h4CJjScSGBJ8Bxc0pi8QQw&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Tokyo%20Ghoul%20S03E04%201080p%20HEVC%2010bit%20BluRay%20Multi%20Audio%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Tokyo Ghoul S03E04 1080p HEVC 10bit BluRay Multi Audio ESub.mkv" }
+  }
+},
+"tokyo-ghoul-s3-3x5": {
+  qualities: {
+    "480p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=-C604114cpDfNc-zKNrdX3OH_utiztqxbGnt9tyhWGFpCbgLocmEaEoKma7zSn_w1-08acGk5pXKo4OaY9RiOQ&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Tokyo%20Ghoul%20S03E05%20480p%20BluRay%20Multi%20Audio%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Tokyo Ghoul S03E05 480p BluRay Multi Audio ESub.mkv" },
+    "720p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=Uva2DBikjfhskP-T29HRoZ9LVQww1buFZjC1BdTwazA96k9TLc8keXwdoRlAvwSZjSNP18xGuvHBIe4G0CH7bw&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Tokyo%20Ghoul%20S03E05%20720p%20HD%20BluRay%20Multi%20Audio%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Tokyo Ghoul S03E05 720p HD BluRay Multi Audio ESub.mkv" },
+    "1080p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=1Ctobbw2SbwR6w3zMnxgLnKmRu9bNq2xDBTLEKVQV_nTpWU9ebteLCYtiZUiZgT2CKqYRkN-kFI3wZbKjj1ccQ&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Tokyo%20Ghoul%20S03E05%201080p%20HEVC%2010bit%20BluRay%20Multi%20Audio%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Tokyo Ghoul S03E05 1080p HEVC 10bit BluRay Multi Audio ESub.mkv" }
+  }
+},
+"tokyo-ghoul-s3-3x6": {
+  qualities: {
+    "480p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=H9WsZP4sAPecR3m4XwFoA6ZyrhrWdrBriubGG5tSw2VhSPIJ8dhO5XqaovfT_pFRou187AUn3Z-bSV1R3NIwVw&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Tokyo%20Ghoul%20S03E06%20480p%20BluRay%20Multi%20Audio%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Tokyo Ghoul S03E06 480p BluRay Multi Audio ESub.mkv" },
+    "720p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=BqeA1Hbg1w9HPwWb7E108mEUAdN8-kL_xYsifu8ZdYkU6_EAsVJZSYBpbYR2OfnGpSytPervH83llbKo5hSuOg&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Tokyo%20Ghoul%20S03E06%20720p%20HD%20BluRay%20Multi%20Audio%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Tokyo Ghoul S03E06 720p HD BluRay Multi Audio ESub.mkv" },
+    "1080p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=DwuwIb2I_0GF3UVXO8gaX5y3ne1_vpo1MoXRvUl3AOVEHP_UjPzzYF5PBQLEslzsyKvVj_a2S1ueKQcc6wvVwQ&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Tokyo%20Ghoul%20S03E06%201080p%20HEVC%2010bit%20BluRay%20Multi%20Audio%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Tokyo Ghoul S03E06 1080p HEVC 10bit BluRay Multi Audio ESub.mkv" }
+  }
+},
+"tokyo-ghoul-s3-3x7": {
+  qualities: {
+    "480p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=tuNZLjTcLyATT36YleVdZ34z-FhvKkOh5A75WW20IJjQfjELEJsl4ABiC1fkUv-FS88jUbl_CyOJ8mKOAmJQhw&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Tokyo%20Ghoul%20S03E07%20480p%20BluRay%20Multi%20Audio%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Tokyo Ghoul S03E07 480p BluRay Multi Audio ESub.mkv" },
+    "720p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=_vkMCg7mgzLxrs3Ta7YudEaAfre8n274r-llZeiPnX6nlO8A9-fKkRRiNNkPL7FlzwXXfnyYB0uEM6o1-sSF1A&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Tokyo%20Ghoul%20S03E07%20720p%20HD%20BluRay%20Multi%20Audio%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Tokyo Ghoul S03E07 720p HD BluRay Multi Audio ESub.mkv" },
+    "1080p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=6jg66AbGy6vN_LTjdDMdzl-r1Jl_YuZjgK32cJR4xRq54FMSd375COsZvg_oKBvk9XbeGVVbDtb2v2Z2eD8txg&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Tokyo%20Ghoul%20S03E07%201080p%20HEVC%2010bit%20BluRay%20Multi%20Audio%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Tokyo Ghoul S03E07 1080p HEVC 10bit BluRay Multi Audio ESub.mkv" }
+  }
+},
+"tokyo-ghoul-s3-3x8": {
+  qualities: {
+    "480p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=_qjQHzJtdtXRpxV0uK8obsXyxYCg33pO-m2MHthra5TNEgccNcVoUedcBhOmZn_vSsKs148aRSlcVeGUZuotig&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Tokyo%20Ghoul%20S03E08%20480p%20BluRay%20Multi%20Audio%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Tokyo Ghoul S03E08 480p BluRay Multi Audio ESub.mkv" },
+    "720p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=kc42T--ESXKkngHybe_RJojkI4lpXKo2iBnl2cy5FlYI-YXQzJvnG6Tey7fc7exkuEYcbOyDhKHc1BJ-7FT1QA&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Tokyo%20Ghoul%20S03E08%20720p%20HD%20BluRay%20Multi%20Audio%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Tokyo Ghoul S03E08 720p HD BluRay Multi Audio ESub.mkv" },
+    "1080p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=TDNhLqRtuOOxbF_8kOhEbeSYDsAjhfonHIr9VqhbTvw_tKmPDJSiHRXCdWRFe7O86w7AkRsX-hlIQxFZc0P_4w&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Tokyo%20Ghoul%20S03E08%201080p%20HEVC%2010bit%20BluRay%20Multi%20Audio%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Tokyo Ghoul S03E08 1080p HEVC 10bit BluRay Multi Audio ESub.mkv" }
+  }
+},
+"tokyo-ghoul-s3-3x9": {
+  qualities: {
+    "480p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=5pkXTBmcjjNsuOkjIxgb3eqsaj5jUr6a_p0j-30mH8UyIp3hGiMVy3XyCESloLbU7ltzEwK8ff9KO2y4ESatMQ&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Tokyo%20Ghoul%20S03E09%20480p%20BluRay%20Multi%20Audio%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Tokyo Ghoul S03E09 480p BluRay Multi Audio ESub.mkv" },
+    "720p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=c_dWZdMmBxBQ3vxZYHGF_XVYSWrOfan5VCQnZUO7U6rZhnGwypm4lvRW8BxkGkVvKuIuNYx3tujHUYI3UImnWg&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Tokyo%20Ghoul%20S03E09%20720p%20HD%20BluRay%20Multi%20Audio%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Tokyo Ghoul S03E09 720p HD BluRay Multi Audio ESub.mkv" },
+    "1080p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=stW4HUu_DssdXj-fjngFkmftlDKUJTd7oXIOg0gPt3tNUKO92w21tYtUDzS4S3SQ5eUYSj51mFllMvgcyn7r9g&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Tokyo%20Ghoul%20S03E09%201080p%20HEVC%2010bit%20BluRay%20Multi%20Audio%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Tokyo Ghoul S03E09 1080p HEVC 10bit BluRay Multi Audio ESub.mkv" }
+  }
+},
+"tokyo-ghoul-s3-3x10": {
+  qualities: {
+    "480p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=nj-KiXNnnhFtqaDE5aV2LPkIMLHmZEfJ7I14Dm0cHqnmqQ6Ks3ZzUHZDBBJTZmHtTIEGF1rDl3GAMb9z8F3SMQ&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Tokyo%20Ghoul%20S03E10%20480p%20BluRay%20Multi%20Audio%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Tokyo Ghoul S03E10 480p BluRay Multi Audio ESub.mkv" },
+    "720p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=Kdm3MemZo-G8eSUxafpwDpufmZFhxJKqVK3R0GY0bzjSy1ss9iGaMJiHgLbUI8vYo5H1v_8Mwe9witO3cxoH_g&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Tokyo%20Ghoul%20S03E10%20720p%20HD%20BluRay%20Multi%20Audio%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Tokyo Ghoul S03E10 720p HD BluRay Multi Audio ESub.mkv" },
+    "1080p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=Uu9ydEYI7Cmg1EBWUjQANGfcPawh15yqjQOtpUYvSG2dDeFHxTspbqQ9WuaeFDSAA8Vp0maReB6-qePQzJLUOw&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Tokyo%20Ghoul%20S03E10%201080p%20HEVC%2010bit%20BluRay%20Multi%20Audio%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Tokyo Ghoul S03E10 1080p HEVC 10bit BluRay Multi Audio ESub.mkv" }
+  }
+},
+"tokyo-ghoul-s3-3x11": {
+  qualities: {
+    "480p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=OHCLCtCRl6GWZ4LBY3q5F5wCebM7Wr1xKb4HZtbGxcCkkeyeG-vwwoqTuEJgqwkJvHBSq8fK3BzAzErQXigTmQ&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Tokyo%20Ghoul%20S03E11%20480p%20BluRay%20Multi%20Audio%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Tokyo Ghoul S03E11 480p BluRay Multi Audio ESub.mkv" },
+    "720p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=1FRX9cu6sJXdA4xNtfZbHKbPSAOC76zom2FJTW0dqpgUGUeRwR1t_9f0VD4350uMw6mS3ZA7Xz6rahB5yxlumw&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Tokyo%20Ghoul%20S03E11%20720p%20HD%20BluRay%20Multi%20Audio%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Tokyo Ghoul S03E11 720p HD BluRay Multi Audio ESub.mkv" },
+    "1080p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=F9IIaEnn8jbZK8crnAtpMZY6TJowaSae12gZ9TYOgAvHyYTfXqaUlQfa7XQcINKQ-QGagjaqqKf7p-rQZ4QIGg&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Tokyo%20Ghoul%20S03E11%201080p%20HEVC%2010bit%20BluRay%20Multi%20Audio%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Tokyo Ghoul S03E11 1080p HEVC 10bit BluRay Multi Audio ESub.mkv" }
+  }
+},
+"tokyo-ghoul-s3-3x12": {
+  qualities: {
+    "480p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=99w7F3wPgEswCMw9p9_LKfIhg-Y5JiXv5UEcdT5SO-VL9-hANx7bj4e6jG1KVE7hjz9OtfZFmDpixf17Bsmxxg&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Tokyo%20Ghoul%20S03E12%20480p%20BluRay%20Multi%20Audio%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Tokyo Ghoul S03E12 480p BluRay Multi Audio ESub.mkv" },
+    "720p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=SwPKXUjo9S4s1-WOmgwENdzWf6FhZ2P-NCTm2Z9xgWItMY6oX3Z2VSYyaS4BsuRyu0yzG7MDkkz6sl82d4a4yw&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Tokyo%20Ghoul%20S03E12%20720p%20HD%20BluRay%20Multi%20Audio%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Tokyo Ghoul S03E12 720p HD BluRay Multi Audio ESub.mkv" },
+    "1080p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=eNLi1tYNsKVNTwkl6txa-bLjpsiPOxBvSnBc1ZkOqJ870kqmGn4r6TwX3DlDPeYl6jMDmRH1-BKBAyJ82qOvjg&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Tokyo%20Ghoul%20S03E12%201080p%20HEVC%2010bit%20BluRay%20Multi%20Audio%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Tokyo Ghoul S03E12 1080p HEVC 10bit BluRay Multi Audio ESub.mkv" }
+  }
+},
+"tokyo-ghoul-s3-3x13": {
+  qualities: {
+    "480p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=L0U96eSpO8U9-pq2LG57TcILmzA5n_CVGvLhWTVRLpeSCYs0gVZjxzPFfXaRcf3SbHnU_5t3KjI9mWNYiJYzqg&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Tokyo%20Ghoul%20S03E13%20480p%20BluRay%20Multi%20Audio%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Tokyo Ghoul S03E13 480p BluRay Multi Audio ESub.mkv" },
+    "720p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=c2suGztcCsDxGlgp_VgDrhIvArg9jker6NSCdrlUWSCNxJbRMiJ84oge--HgoyhsQJ675A8WLQL4g3f8YNX2ug&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Tokyo%20Ghoul%20S03E13%20720p%20HD%20BluRay%20Multi%20Audio%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Tokyo Ghoul S03E13 720p HD BluRay Multi Audio ESub.mkv" },
+    "1080p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=5YhNYnt69bhCJgfZgZJisM8eJvkSgYeggS0Ad9X8Dl6F_WJEzyNdPnYCNsVGHYhmY7ROwLSJ5V8ARLkE-xXxUg&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Tokyo%20Ghoul%20S03E13%201080p%20HEVC%2010bit%20BluRay%20Multi%20Audio%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Tokyo Ghoul S03E13 1080p HEVC 10bit BluRay Multi Audio ESub.mkv" }
+  }
+},
+"tokyo-ghoul-s3-3x14": {
+  qualities: {
+    "480p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=DqyhIcJJrbjEEKzrjM1i5aYPangXAnBExV0d2wv2jOATxNCWhyjZ1V9SIq_Czx6XVqJqYTpHaWXyaJMLTdoXwQ&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Tokyo%20Ghoul%20S03E14%20480p%20BluRay%20Multi%20Audio%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Tokyo Ghoul S03E14 480p BluRay Multi Audio ESub.mkv" },
+    "720p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=ZwGGBTjqi35O1uoX2Tl0qN_uu04PIRmRckqO-AAp9cC72X7fUEd72db3Aa4Qx-AacC-rAzrumWgVdZ6YiQoPsw&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Tokyo%20Ghoul%20S03E14%20720p%20HD%20BluRay%20Multi%20Audio%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Tokyo Ghoul S03E14 720p HD BluRay Multi Audio ESub.mkv" },
+    "1080p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=vzAYUITcsuBjefSxFqAdVLFAefaVTCO2p3TioEuv6lu9NYttcMQcZbpYVcn99QNiURepcXsli-3fI3WaC7ootg&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Tokyo%20Ghoul%20S03E14%201080p%20HEVC%2010bit%20BluRay%20Multi%20Audio%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Tokyo Ghoul S03E14 1080p HEVC 10bit BluRay Multi Audio ESub.mkv" }
+  }
+},
+"tokyo-ghoul-s3-3x15": {
+  qualities: {
+    "480p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=dO7gfvJaIIraoY4Yoxe_ydy1kPPK3OURf614dTN9K8AxRTMnc6V1uPGwgCzWlGWT3BLL0FmFjOiNrachF6JLIg&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Tokyo%20Ghoul%20S03E15%20480p%20BluRay%20Multi%20Audio%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Tokyo Ghoul S03E15 480p BluRay Multi Audio ESub.mkv" },
+    "720p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=AzWkfXhypJGSiB2v-as0YKW4k_k30sYa___8pL9-eNvwbDubHVe7JOEb-z6l9WJChU5mHbURFgXR2hdJZm7Apw&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Tokyo%20Ghoul%20S03E15%20720p%20HD%20BluRay%20Multi%20Audio%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Tokyo Ghoul S03E15 720p HD BluRay Multi Audio ESub.mkv" },
+    "1080p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=cCEnfe-tWZfUeozUTrsbKXJvUrPcYXrsSa_n7DUTYrB5_79yR84ts5XdZATaSwyXrK3TFJzlXrqtXL9w6-q9rw&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Tokyo%20Ghoul%20S03E15%201080p%20HEVC%2010bit%20BluRay%20Multi%20Audio%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Tokyo Ghoul S03E15 1080p HEVC 10bit BluRay Multi Audio ESub.mkv" }
+  }
+},
+"tokyo-ghoul-s3-3x16": {
+  qualities: {
+    "480p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=nTcm4M7WJ-ju4aS9rfA2f295246hGuR6FTgzM6mKu1kdA8DWZTmq4DbUIv3khEr8cGe1rJjQprSWY3TI_tSJLQ&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Tokyo%20Ghoul%20S03E16%20480p%20BluRay%20Multi%20Audio%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Tokyo Ghoul S03E16 480p BluRay Multi Audio ESub.mkv" },
+    "720p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=S14ICGaMJY32urBhozFDKXmN84gliVttfx8-QHtPUPYesgq9g7BhObp6zRy4_CywZ78fwGz2MZ_v-DfPWxAz1w&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Tokyo%20Ghoul%20S03E16%20720p%20HD%20BluRay%20Multi%20Audio%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Tokyo Ghoul S03E16 720p HD BluRay Multi Audio ESub.mkv" },
+    "1080p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=f5sm8aDtv6IlPFyAoQAQ6RkhJL-VHAFKjrdKLIb34SxOQFJsGqTqBdpy0YQpDKZ-d1k7f_WCbWLWL59qLVrMTw&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Tokyo%20Ghoul%20S03E16%201080p%20HEVC%2010bit%20BluRay%20Multi%20Audio%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Tokyo Ghoul S03E16 1080p HEVC 10bit BluRay Multi Audio ESub.mkv" }
+  }
+},
+"tokyo-ghoul-s3-3x17": {
+  qualities: {
+    "480p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=bljxcdrNwgd2bMLQFsKCD2wVjvcC3SugermlijjAMUXQmi-5R8bIgwdk3wD02s1_K1sIv9juH8ebfhOEhMk5Ng&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Tokyo%20Ghoul%20S03E17%20480p%20BluRay%20Multi%20Audio%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Tokyo Ghoul S03E17 480p BluRay Multi Audio ESub.mkv" },
+    "720p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=rScTUMte9BV52ebAbAKv6lKc-uynuJyrGrakKEpgazWYEfweN5lK9XTbpJaO9oi7vHRX5wcC7CA1U7Vl619fBA&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Tokyo%20Ghoul%20S03E17%20720p%20HD%20BluRay%20Multi%20Audio%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Tokyo Ghoul S03E17 720p HD BluRay Multi Audio ESub.mkv" },
+    "1080p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=rw-CYs2xxnTDp0-Ynuzf6LjVfLtT_JRwbpATX0WX_tlPQ2-lWGvQk0PuusCncqbsI2sRpQb4Cpf3N8ndDOlFhw&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Tokyo%20Ghoul%20S03E17%201080p%20HEVC%2010bit%20BluRay%20Multi%20Audio%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Tokyo Ghoul S03E17 1080p HEVC 10bit BluRay Multi Audio ESub.mkv" }
+  }
+},
+"tokyo-ghoul-s3-3x18": {
+  qualities: {
+    "480p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=-u7YI90FkRVCxofSWoldOvXSIubJKhzh268F8b5Mji4bXX8ztfAGdmMLPu5XR5Wr0vKz9Jn6-EBiRiQU7f6FYw&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Tokyo%20Ghoul%20S03E18%20480p%20BluRay%20Multi%20Audio%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Tokyo Ghoul S03E18 480p BluRay Multi Audio ESub.mkv" },
+    "720p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=tI4oQY1o9JzkgpFTJBeIJqsfWeJZU5dMlsL5K1AOd3sfw4uFS6gClNhHy3tvXsANZzRExtgUY6nccpZifv3HMQ&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Tokyo%20Ghoul%20S03E18%20720p%20HD%20BluRay%20Multi%20Audio%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Tokyo Ghoul S03E18 720p HD BluRay Multi Audio ESub.mkv" },
+    "1080p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=qjBj-tLi27Ntx5P0DUCI84zsKjSef7uIwf0iUev1MD8bisyeJnyAoiklXv6sv8ECyxkkkCyURRzqvEjHNnxS4A&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Tokyo%20Ghoul%20S03E18%201080p%20HEVC%2010bit%20BluRay%20Multi%20Audio%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Tokyo Ghoul S03E18 1080p HEVC 10bit BluRay Multi Audio ESub.mkv" }
+  }
+},
+"tokyo-ghoul-s3-3x19": {
+  qualities: {
+    "480p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=1Kxm1TorGM6tE-sLfJy2yMnPcH_inwTnT0aRMjD7RD1vyNDWYCfmpPOP8mKDSUDoHEq6orcTF7vZqnNccuaqww&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Tokyo%20Ghoul%20S03E19%20480p%20BluRay%20Multi%20Audio%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Tokyo Ghoul S03E19 480p BluRay Multi Audio ESub.mkv" },
+    "720p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=ATmNOKJItqhPpPx6uZiYbR-1vKFI-op019en6ZNzo9NalsSz03gb-7Bd-lgJp2O_qhUApSTG5C0UDkQuU5gWZQ&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Tokyo%20Ghoul%20S03E19%20720p%20HD%20BluRay%20Multi%20Audio%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Tokyo Ghoul S03E19 720p HD BluRay Multi Audio ESub.mkv" },
+    "1080p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=sJAfpKs6UqKajVga0Md20EJkvUoVs3Q6kvqbuze9DHtfku3xPZbeOfHCBJj2J1_hMuj5xFEwwBDI0VlYrUBurw&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Tokyo%20Ghoul%20S03E19%201080p%20HEVC%2010bit%20BluRay%20Multi%20Audio%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Tokyo Ghoul S03E19 1080p HEVC 10bit BluRay Multi Audio ESub.mkv" }
+  }
+},
+"tokyo-ghoul-s3-3x20": {
+  qualities: {
+    "480p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=JWCOMzCrNzICSvgr1u1OFzuKjiIF6M964pY1wLYMJi8QluMfUWyCnUPVNS62Q4Nb2OeTtXE6_ifl9fg8GUd7XA&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Tokyo%20Ghoul%20S03E20%20480p%20BluRay%20Multi%20Audio%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Tokyo Ghoul S03E20 480p BluRay Multi Audio ESub.mkv" },
+    "720p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=ZJPbZUNQVLqncFoOGC6HfSacIWiovBbVhrGkc3U1ZEK-xkAYmEc0aPc0E_9tDyvOFqpqIxNV2AoA1GWlacJ-eQ&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Tokyo%20Ghoul%20S03E20%20720p%20HD%20BluRay%20Multi%20Audio%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Tokyo Ghoul S03E20 720p HD BluRay Multi Audio ESub.mkv" },
+    "1080p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=nRX7Na4CRWj6e2iwbuuHW2W522dVfSHO6PaDvGZ6fUH6mhwmMQ2JTLvzQdu6YJVw4qFoTmr3DsK6scTJIhu0kA&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Tokyo%20Ghoul%20S03E20%201080p%20HEVC%2010bit%20BluRay%20Multi%20Audio%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Tokyo Ghoul S03E20 1080p HEVC 10bit BluRay Multi Audio ESub.mkv" }
+  }
+},
+"tokyo-ghoul-s3-3x21": {
+  qualities: {
+    "480p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=VwC6_G7z9TgJED75zmQ5Pdiik5OZ8IZg0fYVX6e418gwESMOwKCcQfJtEhEkNM_16zAbDvSKgXm4gmlJryM5BQ&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Tokyo%20Ghoul%20S03E21%20480p%20BluRay%20Multi%20Audio%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Tokyo Ghoul S03E21 480p BluRay Multi Audio ESub.mkv" },
+    "720p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=zCl66BZtkhnZoGLDEQhBRGHdiCnLfeP9T0RA8WATWtLg1WqygwAhWEshzTscMhswRocaM1pzmwoBiXQmJuw-sQ&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Tokyo%20Ghoul%20S03E21%20720p%20HD%20BluRay%20Multi%20Audio%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Tokyo Ghoul S03E21 720p HD BluRay Multi Audio ESub.mkv" },
+    "1080p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=MNU5uTXTgCJLKE-eJPGQ2FJEvIFXpRYHqoBoYyUHoynkXGZ7yvjlRWNavFJnkc1dqA7NfiuZBMWROjB9svB_ew&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Tokyo%20Ghoul%20S03E21%201080p%20HEVC%2010bit%20BluRay%20Multi%20Audio%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Tokyo Ghoul S03E21 1080p HEVC 10bit BluRay Multi Audio ESub.mkv" }
+  }
+},
+"tokyo-ghoul-s3-3x22": {
+  qualities: {
+    "480p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=f-hlZ2rNZwQmtHylKFlky4zwYwz79_BAgaWr-I1dCqT8agt3vWTyS4VZhRLei0IWIu6eCGtbdOKV7X-uGWr4Qw&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Tokyo%20Ghoul%20S03E22%20480p%20BluRay%20Multi%20Audio%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Tokyo Ghoul S03E22 480p BluRay Multi Audio ESub.mkv" },
+    "720p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=CXjb58QpoAjXvager-8zqKAG9gAtbJ5SbqPiV93EZQeSMX1xUxAuqzXaJC32Kk1fGBInLJDCg8niZ-GxuvJESw&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Tokyo%20Ghoul%20S03E22%20720p%20HD%20BluRay%20Multi%20Audio%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Tokyo Ghoul S03E22 720p HD BluRay Multi Audio ESub.mkv" },
+    "1080p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=2R5yINnaOEHvf5T8yDxB00FWadANX-55LNGxLkECTLqAwGWXqr_NgboogfB8ErHWJFp9GTdVnieoZPBUhmPwQw&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Tokyo%20Ghoul%20S03E22%201080p%20HEVC%2010bit%20BluRay%20Multi%20Audio%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Tokyo Ghoul S03E22 1080p HEVC 10bit BluRay Multi Audio ESub.mkv" }
+  }
+},
+"tokyo-ghoul-s3-3x23": {
+  qualities: {
+    "480p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=R7AfXazLaNNowp1NDH5CSnt21E3WnXdHrT7DpxZ8nZ7plXSvcOUW_xPmzogk98O0KIk7PanxfBTkCxSF_vKiYw&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Tokyo%20Ghoul%20S03E23%20480p%20BluRay%20Multi%20Audio%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Tokyo Ghoul S03E23 480p BluRay Multi Audio ESub.mkv" },
+    "720p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=K_bAOLQhGbIf5KljnVzKPBF03ZMmDAtIecVRF2-y4VF5gxUSAz7Tiw-v3zvLbLKL2q__AxTSNI2CW8LI_826Iw&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Tokyo%20Ghoul%20S03E23%20720p%20HD%20BluRay%20Multi%20Audio%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Tokyo Ghoul S03E23 720p HD BluRay Multi Audio ESub.mkv" },
+    "1080p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=swylfjUfhrbXWqoPj4zOQ1KUpdJBe9ltvDEigoa36wIXS9fJJ_OhEJJweVAIV-s3C1_hSYPeboVPAlWWoRmZCA&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Tokyo%20Ghoul%20S03E23%201080p%20HEVC%2010bit%20BluRay%20Multi%20Audio%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Tokyo Ghoul S03E23 1080p HEVC 10bit BluRay Multi Audio ESub.mkv" }
+  }
+},
+"tokyo-ghoul-s3-3x24": {
+  qualities: {
+    "480p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=krp1hrrj8QjEqjoaQtmZsR-XjS-ZfrxfOQfHdkxMKKSth5Wu76wQTzekNy8yEdFkQJAlirBPtJo8g7Km-11EKQ&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Tokyo%20Ghoul%20S03E24%20480p%20BluRay%20Multi%20Audio%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Tokyo Ghoul S03E24 480p BluRay Multi Audio ESub.mkv" },
+    "720p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=cb6oF4cMVRvPgB_jw_TO6QC6TU76kNyrrgx0OTvm__Kwm9VnWY_VNxcEkU1mpgU2QTe35zW8SqoRMnQI0vMZlQ&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Tokyo%20Ghoul%20S03E24%20720p%20HD%20BluRay%20Multi%20Audio%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Tokyo Ghoul S03E24 720p HD BluRay Multi Audio ESub.mkv" },
+    "1080p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=m_Wn2Suy1WkVXm8-FQUa7HrKZJZoX9apz-LIkTkqwIyIuAHMC3S2UVpNgAwSRMb-DdOTiUTkSHXiCrYv4pUDRA&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Tokyo%20Ghoul%20S03E24%201080p%20HEVC%2010bit%20BluRay%20Multi%20Audio%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Tokyo Ghoul S03E24 1080p HEVC 10bit BluRay Multi Audio ESub.mkv" }
+  }
+},
+"tokyo-ghoul-s2-2x1": {
+  qualities: {
+    "480p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=uwHQCAffR3odlEPK1yY1O640sR-ls3uBRn_zsfbLLDP0FIwh1-f8f6Rc3GQ-FG_EZSIc8SUZK_o2MNdIa6TEoA&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Tokyo%20Ghoul%20S02E01%20480p%20BluRay%20Multi%20Audio%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Tokyo Ghoul S02E01 480p BluRay Multi Audio ESub.mkv" },
+    "720p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=jdaCnR8zx2JH9BUeCy_ExXEq0BQgzJDqnl8ztuh-fuPv1UteJlZWP-pKde2fht-y7bqP4BFwVcFHqKikS3vm5w&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Tokyo%20Ghoul%20S02E01%20720p%20HD%20BluRay%20Multi%20Audio%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Tokyo Ghoul S02E01 720p HD BluRay Multi Audio ESub.mkv" },
+    "1080p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=I3lOSlOWPHyHAJzuedSjufSLLyoe-i9YQdPjdD0GcYTRFZaSTVaBNpdAoIRT39wkxBpFEWfb6eVaKeFHExVMXw&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Tokyo%20Ghoul%20S02E01%201080p%20HEVC%2010bit%20BluRay%20Multi%20Audio%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Tokyo Ghoul S02E01 1080p HEVC 10bit BluRay Multi Audio ESub.mkv" }
+  }
+},
+"tokyo-ghoul-s2-2x2": {
+  qualities: {
+    "480p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=atI2fqhxIf_gILM7M3AN8t1-JyZhrOT9swTNbHb5YYNioLKqwETDfLGwuSyyPhcfhfl9XcSgdFOL3Nr-tYbZag&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Tokyo%20Ghoul%20S02E02%20480p%20BluRay%20Multi%20Audio%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Tokyo Ghoul S02E02 480p BluRay Multi Audio ESub.mkv" },
+    "720p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=4Z3Ycgod9P-dn6sn4LgtVrGaFVrszgTdJowcUKI-wxeb9xIqxwoyMyDf-Djb08UNq0yJXdR2wjLJZu2go4srpA&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Tokyo%20Ghoul%20S02E02%20720p%20HD%20BluRay%20Multi%20Audio%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Tokyo Ghoul S02E02 720p HD BluRay Multi Audio ESub.mkv" },
+    "1080p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=ENR7UVnM_vv4Kh8yn-fFSFof3LHibXJE29pxlb0UgPeDy35yYN_nDPVKBB_NqQZu8f_HzPATISoMx9G1kD_13Q&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Tokyo%20Ghoul%20S02E02%201080p%20HEVC%2010bit%20BluRay%20Multi%20Audio%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Tokyo Ghoul S02E02 1080p HEVC 10bit BluRay Multi Audio ESub.mkv" }
+  }
+},
+"tokyo-ghoul-s2-2x3": {
+  qualities: {
+    "480p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=sQVfw5W4CVlwBGPC48gDc-3CRcGMhJEqAIQKtrhCOjEyiNgguJTvR2DHE3QbOeOgFQUel76fOXKXu83R-p0keg&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Tokyo%20Ghoul%20S02E03%20480p%20BluRay%20Multi%20Audio%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Tokyo Ghoul S02E03 480p BluRay Multi Audio ESub.mkv" },
+    "720p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=hHtLhti_2qjiu2Dbe4-FL8rKp2vAt48zMp-DclnlSAaTePjh8d6e_vfRMmLjUvrZld4CtnSZfmB2nsborzONyg&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Tokyo%20Ghoul%20S02E03%20720p%20HD%20BluRay%20Multi%20Audio%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Tokyo Ghoul S02E03 720p HD BluRay Multi Audio ESub.mkv" },
+    "1080p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=FXqjuMMVjhqnbvkDAZUrRDjMVy9J4cTXMLYulQDBrQtlwuNdCsSz9SZv3nX2KciYpWTzD5jOJyRGy9YvHrUEng&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Tokyo%20Ghoul%20S02E03%201080p%20HEVC%2010bit%20BluRay%20Multi%20Audio%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Tokyo Ghoul S02E03 1080p HEVC 10bit BluRay Multi Audio ESub.mkv" }
+  }
+},
+"tokyo-ghoul-s2-2x4": {
+  qualities: {
+    "480p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=IFJayIIhwqdo7-UOJndH73a7Dwcrni5XQ2jXOUh1mEoCcSjOpemKlWwtSdpa6Y_RDDrqQVdZ3UHhc0XbL7Ra-g&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Tokyo%20Ghoul%20S02E04%20480p%20BluRay%20Multi%20Audio%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Tokyo Ghoul S02E04 480p BluRay Multi Audio ESub.mkv" },
+    "720p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=NEaTOxHgXGZpOm0gD0jZLpCCu2rL0b0vECsfTLvGP86drJOrIdno2yfzbb_hxaPwN3XSMB1TvX7-ICbGLAfmhQ&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Tokyo%20Ghoul%20S02E04%20720p%20HD%20BluRay%20Multi%20Audio%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Tokyo Ghoul S02E04 720p HD BluRay Multi Audio ESub.mkv" },
+    "1080p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=zbtSgzkVo_aS0DOYZMCSg9_L0MPMX4TgHFMhlqrIknMC4sIowJjbk81OTXjeAAaigtP0Es3GOx7ywE5m1sBCXg&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Tokyo%20Ghoul%20S02E04%201080p%20HEVC%2010bit%20BluRay%20Multi%20Audio%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Tokyo Ghoul S02E04 1080p HEVC 10bit BluRay Multi Audio ESub.mkv" }
+  }
+},
+"tokyo-ghoul-s2-2x5": {
+  qualities: {
+    "480p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=NNmE4bGqb985oqHfM_RBj1S8B2_vSOuDxYQqYnqGoTbGRqQzFB3qDStakzfi9D3Ybd_H0RwgB-Ya9wDPOWbIeQ&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Tokyo%20Ghoul%20S02E05%20480p%20BluRay%20Multi%20Audio%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Tokyo Ghoul S02E05 480p BluRay Multi Audio ESub.mkv" },
+    "720p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=jkbaoSaCijt-K_Co1iPG7aYgSMB2IoIsfEwk68s_pExBT6cBXkycwi1oiEepIICZzAw48ol3qb_6DaazYFbSkw&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Tokyo%20Ghoul%20S02E05%20720p%20HD%20BluRay%20Multi%20Audio%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Tokyo Ghoul S02E05 720p HD BluRay Multi Audio ESub.mkv" },
+    "1080p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=BF54gJgXCXH2Zo9xrmBq1x7Vs5BGWc51uldzV3EQpQkPeJ0bN3clpZXO9ErCb2gsqahBsH7-J7PAppxhdwqslA&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Tokyo%20Ghoul%20S02E05%201080p%20HEVC%2010bit%20BluRay%20Multi%20Audio%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Tokyo Ghoul S02E05 1080p HEVC 10bit BluRay Multi Audio ESub.mkv" }
+  }
+},
+"tokyo-ghoul-s2-2x6": {
+  qualities: {
+    "480p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=-E4a6tU8BeCppWfV3AIYC2H0Ot9dj-l-43J7_zdG9s48_LMQjltaWFVp9-syF82NsQsqFhESUGUXFbM98-2mqQ&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Tokyo%20Ghoul%20S02E06%20480p%20BluRay%20Multi%20Audio%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Tokyo Ghoul S02E06 480p BluRay Multi Audio ESub.mkv" },
+    "720p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=8PBGeC6-VZP9hMqEIDPmVDyxaZSKt6tykgVtIqDzpUHi4zvpT1Talknut-jBGu3SFJkD9t5YpFPrIFMJx-8OQA&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Tokyo%20Ghoul%20S02E06%20720p%20HD%20BluRay%20Multi%20Audio%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Tokyo Ghoul S02E06 720p HD BluRay Multi Audio ESub.mkv" },
+    "1080p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=tynbWN71y9ulCs_lQNUA0oQxU2ey9KXLxHzcE22QPFpJbTgZqNDBTo_DnZ_wkZ1LhvZ3xLpEU30G314r40D9QQ&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Tokyo%20Ghoul%20S02E06%201080p%20HEVC%2010bit%20BluRay%20Multi%20Audio%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Tokyo Ghoul S02E06 1080p HEVC 10bit BluRay Multi Audio ESub.mkv" }
+  }
+},
+"tokyo-ghoul-s2-2x7": {
+  qualities: {
+    "480p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=79hiEaJNrqVkneBPX3fiQi18OWg84VhfZjEKy1jaiBRt02WJt4lH-QC2GR_UzGi7yG_7ZWir9TGoe56XY7_mTg&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Tokyo%20Ghoul%20S02E07%20480p%20BluRay%20Multi%20Audio%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Tokyo Ghoul S02E07 480p BluRay Multi Audio ESub.mkv" },
+    "720p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=Krh7MQVhBiQExzuNXuaxPCXSCxuc1OWDh80GemGZF-Fz1cPyrbheB3douzvM6iS_gmS3MiSkYh6UZfYUy79lAw&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Tokyo%20Ghoul%20S02E07%20720p%20HD%20BluRay%20Multi%20Audio%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Tokyo Ghoul S02E07 720p HD BluRay Multi Audio ESub.mkv" },
+    "1080p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=e2tGpakb0Wg7OflRyzpgIfMfvE75ZrNkSutJQGlQ3IUsrkxe9Xzt7Uo3SbTpA35b_UsIsbGZBN5bvAgJmhNJ-A&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Tokyo%20Ghoul%20S02E07%201080p%20HEVC%2010bit%20BluRay%20Multi%20Audio%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Tokyo Ghoul S02E07 1080p HEVC 10bit BluRay Multi Audio ESub.mkv" }
+  }
+},
+"tokyo-ghoul-s2-2x8": {
+  qualities: {
+    "480p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=eOs2KKE5-b_WmBYETTV8FnMxWzNCPAB2coM2Ax_EOUe0LlK8ClT_eu25V3or98wzkpgzZAalGTpVC_7FDocs3Q&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Tokyo%20Ghoul%20S02E08%20480p%20BluRay%20Multi%20Audio%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Tokyo Ghoul S02E08 480p BluRay Multi Audio ESub.mkv" },
+    "720p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=2RBW2d0AgapUTiXmykaTbJz-8PFaF3wQvboiFTHqzggqOyXSxCbPyaO9s_Qzkj1oO6N9yvAs0rYVQBV_dMuAkg&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Tokyo%20Ghoul%20S02E08%20720p%20HD%20BluRay%20Multi%20Audio%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Tokyo Ghoul S02E08 720p HD BluRay Multi Audio ESub.mkv" },
+    "1080p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=vGPsg-MWRULM1kVEJn8eaK9rqpcF2FIFVpIvp7tE407vOxxkWJcqf-uSmOJVOBmLNvzGgNt9MKYXSgNOptqlvw&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Tokyo%20Ghoul%20S02E08%201080p%20HEVC%2010bit%20BluRay%20Multi%20Audio%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Tokyo Ghoul S02E08 1080p HEVC 10bit BluRay Multi Audio ESub.mkv" }
+  }
+},
+"tokyo-ghoul-s2-2x9": {
+  qualities: {
+    "480p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=9XdP_88WjOWaiWTdmrBKCa1FSTCz4ML5RM8aF_Rzcch8sCN221ReLgjPWeuuyOE99nSUxYcQ-YUZVvXtrk39rQ&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Tokyo%20Ghoul%20S02E09%20480p%20BluRay%20Multi%20Audio%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Tokyo Ghoul S02E09 480p BluRay Multi Audio ESub.mkv" },
+    "720p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=jxKB6rH9c_Vo9VZP3AjrZ2B7ykvS-T0q8SQpoTaP8zgWcJpBJAU0Fkgre7CPRZaBcdaoG7P5gfrxyGRDS8CUFw&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Tokyo%20Ghoul%20S02E09%20720p%20HD%20BluRay%20Multi%20Audio%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Tokyo Ghoul S02E09 720p HD BluRay Multi Audio ESub.mkv" },
+    "1080p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=B2Jha9tKIfjxWt8dwFRcdX_0McA0zF_5RU8FwISUv22ARYLEjT96ZyynySlSergwyqv10fMXWIpIagydr55uQw&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Tokyo%20Ghoul%20S02E09%201080p%20HEVC%2010bit%20BluRay%20Multi%20Audio%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Tokyo Ghoul S02E09 1080p HEVC 10bit BluRay Multi Audio ESub.mkv" }
+  }
+},
+"tokyo-ghoul-s2-2x10": {
+  qualities: {
+    "480p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=jPPY6XErmksWmbMQdghqPlgq08VygrUeIiwNya0w9Lzr9XOm8moW8BnK_jEr9-SNOxF_MsiS7laV5S_kVidLBA&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Tokyo%20Ghoul%20S02E10%20480p%20BluRay%20Multi%20Audio%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Tokyo Ghoul S02E10 480p BluRay Multi Audio ESub.mkv" },
+    "720p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=UpHZDIHnLUV8mxkd-Qry89mg9qO9cgdex3hzneHjJA8NMuNftP0qSELMiaEguuRF9bJGNB5UQ65nq4pKcoJAJw&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Tokyo%20Ghoul%20S02E10%20720p%20HD%20BluRay%20Multi%20Audio%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Tokyo Ghoul S02E10 720p HD BluRay Multi Audio ESub.mkv" },
+    "1080p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=ev6UTv6l3Dvgiy5rCyK23AdMXeWiKCg99-yRY1Nv2c54K2Ss_6a2janNJH4PsBG24jHWXtllwK3iiAHdMpDGCw&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Tokyo%20Ghoul%20S02E10%201080p%20HEVC%2010bit%20BluRay%20Multi%20Audio%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Tokyo Ghoul S02E10 1080p HEVC 10bit BluRay Multi Audio ESub.mkv" }
+  }
+},
+"tokyo-ghoul-s2-2x11": {
+  qualities: {
+    "480p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=_0DQHFYsf_UFjQJk0Q5Roelpa0MMHdrlt8U-Lb0v_DwAePZEgz46pUpIdUT7KmjPjrjKafzs8VHZYojPAQ8C0w&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Tokyo%20Ghoul%20S02E11%20480p%20BluRay%20Multi%20Audio%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Tokyo Ghoul S02E11 480p BluRay Multi Audio ESub.mkv" },
+    "720p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=p019VJDCDNigKadecj-f8EMcg1g2wDqT70cebHXFMNl_nMKeSe50Kk_k2jN3Ius3gLohQfM-Lice5mNNzex8xg&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Tokyo%20Ghoul%20S02E11%20720p%20HD%20BluRay%20Multi%20Audio%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Tokyo Ghoul S02E11 720p HD BluRay Multi Audio ESub.mkv" },
+    "1080p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=hqegGrThnlzWYSAme5E7TQRIlGT451Krr8fL7eNbJx6Wj4sVTtLwL_9kB6bFumvaGfPqvf29YmXjb9hUX7RWLQ&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Tokyo%20Ghoul%20S02E11%201080p%20HEVC%2010bit%20BluRay%20Multi%20Audio%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Tokyo Ghoul S02E11 1080p HEVC 10bit BluRay Multi Audio ESub.mkv" }
+  }
+},
+"tokyo-ghoul-s2-2x12": {
+  qualities: {
+    "480p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=sn-BBCfL4UltyQn7H8nVfgfK0P2gbdi2LyYu1akMYLKHJkE0yZDNcBgMft3MB6fPk-2T5zXVwpJ9yghoEZAoLQ&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Tokyo%20Ghoul%20S02E12%20480p%20BluRay%20Multi%20Audio%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Tokyo Ghoul S02E12 480p BluRay Multi Audio ESub.mkv" },
+    "720p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=IpchkdJMsmOon-jPDaK0CYxiNNELPUEJUY5n8J4nQNgxJTHYYYNfBB6IIFUO2cRNgV9zDxaIGH1f8Yz8X4ecXg&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Tokyo%20Ghoul%20S02E12%20720p%20HD%20BluRay%20Multi%20Audio%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Tokyo Ghoul S02E12 720p HD BluRay Multi Audio ESub.mkv" },
+    "1080p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=bU4UzP5OzKZvevEYwI8NvHlWWrcTHeoIZdlKjp4yeBgYUseqQP9SmLIu483Q5erl0f_j7kxrCVgI7W4e220WZQ&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Tokyo%20Ghoul%20S02E12%201080p%20HEVC%2010bit%20BluRay%20Multi%20Audio%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Tokyo Ghoul S02E12 1080p HEVC 10bit BluRay Multi Audio ESub.mkv" }
+  }
+},
+"tokyo-ghoul-1x1": {
+  qualities: {
+    "480p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=FUVnY0RF-00HJIlpYUOYGPzN-5aah5Q696QrBEVsEM_Kkxd_abzYwMCemYfBCeNWKBaOvAFxbWZPXC7HgVY9iQ&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Tokyo%20Ghoul%20S01E01%20480p%20BluRay%20Multi%20Audio%202%20Dubs%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Tokyo Ghoul S01E01 480p BluRay Multi Audio 2 Dubs ESub.mkv" },
+    "720p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=hUtWg_NlKQ0yWMFFdm9y8w-DjHxCSUye-AWwtH77bl8sr2qff7tb-92QCHDvjHL_CTdh2EK7t7M-XxFpmcYGMg&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Tokyo%20Ghoul%20S01E01%20720p%20HD%20BluRay%20Multi%20Audio%202%20Dubs%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Tokyo Ghoul S01E01 720p HD BluRay Multi Audio 2 Dubs ESub.mkv" },
+    "1080p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=77_OsNzIIvkQtpScRivTmRpks7YFfv2slQfQp1gQCCwJOYc3IRZl48Tyd3-6upXW2Nun64BNLgfrThL9xXcbcg&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Tokyo%20Ghoul%20S01E01%201080p%20HEVC%2010bit%20BluRay%20Multi%20Audio%202%20Dubs%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Tokyo Ghoul S01E01 1080p HEVC 10bit BluRay Multi Audio 2 Dubs ESub.mkv" }
+  }
+},
+"tokyo-ghoul-1x2": {
+  qualities: {
+    "480p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=RyubjlfeBsCxrpV-ebAkbTRYjMoTzRzsmp2PSR8Q0hiVEyUxkHGsiBPiQmLBCEl1dDzd8BwhCUzHsWQQPuGKAw&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Tokyo%20Ghoul%20S01E02%20480p%20BluRay%20Multi%20Audio%202%20Dubs%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Tokyo Ghoul S01E02 480p BluRay Multi Audio 2 Dubs ESub.mkv" },
+    "720p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=vD545NrLAODliMvKxTmANvO1FcNgkY0PgU4pZ1k5yj6rJ36KYHCLzk5XM4Rfvfwzz8xPO6-6V0lO1oIVg3u0dw&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Tokyo%20Ghoul%20S01E02%20720p%20HD%20BluRay%20Multi%20Audio%202%20Dubs%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Tokyo Ghoul S01E02 720p HD BluRay Multi Audio 2 Dubs ESub.mkv" },
+    "1080p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=ACiePRfE-w62dX3B56jpSizAKI0oW0OrkLLYnrDAPUhOUtE5L_IRN8X4EAvtLDYHGl0mVQh5zSlRczJWdU3buA&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Tokyo%20Ghoul%20S01E02%201080p%20HEVC%2010bit%20BluRay%20Multi%20Audio%202%20Dubs%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Tokyo Ghoul S01E02 1080p HEVC 10bit BluRay Multi Audio 2 Dubs ESub.mkv" }
+  }
+},
+"tokyo-ghoul-1x3": {
+  qualities: {
+    "480p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=a3ACCJinN5hbahK1gdh6YGU_yjl_mcghuQ08mn2NPK3xZoKh6afsU6-xSEuxf6IoQw31zTJo52s5dwA5DZEHgg&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Tokyo%20Ghoul%20S01E03%20480p%20BluRay%20Multi%20Audio%202%20Dubs%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Tokyo Ghoul S01E03 480p BluRay Multi Audio 2 Dubs ESub.mkv" },
+    "720p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=ze0IOJNwc1XcQ6V_U5Hk-laeatuLhe-ZGF1tPjAAG7Y5XS0ENUCWvvyAInowqzMhBLNr7X1uQi494v0J7Poerg&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Tokyo%20Ghoul%20S01E03%20720p%20HD%20BluRay%20Multi%20Audio%202%20Dubs%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Tokyo Ghoul S01E03 720p HD BluRay Multi Audio 2 Dubs ESub.mkv" },
+    "1080p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=VqP75JcSSIAYmck2VresKSS-XVrozM-4j3bte7CZx-yPhG5EzlBQ1Sk0vW7e_GT9DECW_uzGY52esG3TuOQpoQ&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Tokyo%20Ghoul%20S01E03%201080p%20HEVC%2010bit%20BluRay%20Multi%20Audio%202%20Dubs%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Tokyo Ghoul S01E03 1080p HEVC 10bit BluRay Multi Audio 2 Dubs ESub.mkv" }
+  }
+},
+"tokyo-ghoul-1x4": {
+  qualities: {
+    "480p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=L4tb7AIwROs44H6lVR912LzZvHYN6wf1Gv7Q4OOHEqpmY9ptWIHPLSyL5DbOGTsTNCC1nHNkSk3eUlwpcL-Wzg&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Tokyo%20Ghoul%20S01E04%20480p%20BluRay%20Multi%20Audio%202%20Dubs%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Tokyo Ghoul S01E04 480p BluRay Multi Audio 2 Dubs ESub.mkv" },
+    "720p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=syEuJnulZVPgM9i-L8PQaoYVZC5OVbj4K_jowoogpolPSTAqFvMGyweDH3Y04RCy08VJvhp19jj35IjPlSSvGQ&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Tokyo%20Ghoul%20S01E04%20720p%20HD%20BluRay%20Multi%20Audio%202%20Dubs%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Tokyo Ghoul S01E04 720p HD BluRay Multi Audio 2 Dubs ESub.mkv" },
+    "1080p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=UsLIpxTpGsj7njxKQZ07cGNWz4YyXXKvuz2rVkt5HDNMXejE0z4XTEa_QNU-fmPpFNQ1XxZWeb2nHAuS9CdTsw&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Tokyo%20Ghoul%20S01E04%201080p%20HEVC%2010bit%20BluRay%20Multi%20Audio%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Tokyo Ghoul S01E04 1080p HEVC 10bit BluRay Multi Audio ESub.mkv" }
+  }
+},
+"tokyo-ghoul-1x5": {
+  qualities: {
+    "480p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=LdAOOMwENmx50cdm4fJd1QVVSyUIJv--snq2pEMBiBzuMrCwIkd7WvCQW_ngYeUxaBieTjF80_-hi6RHweSIpQ&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Tokyo%20Ghoul%20S01E05%20480p%20BluRay%20Multi%20Audio%202%20Dubs%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Tokyo Ghoul S01E05 480p BluRay Multi Audio 2 Dubs ESub.mkv" },
+    "720p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=qooQEsKTP_7r7NvhYQvR73IDXC94EJEO6MpNJ9rAxapt63nJqQlMjUnVKZ9pmfXMDJqvhRDrnQD8E85MQeBgvg&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Tokyo%20Ghoul%20S01E05%20720p%20HD%20BluRay%20Multi%20Audio%202%20Dubs%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Tokyo Ghoul S01E05 720p HD BluRay Multi Audio 2 Dubs ESub.mkv" },
+    "1080p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=NVAmgte3ErpEaJzfGC8SOYoQe7daRQJHyYkLa_eIpV880u6Be_stQbnl5XzvXUL_eoqJyo7R18naoZ-dGdClcQ&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Tokyo%20Ghoul%20S01E05%201080p%20HEVC%2010bit%20BluRay%20Multi%20Audio%202%20Dubs%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Tokyo Ghoul S01E05 1080p HEVC 10bit BluRay Multi Audio 2 Dubs ESub.mkv" }
+  }
+},
+"tokyo-ghoul-1x6": {
+  qualities: {
+    "480p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=MrVkyQr5p7R8CwWa5a1j_kOWQrPMzSrfeO6rC-JB9_9wFR1z9MegKkvpwgpz11CtOEGAG4wiajKYijFHt-wFbA&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Tokyo%20Ghoul%20S01E06%20480p%20BluRay%20Multi%20Audio%202%20Dubs%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Tokyo Ghoul S01E06 480p BluRay Multi Audio 2 Dubs ESub.mkv" },
+    "720p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=xtTYMfmjv4YJFE8jLllVsGrJ-uhLa__8cBDI24bAAaa4w13T19PS4r6UABORV6wA4imkRhc-Xt9TeOIbPVPzFQ&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Tokyo%20Ghoul%20S01E06%20720p%20HD%20BluRay%20Multi%20Audio%202%20Dubs%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Tokyo Ghoul S01E06 720p HD BluRay Multi Audio 2 Dubs ESub.mkv" },
+    "1080p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=GIbzZmoS9Oo9Ng8_2KvAXbkwJ4BndAPTtsgIhCZWQ55XF7IeHgO9yR86UgTg3C8Bis9W5DVKllLVGnyWTmxo0Q&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Tokyo%20Ghoul%20S01E06%201080p%20HEVC%2010bit%20BluRay%20Multi%20Audio%202%20Dubs%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Tokyo Ghoul S01E06 1080p HEVC 10bit BluRay Multi Audio 2 Dubs ESub.mkv" }
+  }
+},
+"tokyo-ghoul-1x7": {
+  qualities: {
+    "480p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=1f93hSknK_nMOZPdCEVyS_HTKwfLKnG3_x18oiF5H-362gA68mDs-JpUfnRB1NR9-6QK_UNIjuMwlHP8VMcP8w&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Tokyo%20Ghoul%20S01E07%20480p%20BluRay%20Multi%20Audio%202%20Dubs%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Tokyo Ghoul S01E07 480p BluRay Multi Audio 2 Dubs ESub.mkv" },
+    "720p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=cP2KI0IJJZuqNtK_BgxbmMEhWzmYLPJgHDj54mSBUAg0k_LqzXDUbKQlnvYoqCBRPuwAcXBlVC4qqrelxzwGdA&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Tokyo%20Ghoul%20S01E07%20720p%20HD%20BluRay%20Multi%20Audio%202%20Dubs%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Tokyo Ghoul S01E07 720p HD BluRay Multi Audio 2 Dubs ESub.mkv" },
+    "1080p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=KUxjwzZ5gGNOs6Dc_dmr6XJR07HjSux22cdRApTKAEUbY8qXnIcjytGGTjpboIN_7PWmMb8NsfxWe3uNghhDLQ&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Tokyo%20Ghoul%20S01E07%201080p%20HEVC%2010bit%20BluRay%20Multi%20Audio%202%20Dubs%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Tokyo Ghoul S01E07 1080p HEVC 10bit BluRay Multi Audio 2 Dubs ESub.mkv" }
+  }
+},
+"tokyo-ghoul-1x8": {
+  qualities: {
+    "480p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=ZQc4wcF0Xd4jUH-dvj0qLysMP3b9wKmewRlPHydYnufcQnOsx3bykBbfVanegcq358dAp6Yl5t14O2Fi1nutGQ&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Tokyo%20Ghoul%20S01E08%20480p%20BluRay%20Multi%20Audio%202%20Dubs%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Tokyo Ghoul S01E08 480p BluRay Multi Audio 2 Dubs ESub.mkv" },
+    "720p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=ScKPyUBjtYA65GfuDOwYraFRgJqcuHguNmb2hcdGQu4J2lZNS7MkatGQcrHDWo7QuF9NVSUpLm250fhLq4X0AQ&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Tokyo%20Ghoul%20S01E08%20720p%20HD%20BluRay%20Multi%20Audio%202%20Dubs%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Tokyo Ghoul S01E08 720p HD BluRay Multi Audio 2 Dubs ESub.mkv" },
+    "1080p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=NS0pkkaS_4XiLUlpq0UkhUgYwvAvjrllEDqC1ebmtNWjr5kMqgJHft8Dz8ir-JaKAoh0c8CQtgwz6uApDKbYjg&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Tokyo%20Ghoul%20S01E08%201080p%20HEVC%2010bit%20BluRay%20Multi%20Audio%202%20Dubs%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Tokyo Ghoul S01E08 1080p HEVC 10bit BluRay Multi Audio 2 Dubs ESub.mkv" }
+  }
+},
+"tokyo-ghoul-1x9": {
+  qualities: {
+    "480p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=PLHICuJvNQWqoGC5xOVzQq-ztadHRhzpqxwo653i5_nBJ6xg4pzmRbEh0BkfoeykYoywwE_VJuKwGrkBCNLJXQ&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Tokyo%20Ghoul%20S01E09%20480p%20BluRay%20Multi%20Audio%202%20Dubs%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Tokyo Ghoul S01E09 480p BluRay Multi Audio 2 Dubs ESub.mkv" },
+    "720p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=OgeHZZzzqQqflfVDw-4-1NcosEY348q8FWETblrh8s5-XxS14Zsl1gAoutpr4hp4TMIBoEjnFVzlw-UsnmRhmw&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Tokyo%20Ghoul%20S01E09%20720p%20HD%20BluRay%20Multi%20Audio%202%20Dubs%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Tokyo Ghoul S01E09 720p HD BluRay Multi Audio 2 Dubs ESub.mkv" },
+    "1080p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=clQNxFb7e3qQlmHbFP3FvMqDLCC-Ku5CsX7GJzrL3nrAfhJS5_C0MQ3IXb7oWua_rwQ_NyATNMDVS4wg_flqvw&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Tokyo%20Ghoul%20S01E09%201080p%20HEVC%2010bit%20BluRay%20Multi%20Audio%202%20Dubs%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Tokyo Ghoul S01E09 1080p HEVC 10bit BluRay Multi Audio 2 Dubs ESub.mkv" }
+  }
+},
+"tokyo-ghoul-1x10": {
+  qualities: {
+    "480p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=zSIeFnirA24Bucqe6w-_5O_Ril7GEVrpU3Dl1YQdCHA43HIdazHg2sVqLM3XROuobsQMQcALJvmuhltx5dBQUg&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Tokyo%20Ghoul%20S01E10%20480p%20BluRay%20Multi%20Audio%202%20Dubs%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Tokyo Ghoul S01E10 480p BluRay Multi Audio 2 Dubs ESub.mkv" },
+    "720p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=4rvapcF2vXtSn0cd4FlAkwLJY2JO_JUlE3taOhdhGYwpetIqruyL4BeR8uWDEF9AQwPfjRaSxaLj7-l27vuECA&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Tokyo%20Ghoul%20S01E10%20720p%20HD%20BluRay%20Multi%20Audio%202%20Dubs%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Tokyo Ghoul S01E10 720p HD BluRay Multi Audio 2 Dubs ESub.mkv" },
+    "1080p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=-qNk8XjOsEOS6Lqbj4Pvcm0bcVkaKScq4bLWQsK_PO7gYqrUNB-f2ydRkGMSIR14iwSGcw_jz4fWil7KSk0Gug&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Tokyo%20Ghoul%20S01E10%201080p%20HEVC%2010bit%20BluRay%20Multi%20Audio%202%20Dubs%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Tokyo Ghoul S01E10 1080p HEVC 10bit BluRay Multi Audio 2 Dubs ESub.mkv" }
+  }
+},
+"tokyo-ghoul-1x11": {
+  qualities: {
+    "480p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=wzERGyjS3vtFxMn3s0LINyG8Davs4IZuYQccRFrdjfamWM5LirOdTM5qDXym8WDaz1sOpmKvVr0Axqec13aolQ&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Tokyo%20Ghoul%20S01E11%20480p%20BluRay%20Multi%20Audio%202%20Dubs%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Tokyo Ghoul S01E11 480p BluRay Multi Audio 2 Dubs ESub.mkv" },
+    "720p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=tbMKuPrylEecFzQo1FE2bAR8qkrWKreXNqDJ2Wn3lFp4biC7SGyKbm890kJHxJZjBBg9JL15AtIDaAzkAw1yFQ&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Tokyo%20Ghoul%20S01E11%20720p%20HD%20BluRay%20Multi%20Audio%202%20Dubs%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Tokyo Ghoul S01E11 720p HD BluRay Multi Audio 2 Dubs ESub.mkv" },
+    "1080p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=pJwCqXrpmQ5RT5v85no7AuMa6jGYNikVwepr92ISvVXCjOImrzAhbMZCX20Oi1IW-pjluNVvDu7DVCzsUbGJzw&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Tokyo%20Ghoul%20S01E11%201080p%20HEVC%2010bit%20BluRay%20Multi%20Audio%202%20Dubs%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Tokyo Ghoul S01E11 1080p HEVC 10bit BluRay Multi Audio 2 Dubs ESub.mkv" }
+  }
+},
+"tokyo-ghoul-1x12": {
+  qualities: {
+    "480p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=Gt2bXgww7dy-r3x5387Gwb5_SN91zVjYpOBdDeM-wIvEnWTB3ZY8oaCPopLsyvYdwDVawmDEu_2jq9l4umFBDA&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Tokyo%20Ghoul%20S01E12%20480p%20BluRay%20Multi%20Audio%202%20Dubs%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Tokyo Ghoul S01E12 480p BluRay Multi Audio 2 Dubs ESub.mkv" },
+    "720p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=p92gfzs5AYdpRLPSqnG_pG-Mp3jo-hSOKgGRE59JFeQwyfwjO-Ia9Yy-P-PmxkoxlhtbW2uEONWZikQ39SdT6A&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Tokyo%20Ghoul%20S01E12%20720p%20HD%20BluRay%20Multi%20Audio%202%20Dubs%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Tokyo Ghoul S01E12 720p HD BluRay Multi Audio 2 Dubs ESub.mkv" },
+    "1080p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=tFphtXlpSk39KP_fYeprszGZ23jqa5Btt0PgmYVC2nmEEh6Tg6ECI-8Ig3IzFTEvV4IqCL0ESW4WAj7QoV069A&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Tokyo%20Ghoul%20S01E12%201080p%20HEVC%2010bit%20BluRay%20Multi%20Audio%202%20Dubs%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Tokyo Ghoul S01E12 1080p HEVC 10bit BluRay Multi Audio 2 Dubs ESub.mkv" }
+  }
+},
+
+"tokyo-ghoul-s2-1x1": {
+  qualities: {
+    "480p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=uwHQCAffR3odlEPK1yY1O640sR-ls3uBRn_zsfbLLDP0FIwh1-f8f6Rc3GQ-FG_EZSIc8SUZK_o2MNdIa6TEoA&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Tokyo%20Ghoul%20S02E01%20480p%20BluRay%20Multi%20Audio%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Tokyo Ghoul S02E01 480p BluRay Multi Audio ESub.mkv" },
+    "720p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=jdaCnR8zx2JH9BUeCy_ExXEq0BQgzJDqnl8ztuh-fuPv1UteJlZWP-pKde2fht-y7bqP4BFwVcFHqKikS3vm5w&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Tokyo%20Ghoul%20S02E01%20720p%20HD%20BluRay%20Multi%20Audio%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Tokyo Ghoul S02E01 720p HD BluRay Multi Audio ESub.mkv" },
+    "1080p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=I3lOSlOWPHyHAJzuedSjufSLLyoe-i9YQdPjdD0GcYTRFZaSTVaBNpdAoIRT39wkxBpFEWfb6eVaKeFHExVMXw&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Tokyo%20Ghoul%20S02E01%201080p%20HEVC%2010bit%20BluRay%20Multi%20Audio%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Tokyo Ghoul S02E01 1080p HEVC 10bit BluRay Multi Audio ESub.mkv" }
+  }
+},
+"tokyo-ghoul-s2-1x2": {
+  qualities: {
+    "480p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=atI2fqhxIf_gILM7M3AN8t1-JyZhrOT9swTNbHb5YYNioLKqwETDfLGwuSyyPhcfhfl9XcSgdFOL3Nr-tYbZag&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Tokyo%20Ghoul%20S02E02%20480p%20BluRay%20Multi%20Audio%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Tokyo Ghoul S02E02 480p BluRay Multi Audio ESub.mkv" },
+    "720p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=4Z3Ycgod9P-dn6sn4LgtVrGaFVrszgTdJowcUKI-wxeb9xIqxwoyMyDf-Djb08UNq0yJXdR2wjLJZu2go4srpA&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Tokyo%20Ghoul%20S02E02%20720p%20HD%20BluRay%20Multi%20Audio%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Tokyo Ghoul S02E02 720p HD BluRay Multi Audio ESub.mkv" },
+    "1080p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=ENR7UVnM_vv4Kh8yn-fFSFof3LHibXJE29pxlb0UgPeDy35yYN_nDPVKBB_NqQZu8f_HzPATISoMx9G1kD_13Q&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Tokyo%20Ghoul%20S02E02%201080p%20HEVC%2010bit%20BluRay%20Multi%20Audio%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Tokyo Ghoul S02E02 1080p HEVC 10bit BluRay Multi Audio ESub.mkv" }
+  }
+},
+"tokyo-ghoul-s2-1x3": {
+  qualities: {
+    "480p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=sQVfw5W4CVlwBGPC48gDc-3CRcGMhJEqAIQKtrhCOjEyiNgguJTvR2DHE3QbOeOgFQUel76fOXKXu83R-p0keg&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Tokyo%20Ghoul%20S02E03%20480p%20BluRay%20Multi%20Audio%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Tokyo Ghoul S02E03 480p BluRay Multi Audio ESub.mkv" },
+    "720p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=hHtLhti_2qjiu2Dbe4-FL8rKp2vAt48zMp-DclnlSAaTePjh8d6e_vfRMmLjUvrZld4CtnSZfmB2nsborzONyg&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Tokyo%20Ghoul%20S02E03%20720p%20HD%20BluRay%20Multi%20Audio%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Tokyo Ghoul S02E03 720p HD BluRay Multi Audio ESub.mkv" },
+    "1080p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=FXqjuMMVjhqnbvkDAZUrRDjMVy9J4cTXMLYulQDBrQtlwuNdCsSz9SZv3nX2KciYpWTzD5jOJyRGy9YvHrUEng&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Tokyo%20Ghoul%20S02E03%201080p%20HEVC%2010bit%20BluRay%20Multi%20Audio%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Tokyo Ghoul S02E03 1080p HEVC 10bit BluRay Multi Audio ESub.mkv" }
+  }
+},
+"tokyo-ghoul-s2-1x4": {
+  qualities: {
+    "480p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=IFJayIIhwqdo7-UOJndH73a7Dwcrni5XQ2jXOUh1mEoCcSjOpemKlWwtSdpa6Y_RDDrqQVdZ3UHhc0XbL7Ra-g&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Tokyo%20Ghoul%20S02E04%20480p%20BluRay%20Multi%20Audio%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Tokyo Ghoul S02E04 480p BluRay Multi Audio ESub.mkv" },
+    "720p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=NEaTOxHgXGZpOm0gD0jZLpCCu2rL0b0vECsfTLvGP86drJOrIdno2yfzbb_hxaPwN3XSMB1TvX7-ICbGLAfmhQ&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Tokyo%20Ghoul%20S02E04%20720p%20HD%20BluRay%20Multi%20Audio%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Tokyo Ghoul S02E04 720p HD BluRay Multi Audio ESub.mkv" },
+    "1080p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=zbtSgzkVo_aS0DOYZMCSg9_L0MPMX4TgHFMhlqrIknMC4sIowJjbk81OTXjeAAaigtP0Es3GOx7ywE5m1sBCXg&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Tokyo%20Ghoul%20S02E04%201080p%20HEVC%2010bit%20BluRay%20Multi%20Audio%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Tokyo Ghoul S02E04 1080p HEVC 10bit BluRay Multi Audio ESub.mkv" }
+  }
+},
+"tokyo-ghoul-s2-1x5": {
+  qualities: {
+    "480p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=NNmE4bGqb985oqHfM_RBj1S8B2_vSOuDxYQqYnqGoTbGRqQzFB3qDStakzfi9D3Ybd_H0RwgB-Ya9wDPOWbIeQ&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Tokyo%20Ghoul%20S02E05%20480p%20BluRay%20Multi%20Audio%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Tokyo Ghoul S02E05 480p BluRay Multi Audio ESub.mkv" },
+    "720p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=jkbaoSaCijt-K_Co1iPG7aYgSMB2IoIsfEwk68s_pExBT6cBXkycwi1oiEepIICZzAw48ol3qb_6DaazYFbSkw&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Tokyo%20Ghoul%20S02E05%20720p%20HD%20BluRay%20Multi%20Audio%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Tokyo Ghoul S02E05 720p HD BluRay Multi Audio ESub.mkv" },
+    "1080p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=BF54gJgXCXH2Zo9xrmBq1x7Vs5BGWc51uldzV3EQpQkPeJ0bN3clpZXO9ErCb2gsqahBsH7-J7PAppxhdwqslA&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Tokyo%20Ghoul%20S02E05%201080p%20HEVC%2010bit%20BluRay%20Multi%20Audio%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Tokyo Ghoul S02E05 1080p HEVC 10bit BluRay Multi Audio ESub.mkv" }
+  }
+},
+"tokyo-ghoul-s2-1x6": {
+  qualities: {
+    "480p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=-E4a6tU8BeCppWfV3AIYC2H0Ot9dj-l-43J7_zdG9s48_LMQjltaWFVp9-syF82NsQsqFhESUGUXFbM98-2mqQ&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Tokyo%20Ghoul%20S02E06%20480p%20BluRay%20Multi%20Audio%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Tokyo Ghoul S02E06 480p BluRay Multi Audio ESub.mkv" },
+    "720p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=8PBGeC6-VZP9hMqEIDPmVDyxaZSKt6tykgVtIqDzpUHi4zvpT1Talknut-jBGu3SFJkD9t5YpFPrIFMJx-8OQA&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Tokyo%20Ghoul%20S02E06%20720p%20HD%20BluRay%20Multi%20Audio%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Tokyo Ghoul S02E06 720p HD BluRay Multi Audio ESub.mkv" },
+    "1080p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=tynbWN71y9ulCs_lQNUA0oQxU2ey9KXLxHzcE22QPFpJbTgZqNDBTo_DnZ_wkZ1LhvZ3xLpEU30G314r40D9QQ&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Tokyo%20Ghoul%20S02E06%201080p%20HEVC%2010bit%20BluRay%20Multi%20Audio%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Tokyo Ghoul S02E06 1080p HEVC 10bit BluRay Multi Audio ESub.mkv" }
+  }
+},
+"tokyo-ghoul-s2-1x7": {
+  qualities: {
+    "480p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=79hiEaJNrqVkneBPX3fiQi18OWg84VhfZjEKy1jaiBRt02WJt4lH-QC2GR_UzGi7yG_7ZWir9TGoe56XY7_mTg&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Tokyo%20Ghoul%20S02E07%20480p%20BluRay%20Multi%20Audio%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Tokyo Ghoul S02E07 480p BluRay Multi Audio ESub.mkv" },
+    "720p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=Krh7MQVhBiQExzuNXuaxPCXSCxuc1OWDh80GemGZF-Fz1cPyrbheB3douzvM6iS_gmS3MiSkYh6UZfYUy79lAw&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Tokyo%20Ghoul%20S02E07%20720p%20HD%20BluRay%20Multi%20Audio%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Tokyo Ghoul S02E07 720p HD BluRay Multi Audio ESub.mkv" },
+    "1080p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=e2tGpakb0Wg7OflRyzpgIfMfvE75ZrNkSutJQGlQ3IUsrkxe9Xzt7Uo3SbTpA35b_UsIsbGZBN5bvAgJmhNJ-A&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Tokyo%20Ghoul%20S02E07%201080p%20HEVC%2010bit%20BluRay%20Multi%20Audio%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Tokyo Ghoul S02E07 1080p HEVC 10bit BluRay Multi Audio ESub.mkv" }
+  }
+},
+"tokyo-ghoul-s2-1x8": {
+  qualities: {
+    "480p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=eOs2KKE5-b_WmBYETTV8FnMxWzNCPAB2coM2Ax_EOUe0LlK8ClT_eu25V3or98wzkpgzZAalGTpVC_7FDocs3Q&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Tokyo%20Ghoul%20S02E08%20480p%20BluRay%20Multi%20Audio%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Tokyo Ghoul S02E08 480p BluRay Multi Audio ESub.mkv" },
+    "720p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=2RBW2d0AgapUTiXmykaTbJz-8PFaF3wQvboiFTHqzggqOyXSxCbPyaO9s_Qzkj1oO6N9yvAs0rYVQBV_dMuAkg&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Tokyo%20Ghoul%20S02E08%20720p%20HD%20BluRay%20Multi%20Audio%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Tokyo Ghoul S02E08 720p HD BluRay Multi Audio ESub.mkv" },
+    "1080p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=vGPsg-MWRULM1kVEJn8eaK9rqpcF2FIFVpIvp7tE407vOxxkWJcqf-uSmOJVOBmLNvzGgNt9MKYXSgNOptqlvw&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Tokyo%20Ghoul%20S02E08%201080p%20HEVC%2010bit%20BluRay%20Multi%20Audio%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Tokyo Ghoul S02E08 1080p HEVC 10bit BluRay Multi Audio ESub.mkv" }
+  }
+},
+"tokyo-ghoul-s2-1x9": {
+  qualities: {
+    "480p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=9XdP_88WjOWaiWTdmrBKCa1FSTCz4ML5RM8aF_Rzcch8sCN221ReLgjPWeuuyOE99nSUxYcQ-YUZVvXtrk39rQ&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Tokyo%20Ghoul%20S02E09%20480p%20BluRay%20Multi%20Audio%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Tokyo Ghoul S02E09 480p BluRay Multi Audio ESub.mkv" },
+    "720p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=jxKB6rH9c_Vo9VZP3AjrZ2B7ykvS-T0q8SQpoTaP8zgWcJpBJAU0Fkgre7CPRZaBcdaoG7P5gfrxyGRDS8CUFw&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Tokyo%20Ghoul%20S02E09%20720p%20HD%20BluRay%20Multi%20Audio%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Tokyo Ghoul S02E09 720p HD BluRay Multi Audio ESub.mkv" },
+    "1080p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=B2Jha9tKIfjxWt8dwFRcdX_0McA0zF_5RU8FwISUv22ARYLEjT96ZyynySlSergwyqv10fMXWIpIagydr55uQw&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Tokyo%20Ghoul%20S02E09%201080p%20HEVC%2010bit%20BluRay%20Multi%20Audio%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Tokyo Ghoul S02E09 1080p HEVC 10bit BluRay Multi Audio ESub.mkv" }
+  }
+},
+"tokyo-ghoul-s2-1x10": {
+  qualities: {
+    "480p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=jPPY6XErmksWmbMQdghqPlgq08VygrUeIiwNya0w9Lzr9XOm8moW8BnK_jEr9-SNOxF_MsiS7laV5S_kVidLBA&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Tokyo%20Ghoul%20S02E10%20480p%20BluRay%20Multi%20Audio%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Tokyo Ghoul S02E10 480p BluRay Multi Audio ESub.mkv" },
+    "720p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=UpHZDIHnLUV8mxkd-Qry89mg9qO9cgdex3hzneHjJA8NMuNftP0qSELMiaEguuRF9bJGNB5UQ65nq4pKcoJAJw&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Tokyo%20Ghoul%20S02E10%20720p%20HD%20BluRay%20Multi%20Audio%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Tokyo Ghoul S02E10 720p HD BluRay Multi Audio ESub.mkv" },
+    "1080p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=ev6UTv6l3Dvgiy5rCyK23AdMXeWiKCg99-yRY1Nv2c54K2Ss_6a2janNJH4PsBG24jHWXtllwK3iiAHdMpDGCw&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Tokyo%20Ghoul%20S02E10%201080p%20HEVC%2010bit%20BluRay%20Multi%20Audio%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Tokyo Ghoul S02E10 1080p HEVC 10bit BluRay Multi Audio ESub.mkv" }
+  }
+},
+"tokyo-ghoul-s2-1x11": {
+  qualities: {
+    "480p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=_0DQHFYsf_UFjQJk0Q5Roelpa0MMHdrlt8U-Lb0v_DwAePZEgz46pUpIdUT7KmjPjrjKafzs8VHZYojPAQ8C0w&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Tokyo%20Ghoul%20S02E11%20480p%20BluRay%20Multi%20Audio%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Tokyo Ghoul S02E11 480p BluRay Multi Audio ESub.mkv" },
+    "720p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=p019VJDCDNigKadecj-f8EMcg1g2wDqT70cebHXFMNl_nMKeSe50Kk_k2jN3Ius3gLohQfM-Lice5mNNzex8xg&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Tokyo%20Ghoul%20S02E11%20720p%20HD%20BluRay%20Multi%20Audio%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Tokyo Ghoul S02E11 720p HD BluRay Multi Audio ESub.mkv" },
+    "1080p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=hqegGrThnlzWYSAme5E7TQRIlGT451Krr8fL7eNbJx6Wj4sVTtLwL_9kB6bFumvaGfPqvf29YmXjb9hUX7RWLQ&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Tokyo%20Ghoul%20S02E11%201080p%20HEVC%2010bit%20BluRay%20Multi%20Audio%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Tokyo Ghoul S02E11 1080p HEVC 10bit BluRay Multi Audio ESub.mkv" }
+  }
+},
+"tokyo-ghoul-s2-1x12": {
+  qualities: {
+    "480p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=sn-BBCfL4UltyQn7H8nVfgfK0P2gbdi2LyYu1akMYLKHJkE0yZDNcBgMft3MB6fPk-2T5zXVwpJ9yghoEZAoLQ&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Tokyo%20Ghoul%20S02E12%20480p%20BluRay%20Multi%20Audio%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Tokyo Ghoul S02E12 480p BluRay Multi Audio ESub.mkv" },
+    "720p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=IpchkdJMsmOon-jPDaK0CYxiNNELPUEJUY5n8J4nQNgxJTHYYYNfBB6IIFUO2cRNgV9zDxaIGH1f8Yz8X4ecXg&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Tokyo%20Ghoul%20S02E12%20720p%20HD%20BluRay%20Multi%20Audio%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Tokyo Ghoul S02E12 720p HD BluRay Multi Audio ESub.mkv" },
+    "1080p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=bU4UzP5OzKZvevEYwI8NvHlWWrcTHeoIZdlKjp4yeBgYUseqQP9SmLIu483Q5erl0f_j7kxrCVgI7W4e220WZQ&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Tokyo%20Ghoul%20S02E12%201080p%20HEVC%2010bit%20BluRay%20Multi%20Audio%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Tokyo Ghoul S02E12 1080p HEVC 10bit BluRay Multi Audio ESub.mkv" }
+  }
+},
+
+"tokyo-ghoul-1x1": {
+  qualities: {
+    "480p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=FUVnY0RF-00HJIlpYUOYGPzN-5aah5Q696QrBEVsEM_Kkxd_abzYwMCemYfBCeNWKBaOvAFxbWZPXC7HgVY9iQ&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Tokyo%20Ghoul%20S01E01%20480p%20BluRay%20Multi%20Audio%202%20Dubs%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Tokyo Ghoul S01E01 480p BluRay Multi Audio 2 Dubs ESub.mkv" },
+    "720p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=hUtWg_NlKQ0yWMFFdm9y8w-DjHxCSUye-AWwtH77bl8sr2qff7tb-92QCHDvjHL_CTdh2EK7t7M-XxFpmcYGMg&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Tokyo%20Ghoul%20S01E01%20720p%20HD%20BluRay%20Multi%20Audio%202%20Dubs%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Tokyo Ghoul S01E01 720p HD BluRay Multi Audio 2 Dubs ESub.mkv" },
+    "1080p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=77_OsNzIIvkQtpScRivTmRpks7YFfv2slQfQp1gQCCwJOYc3IRZl48Tyd3-6upXW2Nun64BNLgfrThL9xXcbcg&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Tokyo%20Ghoul%20S01E01%201080p%20HEVC%2010bit%20BluRay%20Multi%20Audio%202%20Dubs%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Tokyo Ghoul S01E01 1080p HEVC 10bit BluRay Multi Audio 2 Dubs ESub.mkv" }
+  }
+},
+"tokyo-ghoul-1x2": {
+  qualities: {
+    "480p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=RyubjlfeBsCxrpV-ebAkbTRYjMoTzRzsmp2PSR8Q0hiVEyUxkHGsiBPiQmLBCEl1dDzd8BwhCUzHsWQQPuGKAw&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Tokyo%20Ghoul%20S01E02%20480p%20BluRay%20Multi%20Audio%202%20Dubs%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Tokyo Ghoul S01E02 480p BluRay Multi Audio 2 Dubs ESub.mkv" },
+    "720p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=vD545NrLAODliMvKxTmANvO1FcNgkY0PgU4pZ1k5yj6rJ36KYHCLzk5XM4Rfvfwzz8xPO6-6V0lO1oIVg3u0dw&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Tokyo%20Ghoul%20S01E02%20720p%20HD%20BluRay%20Multi%20Audio%202%20Dubs%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Tokyo Ghoul S01E02 720p HD BluRay Multi Audio 2 Dubs ESub.mkv" },
+    "1080p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=ACiePRfE-w62dX3B56jpSizAKI0oW0OrkLLYnrDAPUhOUtE5L_IRN8X4EAvtLDYHGl0mVQh5zSlRczJWdU3buA&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Tokyo%20Ghoul%20S01E02%201080p%20HEVC%2010bit%20BluRay%20Multi%20Audio%202%20Dubs%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Tokyo Ghoul S01E02 1080p HEVC 10bit BluRay Multi Audio 2 Dubs ESub.mkv" }
+  }
+},
+"tokyo-ghoul-1x3": {
+  qualities: {
+    "480p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=a3ACCJinN5hbahK1gdh6YGU_yjl_mcghuQ08mn2NPK3xZoKh6afsU6-xSEuxf6IoQw31zTJo52s5dwA5DZEHgg&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Tokyo%20Ghoul%20S01E03%20480p%20BluRay%20Multi%20Audio%202%20Dubs%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Tokyo Ghoul S01E03 480p BluRay Multi Audio 2 Dubs ESub.mkv" },
+    "720p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=ze0IOJNwc1XcQ6V_U5Hk-laeatuLhe-ZGF1tPjAAG7Y5XS0ENUCWvvyAInowqzMhBLNr7X1uQi494v0J7Poerg&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Tokyo%20Ghoul%20S01E03%20720p%20HD%20BluRay%20Multi%20Audio%202%20Dubs%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Tokyo Ghoul S01E03 720p HD BluRay Multi Audio 2 Dubs ESub.mkv" },
+    "1080p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=VqP75JcSSIAYmck2VresKSS-XVrozM-4j3bte7CZx-yPhG5EzlBQ1Sk0vW7e_GT9DECW_uzGY52esG3TuOQpoQ&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Tokyo%20Ghoul%20S01E03%201080p%20HEVC%2010bit%20BluRay%20Multi%20Audio%202%20Dubs%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Tokyo Ghoul S01E03 1080p HEVC 10bit BluRay Multi Audio 2 Dubs ESub.mkv" }
+  }
+},
+"tokyo-ghoul-1x4": {
+  qualities: {
+    "480p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=L4tb7AIwROs44H6lVR912LzZvHYN6wf1Gv7Q4OOHEqpmY9ptWIHPLSyL5DbOGTsTNCC1nHNkSk3eUlwpcL-Wzg&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Tokyo%20Ghoul%20S01E04%20480p%20BluRay%20Multi%20Audio%202%20Dubs%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Tokyo Ghoul S01E04 480p BluRay Multi Audio 2 Dubs ESub.mkv" },
+    "720p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=syEuJnulZVPgM9i-L8PQaoYVZC5OVbj4K_jowoogpolPSTAqFvMGyweDH3Y04RCy08VJvhp19jj35IjPlSSvGQ&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Tokyo%20Ghoul%20S01E04%20720p%20HD%20BluRay%20Multi%20Audio%202%20Dubs%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Tokyo Ghoul S01E04 720p HD BluRay Multi Audio 2 Dubs ESub.mkv" },
+    "1080p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=UsLIpxTpGsj7njxKQZ07cGNWz4YyXXKvuz2rVkt5HDNMXejE0z4XTEa_QNU-fmPpFNQ1XxZWeb2nHAuS9CdTsw&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Tokyo%20Ghoul%20S01E04%201080p%20HEVC%2010bit%20BluRay%20Multi%20Audio%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Tokyo Ghoul S01E04 1080p HEVC 10bit BluRay Multi Audio ESub.mkv" }
+  }
+},
+"tokyo-ghoul-1x5": {
+  qualities: {
+    "480p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=LdAOOMwENmx50cdm4fJd1QVVSyUIJv--snq2pEMBiBzuMrCwIkd7WvCQW_ngYeUxaBieTjF80_-hi6RHweSIpQ&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Tokyo%20Ghoul%20S01E05%20480p%20BluRay%20Multi%20Audio%202%20Dubs%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Tokyo Ghoul S01E05 480p BluRay Multi Audio 2 Dubs ESub.mkv" },
+    "720p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=qooQEsKTP_7r7NvhYQvR73IDXC94EJEO6MpNJ9rAxapt63nJqQlMjUnVKZ9pmfXMDJqvhRDrnQD8E85MQeBgvg&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Tokyo%20Ghoul%20S01E05%20720p%20HD%20BluRay%20Multi%20Audio%202%20Dubs%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Tokyo Ghoul S01E05 720p HD BluRay Multi Audio 2 Dubs ESub.mkv" },
+    "1080p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=NVAmgte3ErpEaJzfGC8SOYoQe7daRQJHyYkLa_eIpV880u6Be_stQbnl5XzvXUL_eoqJyo7R18naoZ-dGdClcQ&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Tokyo%20Ghoul%20S01E05%201080p%20HEVC%2010bit%20BluRay%20Multi%20Audio%202%20Dubs%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Tokyo Ghoul S01E05 1080p HEVC 10bit BluRay Multi Audio 2 Dubs ESub.mkv" }
+  }
+},
+"tokyo-ghoul-1x6": {
+  qualities: {
+    "480p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=MrVkyQr5p7R8CwWa5a1j_kOWQrPMzSrfeO6rC-JB9_9wFR1z9MegKkvpwgpz11CtOEGAG4wiajKYijFHt-wFbA&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Tokyo%20Ghoul%20S01E06%20480p%20BluRay%20Multi%20Audio%202%20Dubs%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Tokyo Ghoul S01E06 480p BluRay Multi Audio 2 Dubs ESub.mkv" },
+    "720p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=xtTYMfmjv4YJFE8jLllVsGrJ-uhLa__8cBDI24bAAaa4w13T19PS4r6UABORV6wA4imkRhc-Xt9TeOIbPVPzFQ&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Tokyo%20Ghoul%20S01E06%20720p%20HD%20BluRay%20Multi%20Audio%202%20Dubs%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Tokyo Ghoul S01E06 720p HD BluRay Multi Audio 2 Dubs ESub.mkv" },
+    "1080p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=GIbzZmoS9Oo9Ng8_2KvAXbkwJ4BndAPTtsgIhCZWQ55XF7IeHgO9yR86UgTg3C8Bis9W5DVKllLVGnyWTmxo0Q&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Tokyo%20Ghoul%20S01E06%201080p%20HEVC%2010bit%20BluRay%20Multi%20Audio%202%20Dubs%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Tokyo Ghoul S01E06 1080p HEVC 10bit BluRay Multi Audio 2 Dubs ESub.mkv" }
+  }
+},
+"tokyo-ghoul-1x7": {
+  qualities: {
+    "480p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=1f93hSknK_nMOZPdCEVyS_HTKwfLKnG3_x18oiF5H-362gA68mDs-JpUfnRB1NR9-6QK_UNIjuMwlHP8VMcP8w&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Tokyo%20Ghoul%20S01E07%20480p%20BluRay%20Multi%20Audio%202%20Dubs%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Tokyo Ghoul S01E07 480p BluRay Multi Audio 2 Dubs ESub.mkv" },
+    "720p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=cP2KI0IJJZuqNtK_BgxbmMEhWzmYLPJgHDj54mSBUAg0k_LqzXDUbKQlnvYoqCBRPuwAcXBlVC4qqrelxzwGdA&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Tokyo%20Ghoul%20S01E07%20720p%20HD%20BluRay%20Multi%20Audio%202%20Dubs%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Tokyo Ghoul S01E07 720p HD BluRay Multi Audio 2 Dubs ESub.mkv" },
+    "1080p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=KUxjwzZ5gGNOs6Dc_dmr6XJR07HjSux22cdRApTKAEUbY8qXnIcjytGGTjpboIN_7PWmMb8NsfxWe3uNghhDLQ&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Tokyo%20Ghoul%20S01E07%201080p%20HEVC%2010bit%20BluRay%20Multi%20Audio%202%20Dubs%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Tokyo Ghoul S01E07 1080p HEVC 10bit BluRay Multi Audio 2 Dubs ESub.mkv" }
+  }
+},
+"tokyo-ghoul-1x8": {
+  qualities: {
+    "480p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=ZQc4wcF0Xd4jUH-dvj0qLysMP3b9wKmewRlPHydYnufcQnOsx3bykBbfVanegcq358dAp6Yl5t14O2Fi1nutGQ&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Tokyo%20Ghoul%20S01E08%20480p%20BluRay%20Multi%20Audio%202%20Dubs%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Tokyo Ghoul S01E08 480p BluRay Multi Audio 2 Dubs ESub.mkv" },
+    "720p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=ScKPyUBjtYA65GfuDOwYraFRgJqcuHguNmb2hcdGQu4J2lZNS7MkatGQcrHDWo7QuF9NVSUpLm250fhLq4X0AQ&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Tokyo%20Ghoul%20S01E08%20720p%20HD%20BluRay%20Multi%20Audio%202%20Dubs%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Tokyo Ghoul S01E08 720p HD BluRay Multi Audio 2 Dubs ESub.mkv" },
+    "1080p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=NS0pkkaS_4XiLUlpq0UkhUgYwvAvjrllEDqC1ebmtNWjr5kMqgJHft8Dz8ir-JaKAoh0c8CQtgwz6uApDKbYjg&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Tokyo%20Ghoul%20S01E08%201080p%20HEVC%2010bit%20BluRay%20Multi%20Audio%202%20Dubs%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Tokyo Ghoul S01E08 1080p HEVC 10bit BluRay Multi Audio 2 Dubs ESub.mkv" }
+  }
+},
+"tokyo-ghoul-1x9": {
+  qualities: {
+    "480p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=PLHICuJvNQWqoGC5xOVzQq-ztadHRhzpqxwo653i5_nBJ6xg4pzmRbEh0BkfoeykYoywwE_VJuKwGrkBCNLJXQ&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Tokyo%20Ghoul%20S01E09%20480p%20BluRay%20Multi%20Audio%202%20Dubs%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Tokyo Ghoul S01E09 480p BluRay Multi Audio 2 Dubs ESub.mkv" },
+    "720p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=OgeHZZzzqQqflfVDw-4-1NcosEY348q8FWETblrh8s5-XxS14Zsl1gAoutpr4hp4TMIBoEjnFVzlw-UsnmRhmw&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Tokyo%20Ghoul%20S01E09%20720p%20HD%20BluRay%20Multi%20Audio%202%20Dubs%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Tokyo Ghoul S01E09 720p HD BluRay Multi Audio 2 Dubs ESub.mkv" },
+    "1080p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=clQNxFb7e3qQlmHbFP3FvMqDLCC-Ku5CsX7GJzrL3nrAfhJS5_C0MQ3IXb7oWua_rwQ_NyATNMDVS4wg_flqvw&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Tokyo%20Ghoul%20S01E09%201080p%20HEVC%2010bit%20BluRay%20Multi%20Audio%202%20Dubs%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Tokyo Ghoul S01E09 1080p HEVC 10bit BluRay Multi Audio 2 Dubs ESub.mkv" }
+  }
+},
+"tokyo-ghoul-1x10": {
+  qualities: {
+    "480p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=zSIeFnirA24Bucqe6w-_5O_Ril7GEVrpU3Dl1YQdCHA43HIdazHg2sVqLM3XROuobsQMQcALJvmuhltx5dBQUg&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Tokyo%20Ghoul%20S01E10%20480p%20BluRay%20Multi%20Audio%202%20Dubs%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Tokyo Ghoul S01E10 480p BluRay Multi Audio 2 Dubs ESub.mkv" },
+    "720p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=4rvapcF2vXtSn0cd4FlAkwLJY2JO_JUlE3taOhdhGYwpetIqruyL4BeR8uWDEF9AQwPfjRaSxaLj7-l27vuECA&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Tokyo%20Ghoul%20S01E10%20720p%20HD%20BluRay%20Multi%20Audio%202%20Dubs%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Tokyo Ghoul S01E10 720p HD BluRay Multi Audio 2 Dubs ESub.mkv" },
+    "1080p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=-qNk8XjOsEOS6Lqbj4Pvcm0bcVkaKScq4bLWQsK_PO7gYqrUNB-f2ydRkGMSIR14iwSGcw_jz4fWil7KSk0Gug&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Tokyo%20Ghoul%20S01E10%201080p%20HEVC%2010bit%20BluRay%20Multi%20Audio%202%20Dubs%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Tokyo Ghoul S01E10 1080p HEVC 10bit BluRay Multi Audio 2 Dubs ESub.mkv" }
+  }
+},
+"tokyo-ghoul-1x11": {
+  qualities: {
+    "480p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=wzERGyjS3vtFxMn3s0LINyG8Davs4IZuYQccRFrdjfamWM5LirOdTM5qDXym8WDaz1sOpmKvVr0Axqec13aolQ&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Tokyo%20Ghoul%20S01E11%20480p%20BluRay%20Multi%20Audio%202%20Dubs%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Tokyo Ghoul S01E11 480p BluRay Multi Audio 2 Dubs ESub.mkv" },
+    "720p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=tbMKuPrylEecFzQo1FE2bAR8qkrWKreXNqDJ2Wn3lFp4biC7SGyKbm890kJHxJZjBBg9JL15AtIDaAzkAw1yFQ&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Tokyo%20Ghoul%20S01E11%20720p%20HD%20BluRay%20Multi%20Audio%202%20Dubs%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Tokyo Ghoul S01E11 720p HD BluRay Multi Audio 2 Dubs ESub.mkv" },
+    "1080p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=pJwCqXrpmQ5RT5v85no7AuMa6jGYNikVwepr92ISvVXCjOImrzAhbMZCX20Oi1IW-pjluNVvDu7DVCzsUbGJzw&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Tokyo%20Ghoul%20S01E11%201080p%20HEVC%2010bit%20BluRay%20Multi%20Audio%202%20Dubs%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Tokyo Ghoul S01E11 1080p HEVC 10bit BluRay Multi Audio 2 Dubs ESub.mkv" }
+  }
+},
+"tokyo-ghoul-1x12": {
+  qualities: {
+    "480p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=Gt2bXgww7dy-r3x5387Gwb5_SN91zVjYpOBdDeM-wIvEnWTB3ZY8oaCPopLsyvYdwDVawmDEu_2jq9l4umFBDA&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Tokyo%20Ghoul%20S01E12%20480p%20BluRay%20Multi%20Audio%202%20Dubs%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Tokyo Ghoul S01E12 480p BluRay Multi Audio 2 Dubs ESub.mkv" },
+    "720p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=p92gfzs5AYdpRLPSqnG_pG-Mp3jo-hSOKgGRE59JFeQwyfwjO-Ia9Yy-P-PmxkoxlhtbW2uEONWZikQ39SdT6A&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Tokyo%20Ghoul%20S01E12%20720p%20HD%20BluRay%20Multi%20Audio%202%20Dubs%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Tokyo Ghoul S01E12 720p HD BluRay Multi Audio 2 Dubs ESub.mkv" },
+    "1080p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=tFphtXlpSk39KP_fYeprszGZ23jqa5Btt0PgmYVC2nmEEh6Tg6ECI-8Ig3IzFTEvV4IqCL0ESW4WAj7QoV069A&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Tokyo%20Ghoul%20S01E12%201080p%20HEVC%2010bit%20BluRay%20Multi%20Audio%202%20Dubs%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Tokyo Ghoul S01E12 1080p HEVC 10bit BluRay Multi Audio 2 Dubs ESub.mkv" }
+  }
+},
+"tokyo-ghoul-s2-1x1": {
+  qualities: {
+    "480p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=uwHQCAffR3odlEPK1yY1O640sR-ls3uBRn_zsfbLLDP0FIwh1-f8f6Rc3GQ-FG_EZSIc8SUZK_o2MNdIa6TEoA&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Tokyo%20Ghoul%20S02E01%20480p%20BluRay%20Multi%20Audio%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Tokyo Ghoul S02E01 480p BluRay Multi Audio ESub.mkv" },
+    "720p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=jdaCnR8zx2JH9BUeCy_ExXEq0BQgzJDqnl8ztuh-fuPv1UteJlZWP-pKde2fht-y7bqP4BFwVcFHqKikS3vm5w&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Tokyo%20Ghoul%20S02E01%20720p%20HD%20BluRay%20Multi%20Audio%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Tokyo Ghoul S02E01 720p HD BluRay Multi Audio ESub.mkv" },
+    "1080p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=I3lOSlOWPHyHAJzuedSjufSLLyoe-i9YQdPjdD0GcYTRFZaSTVaBNpdAoIRT39wkxBpFEWfb6eVaKeFHExVMXw&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Tokyo%20Ghoul%20S02E01%201080p%20HEVC%2010bit%20BluRay%20Multi%20Audio%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Tokyo Ghoul S02E01 1080p HEVC 10bit BluRay Multi Audio ESub.mkv" }
+  }
+},
+"tokyo-ghoul-s2-1x2": {
+  qualities: {
+    "480p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=atI2fqhxIf_gILM7M3AN8t1-JyZhrOT9swTNbHb5YYNioLKqwETDfLGwuSyyPhcfhfl9XcSgdFOL3Nr-tYbZag&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Tokyo%20Ghoul%20S02E02%20480p%20BluRay%20Multi%20Audio%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Tokyo Ghoul S02E02 480p BluRay Multi Audio ESub.mkv" },
+    "720p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=4Z3Ycgod9P-dn6sn4LgtVrGaFVrszgTdJowcUKI-wxeb9xIqxwoyMyDf-Djb08UNq0yJXdR2wjLJZu2go4srpA&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Tokyo%20Ghoul%20S02E02%20720p%20HD%20BluRay%20Multi%20Audio%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Tokyo Ghoul S02E02 720p HD BluRay Multi Audio ESub.mkv" },
+    "1080p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=ENR7UVnM_vv4Kh8yn-fFSFof3LHibXJE29pxlb0UgPeDy35yYN_nDPVKBB_NqQZu8f_HzPATISoMx9G1kD_13Q&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Tokyo%20Ghoul%20S02E02%201080p%20HEVC%2010bit%20BluRay%20Multi%20Audio%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Tokyo Ghoul S02E02 1080p HEVC 10bit BluRay Multi Audio ESub.mkv" }
+  }
+},
+"tokyo-ghoul-s2-1x3": {
+  qualities: {
+    "480p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=sQVfw5W4CVlwBGPC48gDc-3CRcGMhJEqAIQKtrhCOjEyiNgguJTvR2DHE3QbOeOgFQUel76fOXKXu83R-p0keg&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Tokyo%20Ghoul%20S02E03%20480p%20BluRay%20Multi%20Audio%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Tokyo Ghoul S02E03 480p BluRay Multi Audio ESub.mkv" },
+    "720p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=hHtLhti_2qjiu2Dbe4-FL8rKp2vAt48zMp-DclnlSAaTePjh8d6e_vfRMmLjUvrZld4CtnSZfmB2nsborzONyg&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Tokyo%20Ghoul%20S02E03%20720p%20HD%20BluRay%20Multi%20Audio%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Tokyo Ghoul S02E03 720p HD BluRay Multi Audio ESub.mkv" },
+    "1080p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=FXqjuMMVjhqnbvkDAZUrRDjMVy9J4cTXMLYulQDBrQtlwuNdCsSz9SZv3nX2KciYpWTzD5jOJyRGy9YvHrUEng&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Tokyo%20Ghoul%20S02E03%201080p%20HEVC%2010bit%20BluRay%20Multi%20Audio%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Tokyo Ghoul S02E03 1080p HEVC 10bit BluRay Multi Audio ESub.mkv" }
+  }
+},
+"tokyo-ghoul-s2-1x4": {
+  qualities: {
+    "480p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=IFJayIIhwqdo7-UOJndH73a7Dwcrni5XQ2jXOUh1mEoCcSjOpemKlWwtSdpa6Y_RDDrqQVdZ3UHhc0XbL7Ra-g&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Tokyo%20Ghoul%20S02E04%20480p%20BluRay%20Multi%20Audio%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Tokyo Ghoul S02E04 480p BluRay Multi Audio ESub.mkv" },
+    "720p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=NEaTOxHgXGZpOm0gD0jZLpCCu2rL0b0vECsfTLvGP86drJOrIdno2yfzbb_hxaPwN3XSMB1TvX7-ICbGLAfmhQ&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Tokyo%20Ghoul%20S02E04%20720p%20HD%20BluRay%20Multi%20Audio%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Tokyo Ghoul S02E04 720p HD BluRay Multi Audio ESub.mkv" },
+    "1080p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=zbtSgzkVo_aS0DOYZMCSg9_L0MPMX4TgHFMhlqrIknMC4sIowJjbk81OTXjeAAaigtP0Es3GOx7ywE5m1sBCXg&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Tokyo%20Ghoul%20S02E04%201080p%20HEVC%2010bit%20BluRay%20Multi%20Audio%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Tokyo Ghoul S02E04 1080p HEVC 10bit BluRay Multi Audio ESub.mkv" }
+  }
+},
+"tokyo-ghoul-s2-1x5": {
+  qualities: {
+    "480p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=NNmE4bGqb985oqHfM_RBj1S8B2_vSOuDxYQqYnqGoTbGRqQzFB3qDStakzfi9D3Ybd_H0RwgB-Ya9wDPOWbIeQ&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Tokyo%20Ghoul%20S02E05%20480p%20BluRay%20Multi%20Audio%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Tokyo Ghoul S02E05 480p BluRay Multi Audio ESub.mkv" },
+    "720p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=jkbaoSaCijt-K_Co1iPG7aYgSMB2IoIsfEwk68s_pExBT6cBXkycwi1oiEepIICZzAw48ol3qb_6DaazYFbSkw&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Tokyo%20Ghoul%20S02E05%20720p%20HD%20BluRay%20Multi%20Audio%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Tokyo Ghoul S02E05 720p HD BluRay Multi Audio ESub.mkv" },
+    "1080p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=BF54gJgXCXH2Zo9xrmBq1x7Vs5BGWc51uldzV3EQpQkPeJ0bN3clpZXO9ErCb2gsqahBsH7-J7PAppxhdwqslA&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Tokyo%20Ghoul%20S02E05%201080p%20HEVC%2010bit%20BluRay%20Multi%20Audio%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Tokyo Ghoul S02E05 1080p HEVC 10bit BluRay Multi Audio ESub.mkv" }
+  }
+},
+"tokyo-ghoul-s2-1x6": {
+  qualities: {
+    "480p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=-E4a6tU8BeCppWfV3AIYC2H0Ot9dj-l-43J7_zdG9s48_LMQjltaWFVp9-syF82NsQsqFhESUGUXFbM98-2mqQ&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Tokyo%20Ghoul%20S02E06%20480p%20BluRay%20Multi%20Audio%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Tokyo Ghoul S02E06 480p BluRay Multi Audio ESub.mkv" },
+    "720p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=8PBGeC6-VZP9hMqEIDPmVDyxaZSKt6tykgVtIqDzpUHi4zvpT1Talknut-jBGu3SFJkD9t5YpFPrIFMJx-8OQA&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Tokyo%20Ghoul%20S02E06%20720p%20HD%20BluRay%20Multi%20Audio%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Tokyo Ghoul S02E06 720p HD BluRay Multi Audio ESub.mkv" },
+    "1080p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=tynbWN71y9ulCs_lQNUA0oQxU2ey9KXLxHzcE22QPFpJbTgZqNDBTo_DnZ_wkZ1LhvZ3xLpEU30G314r40D9QQ&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Tokyo%20Ghoul%20S02E06%201080p%20HEVC%2010bit%20BluRay%20Multi%20Audio%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Tokyo Ghoul S02E06 1080p HEVC 10bit BluRay Multi Audio ESub.mkv" }
+  }
+},
+"tokyo-ghoul-s2-1x7": {
+  qualities: {
+    "480p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=79hiEaJNrqVkneBPX3fiQi18OWg84VhfZjEKy1jaiBRt02WJt4lH-QC2GR_UzGi7yG_7ZWir9TGoe56XY7_mTg&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Tokyo%20Ghoul%20S02E07%20480p%20BluRay%20Multi%20Audio%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Tokyo Ghoul S02E07 480p BluRay Multi Audio ESub.mkv" },
+    "720p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=Krh7MQVhBiQExzuNXuaxPCXSCxuc1OWDh80GemGZF-Fz1cPyrbheB3douzvM6iS_gmS3MiSkYh6UZfYUy79lAw&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Tokyo%20Ghoul%20S02E07%20720p%20HD%20BluRay%20Multi%20Audio%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Tokyo Ghoul S02E07 720p HD BluRay Multi Audio ESub.mkv" },
+    "1080p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=e2tGpakb0Wg7OflRyzpgIfMfvE75ZrNkSutJQGlQ3IUsrkxe9Xzt7Uo3SbTpA35b_UsIsbGZBN5bvAgJmhNJ-A&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Tokyo%20Ghoul%20S02E07%201080p%20HEVC%2010bit%20BluRay%20Multi%20Audio%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Tokyo Ghoul S02E07 1080p HEVC 10bit BluRay Multi Audio ESub.mkv" }
+  }
+},
+"tokyo-ghoul-s2-1x8": {
+  qualities: {
+    "480p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=eOs2KKE5-b_WmBYETTV8FnMxWzNCPAB2coM2Ax_EOUe0LlK8ClT_eu25V3or98wzkpgzZAalGTpVC_7FDocs3Q&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Tokyo%20Ghoul%20S02E08%20480p%20BluRay%20Multi%20Audio%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Tokyo Ghoul S02E08 480p BluRay Multi Audio ESub.mkv" },
+    "720p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=2RBW2d0AgapUTiXmykaTbJz-8PFaF3wQvboiFTHqzggqOyXSxCbPyaO9s_Qzkj1oO6N9yvAs0rYVQBV_dMuAkg&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Tokyo%20Ghoul%20S02E08%20720p%20HD%20BluRay%20Multi%20Audio%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Tokyo Ghoul S02E08 720p HD BluRay Multi Audio ESub.mkv" },
+    "1080p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=vGPsg-MWRULM1kVEJn8eaK9rqpcF2FIFVpIvp7tE407vOxxkWJcqf-uSmOJVOBmLNvzGgNt9MKYXSgNOptqlvw&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Tokyo%20Ghoul%20S02E08%201080p%20HEVC%2010bit%20BluRay%20Multi%20Audio%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Tokyo Ghoul S02E08 1080p HEVC 10bit BluRay Multi Audio ESub.mkv" }
+  }
+},
+"tokyo-ghoul-s2-1x9": {
+  qualities: {
+    "480p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=9XdP_88WjOWaiWTdmrBKCa1FSTCz4ML5RM8aF_Rzcch8sCN221ReLgjPWeuuyOE99nSUxYcQ-YUZVvXtrk39rQ&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Tokyo%20Ghoul%20S02E09%20480p%20BluRay%20Multi%20Audio%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Tokyo Ghoul S02E09 480p BluRay Multi Audio ESub.mkv" },
+    "720p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=jxKB6rH9c_Vo9VZP3AjrZ2B7ykvS-T0q8SQpoTaP8zgWcJpBJAU0Fkgre7CPRZaBcdaoG7P5gfrxyGRDS8CUFw&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Tokyo%20Ghoul%20S02E09%20720p%20HD%20BluRay%20Multi%20Audio%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Tokyo Ghoul S02E09 720p HD BluRay Multi Audio ESub.mkv" },
+    "1080p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=B2Jha9tKIfjxWt8dwFRcdX_0McA0zF_5RU8FwISUv22ARYLEjT96ZyynySlSergwyqv10fMXWIpIagydr55uQw&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Tokyo%20Ghoul%20S02E09%201080p%20HEVC%2010bit%20BluRay%20Multi%20Audio%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Tokyo Ghoul S02E09 1080p HEVC 10bit BluRay Multi Audio ESub.mkv" }
+  }
+},
+"tokyo-ghoul-s2-1x10": {
+  qualities: {
+    "480p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=jPPY6XErmksWmbMQdghqPlgq08VygrUeIiwNya0w9Lzr9XOm8moW8BnK_jEr9-SNOxF_MsiS7laV5S_kVidLBA&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Tokyo%20Ghoul%20S02E10%20480p%20BluRay%20Multi%20Audio%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Tokyo Ghoul S02E10 480p BluRay Multi Audio ESub.mkv" },
+    "720p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=UpHZDIHnLUV8mxkd-Qry89mg9qO9cgdex3hzneHjJA8NMuNftP0qSELMiaEguuRF9bJGNB5UQ65nq4pKcoJAJw&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Tokyo%20Ghoul%20S02E10%20720p%20HD%20BluRay%20Multi%20Audio%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Tokyo Ghoul S02E10 720p HD BluRay Multi Audio ESub.mkv" },
+    "1080p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=ev6UTv6l3Dvgiy5rCyK23AdMXeWiKCg99-yRY1Nv2c54K2Ss_6a2janNJH4PsBG24jHWXtllwK3iiAHdMpDGCw&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Tokyo%20Ghoul%20S02E10%201080p%20HEVC%2010bit%20BluRay%20Multi%20Audio%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Tokyo Ghoul S02E10 1080p HEVC 10bit BluRay Multi Audio ESub.mkv" }
+  }
+},
+"tokyo-ghoul-s2-1x11": {
+  qualities: {
+    "480p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=_0DQHFYsf_UFjQJk0Q5Roelpa0MMHdrlt8U-Lb0v_DwAePZEgz46pUpIdUT7KmjPjrjKafzs8VHZYojPAQ8C0w&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Tokyo%20Ghoul%20S02E11%20480p%20BluRay%20Multi%20Audio%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Tokyo Ghoul S02E11 480p BluRay Multi Audio ESub.mkv" },
+    "720p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=p019VJDCDNigKadecj-f8EMcg1g2wDqT70cebHXFMNl_nMKeSe50Kk_k2jN3Ius3gLohQfM-Lice5mNNzex8xg&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Tokyo%20Ghoul%20S02E11%20720p%20HD%20BluRay%20Multi%20Audio%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Tokyo Ghoul S02E11 720p HD BluRay Multi Audio ESub.mkv" },
+    "1080p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=hqegGrThnlzWYSAme5E7TQRIlGT451Krr8fL7eNbJx6Wj4sVTtLwL_9kB6bFumvaGfPqvf29YmXjb9hUX7RWLQ&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Tokyo%20Ghoul%20S02E11%201080p%20HEVC%2010bit%20BluRay%20Multi%20Audio%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Tokyo Ghoul S02E11 1080p HEVC 10bit BluRay Multi Audio ESub.mkv" }
+  }
+},
+"tokyo-ghoul-s2-1x12": {
+  qualities: {
+    "480p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=sn-BBCfL4UltyQn7H8nVfgfK0P2gbdi2LyYu1akMYLKHJkE0yZDNcBgMft3MB6fPk-2T5zXVwpJ9yghoEZAoLQ&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Tokyo%20Ghoul%20S02E12%20480p%20BluRay%20Multi%20Audio%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Tokyo Ghoul S02E12 480p BluRay Multi Audio ESub.mkv" },
+    "720p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=IpchkdJMsmOon-jPDaK0CYxiNNELPUEJUY5n8J4nQNgxJTHYYYNfBB6IIFUO2cRNgV9zDxaIGH1f8Yz8X4ecXg&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Tokyo%20Ghoul%20S02E12%20720p%20HD%20BluRay%20Multi%20Audio%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Tokyo Ghoul S02E12 720p HD BluRay Multi Audio ESub.mkv" },
+    "1080p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=bU4UzP5OzKZvevEYwI8NvHlWWrcTHeoIZdlKjp4yeBgYUseqQP9SmLIu483Q5erl0f_j7kxrCVgI7W4e220WZQ&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Tokyo%20Ghoul%20S02E12%201080p%20HEVC%2010bit%20BluRay%20Multi%20Audio%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Tokyo Ghoul S02E12 1080p HEVC 10bit BluRay Multi Audio ESub.mkv" }
+  }
+},
 "sword-of-the-demon-hunter-kijin-gentosho-1x1": {
   qualities: {
     "480p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=Ifv9d1qsZ6uE4R0UKy-UNTVoy6Z6P9UzWNNXI2WVFnZxMQ3C3SI7sQMTZGxLGd49oymmzWaB40mkWgRDaKk1cQ&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Sword%20of%20the%20Demon%20Hunter%20S01E01%20480p%20AMZN%20WEB-DL%20Dual%20Audio%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Sword of the Demon Hunter S01E01 480p AMZN WEB-DL Dual Audio ESub.mkv" },

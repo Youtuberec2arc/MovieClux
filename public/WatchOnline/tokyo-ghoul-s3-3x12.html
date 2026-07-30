@@ -1,0 +1,543 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Episode 12 — Tokyo Ghoul Season 3 — CrunchyEpisode</title>
+<link rel="icon" type="image/png" href="/crunchyepisode.png">
+<link rel="apple-touch-icon" href="/crunchyepisode-180.png">
+<link rel="manifest" href="/site.webmanifest">
+<meta name="theme-color" content="#ef2748">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Anton&family=Manrope:wght@400;500;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../watch-style.css?v=5">
+</head>
+<body>
+
+<header class="site-nav">
+  <a href="../index.html" class="brand"><img src="../assets/logo.png" alt="CrunchyEpisode"></a>
+  <div class="nav-search">
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="7"/><path d="M21 21l-4.3-4.3"/></svg>
+    <input type="text" id="searchInput" placeholder="Search anime…" autocomplete="off">
+  </div>
+  <div class="nav-right">
+    <button class="icon-btn" aria-label="Share" id="shareBtn">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="18" cy="5" r="3"/><circle cx="6" cy="12" r="3"/><circle cx="18" cy="19" r="3"/><line x1="8.6" y1="10.6" x2="15.4" y2="6.4"/><line x1="8.6" y1="13.4" x2="15.4" y2="17.6"/></svg>
+    </button>
+    <button class="icon-btn" aria-label="Favorite" id="favoriteBtn">
+      <svg viewBox="0 0 24 24"><path d="M6 3h12a1 1 0 0 1 1 1v17l-7-4-7 4V4a1 1 0 0 1 1-1z"/></svg>
+    </button>
+  </div>
+</header>
+
+<section class="player-section" style="position:relative;">
+  <!-- Click-to-play: nothing is fetched from /api/token or /api/play until
+       the visitor actually taps play, so just opening the page doesn't
+       burn any data on video/embed loading. -->
+  <div id="player-frame" style="cursor:pointer;">
+    <img src="https://image.tmdb.org/t/p/original/nzeAClk7gFTw7FN0ubJNKw7JydI.jpg" alt="Tokyo Ghoul Season 3"
+         style="width:100%;height:100%;object-fit:cover;display:block;">
+    <button id="playOverlayBtn" aria-label="Play"
+      style="position:absolute;top:50%;left:50%;transform:translate(-50%,-50%);
+      width:68px;height:68px;border-radius:100px;border:none;cursor:pointer;
+      background:rgba(0,0,0,0.55);color:#fff;font-size:26px;
+      display:flex;align-items:center;justify-content:center;">▶</button>
+  </div>
+  <!-- Backup fullscreen button: fullscreens the whole player-frame
+       container (not the inner iframe/video directly), which sidesteps
+       cross-origin iframe fullscreen quirks on mobile browsers. -->
+  <button id="fullscreenBtn" class="fs-btn" aria-label="Fullscreen">⛶</button>
+</section>
+
+<div class="episode-meta">
+  <h1>Episode 12</h1>
+  <div class="quality-switch" id="qualitySwitch">
+    <button class="qs-btn active" data-quality="480p">480p</button><button class="qs-btn " data-quality="720p">720p HD</button><button class="qs-btn " data-quality="1080p">1080p FHD</button>
+  </div>
+</div>
+
+<div class="series-row">
+  <img class="series-thumb" src="https://image.tmdb.org/t/p/original/nzeAClk7gFTw7FN0ubJNKw7JydI.jpg" alt="Poster">
+  <div class="series-info">
+    <h3>Tokyo Ghoul Season 3</h3>
+    <span class="series-sub">Anime Series</span>
+  </div>
+  <button class="btn btn-ghost" id="moreInfoBtn">More Info</button>
+</div>
+
+<div class="action-row">
+  <a class="action-btn " href="tokyo-ghoul-s3-3x11.html">⏮ Prev</a>
+  <a class="action-btn " href="tokyo-ghoul-s3-3x13.html">Next ⏭</a>
+</div>
+
+<div class="notice-bar" id="noticeBar">
+  <span>⚠ If playback doesn't start, please refresh the page.</span>
+  <button class="notice-close" aria-label="Dismiss">✕</button>
+</div>
+
+<nav class="tab-nav">
+  <button class="tab-link active" data-tab="episodes">Episodes</button>
+  <button class="tab-link" data-tab="related">Other Seasons</button>
+  <button class="tab-link" data-tab="recommendations">Recommendations</button>
+</nav>
+
+<section class="tab-panel" id="tab-episodes">
+  <div class="panel-header">
+    <span>24 Episodes</span>
+  </div>
+  <div class="episode-grid">
+    <a class="episode-card "
+       href="tokyo-ghoul-s3-3x1.html">
+      EP 1
+    </a>
+    <a class="episode-card "
+       href="tokyo-ghoul-s3-3x2.html">
+      EP 2
+    </a>
+    <a class="episode-card "
+       href="tokyo-ghoul-s3-3x3.html">
+      EP 3
+    </a>
+    <a class="episode-card "
+       href="tokyo-ghoul-s3-3x4.html">
+      EP 4
+    </a>
+    <a class="episode-card "
+       href="tokyo-ghoul-s3-3x5.html">
+      EP 5
+    </a>
+    <a class="episode-card "
+       href="tokyo-ghoul-s3-3x6.html">
+      EP 6
+    </a>
+    <a class="episode-card "
+       href="tokyo-ghoul-s3-3x7.html">
+      EP 7
+    </a>
+    <a class="episode-card "
+       href="tokyo-ghoul-s3-3x8.html">
+      EP 8
+    </a>
+    <a class="episode-card "
+       href="tokyo-ghoul-s3-3x9.html">
+      EP 9
+    </a>
+    <a class="episode-card "
+       href="tokyo-ghoul-s3-3x10.html">
+      EP 10
+    </a>
+    <a class="episode-card "
+       href="tokyo-ghoul-s3-3x11.html">
+      EP 11
+    </a>
+    <a class="episode-card active"
+       href="tokyo-ghoul-s3-3x12.html">
+      EP 12
+    </a>
+    <a class="episode-card "
+       href="tokyo-ghoul-s3-3x13.html">
+      EP 13
+    </a>
+    <a class="episode-card "
+       href="tokyo-ghoul-s3-3x14.html">
+      EP 14
+    </a>
+    <a class="episode-card "
+       href="tokyo-ghoul-s3-3x15.html">
+      EP 15
+    </a>
+    <a class="episode-card "
+       href="tokyo-ghoul-s3-3x16.html">
+      EP 16
+    </a>
+    <a class="episode-card "
+       href="tokyo-ghoul-s3-3x17.html">
+      EP 17
+    </a>
+    <a class="episode-card "
+       href="tokyo-ghoul-s3-3x18.html">
+      EP 18
+    </a>
+    <a class="episode-card "
+       href="tokyo-ghoul-s3-3x19.html">
+      EP 19
+    </a>
+    <a class="episode-card "
+       href="tokyo-ghoul-s3-3x20.html">
+      EP 20
+    </a>
+    <a class="episode-card "
+       href="tokyo-ghoul-s3-3x21.html">
+      EP 21
+    </a>
+    <a class="episode-card "
+       href="tokyo-ghoul-s3-3x22.html">
+      EP 22
+    </a>
+    <a class="episode-card "
+       href="tokyo-ghoul-s3-3x23.html">
+      EP 23
+    </a>
+    <a class="episode-card "
+       href="tokyo-ghoul-s3-3x24.html">
+      EP 24
+    </a></div>
+</section>
+
+<section class="tab-panel" id="tab-related" hidden>
+  <div class="mini-card-grid">
+    <a class="mini-card" href="tokyo-ghoul-1x1.html">
+      <img src="https://image.tmdb.org/t/p/original/mt6ForyKh4JS0v5ho8xhauISidF.jpg" alt="Tokyo Ghoul" loading="lazy">
+      <span class="mini-card-title">Tokyo Ghoul</span>
+    </a>
+    <a class="mini-card" href="tokyo-ghoul-s2-2x1.html">
+      <img src="https://image.tmdb.org/t/p/original/mwrErcHQdND2U2vhp9rkFE6wdbd.jpg" alt="Tokyo Ghoul Season 2" loading="lazy">
+      <span class="mini-card-title">Tokyo Ghoul Season 2</span>
+    </a></div>
+</section>
+
+<section class="tab-panel" id="tab-recommendations" hidden>
+  <div class="mini-card-grid">
+    <a class="mini-card" href="tokyo-ghoul-1x1.html">
+      <img src="https://image.tmdb.org/t/p/original/mt6ForyKh4JS0v5ho8xhauISidF.jpg" alt="Tokyo Ghoul" loading="lazy">
+      <span class="mini-card-title">Tokyo Ghoul</span>
+    </a>
+    <a class="mini-card" href="tokyo-ghoul-s2-2x1.html">
+      <img src="https://image.tmdb.org/t/p/original/mwrErcHQdND2U2vhp9rkFE6wdbd.jpg" alt="Tokyo Ghoul Season 2" loading="lazy">
+      <span class="mini-card-title">Tokyo Ghoul Season 2</span>
+    </a>
+    <a class="mini-card" href="sword-of-the-demon-hunter-kijin-gentosho-1x1.html">
+      <img src="https://image.tmdb.org/t/p/original/8BNGnDKMaDvpmkTd6z9pQL97Upe.jpg" alt="Sword of the Demon Hunter: Kijin Gentosho" loading="lazy">
+      <span class="mini-card-title">Sword of the Demon Hunter: Kijin Gentosho</span>
+    </a>
+    <a class="mini-card" href="clevatess-1x1.html">
+      <img src="https://image.tmdb.org/t/p/original/jMQ7IMljkAOV2DqQtK82dWjWm76.jpg" alt="Clevatess" loading="lazy">
+      <span class="mini-card-title">Clevatess</span>
+    </a>
+    <a class="mini-card" href="demon-slayer-kimetsu-no-yaiba-infinity-castle-1x1.html">
+      <img src="https://image.tmdb.org/t/p/original/fWVSwgjpT2D78VUh6X8UBd2rorW.jpg" alt="Demon Slayer: Kimetsu no Yaiba Infinity Castle" loading="lazy">
+      <span class="mini-card-title">Demon Slayer: Kimetsu no Yaiba Infinity Castle</span>
+    </a>
+    <a class="mini-card" href="that-time-i-got-reincarnated-as-a-slime-s4-4x1.html">
+      <img src="https://image.tmdb.org/t/p/original/94MjsZUyxubodMPJdWOVkcJ0bdU.jpg" alt="That Time I Got Reincarnated as a Slime Season 4" loading="lazy">
+      <span class="mini-card-title">That Time I Got Reincarnated as a Slime Season 4</span>
+    </a>
+    <a class="mini-card" href="daemons-of-the-shadow-realm-s1-1x1.html">
+      <img src="https://image.tmdb.org/t/p/original/i4t9z7QDNPJjg59vJunCHdh0mj2.jpg" alt="Daemons of the Shadow Realm Season 1" loading="lazy">
+      <span class="mini-card-title">Daemons of the Shadow Realm Season 1</span>
+    </a>
+    <a class="mini-card" href="farming-life-in-another-world-1x1.html">
+      <img src="https://image.tmdb.org/t/p/original/pT4OoVQE8zGJ0Z0GZpJotK5Vzsj.jpg" alt="Farming Life in Another World" loading="lazy">
+      <span class="mini-card-title">Farming Life in Another World</span>
+    </a>
+    <a class="mini-card" href="farming-life-in-another-world-s2-1x1.html">
+      <img src="https://image.tmdb.org/t/p/original/zkrJW2bzwzeY0yqGaQ36rO2UBi2.jpg" alt="Farming Life in Another World Season 2" loading="lazy">
+      <span class="mini-card-title">Farming Life in Another World Season 2</span>
+    </a>
+    <a class="mini-card" href="tamons-b-side-1x1.html">
+      <img src="https://image.tmdb.org/t/p/original/1iTCxEIK1xlmIXjHcLjt0UyOU8w.jpg" alt="Tamon&#39;s B-Side" loading="lazy">
+      <span class="mini-card-title">Tamon&#39;s B-Side</span>
+    </a>
+    <a class="mini-card" href="fullmetal-alchemist-brotherhood-1x1.html">
+      <img src="https://image.tmdb.org/t/p/original/5ZFUEOULaVml7pQuXxhpR2SmVUw.jpg" alt="Fullmetal Alchemist: Brotherhood" loading="lazy">
+      <span class="mini-card-title">Fullmetal Alchemist: Brotherhood</span>
+    </a>
+    <a class="mini-card" href="chainsmoker-cat-1x1.html">
+      <img src="../assets/chainsmoker-cat-poster.jpg" alt="Chainsmoker Cat" loading="lazy">
+      <span class="mini-card-title">Chainsmoker Cat</span>
+    </a></div>
+</section>
+
+<section class="detail-section">
+  <div class="detail-banner" style="background-image:url('https://image.tmdb.org/t/p/original/nzeAClk7gFTw7FN0ubJNKw7JydI.jpg')"></div>
+  <p class="description">A Tokyo college student is attacked by a ghoul, a superpowered human who feeds on human flesh. He survives, but has become part ghoul and becomes a fugitive on the run.</p>
+  <div class="tag-row"><span>Animation</span><span>Action</span><span>Horror</span></div>
+  <!-- Audio: the site is Hindi-dub focused, so we always advertise just
+       Hindi here even if the underlying file is multi-audio. -->
+  <div class="tag-row muted"><span>Audio: Hindi</span></div>
+</section>
+
+
+    <div class="dl-section">
+      <div class="dl-quality-row"><button class="dl-quality-btn" data-quality="480p" >
+      480p ↗
+    </button><button class="dl-quality-btn" data-quality="720p" >
+      720p HD ↗
+    </button><button class="dl-quality-btn" data-quality="1080p" >
+      1080p FHD ↗
+    </button></div>
+      <a class="dl-zip-btn" href="/quality-not-available.html" target="_blank" rel="noopener">📦 Zip Pack Files ↗</a>
+    </div>
+
+<section class="detail-section">
+  <h3>Cast</h3>
+  <div class="cast-grid"></div>
+</section>
+
+<section class="detail-section glass-card">
+  <h3>Anime Information</h3>
+  <div class="info-grid">
+    <p><strong>Year:</strong> <span>2015</span></p>
+    <p><strong>Rating:</strong> <span>N/A</span> TMDB</p>
+    <p><strong>Type:</strong> <span>TV</span></p>
+  </div>
+</section>
+
+<footer class="site-footer">
+  <img src="../assets/logo.png" alt="CrunchyEpisode" class="footer-logo">
+  <p>CrunchyEpisode is a fan-made index of anime episodes. We don't host any video files ourselves — every episode links out to third-party servers.</p>
+  <div class="footer-links">
+    <a href="javascript:void(0)" data-info-page="terms">Terms</a>
+    <a href="javascript:void(0)" data-info-page="privacy">Privacy</a>
+    <a href="javascript:void(0)" data-info-page="contact">Contact</a>
+    <a href="javascript:void(0)" data-info-page="sitemap">Sitemap</a>
+  </div>
+  <p class="footer-copy">© 2026 CrunchyEpisode. All rights reserved.</p>
+</footer>
+
+<!-- Shared modal for Terms/Privacy/Contact/Sitemap (same placeholder
+     content system as the homepage — edit FOOTER_PAGES below). -->
+<div class="info-modal-overlay" id="infoModalOverlay"></div>
+<div class="info-modal" id="infoModal">
+  <div class="info-modal-head">
+    <h3 id="infoModalTitle">Title</h3>
+    <button class="info-modal-close" id="infoModalClose" aria-label="Close">✕</button>
+  </div>
+  <div class="info-modal-body" id="infoModalBody"></div>
+</div>
+
+<script>
+  // ---------------------------------------------------------
+  // Loads the player through the secure backend proxy. The
+  // real CDN URL is never present in this file or in the
+  // network request the browser makes visible — /api/play
+  // either 302-redirects (embed type) or streams the bytes
+  // itself (stream type) after verifying a short-lived token.
+  // ---------------------------------------------------------
+  const EPISODE_ID = "tokyo-ghoul-s3-3x12";
+  const EMBED_TYPE = "stream";
+  let currentQuality = "480p";
+
+  async function getPlayToken() {
+    const res = await fetch(`/api/token?id=${encodeURIComponent(EPISODE_ID)}`);
+    if (!res.ok) throw new Error("Could not get playback token");
+    return res.json();
+  }
+
+  async function mountPlayer() {
+    const frame = document.getElementById("player-frame");
+    try {
+      const { token } = await getPlayToken();
+      const qParam = currentQuality ? `&quality=${encodeURIComponent(currentQuality)}` : "";
+      const playUrl = `/api/play?id=${encodeURIComponent(EPISODE_ID)}&token=${encodeURIComponent(token)}${qParam}`;
+
+      if (EMBED_TYPE === "iframe") {
+        frame.innerHTML = `<iframe id="embedFrame" src="${playUrl}"
+          allowfullscreen webkitallowfullscreen mozallowfullscreen
+          allow="autoplay; fullscreen; encrypted-media; picture-in-picture"
+          referrerpolicy="strict-origin-when-cross-origin"></iframe>`;
+      } else {
+        // Direct file (mp4 etc.), proxied byte-for-byte through /api/play
+        // so the real CDN/worker URL is never visible in the Network tab.
+        frame.innerHTML = `<video id="videoEl" controls autoplay playsinline
+          controlsList="nodownload noremoteplayback"
+          disablePictureInPicture disableRemotePlayback
+          oncontextmenu="return false" ondragstart="return false"
+          style="width:100%;height:100%;background:#000;
+          -webkit-touch-callout:none; -webkit-user-select:none; user-select:none;"
+          src="${playUrl}"></video>`;
+
+        // Belt-and-braces on top of the inline oncontextmenu attribute —
+        // some Android WebViews only honour a JS-added listener for the
+        // long-press "contextmenu" event, not the inline HTML attribute.
+        const videoEl = document.getElementById("videoEl");
+        videoEl.addEventListener("contextmenu", (e) => e.preventDefault());
+        videoEl.addEventListener("dragstart", (e) => e.preventDefault());
+      }
+
+      const fsBtn = document.getElementById("fullscreenBtn");
+      const playerSection = document.querySelector(".player-section");
+      fsBtn.onclick = () => {
+        const isFs = document.fullscreenElement || document.webkitFullscreenElement;
+        if (isFs) {
+          (document.exitFullscreen || document.webkitExitFullscreen)?.call(document);
+          return;
+        }
+        const req = playerSection.requestFullscreen || playerSection.webkitRequestFullscreen || playerSection.mozRequestFullScreen;
+        if (req) req.call(playerSection).catch(() => {});
+      };
+      document.addEventListener("fullscreenchange", () => {
+        fsBtn.textContent = document.fullscreenElement ? "✕" : "⛶";
+      });
+    } catch (err) {
+      frame.innerHTML = '<p class="empty-row">Playback failed to load. Please refresh or try again shortly.</p>';
+      console.error(err);
+    }
+  }
+
+  let playerStarted = false;
+  document.getElementById("player-frame").addEventListener("click", () => {
+    playerStarted = true;
+    mountPlayer();
+  }, { once: true });
+
+  // Quality switcher (only present when the episode has 2+ qualities) —
+  // re-mounts the player with the newly selected quality. If playback
+  // hasn't started yet, it just remembers the choice for when it does.
+  document.getElementById("qualitySwitch")?.addEventListener("click", (e) => {
+    const btn = e.target.closest(".qs-btn");
+    if (!btn) return;
+    document.querySelectorAll(".qs-btn").forEach(b => b.classList.remove("active"));
+    btn.classList.add("active");
+    currentQuality = btn.dataset.quality;
+    if (playerStarted) mountPlayer();
+  });
+
+  // ---------------------------------------------------------
+  // Downloads — either a single "Download Now" button (episodes with no
+  // declared qualities), or one button per available quality plus an
+  // optional Zip Pack button. All routed through /api/download-link,
+  // which token-protects the real URL and auto-shortens via GPLinks.
+  // ---------------------------------------------------------
+  async function startDownload(btn, quality) {
+    const originalLabel = btn.textContent;
+    btn.disabled = true;
+    btn.textContent = "Preparing…";
+    try {
+      const qParam = quality ? `&quality=${encodeURIComponent(quality)}` : "";
+      const res = await fetch(`/api/download-link?id=${encodeURIComponent(EPISODE_ID)}${qParam}`);
+      if (!res.ok) throw new Error("download-link request failed");
+      const { url } = await res.json();
+      window.location.href = url;
+    } catch (err) {
+      alert("Download link could not be generated. Please try again.");
+      console.error(err);
+    } finally {
+      btn.disabled = false;
+      btn.textContent = originalLabel;
+    }
+  }
+
+  document.getElementById("downloadBtn")?.addEventListener("click", (e) => startDownload(e.currentTarget, e.currentTarget.dataset.quality || ""));
+  document.querySelectorAll(".dl-quality-btn").forEach(btn => {
+    btn.addEventListener("click", (e) => startDownload(e.currentTarget, e.currentTarget.dataset.quality));
+  });
+
+  document.getElementById("moreInfoBtn").addEventListener("click", () => {
+    document.querySelector(".detail-section").scrollIntoView({ behavior: "smooth" });
+  });
+
+  // ---------------------------------------------------------
+  // Favorite button — toggles this anime's id in the same
+  // "ce_favorites" localStorage list the homepage Favorites row
+  // reads from (that's now the only place a title gets favorited).
+  // ---------------------------------------------------------
+  const ANIME_ID = "tokyo-ghoul-s3";
+  function loadFavorites() {
+    try { return JSON.parse(localStorage.getItem("ce_favorites") || "[]"); } catch { return []; }
+  }
+  function saveFavorites(list) {
+    try { localStorage.setItem("ce_favorites", JSON.stringify(list)); } catch {}
+  }
+  function refreshFavoriteBtn() {
+    const btn = document.getElementById("favoriteBtn");
+    const active = loadFavorites().includes(ANIME_ID);
+    btn.classList.toggle("active", active);
+  }
+  document.getElementById("favoriteBtn").addEventListener("click", () => {
+    let list = loadFavorites();
+    if (list.includes(ANIME_ID)) list = list.filter(id => id !== ANIME_ID);
+    else list.unshift(ANIME_ID);
+    saveFavorites(list);
+    refreshFavoriteBtn();
+  });
+  refreshFavoriteBtn();
+
+  // ---------------------------------------------------------
+  // Share button — builds a formatted info block (title, rating,
+  // genres, quality, audio, episode count) and shares it via the
+  // native share sheet where available, falling back to copying
+  // the text to the clipboard.
+  // ---------------------------------------------------------
+  document.getElementById("shareBtn").addEventListener("click", async () => {
+    const shareText = "• Tokyo Ghoul Season 3 Season 3\n— Rating: N/A/10\n— Genres: Animation | Action | Horror\n— Quality: 1080p\n— Audio Tracks: Hindi\n— Total Episode: 24\n\nWatch here: " + window.location.href;
+
+    if (navigator.share) {
+      try {
+        await navigator.share({ title: "Tokyo Ghoul Season 3", text: shareText });
+      } catch (err) {
+        // User cancelled the share sheet — nothing to do.
+      }
+    } else {
+      try {
+        await navigator.clipboard.writeText(shareText);
+        alert("Copied to clipboard!");
+      } catch (err) {
+        alert(shareText);
+      }
+    }
+  });
+
+  document.querySelectorAll(".tab-link").forEach(link => {
+    link.addEventListener("click", () => {
+      document.querySelectorAll(".tab-link").forEach(l => l.classList.remove("active"));
+      document.querySelectorAll(".tab-panel").forEach(p => p.hidden = true);
+      link.classList.add("active");
+      document.getElementById(`tab-${link.dataset.tab}`).hidden = false;
+    });
+  });
+
+  document.getElementById("noticeBar").querySelector(".notice-close").addEventListener("click", (e) => {
+    e.target.closest(".notice-bar").style.display = "none";
+  });
+
+  document.getElementById("searchInput").addEventListener("keydown", (e) => {
+    if (e.key === "Enter") {
+      window.location.href = `../index.html?q=${encodeURIComponent(e.target.value)}`;
+    }
+  });
+
+  // ---------------------------------------------------------
+  // Footer info modal (Terms/Privacy/Contact/Sitemap) — placeholder
+  // text, edit directly below whenever you're ready.
+  // ---------------------------------------------------------
+  const FOOTER_PAGES = {
+    terms: {
+      title: "Terms & Conditions",
+      html: '<p>Placeholder terms text — replace this with your real Terms & Conditions whenever you\'re ready.</p><p>CrunchyEpisode does not host any video files. Every episode links out to third-party servers; we are not responsible for their content or availability.</p>'
+    },
+    privacy: {
+      title: "Privacy Policy",
+      html: '<p>Placeholder privacy text — replace this with your real Privacy Policy whenever you\'re ready.</p><p>We don\'t collect personal information beyond what\'s needed for basic site functionality (e.g. your on-device Favorites list, stored only in your browser).</p>'
+    },
+    contact: {
+      title: "Contact",
+      html: '<p>Placeholder contact info — replace this with your real contact details (email, Telegram, etc.) whenever you\'re ready.</p>'
+    },
+    sitemap: {
+      title: "Sitemap",
+      html: '<p>Placeholder sitemap — replace this with a real list of site sections/links whenever you\'re ready.</p>'
+    }
+  };
+  function openInfoModal(key) {
+    const page = FOOTER_PAGES[key];
+    if (!page) return;
+    document.getElementById("infoModalTitle").textContent = page.title;
+    document.getElementById("infoModalBody").innerHTML = page.html;
+    document.getElementById("infoModalOverlay").classList.add("open");
+    document.getElementById("infoModal").classList.add("open");
+  }
+  function closeInfoModal() {
+    document.getElementById("infoModalOverlay").classList.remove("open");
+    document.getElementById("infoModal").classList.remove("open");
+    document.getElementById("infoModalBody").innerHTML = "";
+  }
+  document.querySelectorAll("[data-info-page]").forEach(el => {
+    el.addEventListener("click", e => { e.preventDefault(); openInfoModal(el.dataset.infoPage); });
+  });
+  document.getElementById("infoModalClose").addEventListener("click", closeInfoModal);
+  document.getElementById("infoModalOverlay").addEventListener("click", closeInfoModal);
+</script>
+</body>
+</html>

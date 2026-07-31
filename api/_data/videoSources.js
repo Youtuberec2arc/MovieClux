@@ -40,6 +40,92 @@
  * --------------------------------------------------------- */
 
 const VIDEO_SOURCES = {
+"chainsaw-man-1x1": {
+  qualities: {
+    "480p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=gXOAuaZeNUe6jQs2zUIvI2tgFqLTH5kSZvV4uZSahl_OH3xflp3bV1SKr8vIlHgeBiFfETv2AAF488ZcD1wB0g&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Chainsaw%20Man%20S01E01%20%5BBDRip%20480p%20x264%5D%20%5BMulti%20Audio%5D%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Chainsaw Man S01E01 [BDRip 480p x264] [Multi Audio] ESub.mkv" },
+    "720p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=xhInyCiEk_wyksyUrql941JinI5cUp3yiu32wKKnTu5nvL8XLy8hSJrRtgVb1Orn0ROMSjjS8nzoteXEC5E0Tw&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Chainsaw%20Man%20S01E01%20%5BBDRip%20720p%20x264%5D%20%5BMulti%20Audio%5D%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Chainsaw Man S01E01 [BDRip 720p x264] [Multi Audio] ESub.mkv" },
+    "1080p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=zp409RQ8PZPdaqXnEFpI4JLI-TxDynHl8727ljm_Y-ikjgPB_7Rz7cfQSRRLMMiTudWDXyQWQSB7PK8xfSgYug&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Chainsaw%20Man%20S01E01%20%5BBDRip%201080p%20x265%2010bit%5D%20%5BMulti%20Audio%5D%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Chainsaw Man S01E01 [BDRip 1080p x265 10bit] [Multi Audio] ESub.mkv" }
+  }
+},
+"chainsaw-man-1x2": {
+  qualities: {
+    "480p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=H_o13FRevH2umlxkxuKM-fDBXV3QU05m6il_xQX-O62PWyMBZbyoOZy46UTf1PlEk4D4RKSO8dE0ymMRpZ_pRg&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Chainsaw%20Man%20S01E02%20%5BBDRip%20480p%20x264%5D%20%5BMulti%20Audio%5D%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Chainsaw Man S01E02 [BDRip 480p x264] [Multi Audio] ESub.mkv" },
+    "720p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=jASPVCOTpebs05VXdY8wx_iuhjjtfvTihJQtm13Dz0QSjKZkViuO52MI25EYKVzK5JdJ0PK5loLIpEY1WZMsVQ&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Chainsaw%20Man%20S01E02%20%5BBDRip%20720p%20x264%5D%20%5BMulti%20Audio%5D%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Chainsaw Man S01E02 [BDRip 720p x264] [Multi Audio] ESub.mkv" },
+    "1080p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=1tMT-Ycfl3MSVBno8MAm7G4vQJGubJSjtgsPxi-qHL65SYHs6ArwJmNEVFjAKL4UDPVK9aedk-iPIPNwX1qguw&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Chainsaw%20Man%20S01E02%20%5BBDRip%201080p%20x265%2010bit%5D%20%5BMulti%20Audio%5D%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Chainsaw Man S01E02 [BDRip 1080p x265 10bit] [Multi Audio] ESub.mkv" }
+  }
+},
+"chainsaw-man-1x3": {
+  qualities: {
+    "480p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=vez_aLkuO3XsU8OrZhAL_ItxPK4op0dV2zhJPJSOIawSZQ2xmXcaKHuV1xysaznTySxZaq6w5U4_TJVtbio9xA&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Chainsaw%20Man%20S01E03%20%5BBDRip%20480p%20x264%5D%20%5BMulti%20Audio%5D%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Chainsaw Man S01E03 [BDRip 480p x264] [Multi Audio] ESub.mkv" },
+    "720p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=TIKDTxFyZP0J_p1Jf4hhcD-a4pDsNx7VtNg0l5hbCwX2WDYt0XJ7RZjBj359gte5kfTJrthZ0KMmilIjSFdscQ&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Chainsaw%20Man%20S01E03%20%5BBDRip%20720p%20x264%5D%20%5BMulti%20Audio%5D%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Chainsaw Man S01E03 [BDRip 720p x264] [Multi Audio] ESub.mkv" },
+    "1080p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=opW59zl4JxBpq65VcReljxrssl1LwTHZkSWd_V_ZOZCSRUGcXce443nPxHnj516hi_aCv-vi46prrRBE0kjmlQ&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Chainsaw%20Man%20S01E03%20%5BBDRip%201080p%20x265%2010bit%5D%20%5BMulti%20Audio%5D%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Chainsaw Man S01E03 [BDRip 1080p x265 10bit] [Multi Audio] ESub.mkv" }
+  }
+},
+"chainsaw-man-1x4": {
+  qualities: {
+    "480p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=bVzthi2Q2__mTWPBtVK6tm_cBTWzYDK6G2ehW9_Hb92GGko2xYwHz9Am9huzUIIW8igl0_yoZ1GFRFZToqQbWQ&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Chainsaw%20Man%20S01E04%20%5BBDRip%20480p%20x264%5D%20%5BMulti%20Audio%5D%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Chainsaw Man S01E04 [BDRip 480p x264] [Multi Audio] ESub.mkv" },
+    "720p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=vAwgBmZtB0woAJURwzZRJZJyXC5urrKGbsfA67_BnZieH2b1KMG9WMEWwBbnHN1dOtcPyRgHS7AI1LTXsTvI0Q&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Chainsaw%20Man%20S01E04%20%5BBDRip%20720p%20x264%5D%20%5BMulti%20Audio%5D%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Chainsaw Man S01E04 [BDRip 720p x264] [Multi Audio] ESub.mkv" },
+    "1080p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=vEI5RzdCIzl7_kc1V-4CZMAUIQZjJsGnhvXACIOwbmeF5madx5tRIhJdgHQXFuVuq0ZknXSqVSrPK89hkfzC-g&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Chainsaw%20Man%20S01E04%20%5BBDRip%201080p%20x265%2010bit%5D%20%5BMulti%20Audio%5D%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Chainsaw Man S01E04 [BDRip 1080p x265 10bit] [Multi Audio] ESub.mkv" }
+  }
+},
+"chainsaw-man-1x5": {
+  qualities: {
+    "480p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=qEQJNB4yD-pRs6O16Dea44adRQ1VEI5nRNk5oSqqAvQV8H07qoujAU0YN0FFctzkxTcPig64fowjUNZeGFwllw&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Chainsaw%20Man%20-%20%2005%20BD%20Multi-Audio%20480p%20AAC%20%5BEng-Subs%5D.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Chainsaw Man -  05 BD Multi-Audio 480p AAC [Eng-Subs].mkv" },
+    "720p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=9KoxycfjdEpDE4P9xu5T56Q_UlSVZK3-ezEOCsDUvEwKH2UgRqoRSqafQZjVo1-SoI9uFgF-2Auex4VonBGolw&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Chainsaw%20Man%20-%20%2005%20BD%20Multi-Audio%20720p%20AAC%20%5BEng-Subs%5D.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Chainsaw Man -  05 BD Multi-Audio 720p AAC [Eng-Subs].mkv" },
+    "1080p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=74xkQ-fWa1PIb8Fa4vtqeLq1iHl2nSXyflbrM4siVX7QA-dAICsubkkDRUfQEj-b7xzt2hB1e7ve9IsRGn72eA&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Chainsaw%20Man%20-%20%2005%20BD%20Multi-Audio%201080p%20AAC%20%5BEng-Subs%5D.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Chainsaw Man -  05 BD Multi-Audio 1080p AAC [Eng-Subs].mkv" }
+  }
+},
+"chainsaw-man-1x6": {
+  qualities: {
+    "480p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=A-t-1RKYenfP30sDGY5z7Fh4RN4mVmFM9ZRUSTR3J6kgtfvfeVDpvsgvgWn2mMrX98ZbkGMSFxnuk_FT26rwGA&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Chainsaw%20Man%20S01E06%20%5BBDRip%20480p%20x264%5D%20%5BMulti%20Audio%5D%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Chainsaw Man S01E06 [BDRip 480p x264] [Multi Audio] ESub.mkv" },
+    "720p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=Q0AkdAoGSnhHkT-vjnRCTNwKjZ-epyYnYorPgcGeaCPVkf4zj7luxQdSWMKYlvYre_Zbz406fWuTGaMPtjIgPA&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Chainsaw%20Man%20S01E06%20%5BBDRip%20720p%20x264%5D%20%5BMulti%20Audio%5D%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Chainsaw Man S01E06 [BDRip 720p x264] [Multi Audio] ESub.mkv" },
+    "1080p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=uqzYsdHbmCWN6zK98ixJrD8ZH4tVlHCd8ot72SbssBbdwj-DnPcR5Q9_9jya8y04awFv7kj9jV1hbKrrh4lFMw&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Chainsaw%20Man%20S01E06%20%5BBDRip%201080p%20x265%2010bit%5D%20%5BMulti%20Audio%5D%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Chainsaw Man S01E06 [BDRip 1080p x265 10bit] [Multi Audio] ESub.mkv" }
+  }
+},
+"chainsaw-man-1x7": {
+  qualities: {
+    "480p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=_hOUUwQnVmbdj2JOV6mtXC0VkHw6LxOIpT2axJgYlH0vMgMMyipJyzxiq-cnxX4w9FtNu_x-LvW08uantGSlYg&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Chainsaw%20Man%20S01E07%20%5BBDRip%20480p%20x264%5D%20%5BMulti%20Audio%5D%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Chainsaw Man S01E07 [BDRip 480p x264] [Multi Audio] ESub.mkv" },
+    "720p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=Tp8R2iRPWs9n2Smjvl2M0UBYx7NGcCezfb3d-DWkbPEdZNCTRKpcY09LPnaximeCVMQzezPPqGyfNlWYVDIXlA&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Chainsaw%20Man%20S01E07%20%5BBDRip%20720p%20x264%5D%20%5BMulti%20Audio%5D%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Chainsaw Man S01E07 [BDRip 720p x264] [Multi Audio] ESub.mkv" },
+    "1080p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=WcYwiJVoy9AxEi8FOgby10YwMiTGgt6s-D6Hb5ZiqYgt-cm_MoNzyJHKOi3aB-QzwzsxhuoDgKJfpYtk7paG1w&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Chainsaw%20Man%20S01E07%20%5BBDRip%201080p%20x265%2010bit%5D%20%5BMulti%20Audio%5D%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Chainsaw Man S01E07 [BDRip 1080p x265 10bit] [Multi Audio] ESub.mkv" }
+  }
+},
+"chainsaw-man-1x8": {
+  qualities: {
+    "480p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=CVcTrolNXyYvBTjRZ-I0RF00jobjJCSmYV5UZ-etk9lvxsf7DDELGIGuRe9158ih8XpONMjm5GvwDKprV5kjtA&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Chainsaw%20Man%20S01E08%20%5BBDRip%20480p%20x264%5D%20%5BMulti%20Audio%5D%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Chainsaw Man S01E08 [BDRip 480p x264] [Multi Audio] ESub.mkv" },
+    "720p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=hInCi-r1JFIlTIueZsTL001iHjhGtez4T8fc5z_J9M2LCPPG0Bv3CEq3Rbn3TjvRqtnj0OO_a7CC4pT43pEbDw&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Chainsaw%20Man%20S01E08%20%5BBDRip%20720p%20x264%5D%20%5BMulti%20Audio%5D%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Chainsaw Man S01E08 [BDRip 720p x264] [Multi Audio] ESub.mkv" },
+    "1080p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=gA04UvNXo_ZfS7vgHJfeGeBPOYBe4eioUp_Sp9h0M9yGHH84EJQsHRvb1S0xAIDEITm9SStHy_B_l6J27zN4Ag&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Chainsaw%20Man%20S01E08%20%5BBDRip%201080p%20x265%2010bit%5D%20%5BMulti%20Audio%5D%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Chainsaw Man S01E08 [BDRip 1080p x265 10bit] [Multi Audio] ESub.mkv" }
+  }
+},
+"chainsaw-man-1x9": {
+  qualities: {
+    "480p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=7ZnjvnIW7Ww8EjB-bMP3TGjYII8e85jBbyGmRwkJhDuyDuOpl7WafS3Knxd6o9VAdGrsAtts27kOnGN1LZdzXQ&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Chainsaw%20Man%20S01E09%20%5BBDRip%20480p%20x264%5D%20%5BMulti%20Audio%5D%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Chainsaw Man S01E09 [BDRip 480p x264] [Multi Audio] ESub.mkv" },
+    "720p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=IKS1Vvw9BCIebnI2cUR2PNUBgL_EMuxftUhtJh-jlktezQ2LAAAXZGgLx540nK7vsqM4jAXLFHecig9j8vgbAQ&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Chainsaw%20Man%20S01E09%20%5BBDRip%20720p%20x264%5D%20%5BMulti%20Audio%5D%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Chainsaw Man S01E09 [BDRip 720p x264] [Multi Audio] ESub.mkv" },
+    "1080p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=IcvyVdLhAH_D7h5bpdpzc3w6RL4emm7Eagfmql-S_prPwlE860aoAO_vA3jcrUysMM8xILPpukCkw5kEQLtAkA&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Chainsaw%20Man%20S01E09%20%5BBDRip%201080p%20x265%2010bit%5D%20%5BMulti%20Audio%5D%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Chainsaw Man S01E09 [BDRip 1080p x265 10bit] [Multi Audio] ESub.mkv" }
+  }
+},
+"chainsaw-man-1x10": {
+  qualities: {
+    "480p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=w8MwlwSQkXTTJkJ4poH5Bin_7WU3ud8G-a9X26zyhBzv0_o-I2nlLpiy9uGRdl5pWJE1-VWkNJDDuoqOVjQrog&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Chainsaw%20Man%20S01E10%20%5BBDRip%20480p%20x264%5D%20%5BMulti%20Audio%5D%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Chainsaw Man S01E10 [BDRip 480p x264] [Multi Audio] ESub.mkv" },
+    "720p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=RSfg7peoFbaaktM-POdZseJQwdr_iu6FSnEtJFyjkMDUL2UUm4i_z5Qjo7l6g2PuEbTi7nuG7ckf3kaqHaNYrQ&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Chainsaw%20Man%20S01E10%20%5BBDRip%20720p%20x264%5D%20%5BMulti%20Audio%5D%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Chainsaw Man S01E10 [BDRip 720p x264] [Multi Audio] ESub.mkv" },
+    "1080p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=WFMy4H-h5YgsIeQdEU1CKBunUh9orOHu6G2ifdr1KHlEMmQPly2I5438FoR0q-FkD-JWLPcbEpI48f_g-GRrjg&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Chainsaw%20Man%20S01E10%20%5BBDRip%201080p%20x265%2010bit%5D%20%5BMulti%20Audio%5D%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Chainsaw Man S01E10 [BDRip 1080p x265 10bit] [Multi Audio] ESub.mkv" }
+  }
+},
+"chainsaw-man-1x11": {
+  qualities: {
+    "480p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=dq7omG_4IJXeO0zVKdCHVrVcvgLq8Z6eukaJNXYAvHX6eEQvNu1_nAvh0uRF3g7cbjacjGyMKKOisCeU6jETeA&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Chainsaw%20Man%20S01E11%20%5BBDRip%20480p%20x264%5D%20%5BMulti%20Audio%5D%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Chainsaw Man S01E11 [BDRip 480p x264] [Multi Audio] ESub.mkv" },
+    "720p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=KexQe4gsXZkb34vB8SkxVAdjvSIlIstvnHRi0fOq25-Pyi311nvzwKWSY1ts_NbA2SF0k58s4fE6Nokc92kzVA&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Chainsaw%20Man%20S01E11%20%5BBDRip%20720p%20x264%5D%20%5BMulti%20Audio%5D%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Chainsaw Man S01E11 [BDRip 720p x264] [Multi Audio] ESub.mkv" },
+    "1080p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=uNWg833tC0eohgswuyzAaRm7uAIAsIW3sSzKl_z75zXW7iSTnp4dcEQNFKe2AeLs676-VAaHOynOCj0J9U0Xhw&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Chainsaw%20Man%20S01E11%20%5BBDRip%201080p%20x265%2010bit%5D%20%5BMulti%20Audio%5D%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Chainsaw Man S01E11 [BDRip 1080p x265 10bit] [Multi Audio] ESub.mkv" }
+  }
+},
+"chainsaw-man-1x12": {
+  qualities: {
+    "480p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=q5Gwetqsgy5_QEZjYOcsBKp1wZAxhC76HN6UjsgTa55DQ1w_KTZMflHUjPYZNvspbGGjKKiObVTGjHcUEfEmSQ&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Chainsaw%20Man%20S01E12%20%5BBDRip%20480p%20x264%5D%20%5BMulti%20Audio%5D%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Chainsaw Man S01E12 [BDRip 480p x264] [Multi Audio] ESub.mkv" },
+    "720p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=ifq-Sw1pVOnlc38T6YVmuCkehm6OOg9PyP--hrNjJ3jYv22waOoQ4Z_PKKAE3_Ig6zntU9mZZq7Y5b5Gz403CA&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Chainsaw%20Man%20S01E12%20%5BBDRip%20720p%20x264%5D%20%5BMulti%20Audio%5D%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Chainsaw Man S01E12 [BDRip 720p x264] [Multi Audio] ESub.mkv" },
+    "1080p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=2qesUhrM-PqoNgpiwc4b4eG665mWcGcM3Ao2UiGay84uQqE7oAB-66GFXYkiJoJq8u3p3B1Xw8bZ3T9a6tpJjg&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Chainsaw%20Man%20S01E12%20%5BBDRip%201080p%20x265%2010bit%5D%20%5BMulti%20Audio%5D%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Chainsaw Man S01E12 [BDRip 1080p x265 10bit] [Multi Audio] ESub.mkv" }
+  }
+},
+
+
 "captain-tsubasa-1x1": {
   qualities: {
     "1080p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=c9Ulj7X37pVoCwIeZtHyydk-PgTerWAykNXmBtO4e_G5-K2-pEs2vJ5jx1x7uuCNbQO9TfSSI5-KDx6Eumy0ww&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Captain%20Tsubasa%202018%20S01E01%201080p%20HEVC%2010bit%20AMZN%20WEB-DL%20Dual%20Audio%20DDP2.0%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Captain Tsubasa 2018 S01E01 1080p HEVC 10bit AMZN WEB-DL Dual Audio DDP2.0 ESub.mkv" }

@@ -54,6 +54,45 @@
 
 const ANIME_DATABASE = [
 {
+  id: "chainsaw-man",
+  title: "Chainsaw Man",
+  type: "TV",
+  ageRating: "PG-13",
+  year: "",
+  duration: "",
+  tmdbRating: "8.4",
+  siteRating: "8.4",
+  quality: "1080p",
+  zipUrl: "/quality-not-available.html",
+  seriesGroup: "chainsaw-man",
+  poster: "https://i.imgur.com/ukBKMm2.jpg",
+  banner: "https://i.imgur.com/ukBKMm2.jpg",
+  genres: [],
+  languages: ["Hindi"],
+  tags: ["Multi Audio"],
+  description: "Denji is robbed of a normal teenage life, left with nothing but his deadbeat father’s overwhelming debt. His only companion is his pet, the chainsaw devil Pochita, with whom he slays devils for money that inevitably ends up in the yakuza’s pockets. All Denji can do is dream of a good, simple life: one with delicious food and a beautiful girlfriend by his side. But an act of greedy betrayal by the yakuza leads to Denji’s brutal, untimely death, crushing all hope of him ever achieving happiness. https://i.imgur.com/ukBKMm2.jpg",
+  cast: [],
+  isAvailable: true,
+  section: "new",
+  season: 1,
+  episodes: [
+    { number: 1, title: "Episode 1", id: "chainsaw-man-1x1", embedType: "stream", qualities: ["480p","720p","1080p"], seedViews: 0 },
+    { number: 2, title: "Episode 2", id: "chainsaw-man-1x2", embedType: "stream", qualities: ["480p","720p","1080p"], seedViews: 0 },
+    { number: 3, title: "Episode 3", id: "chainsaw-man-1x3", embedType: "stream", qualities: ["480p","720p","1080p"], seedViews: 0 },
+    { number: 4, title: "Episode 4", id: "chainsaw-man-1x4", embedType: "stream", qualities: ["480p","720p","1080p"], seedViews: 0 },
+    { number: 5, title: "Episode 5", id: "chainsaw-man-1x5", embedType: "stream", qualities: ["480p","720p","1080p"], seedViews: 0 },
+    { number: 6, title: "Episode 6", id: "chainsaw-man-1x6", embedType: "stream", qualities: ["480p","720p","1080p"], seedViews: 0 },
+    { number: 7, title: "Episode 7", id: "chainsaw-man-1x7", embedType: "stream", qualities: ["480p","720p","1080p"], seedViews: 0 },
+    { number: 8, title: "Episode 8", id: "chainsaw-man-1x8", embedType: "stream", qualities: ["480p","720p","1080p"], seedViews: 0 },
+    { number: 9, title: "Episode 9", id: "chainsaw-man-1x9", embedType: "stream", qualities: ["480p","720p","1080p"], seedViews: 0 },
+    { number: 10, title: "Episode 10", id: "chainsaw-man-1x10", embedType: "stream", qualities: ["480p","720p","1080p"], seedViews: 0 },
+    { number: 11, title: "Episode 11", id: "chainsaw-man-1x11", embedType: "stream", qualities: ["480p","720p","1080p"], seedViews: 0 },
+    { number: 12, title: "Episode 12", id: "chainsaw-man-1x12", embedType: "stream", qualities: ["480p","720p","1080p"], seedViews: 0 }
+  ]
+},
+
+
+{
   id: "captain-tsubasa",
   title: "Captain Tsubasa",
   type: "TV",

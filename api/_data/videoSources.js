@@ -40,6 +40,1133 @@
  * --------------------------------------------------------- */
 
 const VIDEO_SOURCES = {
+"one-piece-1x1": {
+  qualities: {
+    "480p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=dQ_tVJBpn9Q02k9UiJZIbYJmazL6Ov-IcOswcggAd_0HdvIXEpYuqKUVb2phbcN4dsxnu5guFcOYCcMlJjvqng&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20One%20Piece%20S01E001%20Remastered%20%5B480p%20x264%20Multi%20Audio%5D%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] One Piece S01E001 Remastered [480p x264 Multi Audio] ESub.mkv" },
+    "720p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=wGRwXwxyTBgHfWOxUSezKuhGUjW3XwueCX7SybQroNWvohzyH_iWV2uv0DWrPdH7zz_eL3ww0CQWiv8pnO4b5w&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20One%20Piece%20S01E001%20Remastered%20%5B720p%20x264%20Multi%20Audio%5D%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] One Piece S01E001 Remastered [720p x264 Multi Audio] ESub.mkv" },
+    "1080p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=B7xdwHTRJx3aFFPgKyID38XrFCyD4GGEwhUf2VttSgMhgFfDkj1ov9KFJdhgBm9zLur52gJNBrLo_meoiAuLag&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20One%20Piece%20S01E001%20Remastered%20%5B1080p%20x265%2010bit%20Multi%20Audio%5D%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] One Piece S01E001 Remastered [1080p x265 10bit Multi Audio] ESub.mkv" }
+  }
+},
+"one-piece-1x2": {
+  qualities: {
+    "480p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=Z-yTI3EqFCelmkJfT3VdrJCVvZSleXeynXU-qYHq4j3xDEzdPe1c6mHzqrlIdcWmTNuAH1x1KXNLOIsiB5MzCg&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20One%20Piece%20S01E002%20Remastered%20%5B480p%20x264%20Multi%20Audio%5D%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] One Piece S01E002 Remastered [480p x264 Multi Audio] ESub.mkv" },
+    "720p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=2c4YdwQ7rmBa8VwlFHTe15RCk_LB-Sa1IE_ranui9QiRLnfRbO64LqLp8x08JRcc8eM6TQwKPFKJ8pzvAK9ejg&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20One%20Piece%20S01E002%20Remastered%20%5B720p%20x264%20Multi%20Audio%5D%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] One Piece S01E002 Remastered [720p x264 Multi Audio] ESub.mkv" },
+    "1080p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=HWAYALffx1kNw9JtyXBDCSbJtOZGs3Ln413sW8Qcgktebzo2BbIur9SHUu_5pcQ-RHYrtmeW6hZwTLH5VoU5lA&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20One%20Piece%20S01E002%20Remastered%20%5B1080p%20x265%2010bit%20Multi%20Audio%5D%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] One Piece S01E002 Remastered [1080p x265 10bit Multi Audio] ESub.mkv" }
+  }
+},
+"one-piece-1x3": {
+  qualities: {
+    "480p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=KQOOoBQ1X2ySaFa59B_rqd-2kGovfSDefzUyjBqGKWsAH4xquR2rP8HxkYa0pVbjBsO5QSEYI2rAESv8RhQA1w&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20One%20Piece%20S01E003%20Remastered%20%5B480p%20x264%20Multi%20Audio%5D%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] One Piece S01E003 Remastered [480p x264 Multi Audio] ESub.mkv" },
+    "720p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=Gw1REvuLSBM4ZgkTaL7GsXK39iogQHgJsKsB_c58xvleIAbA_zTx2PsHHXau5zfa4jGNzFDx8ED6rnGpDoSbbg&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20One%20Piece%20S01E003%20Remastered%20%5B720p%20x264%20Multi%20Audio%5D%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] One Piece S01E003 Remastered [720p x264 Multi Audio] ESub.mkv" },
+    "1080p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=Kpy64fFNXH_zBIwfss6NIh0h7Iz9N38eWYzN-B1A-SfXM7UqlK7-9NyZn9a654yLgkNFLlLPaMvxVm8u5IXofA&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20One%20Piece%20S01E003%20Remastered%20%5B1080p%20x265%2010bit%20Multi%20Audio%5D%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] One Piece S01E003 Remastered [1080p x265 10bit Multi Audio] ESub.mkv" }
+  }
+},
+"one-piece-1x4": {
+  qualities: {
+    "480p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=a18wOytW0WYxuC-BoWGvQ8XFV4q_Q6mN1ZcbgMRHCYOXf11B0CDSg3jVCeSTgaiiyHh92k2m6vcazS1NQRgOBw&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20One%20Piece%20S01E004%20Remastered%20%5B480p%20x264%20Multi%20Audio%5D%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] One Piece S01E004 Remastered [480p x264 Multi Audio] ESub.mkv" },
+    "720p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=HmU3lVYJnw3EkM7fgRtvlfOAnUaMUaJwl2k0kfmaTRopnm6a_TuE_P2_8gdVP6V_xvLt9StMKOcNJUITfFjnrA&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20One%20Piece%20S01E004%20Remastered%20%5B720p%20x264%20Multi%20Audio%5D%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] One Piece S01E004 Remastered [720p x264 Multi Audio] ESub.mkv" },
+    "1080p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=jMsBLNf7wJKJFKGg6auiJJjPKPxThsds-WAlkTUDZ2cHn-MH5B2duKu9HV3ceULUSI7F9qu4g8T9yQ-UsrQV0Q&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20One%20Piece%20S01E004%20Remastered%20%5B1080p%20x265%2010bit%20Multi%20Audio%5D%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] One Piece S01E004 Remastered [1080p x265 10bit Multi Audio] ESub.mkv" }
+  }
+},
+"one-piece-1x5": {
+  qualities: {
+    "480p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=t8gVLl9HTHKq2Fb-2FnF0Kn0nuehlENzSOFUGmWucywDj-6mK2aHDn0pGL8woUVaihOX2cg4yUR2EQ6xSlSY-g&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20One%20Piece%20S01E005%20Remastered%20%5B480p%20x264%20Multi%20Audio%5D%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] One Piece S01E005 Remastered [480p x264 Multi Audio] ESub.mkv" },
+    "720p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=KXGoSpyt4s1FpzdzueojnK7tk9H4mQWWVaFr1MjZSqxdNBjKJnGoW3Rl2jzUmBibjErnA1Y7vuL-QDNWbs2aLg&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20One%20Piece%20S01E005%20Remastered%20%5B720p%20x264%20Multi%20Audio%5D%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] One Piece S01E005 Remastered [720p x264 Multi Audio] ESub.mkv" },
+    "1080p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=6s53UVaIHMUN0HI6dL1Meze0LoUwsCzattd2wOOH_-Q5l0-YG83UK9C5UgnVZKAiKijWpjCDYpOUe6BfuyYgTw&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20One%20Piece%20S01E005%20Remastered%20%5B1080p%20x265%2010bit%20Multi%20Audio%5D%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] One Piece S01E005 Remastered [1080p x265 10bit Multi Audio] ESub.mkv" }
+  }
+},
+"one-piece-1x6": {
+  qualities: {
+    "480p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=t9cCy5IE4yRuwf1wJRSSfmMmadvvdjBeJcmuoarGBzZN3twFZZZivDN6B5Pauxd7JkqW0X9WYjNbBpvk1FTQtQ&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20One%20Piece%20S01E006%20Remastered%20%5B480p%20x264%20Multi%20Audio%5D%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] One Piece S01E006 Remastered [480p x264 Multi Audio] ESub.mkv" },
+    "720p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=kVEimkV2RKow7B61DdyXDnkXATfySQQHPgF6aumW8JV6T3oy0Ub4G7O0wlLYFyzIGLve2zb-u7Sj0lCNRcXVWA&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20One%20Piece%20S01E006%20Remastered%20%5B720p%20x264%20Multi%20Audio%5D%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] One Piece S01E006 Remastered [720p x264 Multi Audio] ESub.mkv" },
+    "1080p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=Nwf-EAdm2KpTCIIqZgb4LEzTmY3mww4ae4o6Awwva2513_6rE-H5lq5MtRaP4_wONCsZbGqtWdelozK234VCcw&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20One%20Piece%20S01E006%20Remastered%20%5B1080p%20x265%2010bit%20Multi%20Audio%5D%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] One Piece S01E006 Remastered [1080p x265 10bit Multi Audio] ESub.mkv" }
+  }
+},
+"one-piece-1x7": {
+  qualities: {
+    "480p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=Cg5RDWiieB1mw-sG2O1Z8r6SHxxrNJVAjygKsgpez8uESP7dMIODEWnUVDRgi2pFpC9HyQDnU_nAzdSXV9d2Vw&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20One%20Piece%20S01E007%20Remastered%20%5B480p%20x264%20Multi%20Audio%5D%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] One Piece S01E007 Remastered [480p x264 Multi Audio] ESub.mkv" },
+    "720p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=0J5U_bDTu5i_vwQWRiLpVYcwTzqBv0V0VyDftmKU6FaC7KcFF6Ry4HdcVO5AAJb5AlXahcGEYrLbJPRnarWlDA&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20One%20Piece%20S01E007%20Remastered%20%5B720p%20x264%20Multi%20Audio%5D%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] One Piece S01E007 Remastered [720p x264 Multi Audio] ESub.mkv" },
+    "1080p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=xEXGsBnbIsPdeda2CMA74Jp5tAZu4Pmk_bNWLs6VfzWqIYOpGjXMHuWKoIZJuK9aWFaG2Gu_Zwtg4UH86z9B9Q&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20One%20Piece%20S01E007%20Remastered%20%5B1080p%20x265%2010bit%20Multi%20Audio%5D%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] One Piece S01E007 Remastered [1080p x265 10bit Multi Audio] ESub.mkv" }
+  }
+},
+"one-piece-1x8": {
+  qualities: {
+    "480p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=z2yzulEmaob7B9cN2ULlVGYhiU5h7ivguEzn9lo879-6rBNNkpTBBxs4qjsYywJtpy1hkBAFOu8WWXXMUP4u-w&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20One%20Piece%20S01E008%20Remastered%20%5B480p%20x264%20Multi%20Audio%5D%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] One Piece S01E008 Remastered [480p x264 Multi Audio] ESub.mkv" },
+    "720p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=KjD4Jf81vWehNuHGFYFz86Xw1_GZaWD0Xl4VJyWxwI9Dk-vQsspgWxcE8JD4ClyMes9vfy8DLJFst1VIIirIYQ&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20One%20Piece%20S01E008%20Remastered%20%5B720p%20x264%20Multi%20Audio%5D%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] One Piece S01E008 Remastered [720p x264 Multi Audio] ESub.mkv" },
+    "1080p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=O1KSPATefSWQlKoA6P24XxSwIdBw7xKr4YHSSxFzUAa6J_BWMFlqSEvuR0gkiSaFekvKNvWLNBwR-Ni9ylgcCg&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20One%20Piece%20S01E008%20Remastered%20%5B1080p%20x265%2010bit%20Multi%20Audio%5D%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] One Piece S01E008 Remastered [1080p x265 10bit Multi Audio] ESub.mkv" }
+  }
+},
+"one-piece-1x9": {
+  qualities: {
+    "480p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=rCAkPIuJA5aCPbEb9PSOqvNmCxM214_tar03U6Kq975y5-XKNxVRRmF2CXwtoIKS99ilnCoKfrsUpbF4iKFqYA&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20One%20Piece%20S01E009%20Remastered%20%5B480p%20x264%20Multi%20Audio%5D%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] One Piece S01E009 Remastered [480p x264 Multi Audio] ESub.mkv" },
+    "720p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=tfBphAP63XQ8GinKApEWkz5-WZdADSw-jYLhMbIklJSuTxyUc6Iz6M7FBzhD_DOfdcvvAQ7jPBNJcz5Ygvt0Ow&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20One%20Piece%20S01E009%20Remastered%20%5B720p%20x264%20Multi%20Audio%5D%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] One Piece S01E009 Remastered [720p x264 Multi Audio] ESub.mkv" },
+    "1080p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=AWWOWiUJRhGwiiQdiJ12BJMLuR2l7JmrA_PtY1k_GQeAYF9vE55jmgG-e4FaxXm6pfc_TQBFgNFW2yNVoAsZWg&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20One%20Piece%20S01E009%20Remastered%20%5B1080p%20x265%2010bit%20Multi%20Audio%5D%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] One Piece S01E009 Remastered [1080p x265 10bit Multi Audio] ESub.mkv" }
+  }
+},
+"one-piece-1x10": {
+  qualities: {
+    "480p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=jK-ZvCfCqwOqITVuvJMjiJrcoo1QTjY0xj5oGx-WhLJNPCGJeXzuZLliwwVCY34kb9ZsuavZuS_5_ATxww1HEA&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20One%20Piece%20S01E010%20Remastered%20%5B480p%20x264%20Multi%20Audio%5D%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] One Piece S01E010 Remastered [480p x264 Multi Audio] ESub.mkv" },
+    "720p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=x8NDl_hsU5V-j4_5e48khb9LZOtOk_5pI1GJ1UYTYaFT4EUEyy29gdArObkVrZvoRTnEx99xQEblnyYeiubHrA&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20One%20Piece%20S01E010%20Remastered%20%5B720p%20x264%20Multi%20Audio%5D%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] One Piece S01E010 Remastered [720p x264 Multi Audio] ESub.mkv" },
+    "1080p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=gaPlTN7LuwYndELRWHdh_SqdHuCVvj4lTFU2JY52VwDaEMUgph9O8XzOQ7tWEE6TS7nRcsJAiFcf9Fdj8Ec3sw&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20One%20Piece%20S01E010%20Remastered%20%5B1080p%20x265%2010bit%20Multi%20Audio%5D%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] One Piece S01E010 Remastered [1080p x265 10bit Multi Audio] ESub.mkv" }
+  }
+},
+"one-piece-1x11": {
+  qualities: {
+    "480p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=La7I56nrlM69Wx0yi8emO3Kwh6cP2zfveP5yJ2IO8BNttD8KScqZIKFdmm-reaVpip3fJxc5YxB3JGFl0TZU2Q&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20One%20Piece%20S01E011%20Remastered%20%5B480p%20x264%20Multi%20Audio%5D%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] One Piece S01E011 Remastered [480p x264 Multi Audio] ESub.mkv" },
+    "720p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=4CqSsK81dI9S6kdfHkJ5q2KaUFA8Vvv_RA4gPGS7vOsGt9uzySc16Wyk3DYEL6NdWh4V1Locg2fSNY0fjnMCmg&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20One%20Piece%20S01E011%20Remastered%20%5B720p%20x264%20Multi%20Audio%5D%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] One Piece S01E011 Remastered [720p x264 Multi Audio] ESub.mkv" },
+    "1080p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=Kn1S4ITI2HUiyp8PP7BTk29esxJs-rXQ5lJzTvwFpzy97GqX0UFhLqvcPtW_XiMgNytuyFlu1KALFz5gy6XEJQ&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20One%20Piece%20S01E011%20Remastered%20%5B1080p%20x265%2010bit%20Multi%20Audio%5D%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] One Piece S01E011 Remastered [1080p x265 10bit Multi Audio] ESub.mkv" }
+  }
+},
+"one-piece-1x12": {
+  qualities: {
+    "480p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=dLX4lnbAO4HYkGS1kNPLbDJJxZrRhB4sCxz068OJolJ5j9q5XbWwDg7YZ7Z8zj_iOc3orgGd1U4E1TjyCiWN7g&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20One%20Piece%20S01E012%20Remastered%20%5B480p%20x264%20Multi%20Audio%5D%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] One Piece S01E012 Remastered [480p x264 Multi Audio] ESub.mkv" },
+    "720p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=ybnQtspf_cngPtYPp8lJITDEq5RECaLMdOZnAuqBzveLCZl4oaD1qM5t-vlEfB8sIEf7qPtgMvNiEioY5YRkBg&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20One%20Piece%20S01E012%20Remastered%20%5B720p%20x264%20Multi%20Audio%5D%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] One Piece S01E012 Remastered [720p x264 Multi Audio] ESub.mkv" },
+    "1080p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=P3prHIY3k7DScNAfE4pkutnQoN9JvSO-d5NDwQqHgvEDxcyMK9gEqGdiNqs7aoG_k2nFCBoQNkxgbA4_4-gHpg&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20One%20Piece%20S01E012%20Remastered%20%5B1080p%20x265%2010bit%20Multi%20Audio%5D%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] One Piece S01E012 Remastered [1080p x265 10bit Multi Audio] ESub.mkv" }
+  }
+},
+"one-piece-1x13": {
+  qualities: {
+    "480p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=XPEZw4KcJwNyS37UYKGTX6K78YmnkWz5fzFAdRhcIPS6PGOYKR45Gcdhr4mXSMGB8k3G4bOclJ2KXDaEU4SE9w&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20One%20Piece%20S01E013%20Remastered%20%5B480p%20x264%20Multi%20Audio%5D%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] One Piece S01E013 Remastered [480p x264 Multi Audio] ESub.mkv" },
+    "720p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=fKaKKdMaFwejFRtUgvnVlL-8P3anOTZttbV69EcnBf5obeaupa2WTtYxoFeSlODP4BfbJy_Nxgd1RFpq7gVu8Q&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20One%20Piece%20S01E013%20Remastered%20%5B720p%20x264%20Multi%20Audio%5D%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] One Piece S01E013 Remastered [720p x264 Multi Audio] ESub.mkv" },
+    "1080p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=Nm6vNmLYRTgUF30TcGpB8LKlZowN8Sr8nxJIq69lTuS3Ejq7kPGmDTL9p8XxYS5vXno2Tat59TQYrgwhefqDCA&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20One%20Piece%20S01E013%20Remastered%20%5B1080p%20x265%2010bit%20Multi%20Audio%5D%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] One Piece S01E013 Remastered [1080p x265 10bit Multi Audio] ESub.mkv" }
+  }
+},
+"one-piece-1x14": {
+  qualities: {
+    "480p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=JYk9Vo6pdb6SfB9e3LFXQFsvoQq9C15yPZ6xDPC8CHe28aWb0Wcd6fb-FZcsHu705YhWuBGq93f3HgzImuV42A&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20One%20Piece%20S01E014%20Remastered%20%5B480p%20x264%20Multi%20Audio%5D%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] One Piece S01E014 Remastered [480p x264 Multi Audio] ESub.mkv" },
+    "720p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=4N5HmphV6kx2tP7J2ajk_ozYDjcuIom3d4yNALtBKOUYBCA5hjm8ukBn9XcyA2EdZ3TFVU1JTeyrfL3eK0zVTw&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20One%20Piece%20S01E014%20Remastered%20%5B720p%20x264%20Multi%20Audio%5D%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] One Piece S01E014 Remastered [720p x264 Multi Audio] ESub.mkv" },
+    "1080p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=b03VCcGTLX3gVkn2eR-CTz16JwLsOcb85-CwjE2UIGNKoX6fHUcbRG3twM9J9oGcM9mC4lHTRDdKYOL9RRLumg&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20One%20Piece%20S01E014%20Remastered%20%5B1080p%20x265%2010bit%20Multi%20Audio%5D%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] One Piece S01E014 Remastered [1080p x265 10bit Multi Audio] ESub.mkv" }
+  }
+},
+"one-piece-1x15": {
+  qualities: {
+    "480p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=Y142w_sLa-zuP210UlmQ0IaEcB7RqfXRhX3t0YniYVzTvg2GOukwnvIQUrr0V3bvavZ0-fgCB4Z0SQf19X_ZlQ&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20One%20Piece%20S01E015%20Remastered%20%5B480p%20BD%20x264%20Multi%20Audio%5D%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] One Piece S01E015 Remastered [480p BD x264 Multi Audio] ESub.mkv" },
+    "720p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=EYj754yON4Jo_LXdoiqexYKuJ7XzQTmb34-wejwoIfXeQ8kbsrYDeQDslWyqSXcgkqwYdB62Q3cL9drXdXKEEA&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20One%20Piece%20S01E015%20Remastered%20%5B720p%20BD%20x264%20Multi%20Audio%5D%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] One Piece S01E015 Remastered [720p BD x264 Multi Audio] ESub.mkv" },
+    "1080p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=pSRNNwqc_ec9IQyutyqBG1Klm0JKxYWoEtCpysZI4eaGwxPgZXq5ZrJ6gQvDvbqWn3Tp1Ad09kJ6WsMomYzUnQ&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20One%20Piece%20S01E015%20Remastered%20%5B1080p%20BD%20x265%2010bit%20Multi%20Audio%5D%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] One Piece S01E015 Remastered [1080p BD x265 10bit Multi Audio] ESub.mkv" }
+  }
+},
+"one-piece-1x16": {
+  qualities: {
+    "480p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=-D4mjg0cz49OlsMs65niU1EbLHo5qCNGZDsxCVssuAlVMucSNCjD3C4pIkEST_jgby5HtSjvlRQIvodXNrxoHw&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20One%20Piece%20S01E016%20Remastered%20%5B480p%20BD%20x264%20Multi%20Audio%5D%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] One Piece S01E016 Remastered [480p BD x264 Multi Audio] ESub.mkv" },
+    "720p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=1QqZyHrbiyyJieTlZ4jBx_cd4L62AvufJ7lfxsQa-hl2JM9ybM6h49p1t1hu2MjLeA4R5-2HE-bz65ka_Dbu8Q&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20One%20Piece%20S01E016%20Remastered%20%5B720p%20BD%20x264%20Multi%20Audio%5D%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] One Piece S01E016 Remastered [720p BD x264 Multi Audio] ESub.mkv" },
+    "1080p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=fxRPl8JirV1hMiRl-G7YdyjiXTopHf1Wit5A2Jwc1a-zYNRxF7fKFahqht6AoQiH-BU4ocE-sLV6_B8yhUH0fQ&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20One%20Piece%20S01E016%20Remastered%20%5B1080p%20BD%20x265%2010bit%20Multi%20Audio%5D%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] One Piece S01E016 Remastered [1080p BD x265 10bit Multi Audio] ESub.mkv" }
+  }
+},
+"one-piece-1x17": {
+  qualities: {
+    "480p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=35UGLieGUZttZYbJi4soTDqWahe4IFDv_X76mpHEwIs21ZXsBOVROpkzftV2TCcoGgubxGwUOMuNlNGs4HCzxg&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20One%20Piece%20S01E017%20Remastered%20%5B480p%20BD%20x264%20Multi%20Audio%5D%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] One Piece S01E017 Remastered [480p BD x264 Multi Audio] ESub.mkv" },
+    "720p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=OATZMlTTJyxPGuU83cSo22dZ3aWIpI7pIweWbZMQ0dlfiRef832CBEf6O6Z1S-aMRTq-NKFe3P5qO99Do5dn5w&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20One%20Piece%20S01E017%20Remastered%20%5B720p%20BD%20x264%20Multi%20Audio%5D%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] One Piece S01E017 Remastered [720p BD x264 Multi Audio] ESub.mkv" },
+    "1080p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=gnP8SwIA9vV5TbPg_tfZOiC55xeCZN1iHdPz2BYZYsNgjawMzz6LnLKqH_0EVFyfItFEPMS86u5rkh5QXwhmlA&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20One%20Piece%20S01E017%20Remastered%20%5B1080p%20BD%20x265%2010bit%20Multi%20Audio%5D%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] One Piece S01E017 Remastered [1080p BD x265 10bit Multi Audio] ESub.mkv" }
+  }
+},
+"one-piece-1x18": {
+  qualities: {
+    "480p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=Ig2QuO2G5ou52MlqaYhftkXcXohSm2pbzlw-V9DpeDaANZLWj-OKlRrNr7kj4XqZEiwSyYLEbByuPVNHIh4Ulw&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20One%20Piece%20S01E018%20Remastered%20%5B480p%20BD%20x264%20Multi%20Audio%5D%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] One Piece S01E018 Remastered [480p BD x264 Multi Audio] ESub.mkv" },
+    "720p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=kIatPY1FtYmRECCj6qCyWYUcvLSXReKJyIENvDU6SM55jbLDKWhYA2tTAIR4nW2vRu5Fhm_rwzvmTVJnKsA7Tw&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20One%20Piece%20S01E018%20Remastered%20%5B720p%20BD%20x264%20Multi%20Audio%5D%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] One Piece S01E018 Remastered [720p BD x264 Multi Audio] ESub.mkv" },
+    "1080p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=w0xBgUdDiDMB9WSHj7shxetu8wly6f3P0PaKnl_WpYu0kXzvHKpjiiDwMzezCZo6Gmz5rQwdI3nOQmQWVjwlng&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20One%20Piece%20S01E018%20Remastered%20%5B1080p%20BD%20x265%2010bit%20Multi%20Audio%5D%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] One Piece S01E018 Remastered [1080p BD x265 10bit Multi Audio] ESub.mkv" }
+  }
+},
+"one-piece-1x19": {
+  qualities: {
+    "480p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=QzM2Gh2DxvF3vrGxA19vr7aGaYLWYaGk8amAkml-jto3iR2pdNlJ4qPPf0oRTzEOE5GrRLmF3-89y3aNXoSRzg&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20One%20Piece%20S01E019%20Remastered%20%5B480p%20BD%20x264%20Multi%20Audio%5D%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] One Piece S01E019 Remastered [480p BD x264 Multi Audio] ESub.mkv" },
+    "720p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=atwBLSD2N5636HWxVMpxRX4HVTKylXHxNxInK0YNdM5ocI0J3Fb5lJTF6yNEb6EhQGH3DDPu8vCjWnJflcRQXA&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20One%20Piece%20S01E019%20Remastered%20%5B720p%20BD%20x264%20Multi%20Audio%5D%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] One Piece S01E019 Remastered [720p BD x264 Multi Audio] ESub.mkv" },
+    "1080p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=ijRbUMQ47dyRF-q5-kbMIlUezCe9fD6ck3KBvffN2iMgf8M971JgC0CkWG5RaZA34vPA31qBegGvxdeH4FDmrg&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20One%20Piece%20S01E019%20Remastered%20%5B1080p%20BD%20x265%2010bit%20Multi%20Audio%5D%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] One Piece S01E019 Remastered [1080p BD x265 10bit Multi Audio] ESub.mkv" }
+  }
+},
+"one-piece-1x20": {
+  qualities: {
+    "480p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=GLE26P7bbAB819G5dEAkZJjHqfZo80K7Vr7WjYr-T3bZ-mhaoD8ITMV03R0vdndfF-FFbaplbzOa2PDwUtH61w&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20One%20Piece%20S01E020%20Remastered%20%5B480p%20BD%20x264%20Multi%20Audio%5D%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] One Piece S01E020 Remastered [480p BD x264 Multi Audio] ESub.mkv" },
+    "720p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=FAExFUZpHsm6UNdAZ4Rcz8_NlUhzQCX4AGVHOPpuZCCG6qkYg5Rr4WCpJa7a1uofMzFtEd01oaKvDqKMTsZJUA&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20One%20Piece%20S01E020%20Remastered%20%5B720p%20BD%20x264%20Multi%20Audio%5D%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] One Piece S01E020 Remastered [720p BD x264 Multi Audio] ESub.mkv" },
+    "1080p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=Zj_MrzcmmD8-xcch9E2uqmS8465-TZuOhwSD5lXIKvzCOXFzyuWlj138jAAQFfiO5A6igItAHJVwdSBXnwDOcw&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20One%20Piece%20S01E020%20Remastered%20%5B1080p%20BD%20x265%2010bit%20Multi%20Audio%5D%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] One Piece S01E020 Remastered [1080p BD x265 10bit Multi Audio] ESub.mkv" }
+  }
+},
+"one-piece-1x21": {
+  qualities: {
+    "480p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=T7C_Byi-vbi8CjUfXlKitKUY4fzCuwYJEnDPTbJ97R5fhnRPavDB2gal2SYziX2OfpmYBBzITK2PlH05HtDuVg&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20One%20Piece%20S01E021%20Remastered%20%5B480p%20BD%20x264%20Multi%20Audio%5D%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] One Piece S01E021 Remastered [480p BD x264 Multi Audio] ESub.mkv" },
+    "720p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=to8fqIV4RpTPISbonZXP_06MxlliVKENCMJEAyVPvDChsSn4ygLaBg8J4guqplGZFG93jVhkC008M0szEKfDPw&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20One%20Piece%20S01E021%20Remastered%20%5B720p%20BD%20x264%20Multi%20Audio%5D%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] One Piece S01E021 Remastered [720p BD x264 Multi Audio] ESub.mkv" },
+    "1080p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=WBKZRW-jetr0OS1rVGwUEpQDaBlICqoS9DHwZvXYzJGX98Lq8jYe4Slp4snPwCEhNES5G5rlT7Gf6c2gpqfmCg&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20One%20Piece%20S01E021%20Remastered%20%5B1080p%20BD%20x265%2010bit%20Multi%20Audio%5D%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] One Piece S01E021 Remastered [1080p BD x265 10bit Multi Audio] ESub.mkv" }
+  }
+},
+"one-piece-1x22": {
+  qualities: {
+    "480p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=bN7e6g7Iw9fe7fnj_wlo4SmXX_pcs9ARuVMYAJnS3NVK-hg1HNa4VP4jOghr33l5u5CnkXbEkSxSxEXNIYtliQ&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20One%20Piece%20S01E022%20Remastered%20%5B480p%20x264%20Multi%20Audio%5D%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] One Piece S01E022 Remastered [480p x264 Multi Audio] ESub.mkv" },
+    "720p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=pxdhHcYOp4dQwqPDWvXwoEdm1jT0n8yFZSL8wQR5yznwyH2QjSduV3MpXeEJVwA7eV8trDRiutbNGcXNYsH6Xg&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20One%20Piece%20S01E022%20Remastered%20%5B720p%20x264%20Multi%20Audio%5D%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] One Piece S01E022 Remastered [720p x264 Multi Audio] ESub.mkv" },
+    "1080p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=7rRls1myrhigaGZK5FM5F0n6Y4uTc01eLEy7TMAXB5JVEtFRYTg8-joVWegmzfV1zzXZnJMFFaDWs-YGUpAF7A&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20One%20Piece%20S01E022%20Remastered%20%5B1080p%20x265%2010bit%20Multi%20Audio%5D%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] One Piece S01E022 Remastered [1080p x265 10bit Multi Audio] ESub.mkv" }
+  }
+},
+"one-piece-1x23": {
+  qualities: {
+    "480p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=AgLjtZH5zDPQj62XJCmghIQ1l0EIUyQKMzhmZOx3nj3RZqO_VwTOKLYHEsx2txA6C3EIedKevlqRm1nEi-YHog&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20One%20Piece%20S01E023%20Remastered%20%5B480p%20x264%20Multi%20Audio%5D%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] One Piece S01E023 Remastered [480p x264 Multi Audio] ESub.mkv" },
+    "720p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=ZnH22lZT_nh7hbCIlLQQyV642C2IeEEFGQxvuQepecLes9G5aoWSveqEAzuWI8RE096Q36MFnQe558nfjA9puA&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20One%20Piece%20S01E023%20Remastered%20%5B720p%20x264%20Multi%20Audio%5D%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] One Piece S01E023 Remastered [720p x264 Multi Audio] ESub.mkv" },
+    "1080p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=RuOqnlrmyQbG4j472fdJTQUceGrNFJz4MbYhTvQ9zbylJOHfbCzsYsGkY9iLdnYXSCLC8bZv9aFtGWgl2DhugQ&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20One%20Piece%20S01E023%20Remastered%20%5B1080p%20x265%2010bit%20Multi%20Audio%5D%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] One Piece S01E023 Remastered [1080p x265 10bit Multi Audio] ESub.mkv" }
+  }
+},
+"one-piece-1x24": {
+  qualities: {
+    "480p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=ro-lVBRc2vd6nHWBMueTcDRhujAVrFnySQEa4O5QhF95aAyctDe8VcXhG1WonGglcrFTIzQS1BvLPtE8LoIHeQ&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20One%20Piece%20S01E024%20Remastered%20%5B480p%20x264%20Multi%20Audio%5D%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] One Piece S01E024 Remastered [480p x264 Multi Audio] ESub.mkv" },
+    "720p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=XequA7XR4U7Br2zE2yjLsJnOfw7inhTeGspMxbAMjhDoDiZalMSIR8wgCdHAEd2t6QTYwFPe1p6Jm57Mrro-Vg&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20One%20Piece%20S01E024%20Remastered%20%5B720p%20x264%20Multi%20Audio%5D%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] One Piece S01E024 Remastered [720p x264 Multi Audio] ESub.mkv" },
+    "1080p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=PTcDSuzzZ9x5Tc6cTY1iA9Q51G0CWtwuslSdCOxamf2zd3bPE1xeJ8T0QKnw6KMmjzyyqQGXCgQtqfAe45jT1w&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20One%20Piece%20S01E024%20Remastered%20%5B1080p%20x265%2010bit%20Multi%20Audio%5D%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] One Piece S01E024 Remastered [1080p x265 10bit Multi Audio] ESub.mkv" }
+  }
+},
+"one-piece-1x25": {
+  qualities: {
+    "480p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=9AWEAbegB2qpueDtWAPSMZu7HPRfls5NWG6BBEfEcpBzbwiwudZZKpKW24oaVxvoGDuHE-08XDenYTk7jSnOfQ&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20One%20Piece%20S01E025%20Remastered%20%5B480p%20x264%20Multi%20Audio%5D%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] One Piece S01E025 Remastered [480p x264 Multi Audio] ESub.mkv" },
+    "720p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=eBX3_719lrW0BzomvkzZe1EaTbheHlCzsT-KKJ5eyoYVpd-Svx2VQ7UvB4MwOKZjlqeJ7GpxK7qDv6aqYkhfVA&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20One%20Piece%20S01E025%20Remastered%20%5B720p%20x264%20Multi%20Audio%5D%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] One Piece S01E025 Remastered [720p x264 Multi Audio] ESub.mkv" },
+    "1080p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=egVVAOFV1DDZeBonKNPNREnIWPd09bnt6ljnxgriXKLCf_v3IYtrZw8wqze-E5F0mS4dk1xv0SiIe6tWjDFHTA&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20One%20Piece%20S01E025%20Remastered%20%5B1080p%20x265%2010bit%20Multi%20Audio%5D%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] One Piece S01E025 Remastered [1080p x265 10bit Multi Audio] ESub.mkv" }
+  }
+},
+"one-piece-1x26": {
+  qualities: {
+    "480p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=8kLjWm1-5PSg3ZMRft8TT4HEYxqVS-KXftZ7V_fv4mOWmyCgxN5Po3uGGqNOYgr-Q73oEIF4ap5jGRP3lAK0uQ&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20One%20Piece%20S01E026%20Remastered%20%5B480p%20x264%20Multi%20Audio%5D%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] One Piece S01E026 Remastered [480p x264 Multi Audio] ESub.mkv" },
+    "720p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=JWmK2lMrDQ4RaeHYmjCjk-yvux24JWDs2126huMctTsPG9l4Q6njgVAjYxGL3Wp94kjQ9P8YpaxSqQrKF9noMw&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20One%20Piece%20S01E026%20Remastered%20%5B720p%20x264%20Multi%20Audio%5D%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] One Piece S01E026 Remastered [720p x264 Multi Audio] ESub.mkv" },
+    "1080p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=1undHd8-CZJiehfOyrVv00G7Ttvpkj9XddZtoZCuVYzcRHYM2sfFi5kc3MRdIU6AU80mPJ2eHzcdLURFKKxnyQ&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20One%20Piece%20S01E026%20Remastered%20%5B1080p%20x265%2010bit%20Multi%20Audio%5D%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] One Piece S01E026 Remastered [1080p x265 10bit Multi Audio] ESub.mkv" }
+  }
+},
+"one-piece-1x27": {
+  qualities: {
+    "480p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=wnoMj5TYwORoG_-sH23n30a6UdLu_U6aHq2GQlPd3ajz_LexZ6NN_OiwkmkwlqLbM0qX8-wryR0DQxrrLSLKlQ&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20One%20Piece%20S01E027%20Remastered%20%5B480p%20x264%20Multi%20Audio%5D%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] One Piece S01E027 Remastered [480p x264 Multi Audio] ESub.mkv" },
+    "720p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=YCgbSSvlfHkDyiAEQubGsIhewf9nAG1tKMWO0G4ZcGoXZvEg4EjKCiJ3QPdlw-FoL7mRCdK7t5CE8N7wO0stnw&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20One%20Piece%20S01E027%20Remastered%20%5B720p%20x264%20Multi%20Audio%5D%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] One Piece S01E027 Remastered [720p x264 Multi Audio] ESub.mkv" },
+    "1080p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=ZQJUdWxBxGHAOD5cAzvi3KlVedAhMHugItZ0le1lZcKNlHQyybDS4ozK_ocdt6a317zAQOalS6irWRgf0Y_XCg&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20One%20Piece%20S01E027%20Remastered%20%5B1080p%20x265%2010bit%20Multi%20Audio%5D%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] One Piece S01E027 Remastered [1080p x265 10bit Multi Audio] ESub.mkv" }
+  }
+},
+"one-piece-1x28": {
+  qualities: {
+    "480p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=33mKUJ6WxyxoUx4EXnuGl_jSQF30OazXzOCn3vODpxZCJjCtk5mSPTRw8Nlz1JGhOYFpN0A93W5nsFqBw4Zyew&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20One%20Piece%20S01E028%20Remastered%20%5B480p%20x264%20Multi%20Audio%5D%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] One Piece S01E028 Remastered [480p x264 Multi Audio] ESub.mkv" },
+    "720p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=pjPS0btwr3gy19d9LQQjjD46uR71bEdV9w-S2OjGMJ2b7rIa1w0Z2todkbOaiELm8A_qKVWuMUvXOqKe3O5vtw&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20One%20Piece%20S01E028%20Remastered%20%5B720p%20x264%20Multi%20Audio%5D%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] One Piece S01E028 Remastered [720p x264 Multi Audio] ESub.mkv" },
+    "1080p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=gCaYHatMFP81KVHU5f7tHYgRwbA0FO6HNnJO_WmI1IaY_0wNuBCTCFvbxzSIpQVKWsSCIW9M4QffUy6HnnJxPg&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20One%20Piece%20S01E028%20Remastered%20%5B1080p%20x265%2010bit%20Multi%20Audio%5D%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] One Piece S01E028 Remastered [1080p x265 10bit Multi Audio] ESub.mkv" }
+  }
+},
+"one-piece-1x29": {
+  qualities: {
+    "480p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=DD8hXYTG4G_RTqVf5BGOAC3oBQCngo3WnmLnpJIJ6eQU35vRwzEKQaSs1qspM8xIaVkVpkVVvL87ZHcf0d7FKQ&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20One%20Piece%20S01E029%20Remastered%20%5B480p%20x264%20Multi%20Audio%5D%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] One Piece S01E029 Remastered [480p x264 Multi Audio] ESub.mkv" },
+    "720p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=4DSNUmGcfnv_4XM2hVcgjmHZ7jljgOla-lekcucqzZuyge2nfcKuWbIiWK0AamoW5dLMerJ5EzPh9adSaCLTig&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20One%20Piece%20S01E029%20Remastered%20%5B720p%20x264%20Multi%20Audio%5D%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] One Piece S01E029 Remastered [720p x264 Multi Audio] ESub.mkv" },
+    "1080p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=vTnxkMt02qDuJRlUTMyb4MuSG0vFNkfs_DYk0OUFtdyIL8wtUrSblFRXtjxIKbN17bWD4-F7-o_M4OKyqPAPoA&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20One%20Piece%20S01E029%20Remastered%20%5B1080p%20x265%2010bit%20Multi%20Audio%5D%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] One Piece S01E029 Remastered [1080p x265 10bit Multi Audio] ESub.mkv" }
+  }
+},
+"one-piece-1x30": {
+  qualities: {
+    "480p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=vgTerBQZ-J_yH1jqfdueQEaMk7Xjxb7cVo44QcRwDx0LUOo9SexR3tqt9DtMueHj0HxY4iUZ6t96TbtYf0p18Q&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20One%20Piece%20S01E030%20Remastered%20%5B480p%20x264%20Multi%20Audio%5D%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] One Piece S01E030 Remastered [480p x264 Multi Audio] ESub.mkv" },
+    "720p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=myDWBs_dZLJabFVdpIweNlDM922Ht4AQ9crPvtc-4t2BpVo1pgaA1qbo3TfLFBZEe3ZEysvvpemvf0F7C4VamQ&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20One%20Piece%20S01E030%20Remastered%20%5B720p%20x264%20Multi%20Audio%5D%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] One Piece S01E030 Remastered [720p x264 Multi Audio] ESub.mkv" },
+    "1080p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=ESpva44UmVN9_ylSPYpKpj0uFmp_PvuJfJLdzWaQKIcgWIrk00LifNcSXJ5OpC5XW9p0p9rnYrHXGut_BbipYg&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20One%20Piece%20S01E030%20Remastered%20%5B1080p%20x265%2010bit%20Multi%20Audio%5D%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] One Piece S01E030 Remastered [1080p x265 10bit Multi Audio] ESub.mkv" }
+  }
+},
+"one-piece-1x31": {
+  qualities: {
+    "480p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=ExLNLbg9PVwphz8oTk129EcSAahFUHXFYl-FVEAX64eLpFkR-piU1eBUQE63XEBj3nQsXOdf5R0AAP1D1ZvRAA&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20One%20Piece%20S01E031%20Remastered%20%5B480p%20x264%20Multi%20Audio%5D%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] One Piece S01E031 Remastered [480p x264 Multi Audio] ESub.mkv" },
+    "720p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=We1qY5E1hpr7wWg0eovdtsJjrOcK5cuqYj0_0bt0LR71NIf6yYXUmduhcqjgM04mAlDrakyHmv72xWlZOW2mPw&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20One%20Piece%20S01E031%20Remastered%20%5B720p%20x264%20Multi%20Audio%5D%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] One Piece S01E031 Remastered [720p x264 Multi Audio] ESub.mkv" },
+    "1080p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=XevWzRMrXNk1Op7dI3SqR4IQprMwShYcrHxT0zrM3-o5UPRJqKftUrfXKapzIWI_AWMB7AVk6dV5H_Q_z2Epbg&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20One%20Piece%20S01E031%20Remastered%20%5B1080p%20x265%2010bit%20Multi%20Audio%5D%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] One Piece S01E031 Remastered [1080p x265 10bit Multi Audio] ESub.mkv" }
+  }
+},
+"one-piece-1x32": {
+  qualities: {
+    "480p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=zBXRn4T4bLXXKErTpj4DEfgbDp0Y5HspUmH4NA-kws2HtwNTXL0tuZhvAA2BcP5mop_Tsdw6JTEW7kygqXRqbg&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20One%20Piece%20S01E032%20Remastered%20%5B480p%20x264%20Multi%20Audio%5D%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] One Piece S01E032 Remastered [480p x264 Multi Audio] ESub.mkv" },
+    "720p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=g9s9I04ggRUBVepln6oirSZGV_bLfsyuCUvEmfk_Q2oadbXCCXWjSAQ8rE4JBdHHEX5y1VDxUr97fPkvf-dhPA&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20One%20Piece%20S01E032%20Remastered%20%5B720p%20x264%20Multi%20Audio%5D%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] One Piece S01E032 Remastered [720p x264 Multi Audio] ESub.mkv" },
+    "1080p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=WGqXUmQLl0CXrvbmH7MEM2kXn1N7NlA6aICjVnl61tKGNilB37SlDE-kj3fJC7i65ePTrRGVBDA22XF2u_BeYA&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20One%20Piece%20S01E032%20Remastered%20%5B1080p%20x265%2010bit%20Multi%20Audio%5D%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] One Piece S01E032 Remastered [1080p x265 10bit Multi Audio] ESub.mkv" }
+  }
+},
+"one-piece-1x33": {
+  qualities: {
+    "480p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=pXXCqK_AifZjE0u-IXRU1b9JF1Tvk-iHMciY98tXVFLdiqj38VV3OXRAMQGW4J6QWmR10xo6kA-pADeBRo5O1w&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20One%20Piece%20S01E033%20Remastered%20%5B480p%20x264%20Multi%20Audio%5D%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] One Piece S01E033 Remastered [480p x264 Multi Audio] ESub.mkv" },
+    "720p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=p-KUm8bFjDA4YgGngsI1h6x_WjJXdIXAALZrqkVc0RvSZuf8DhLvVwsGGgW-O0PA6bKgfu3QjAbk2N-LqjqroA&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20One%20Piece%20S01E033%20Remastered%20%5B720p%20x264%20Multi%20Audio%5D%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] One Piece S01E033 Remastered [720p x264 Multi Audio] ESub.mkv" },
+    "1080p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=rP_u0QDIvdnXlESWqW21l4lMiq8BCpvv8w4l5k1qJmMcjHeAUEp9nUIi1RQB3X7Upa7gWyJk-E9PEVR5OfWMjg&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20One%20Piece%20S01E033%20Remastered%20%5B1080p%20x265%2010bit%20Multi%20Audio%5D%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] One Piece S01E033 Remastered [1080p x265 10bit Multi Audio] ESub.mkv" }
+  }
+},
+"one-piece-1x34": {
+  qualities: {
+    "480p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=3peTfZsuOEqD5-vLy8nJYana-qESq1KZC4DGU1zr4Q3VhRdRLZug0L6oT5mi0QKfVYJAGQ0spLsSHUo_OKMpWQ&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20One%20Piece%20S01E034%20Remastered%20%5B480p%20x264%20Multi%20Audio%5D%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] One Piece S01E034 Remastered [480p x264 Multi Audio] ESub.mkv" },
+    "720p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=Bs5iiqe7uriZWS9iJF7Y7khZNkwMx-F0QyZ5R-yaF2TGrmy6UnG8URE9HOSW0cY_KtGWkwniewTOduxkpeaCow&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20One%20Piece%20S01E034%20Remastered%20%5B720p%20x264%20Multi%20Audio%5D%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] One Piece S01E034 Remastered [720p x264 Multi Audio] ESub.mkv" },
+    "1080p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=Xohk6gSupLkgdGJbApBzHjYBVkH0sp-9wB9VI3Pv9dxEPP8-rZRMCa7QzEQ7_F0yQLbA0yMiAtYlHjBcgBYK4A&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20One%20Piece%20S01E034%20Remastered%20%5B1080p%20x265%2010bit%20Multi%20Audio%5D%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] One Piece S01E034 Remastered [1080p x265 10bit Multi Audio] ESub.mkv" }
+  }
+},
+"one-piece-1x35": {
+  qualities: {
+    "480p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=s3UtilP-zgTgFm2nxSC5EVDS8orOFNZ1oDGy-8jAskFTV-16nNvuRQPNe9KsS1bcUxJ8O7D5gTWsS1yp1J4raA&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20One%20Piece%20S01E035%20Remastered%20%5B480p%20x264%20Multi%20Audio%5D%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] One Piece S01E035 Remastered [480p x264 Multi Audio] ESub.mkv" },
+    "720p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=jPL4gM9k1E0H8abIf1CbT2Zkgz_WSqS58eji96pTqO8R_DlEYSUpz1Iuj7ccIya7LLZPwIWD5XhdZrIvbDOFdA&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20One%20Piece%20S01E035%20Remastered%20%5B720p%20x264%20Multi%20Audio%5D%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] One Piece S01E035 Remastered [720p x264 Multi Audio] ESub.mkv" },
+    "1080p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=ej2nicAMj_cgl_WiDMv1PfoPf0rOBVPR2f5KFF3ErLQsfMhL_c7BbvsXLJPiaFWkF9CH4RjvvxikMg6LyU6QyQ&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20One%20Piece%20S01E035%20Remastered%20%5B1080p%20x265%2010bit%20Multi%20Audio%5D%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] One Piece S01E035 Remastered [1080p x265 10bit Multi Audio] ESub.mkv" }
+  }
+},
+"one-piece-1x36": {
+  qualities: {
+    "480p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=-3UkYDYuP-JdlgL_kiPnO84SQ62mAzCSZzP9sQ1B9SQRp7jaOVzwkNiDJDsJWwGh9SQXY-76d5bVxlQOxafiHQ&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20One%20Piece%20S01E036%20Remastered%20%5B480p%20x264%20Multi%20Audio%5D%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] One Piece S01E036 Remastered [480p x264 Multi Audio] ESub.mkv" },
+    "720p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=HQ5a_5_VrNRndzXTP_Cl8cmzFwL2ZkmtNXr4VJOnhLsDGz8R1lLlraQL6I4UGTmss5G2JrwWWrhYst1z18lfHw&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20One%20Piece%20S01E036%20Remastered%20%5B720p%20x264%20Multi%20Audio%5D%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] One Piece S01E036 Remastered [720p x264 Multi Audio] ESub.mkv" },
+    "1080p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=TXIDY7EfIZuPt4txXoD889LQxalvvafOiNUwL_oNV0w5LLtsZ3ssXq271xFwPw3ibk0FUdHZWsuK08c6r3PKcA&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20One%20Piece%20S01E036%20Remastered%20%5B1080p%20x265%2010bit%20Multi%20Audio%5D%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] One Piece S01E036 Remastered [1080p x265 10bit Multi Audio] ESub.mkv" }
+  }
+},
+"one-piece-1x37": {
+  qualities: {
+    "480p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=ooTg_IxHR97STK0NFVEZiK2Obx9zQoI8WTDyW72RPDwygiyFNLF0rzBhUvQ7L35JOLN_Y_YzrYOcmodjOein8Q&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20One%20Piece%20S01E037%20Remastered%20%5B480p%20x264%20Multi%20Audio%5D%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] One Piece S01E037 Remastered [480p x264 Multi Audio] ESub.mkv" },
+    "720p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=fQASGZpqMc-e_PUS6dBOCm8QGfFLyCrAEPD11hAPoSzUFQ6jp_irBi2UUhKiITY9MftnxX3-SDerfzMmftfFNg&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20One%20Piece%20S01E037%20Remastered%20%5B720p%20x264%20Multi%20Audio%5D%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] One Piece S01E037 Remastered [720p x264 Multi Audio] ESub.mkv" },
+    "1080p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=F0Gok28uXECakUjsVQXHtmaCNHx4iCW1bKIkZRo_annvyUa23iWhADaIm7aXtQvLRI0MVyPC-uGNzzgzfXTXVw&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20One%20Piece%20S01E037%20Remastered%20%5B1080p%20x265%2010bit%20Multi%20Audio%5D%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] One Piece S01E037 Remastered [1080p x265 10bit Multi Audio] ESub.mkv" }
+  }
+},
+"one-piece-1x38": {
+  qualities: {
+    "480p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=jSq-d-efBHR1OYk70tcIafty9Up_6ixaklXIhB4yDgmFcAfBPp5YFDZrNSQTuUiKNjj67AS5gfnsU3ff_F930w&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20One%20Piece%20S01E038%20Remastered%20%5B480p%20x264%20Multi%20Audio%5D%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] One Piece S01E038 Remastered [480p x264 Multi Audio] ESub.mkv" },
+    "720p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=i1ssACOUEqjxZ4tObWpA8gPf2Bh0PVQj5jRT7BxJh-r7fPynknyK_ljx6y3am2zpZtH5_vI6iol_LEt8yAoWFw&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20One%20Piece%20S01E038%20Remastered%20%5B720p%20x264%20Multi%20Audio%5D%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] One Piece S01E038 Remastered [720p x264 Multi Audio] ESub.mkv" },
+    "1080p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=LFYsWLLA5KhuhDEi23n_ClLo1UOb1LQujeD2WSx2wQSBEHa0ACwSQgKfNcRKpumy_HsY0cIsXPu7Kd0VNYaadQ&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20One%20Piece%20S01E038%20Remastered%20%5B1080p%20x265%2010bit%20Multi%20Audio%5D%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] One Piece S01E038 Remastered [1080p x265 10bit Multi Audio] ESub.mkv" }
+  }
+},
+"one-piece-1x39": {
+  qualities: {
+    "480p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=up6MVDepigTN8KQiHQB-XWrufyaXyJVzq8Mhy2nBALrpGgbnri_V3qNOOcYrpPp1g-d3rbUtlWinD0Zkch6bWw&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20One%20Piece%20S01E039%20Remastered%20%5B480p%20x264%20Multi%20Audio%5D%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] One Piece S01E039 Remastered [480p x264 Multi Audio] ESub.mkv" },
+    "720p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=sEL0n-QdfN8kgmvi33TEkYZMUIo88e2Zo845ijQadHF3brlj1KKU33pSbBVG6Seot7hG86l1Vyxk6QkKwa7y2w&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20One%20Piece%20S01E039%20Remastered%20%5B720p%20x264%20Multi%20Audio%5D%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] One Piece S01E039 Remastered [720p x264 Multi Audio] ESub.mkv" },
+    "1080p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=sKNhTRBFeMziFCAZRL47nxm5sYibIKK3igu5gg98Awm60fbbxF62ta9OVCgV2xQA_zv92v5XbZbHzoceaBTp8A&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20One%20Piece%20S01E039%20Remastered%20%5B1080p%20x265%2010bit%20Multi%20Audio%5D%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] One Piece S01E039 Remastered [1080p x265 10bit Multi Audio] ESub.mkv" }
+  }
+},
+"one-piece-1x40": {
+  qualities: {
+    "480p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=gOxlpX0k6241RbmiEdn_qoQQimovr2JW0wRiyxfyTXZI19Bi7y-QexFO7hfjNqUg_mnlaiyh8kefZZoDg-z_Iw&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20One%20Piece%20S01E040%20Remastered%20%5B480p%20x264%20Multi%20Audio%5D%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] One Piece S01E040 Remastered [480p x264 Multi Audio] ESub.mkv" },
+    "720p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=_lPdfac66wXz5AXcWIBK7djzjCaxn1JyyFGBLEXh4FxxU3Ht9EX9KXKcA_eARXHu7Dzf4M4JPHvObeOmyS7N7A&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20One%20Piece%20S01E040%20Remastered%20%5B720p%20x264%20Multi%20Audio%5D%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] One Piece S01E040 Remastered [720p x264 Multi Audio] ESub.mkv" },
+    "1080p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=o6o5FYK4ivWoFC3GTBPXNkWyMu210c65svZqlR1gnSnbZqUT8D3ivop59oAoLdEdvUKle6FB_5lrIcuBK5Ir_Q&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20One%20Piece%20S01E040%20Remastered%20%5B1080p%20x265%2010bit%20Multi%20Audio%5D%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] One Piece S01E040 Remastered [1080p x265 10bit Multi Audio] ESub.mkv" }
+  }
+},
+"one-piece-1x41": {
+  qualities: {
+    "480p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=swBaWHtWKY_BPhJeEfRabBKWDDVMlthOvQtuw0_IPVZ0-NI8WEHAWbM2Qqa9NjDUe-RrZkcrDwOG6IdNpAG89g&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20One%20Piece%20S01E041%20Remastered%20%5B480p%20x264%20Multi%20Audio%5D%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] One Piece S01E041 Remastered [480p x264 Multi Audio] ESub.mkv" },
+    "720p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=IJtkNU2Bp11ZT57uzPYOnsogU9WbJmk6TWqsYNUTGdlFsD1kQUsH01xzPEuMbCmClgBuzBMT4G7SWBMpb4KD8g&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20One%20Piece%20S01E041%20Remastered%20%5B720p%20x264%20Multi%20Audio%5D%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] One Piece S01E041 Remastered [720p x264 Multi Audio] ESub.mkv" },
+    "1080p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=3gv6d7mbalD3GK7jdPGs8CVYvSrTnPcBSfcrf-qDzR60T_B3vxqExZB2WyHEDeS0QENlK6iWqBFZlTZzLQNpRQ&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20One%20Piece%20S01E041%20Remastered%20%5B1080p%20x265%2010bit%20Multi%20Audio%5D%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] One Piece S01E041 Remastered [1080p x265 10bit Multi Audio] ESub.mkv" }
+  }
+},
+"one-piece-1x42": {
+  qualities: {
+    "480p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=dI7XC31AO4ozEEF-32gMuxRmRy0DBO-rs28akTV0aUR-BheTY1vnGHs_XQJAd7zGj5PPZBJPv7m6NLaLa8M3og&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20One%20Piece%20S01E042%20Remastered%20%5B480p%20x264%20Multi%20Audio%5D%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] One Piece S01E042 Remastered [480p x264 Multi Audio] ESub.mkv" },
+    "720p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=H0urpRfyyF13iiMVqlmimGCfvI7cJ32H9avOeh1eQheWuFAOhBqAQhhNx-DwSr63HkUruCH4yOhYcqzZm4YCjQ&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20One%20Piece%20S01E042%20Remastered%20%5B720p%20x264%20Multi%20Audio%5D%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] One Piece S01E042 Remastered [720p x264 Multi Audio] ESub.mkv" },
+    "1080p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=M20U_odJ1V9zjyaCwGfBnZpThlzpo2P-qlPLMrn4vHTg_xbFb1CvW5PH-Y-e35cX1q5Ym0fFhILc6hwRLcCsiQ&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20One%20Piece%20S01E042%20Remastered%20%5B1080p%20x265%2010bit%20Multi%20Audio%5D%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] One Piece S01E042 Remastered [1080p x265 10bit Multi Audio] ESub.mkv" }
+  }
+},
+"one-piece-1x43": {
+  qualities: {
+    "480p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=vu-dlsaWKxvEriOnUzZ6HcNXpU6oIfWKWfzx83gHxP75JZuUnZFyIRiEfbJXxPZ4Lgrm6MJv3q5W3G9Zo-IQAA&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20One%20Piece%20S01E043%20Remastered%20%5B480p%20x264%20Multi%20Audio%5D%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] One Piece S01E043 Remastered [480p x264 Multi Audio] ESub.mkv" },
+    "720p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=3L5PNaFowdQXyYhWCTRi6glH1-4BLiXu8z-FeIoGV0seR8L_hgp0aSit-wQyrNuJgaM3qNevFj0-oAegZfol3Q&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20One%20Piece%20S01E043%20Remastered%20%5B720p%20x264%20Multi%20Audio%5D%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] One Piece S01E043 Remastered [720p x264 Multi Audio] ESub.mkv" },
+    "1080p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=pvmK5IZcYjsrmWRg5Z-WXKDn6HCKYEb0rdaDDHv5OMTlWfgNVVX1PDbKaS2T0j23sa8-6a3Wc5WBu97Lbz8ORg&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20One%20Piece%20S01E043%20Remastered%20%5B1080p%20x265%2010bit%20Multi%20Audio%5D%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] One Piece S01E043 Remastered [1080p x265 10bit Multi Audio] ESub.mkv" }
+  }
+},
+"one-piece-1x44": {
+  qualities: {
+    "480p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=o9IjEVdhzvR9GkNurMH0mzjTkHI1YZCJtaMcxUQ_MOJ03AhvyBWHCtFnLFHxe4DJehqdA3KfRzOOSJuRo_xgqw&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20One%20Piece%20S01E044%20Remastered%20%5B480p%20x264%20Multi%20Audio%5D%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] One Piece S01E044 Remastered [480p x264 Multi Audio] ESub.mkv" },
+    "720p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=iVwX5Kay0YTugbxR3YVhc-MEqMzHgkppsKmC2d5StNqOMaLHQ9vFsBljbL78wjIYR-oI0Bc9jz8BA4cJYoM2-A&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20One%20Piece%20S01E044%20Remastered%20%5B720p%20x264%20Multi%20Audio%5D%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] One Piece S01E044 Remastered [720p x264 Multi Audio] ESub.mkv" },
+    "1080p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=n3jTmY_z4tT0ST06iD4d_qzyornbBFX5pJXJRJLTZS7wF4_X1E9u-RVV8S9cheUhwfvZIyZMBte0OWg03qkyRw&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20One%20Piece%20S01E044%20Remastered%20%5B1080p%20x265%2010bit%20Multi%20Audio%5D%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] One Piece S01E044 Remastered [1080p x265 10bit Multi Audio] ESub.mkv" }
+  }
+},
+"one-piece-1x45": {
+  qualities: {
+    "480p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=x8iz4BSAhdDt1gEbGCEcbMjadkwSbsVL4cD-SunP056KSPsemUR2z2eYHHcu6Q6ggDRJtx_u7-hJhY1q9WREJA&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20One%20Piece%20S01E045%20Remastered%20%5B480p%20x264%20Multi%20Audio%5D%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] One Piece S01E045 Remastered [480p x264 Multi Audio] ESub.mkv" },
+    "720p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=I2ZjCN1wfi7K2DALmgVm7DkeN3RtnThZRzyR-kxUmMjxd_k9mqyGHQAa1GeE0kJfEPlL1CaXTJjhdC6g2E7FvQ&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20One%20Piece%20S01E045%20Remastered%20%5B720p%20x264%20Multi%20Audio%5D%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] One Piece S01E045 Remastered [720p x264 Multi Audio] ESub.mkv" },
+    "1080p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=VtNc7k3ysV8QPNzn0Go-GhqQbLlg6RCQ9jWtwtmkT8YHkUuz5MshD0o0cRavxZUH7e-p9f4iqNF1jEvIFNJbkw&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20One%20Piece%20S01E045%20Remastered%20%5B1080p%20x265%2010bit%20Multi%20Audio%5D%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] One Piece S01E045 Remastered [1080p x265 10bit Multi Audio] ESub.mkv" }
+  }
+},
+"one-piece-1x46": {
+  qualities: {
+    "480p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=NfAcsMEfFMtleAtasNiPftJRgv9Fvdxv7Db9u41GWJ5Ttoca7jfFFJnVK5ob_Xo6lhYDRf_5hklPFXtAERqYbA&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20One%20Piece%20S01E046%20Remastered%20%5B480p%20x264%20Multi%20Audio%5D%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] One Piece S01E046 Remastered [480p x264 Multi Audio] ESub.mkv" },
+    "720p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=MxCxFrVTCDLUvspugVMRuBbyryJYjldRJQ-i6VzxlY7GBJqCiyQFpx8F9P63eRimOAZK0Fp_iwDd6Zyf_zvD8A&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20One%20Piece%20S01E046%20Remastered%20%5B720p%20x264%20Multi%20Audio%5D%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] One Piece S01E046 Remastered [720p x264 Multi Audio] ESub.mkv" },
+    "1080p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=KEL5B-NbzzvyehHYF279t8vxqFZmm6rP2oXFrT7SKCQoRAhyn83eCZFuz14XGI8sgZyfyM58Pxdslbaf4TvHnA&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20One%20Piece%20S01E046%20Remastered%20%5B1080p%20x265%2010bit%20Multi%20Audio%5D%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] One Piece S01E046 Remastered [1080p x265 10bit Multi Audio] ESub.mkv" }
+  }
+},
+"one-piece-1x47": {
+  qualities: {
+    "480p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=vO122eergj7YD0RPgBYsBOBTcxNiPXpJalurAEHJzVZhm6fS_XxqtCMJ3gT2pOuEAHnrE0c0scGeqx0Qb42TgA&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20One%20Piece%20S01E047%20Remastered%20%5B480p%20x264%20Multi%20Audio%5D%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] One Piece S01E047 Remastered [480p x264 Multi Audio] ESub.mkv" },
+    "720p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=6XBni10eUS10EavX4o0PCRI0K2NioHkJQWcKc4pwWFo7rvZ7Q4ub0jby9psvRUyxGV3HbAEUBxX_Sav9pdhrbQ&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20One%20Piece%20S01E047%20Remastered%20%5B720p%20x264%20Multi%20Audio%5D%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] One Piece S01E047 Remastered [720p x264 Multi Audio] ESub.mkv" },
+    "1080p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=sK9Y8tVky5RngotoA7gvsQ6bI0xjCGPctGMH5FMARSfSzfHu7l8pkfWwJbAkR-05cnYMg_dZ5bsJFksD9inLYw&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20One%20Piece%20S01E047%20Remastered%20%5B1080p%20x265%2010bit%20Multi%20Audio%5D%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] One Piece S01E047 Remastered [1080p x265 10bit Multi Audio] ESub.mkv" }
+  }
+},
+"one-piece-1x48": {
+  qualities: {
+    "480p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=0dxkU_vnmYFolXtK7VBw-vSgMl2L2Ja_ngMXTmMXwqYTgQJDnoNpSJdGZhTsFd8SaPk7--IFlWIO07yjsNqVPA&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20One%20Piece%20S01E048%20Remastered%20%5B480p%20x264%20Multi%20Audio%5D%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] One Piece S01E048 Remastered [480p x264 Multi Audio] ESub.mkv" },
+    "720p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=wJpVsc1VlTrXsdVbkvSD3B5qCXm7ps1HX-pkDGfuVsgarRVL-F5fn-7lY1Nb1pwSQP0jNl05NTeJiy_NMYqRmw&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20One%20Piece%20S01E048%20Remastered%20%5B720p%20x264%20Multi%20Audio%5D%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] One Piece S01E048 Remastered [720p x264 Multi Audio] ESub.mkv" },
+    "1080p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=MqLK-U2aQn-zPIFdZeJ9-xii-ZRhBpjX4V1KxuPXyXeSGh8XigizOUwltoyHAX-x-DjPAzeKF7x2dC4OX4KI7w&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20One%20Piece%20S01E048%20Remastered%20%5B1080p%20x265%2010bit%20Multi%20Audio%5D%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] One Piece S01E048 Remastered [1080p x265 10bit Multi Audio] ESub.mkv" }
+  }
+},
+"one-piece-1x49": {
+  qualities: {
+    "480p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=QSbEtbLx1czQGYNrWW1iSSn6iEN215scxn_Yy-l7At-wDZ8edO1Jh8X8K3ELnx-zyDeeoQrWcbGRKNQqYL5U4g&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20One%20Piece%20S01E049%20Remastered%20%5B480p%20x264%20Multi%20Audio%5D%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] One Piece S01E049 Remastered [480p x264 Multi Audio] ESub.mkv" },
+    "720p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=g4TO3YBo-FHtYnz2Q260JRyzprcMaLa5fytdy8jcOT8nvMgUS_epiHxhr0lq9ARPCEIHzmZ_4quCVC6iis8yHg&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20One%20Piece%20S01E049%20Remastered%20%5B720p%20x264%20Multi%20Audio%5D%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] One Piece S01E049 Remastered [720p x264 Multi Audio] ESub.mkv" },
+    "1080p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=xQ8scCeN27LlfNsQ_19LzTy_WY21S54Q3-JZxQ-KhYadACBZqduI7ck5x1hlRAwJW-j6hRL1VQOZLufeyLQt3Q&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20One%20Piece%20S01E049%20Remastered%20%5B1080p%20x265%2010bit%20Multi%20Audio%5D%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] One Piece S01E049 Remastered [1080p x265 10bit Multi Audio] ESub.mkv" }
+  }
+},
+"one-piece-1x50": {
+  qualities: {
+    "480p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=i0-GvuWd4hVx4oEHfMQR_5510AgQQf_QoJhYD_la3K4JndyFXOS_tJK9r8V519_g_BOs_myYvtpcQNTSr0mPXA&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20One%20Piece%20S01E050%20Remastered%20%5B480p%20x264%20Multi%20Audio%5D%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] One Piece S01E050 Remastered [480p x264 Multi Audio] ESub.mkv" },
+    "720p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=_ANqqQLzPES6k0u_sCvnmq4V2Tqr5YsfjClIKnxLpILZLmo1LTxfY3LICkkDUBiOowPBEWkkroUReA5jfihxXA&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20One%20Piece%20S01E050%20Remastered%20%5B720p%20x264%20Multi%20Audio%5D%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] One Piece S01E050 Remastered [720p x264 Multi Audio] ESub.mkv" },
+    "1080p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=YAXMH-055caSiWsEbYVF3jDxfWZSM8h7mfwBcHaqwWCuzhvLGh1ZJWGtQvm8fWtYGNoYPKhDeFoOgmIISRrV6w&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20One%20Piece%20S01E050%20Remastered%20%5B1080p%20x265%2010bit%20Multi%20Audio%5D%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] One Piece S01E050 Remastered [1080p x265 10bit Multi Audio] ESub.mkv" }
+  }
+},
+"one-piece-1x51": {
+  qualities: {
+    "480p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=nlclpXP-DD1tQeH4hbot_QFDxMc62Vtl4Ph4rq2fwWbZv7Veh-fCdQXQTm5OsWEyeIa98Y8I_rxJ5VvXfD1l8Q&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20One%20Piece%20S01E051%20Remastered%20%5B480p%20x264%20Multi%20Audio%5D%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] One Piece S01E051 Remastered [480p x264 Multi Audio] ESub.mkv" },
+    "720p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=Pi2ErccCeXv2YtXTmXz1RVABqP71AqQ9VkhaMem9-vFHZrmjWhblLCmwa53fHjYut1C3MSy73t-CFPCG_jm_nw&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20One%20Piece%20S01E051%20Remastered%20%5B720p%20x264%20Multi%20Audio%5D%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] One Piece S01E051 Remastered [720p x264 Multi Audio] ESub.mkv" },
+    "1080p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=cWe7Cq_bmOa5pf1VRhnr2S7dzYXebyAheL6BbRe_C45xsEwiRVR6tqDPA9sA4VNkDndglJ7CUjmd7FNCwYacYg&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20One%20Piece%20S01E051%20Remastered%20%5B1080p%20x265%2010bit%20Multi%20Audio%5D%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] One Piece S01E051 Remastered [1080p x265 10bit Multi Audio] ESub.mkv" }
+  }
+},
+"one-piece-1x52": {
+  qualities: {
+    "480p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=-WJ9ArebQXN_edWWZ7SbV6Bcg-12lUy9Us4bEh-8AeOYGReepgL6qJuTVH6YY3pvGXK9Y5kaEm0I9LFL-tEDbw&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20One%20Piece%20S01E052%20Remastered%20%5B480p%20x264%20Multi%20Audio%5D%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] One Piece S01E052 Remastered [480p x264 Multi Audio] ESub.mkv" },
+    "720p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=TLX_hNLr_287RWmAedpuuKjvYP2M-DNxl01bvPgFcDB76plaUPR1klsm4mQf1_L0kK_nSTqTgR7mcxjWpwc_DA&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20One%20Piece%20S01E052%20Remastered%20%5B720p%20x264%20Multi%20Audio%5D%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] One Piece S01E052 Remastered [720p x264 Multi Audio] ESub.mkv" },
+    "1080p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=O-_vvgM4SrBkohZIhLxqxVvOZB6TNPthdx5KB1UZcay-LDiUKksWqJkq0G8kAZeqUh19tE5BWen_Cc6lIPy8AA&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20One%20Piece%20S01E052%20Remastered%20%5B1080p%20x265%2010bit%20Multi%20Audio%5D%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] One Piece S01E052 Remastered [1080p x265 10bit Multi Audio] ESub.mkv" }
+  }
+},
+"one-piece-1x53": {
+  qualities: {
+    "480p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=LkbW4k7lKvi2lndu9mThxvKIJQP-d5dDFcAf5y3YZVC0T6OdPvueGrnjeVxyyDsGaT3vjaXKkMdRSCWd_VYIzQ&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20One%20Piece%20S01E053%20Remastered%20%5B480p%20x264%20Multi%20Audio%5D%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] One Piece S01E053 Remastered [480p x264 Multi Audio] ESub.mkv" },
+    "720p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=SvIbODJiTHYco36RXz_egt2SB82fTPWxdg72QbTHmnk1NR0DzyJghRH2F4Fl6dC425QNvzxmfAmzRmxJLwRPrA&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20One%20Piece%20S01E053%20Remastered%20%5B720p%20x264%20Multi%20Audio%5D%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] One Piece S01E053 Remastered [720p x264 Multi Audio] ESub.mkv" },
+    "1080p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=3n2jQV__YMixNIsvjTHEJGkSLxqSRaSfyNiaVWwJZDzCq3-Sasm2mN4YNxX-CCYBAkqz8T3W_9D0LnT9mjjn-A&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20One%20Piece%20S01E053%20Remastered%20%5B1080p%20x265%2010bit%20Multi%20Audio%5D%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] One Piece S01E053 Remastered [1080p x265 10bit Multi Audio] ESub.mkv" }
+  }
+},
+"one-piece-1x54": {
+  qualities: {
+    "480p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=7HN6mVrmcE04q1S3U4PIcixWwi1dHTczPP5MW2Z8ERrrm0OsTuu4CdqUF1krz3sZeZXzMJw9Nr0REc80Z6UsBA&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20One%20Piece%20S01E054%20Remastered%20%5B480p%20x264%20Multi%20Audio%5D%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] One Piece S01E054 Remastered [480p x264 Multi Audio] ESub.mkv" },
+    "720p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=owRtvCBWiZtzylPqqVxEAAJJ5KcKkIVi-R0IDdiZ6oVzx5yeOL0Y8VApoYwRWisMcG2idxa3ByZxkxCGxp-Z5Q&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20One%20Piece%20S01E054%20Remastered%20%5B720p%20x264%20Multi%20Audio%5D%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] One Piece S01E054 Remastered [720p x264 Multi Audio] ESub.mkv" },
+    "1080p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=BTMVaA4N-TbH5TXNMay55P1URWGOpPxbMkBGsy-cit83VNPOvFWqLE9HhlmjtrUlJ5VOd9wEcOq9Is-K8hchOA&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20One%20Piece%20S01E054%20Remastered%20%5B1080p%20x265%2010bit%20Multi%20Audio%5D%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] One Piece S01E054 Remastered [1080p x265 10bit Multi Audio] ESub.mkv" }
+  }
+},
+"one-piece-1x55": {
+  qualities: {
+    "480p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=2IxJz8EZrEnPozzrSDXFLupsG5otBAO1UZsjZ6x1lI9-xrPNm80F7Bqmoer8zmmYIFHtOQqdGEJYzGyoY1pgoA&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20One%20Piece%20S01E055%20Remastered%20%5B480p%20x264%20Multi%20Audio%5D%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] One Piece S01E055 Remastered [480p x264 Multi Audio] ESub.mkv" },
+    "720p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=kWgUPbazY4mazPwwd1-ro9N0f-ThB5lrqc7gsYUvEzj01CMdu3VlXfnUlecKK2IbGpRQqAovGyTduUSk1dfp_Q&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20One%20Piece%20S01E055%20Remastered%20%5B720p%20x264%20Multi%20Audio%5D%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] One Piece S01E055 Remastered [720p x264 Multi Audio] ESub.mkv" },
+    "1080p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=ZmjUtIGBXa22zQWSBkJw5SybG60IYghm02PRmKZTn2pbRE62DuiaS0Pr1QVzgd2AJMX-bz7f876THLOL7bPeyA&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20One%20Piece%20S01E055%20Remastered%20%5B1080p%20x265%2010bit%20Multi%20Audio%5D%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] One Piece S01E055 Remastered [1080p x265 10bit Multi Audio] ESub.mkv" }
+  }
+},
+"one-piece-1x56": {
+  qualities: {
+    "480p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=AFbH63jABCYsJuTuO7Abw6j0oo-crytl3c7BX_-5DsQgOLKfzchqbF4dATr1t42G5mS8r-Cchp-Qjfyeuvznlg&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20One%20Piece%20S01E056%20Remastered%20%5B480p%20x264%20Multi%20Audio%5D%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] One Piece S01E056 Remastered [480p x264 Multi Audio] ESub.mkv" },
+    "720p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=zbvOqeH_f7Le97xkGXxlWPjOZDWN_PWYMtNlgK79t8wJCH9IBP1ibHUFqeVyQb4AoALW_z1MF1dhtSNL7B_q7A&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20One%20Piece%20S01E056%20Remastered%20%5B720p%20x264%20Multi%20Audio%5D%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] One Piece S01E056 Remastered [720p x264 Multi Audio] ESub.mkv" },
+    "1080p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=PhkJFa74Icow3EQZ-PLIxz_keUQ4iUoUKAui59phHn7GhlR3qz03lgtrTsqGHSrYU02eKwH44bH4staWFoWpCw&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20One%20Piece%20S01E056%20Remastered%20%5B1080p%20x265%2010bit%20Multi%20Audio%5D%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] One Piece S01E056 Remastered [1080p x265 10bit Multi Audio] ESub.mkv" }
+  }
+},
+"one-piece-1x57": {
+  qualities: {
+    "480p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=wBB_GjzB2KVBRZG1yitKBW-c0ZQT4JiHw0A1oC4v8IdD4ZwohwMDXDVl9usYKCiMSLtJqOkXCFk5yoP0aJgwvw&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20One%20Piece%20S01E057%20Remastered%20%5B480p%20x264%20Multi%20Audio%5D%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] One Piece S01E057 Remastered [480p x264 Multi Audio] ESub.mkv" },
+    "720p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=0WwVsqEEmyjcYwBJ2vMRrXis0ANXr4SjPGgSI7fF7ZWoREX_JEs8tJ8Om97UdUchDF83Ocs0W0COa-7IWp_1Ag&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20One%20Piece%20S01E057%20Remastered%20%5B720p%20x264%20Multi%20Audio%5D%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] One Piece S01E057 Remastered [720p x264 Multi Audio] ESub.mkv" },
+    "1080p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=T9aU5_0aLTicdDt2KN1uYj4NhVqDQcp-24nyjlJ8Q_h91yo0WATyJyp8KzkWURVR3VNv0GsQzz8rsPRmKGU8mA&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20One%20Piece%20S01E057%20Remastered%20%5B1080p%20x265%2010bit%20Multi%20Audio%5D%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] One Piece S01E057 Remastered [1080p x265 10bit Multi Audio] ESub.mkv" }
+  }
+},
+"one-piece-1x58": {
+  qualities: {
+    "480p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=Urd-XHSDi89IoIzRmEAcV8bGRVTXtsjd7tw6YqpHwz3KaMshbpXHKrIjXKHZ4z21mJm2hAFcNJJ8Kx6Yy9sUJA&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20One%20Piece%20S01E058%20Remastered%20%5B480p%20x264%20Multi%20Audio%5D%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] One Piece S01E058 Remastered [480p x264 Multi Audio] ESub.mkv" },
+    "720p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=vVBvYIpyXMZZF2Lvw3IbZ71EhCAKLvrezoUbARWvkITjsXREAvq0ka5IbYtauwMZTFaxzhnNdr5lPvtUWNm_0w&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20One%20Piece%20S01E058%20Remastered%20%5B720p%20x264%20Multi%20Audio%5D%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] One Piece S01E058 Remastered [720p x264 Multi Audio] ESub.mkv" },
+    "1080p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=cu8SiT0VoDZLPi2qeIyMKCqBXmzoPKeyDAcokBqxpU0kY_QtqV_M1VJkD9VsKV8sd_6yRWT-u6317Sx8hfW_Rg&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20One%20Piece%20S01E058%20Remastered%20%5B1080p%20x265%2010bit%20Multi%20Audio%5D%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] One Piece S01E058 Remastered [1080p x265 10bit Multi Audio] ESub.mkv" }
+  }
+},
+"one-piece-1x59": {
+  qualities: {
+    "480p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=pSP14nudgdusTfsUVimCzibpsj2g_x5jroHiQj1JDx96gOBVnwtnFbMrhh_86vMq2EC4I25U9fgVwLbpkcSXIQ&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20One%20Piece%20S01E059%20Remastered%20%5B480p%20x264%20Multi%20Audio%5D%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] One Piece S01E059 Remastered [480p x264 Multi Audio] ESub.mkv" },
+    "720p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=frx5W9_7gGUvdxhOjg4Bp7FeBkFZ9DxVOGAI73TA2AclMrtJREiW5f54h7BcjwxwO_XH9mrO_D8CEIJ1On_0FA&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20One%20Piece%20S01E059%20Remastered%20%5B720p%20x264%20Multi%20Audio%5D%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] One Piece S01E059 Remastered [720p x264 Multi Audio] ESub.mkv" },
+    "1080p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=w41h-8eHWSz2GTOtR-k8L0hSEWrrBJD5rynHSJZIqnWCDH1eJ70Af2wtxOwHN17qoGDEcMsne_FZFLs_QAZ3Gg&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20One%20Piece%20S01E059%20Remastered%20%5B1080p%20x265%2010bit%20Multi%20Audio%5D%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] One Piece S01E059 Remastered [1080p x265 10bit Multi Audio] ESub.mkv" }
+  }
+},
+"one-piece-1x60": {
+  qualities: {
+    "480p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=k4lKT8cGOGsT9qrXqGcKxHZaGTe640gOnEYUQbNmyRreXpo38CxmCCaX05b77Kctxjp7MBPne8V0TaNmqGMj7A&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20One%20Piece%20S01E060%20Remastered%20%5B480p%20x264%20Multi%20Audio%5D%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] One Piece S01E060 Remastered [480p x264 Multi Audio] ESub.mkv" },
+    "720p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=NtPyfsTVniaK7rFvQChG5ZLRk1iC42rMn-DHPtc-GWygAHUw2gZlACjLbjKCjYikzfIWmrS8yLVrS4yKbsW3tw&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20One%20Piece%20S01E060%20Remastered%20%5B720p%20x264%20Multi%20Audio%5D%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] One Piece S01E060 Remastered [720p x264 Multi Audio] ESub.mkv" },
+    "1080p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=cSF39wfzJ0zT9pyqLZ0YnkkxbdjFsJs43eKH86hgaif7uqNTU8GNNcSoDb65i2SgqodZFePD5sKn1zKUagrPpQ&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20One%20Piece%20S01E060%20Remastered%20%5B1080p%20x265%2010bit%20Multi%20Audio%5D%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] One Piece S01E060 Remastered [1080p x265 10bit Multi Audio] ESub.mkv" }
+  }
+},
+"one-piece-1x61": {
+  qualities: {
+    "480p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=8w7RO_X3_0HQNRoS92kIXfXUKtKUferPQRyxr2kmmgZNjUOBB9j75OlZpTX2URmlIQf9Eog3v885rYmYFfSybA&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20One%20Piece%20S01E061%20Remastered%20%5B480p%20x264%20Multi%20Audio%5D%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] One Piece S01E061 Remastered [480p x264 Multi Audio] ESub.mkv" },
+    "720p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=ugvJoaKlo_EMsogNrVbQ5AVMa-9lwyUrmQh3UKZu5IHGVYz-ORSTrLIFe3em6h6UX6UtAM6QX30gHoqaC9pZDw&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20One%20Piece%20S01E061%20Remastered%20%5B720p%20x264%20Multi%20Audio%5D%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] One Piece S01E061 Remastered [720p x264 Multi Audio] ESub.mkv" },
+    "1080p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=ABL7PW37YJIben0NZzQnqFn7ttOl-kT5_4sGjTur_03Twra-zPMkImW6IgadJ8aXVcDwHgwRAcQvHp1k7zg9YQ&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20One%20Piece%20S01E061%20Remastered%20%5B1080p%20x265%2010bit%20Multi%20Audio%5D%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] One Piece S01E061 Remastered [1080p x265 10bit Multi Audio] ESub.mkv" }
+  }
+},
+
+"skeleton-knight-in-another-world-1x1": {
+  qualities: {
+    "480p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=Q2s0m9VMir9mo0ZEIaxLt0T-Us43FhcWCsL9ltdt3zPWd-iQstQ8m3bMRP8BA2NIA1zpMZQKUBidjLVSQwbygQ&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Skeleton%20Knight%20in%20Another%20World%20S01E01%20480p%20BDRip%20%5BHindi-Eng-Jap%5D%20ESub%20Uncut.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Skeleton Knight in Another World S01E01 480p BDRip [Hindi-Eng-Jap] ESub Uncut.mkv" },
+    "720p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=Plc_a2zNofn8jNZpoG7Eh2GVhE3iaspWwPZUA9RGVPm_jr-6pQrhyVvzKmJ4bozUZdIEh0qxmAqIv99b25tUhw&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Skeleton%20Knight%20in%20Another%20World%20S01E01%20720p%20HD%20BDRip%20%5BHindi-Eng-Jap%5D%20ESub%20Uncut.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Skeleton Knight in Another World S01E01 720p HD BDRip [Hindi-Eng-Jap] ESub Uncut.mkv" },
+    "1080p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=e2TYgu77f8NUPyCINV3SkZye0mxCL1BDx1BIZMgySLSY7eirnwANR1STBM6sGYUFp-SVdXcX8DT_1f-7m48Phg&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Skeleton%20Knight%20in%20Another%20World%20S01E01%201080p%20HEVC%2010bit%20BDRip%20%5BHindi-Eng-Jap%5D%20ESub%20Uncut.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Skeleton Knight in Another World S01E01 1080p HEVC 10bit BDRip [Hindi-Eng-Jap] ESub Uncut.mkv" }
+  }
+},
+"skeleton-knight-in-another-world-1x2": {
+  qualities: {
+    "480p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=DTPobBUsoFWkbUsNyKGTZ-Nt_VWqQrNqC34sXU-hlUW-CMaLvA--OXDq1tJ1KQBFu6gafFGjGoSrlP8uSrx3SA&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Skeleton%20Knight%20in%20Another%20World%20S01E02%20480p%20BDRip%20%5BHindi-Eng-Jap%5D%20ESub%20Uncut.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Skeleton Knight in Another World S01E02 480p BDRip [Hindi-Eng-Jap] ESub Uncut.mkv" },
+    "720p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=-taSLbhyOhIvRQrBvaQNGIbh2UU_QDVYhFnIWiZWHC_9qSKEz0pwnMpVqge70lj4nk3gBbupJ3HH-Keep_94ug&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Skeleton%20Knight%20in%20Another%20World%20S01E02%20720p%20HD%20BDRip%20%5BHindi-Eng-Jap%5D%20ESub%20Uncut.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Skeleton Knight in Another World S01E02 720p HD BDRip [Hindi-Eng-Jap] ESub Uncut.mkv" },
+    "1080p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=MASr56iMs4eLfuZZh0itz4gaUwYAPQjDhBC_Jihxx8EXif25JbnC8EJcofBjOGRztr6II5XdZLu0cbg-1U-Jkw&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Skeleton%20Knight%20in%20Another%20World%20S01E02%201080p%20HEVC%2010bit%20BDRip%20%5BHindi-Eng-Jap%5D%20ESub%20Uncut.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Skeleton Knight in Another World S01E02 1080p HEVC 10bit BDRip [Hindi-Eng-Jap] ESub Uncut.mkv" }
+  }
+},
+"skeleton-knight-in-another-world-1x3": {
+  qualities: {
+    "480p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=D5uM7ate9q34A4wHK4MFMTntnyBvgBttX2tUjb58dr-H12WvpcSeH7XqfZ2h44ae2m9tdTZw8kXUKmBQp2nLBg&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Skeleton%20Knight%20in%20Another%20World%20S01E03%20480p%20BDRip%20%5BHindi-Eng-Jap%5D%20ESub%20Uncut.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Skeleton Knight in Another World S01E03 480p BDRip [Hindi-Eng-Jap] ESub Uncut.mkv" },
+    "720p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=WcYusuq7MuOkZKNpdpLSWJaWPbkSgpFV3TQgU5UbISblDSY7wjerNdB3WWFe3OPal8cpfFg43nYlheSGG_YOsA&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Skeleton%20Knight%20in%20Another%20World%20S01E03%20720p%20HD%20BDRip%20%5BHindi-Eng-Jap%5D%20ESub%20Uncut.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Skeleton Knight in Another World S01E03 720p HD BDRip [Hindi-Eng-Jap] ESub Uncut.mkv" },
+    "1080p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=NzB9B9f1MSdDdtRHHV3mvfljBlqFyQNC3onEKx3FTB3FycI8d5H5mG7-UZjslpngVB5T2P-jwCkIOfVJwDM63w&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Skeleton%20Knight%20in%20Another%20World%20S01E03%201080p%20HEVC%2010bit%20BDRip%20%5BHindi-Eng-Jap%5D%20ESub%20Uncut.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Skeleton Knight in Another World S01E03 1080p HEVC 10bit BDRip [Hindi-Eng-Jap] ESub Uncut.mkv" }
+  }
+},
+"skeleton-knight-in-another-world-1x4": {
+  qualities: {
+    "480p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=AMB2VuXZEJlpDCqtKCogy548A8gtT-Hcu224djPW_KhzT0455ShYzlFItR6b01-u9OQkxAoY3jIyeHVKofA63w&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Skeleton%20Knight%20in%20Another%20World%20S01E04%20480p%20BDRip%20%5BHindi-Eng-Jap%5D%20ESub%20Uncut.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Skeleton Knight in Another World S01E04 480p BDRip [Hindi-Eng-Jap] ESub Uncut.mkv" },
+    "720p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=dNdZ8RUBSLBE7DWPyaXpirmpDLF5Wg_rknJ8WddvCJ8PHKtvi8SkfUq4aPLlrv-6LbHW23k7ecg6AWhmLKc00Q&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Skeleton%20Knight%20in%20Another%20World%20S01E04%20720p%20HD%20BDRip%20%5BHindi-Eng-Jap%5D%20ESub%20Uncut.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Skeleton Knight in Another World S01E04 720p HD BDRip [Hindi-Eng-Jap] ESub Uncut.mkv" },
+    "1080p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=JYJjnymg4kjxN67Qf6cpxIFSzD9CMMlj0y6Sy36RQqp2r61skLOD1HkPbEzeetjJ2mocFeZMNtC241qjey0hgQ&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Skeleton%20Knight%20in%20Another%20World%20S01E04%201080p%20HEVC%2010bit%20BDRip%20%5BHindi-Eng-Jap%5D%20ESub%20Uncut.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Skeleton Knight in Another World S01E04 1080p HEVC 10bit BDRip [Hindi-Eng-Jap] ESub Uncut.mkv" }
+  }
+},
+"skeleton-knight-in-another-world-1x5": {
+  qualities: {
+    "480p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=qNyRc4f7fKaADApCJLgXQI-cHX9VWA4-um1Tbs6cWp11CH2IeSweMMWCBeW3bFc3GcWCwfzMUnlQUNguDPzn0A&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Skeleton%20Knight%20in%20Another%20World%20S01E05%20480p%20BDRip%20%5BHindi-Eng-Jap%5D%20ESub%20Uncut.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Skeleton Knight in Another World S01E05 480p BDRip [Hindi-Eng-Jap] ESub Uncut.mkv" },
+    "720p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=rh5S3PLM09eIdhv9nTtbo4UuXjSfY3ClDA0p29DSEHSFMOJqWqGJxDbC5OR7hIURAP8JFPxJ7ILUuru3VusLyg&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Skeleton%20Knight%20in%20Another%20World%20S01E05%20720p%20HD%20BDRip%20%5BHindi-Eng-Jap%5D%20ESub%20Uncut.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Skeleton Knight in Another World S01E05 720p HD BDRip [Hindi-Eng-Jap] ESub Uncut.mkv" },
+    "1080p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=01yN_p6lCiXyrL_ZgWEMNXDlh00mckpPpc9Nn7k6PlrtMMl2talHRiPgHFsgmpX7mnmSEJa4NJevNlqAC6eqjw&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Skeleton%20Knight%20in%20Another%20World%20S01E05%201080p%20HEVC%2010bit%20BDRip%20%5BHindi-Eng-Jap%5D%20ESub%20Uncut.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Skeleton Knight in Another World S01E05 1080p HEVC 10bit BDRip [Hindi-Eng-Jap] ESub Uncut.mkv" }
+  }
+},
+"skeleton-knight-in-another-world-1x6": {
+  qualities: {
+    "480p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=P8wlCbBOdkTqdB-EzqUJzY467U8UDAB4AvipBGD5vCTrGWEVGlcybnB3ersFG2PKXQ4rpThfEm7-Mx2FoJLojg&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Skeleton%20Knight%20in%20Another%20World%20S01E06%20480p%20BDRip%20%5BHindi-Eng-Jap%5D%20ESub%20Uncut.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Skeleton Knight in Another World S01E06 480p BDRip [Hindi-Eng-Jap] ESub Uncut.mkv" },
+    "720p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=76uVx5zo5LthhtzQ80pkmpbS-z55ZZBIqxaHHjrtTtuRcNv13qLUyBrMfBghoPad8m6ShDO3V61oUZDsDKfKxg&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Skeleton%20Knight%20in%20Another%20World%20S01E06%20720p%20HD%20BDRip%20%5BHindi-Eng-Jap%5D%20ESub%20Uncut.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Skeleton Knight in Another World S01E06 720p HD BDRip [Hindi-Eng-Jap] ESub Uncut.mkv" },
+    "1080p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=0x1oYipUIs10pNceP0KuF1WJCqfOXU6-YIu9rlFvr0TabsJiQGzDX1py1tDqMqsRSGNmt8w4GwTZtGrf5Ayx9g&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Skeleton%20Knight%20in%20Another%20World%20S01E06%201080p%20HEVC%2010bit%20BDRip%20%5BHindi-Eng-Jap%5D%20ESub%20Uncut.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Skeleton Knight in Another World S01E06 1080p HEVC 10bit BDRip [Hindi-Eng-Jap] ESub Uncut.mkv" }
+  }
+},
+"skeleton-knight-in-another-world-1x7": {
+  qualities: {
+    "480p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=BVFEWq_18qgya1WhTDMU6k-CmwV4CpFBd0pep5dCVOgdsZuq4WoMMs4WT6QO-dBdjNBW-BxYEoz1jJRs5YgzLg&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Skeleton%20Knight%20in%20Another%20World%20S01E07%20480p%20BDRip%20%5BHindi-Eng-Jap%5D%20ESub%20Uncut.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Skeleton Knight in Another World S01E07 480p BDRip [Hindi-Eng-Jap] ESub Uncut.mkv" },
+    "720p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=G23ruqR0KceQiw5LP2aKECZ4rUCY5Y5yUP1__cGo4J81S2da2VP6iqXgOwazuHC7AfzLeXcMNO6iWq1ASImvJw&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Skeleton%20Knight%20in%20Another%20World%20S01E07%20720p%20HD%20BDRip%20%5BHindi-Eng-Jap%5D%20ESub%20Uncut.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Skeleton Knight in Another World S01E07 720p HD BDRip [Hindi-Eng-Jap] ESub Uncut.mkv" },
+    "1080p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=9UWzPk_4WrGBuLZqN7-d813EmEut-Qaw25lZsTdgV4cHbFlV4SxV_B7gOkvGMTTyrFUhZmWyWKGidan9TAXAnQ&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Skeleton%20Knight%20in%20Another%20World%20S01E07%201080p%20HEVC%2010bit%20BDRip%20%5BHindi-Eng-Jap%5D%20ESub%20Uncut.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Skeleton Knight in Another World S01E07 1080p HEVC 10bit BDRip [Hindi-Eng-Jap] ESub Uncut.mkv" }
+  }
+},
+"skeleton-knight-in-another-world-1x8": {
+  qualities: {
+    "480p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=Od-jd-x0593GNicNPnBwED6UIr2O39Q2cE1pHPP5EuZn64JcNjOs07KI1viO9PpbLBozavKPRr0KE6ZFx_EUug&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Skeleton%20Knight%20in%20Another%20World%20S01E08%20480p%20BDRip%20%5BHindi-Eng-Jap%5D%20ESub%20Uncut.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Skeleton Knight in Another World S01E08 480p BDRip [Hindi-Eng-Jap] ESub Uncut.mkv" },
+    "720p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=JY5IkF9SgsGAwqFRQbcSgf2sju84_VBJb0hHSXxNmsBDtHQXdHpGcgDybngLXtrGJPrJ0-Wf5BqrpiamlFOUzw&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Skeleton%20Knight%20in%20Another%20World%20S01E08%20720p%20HD%20BDRip%20%5BHindi-Eng-Jap%5D%20ESub%20Uncut.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Skeleton Knight in Another World S01E08 720p HD BDRip [Hindi-Eng-Jap] ESub Uncut.mkv" },
+    "1080p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=SabL0oAbB4bAh_O73yncah8iqpXZX5Sd_wFuDGtbwHV5NBJvS3aR2H6upG1Ptr--AZIUBgGm-bFV0Vd3wz2LEg&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Skeleton%20Knight%20in%20Another%20World%20S01E08%201080p%20HEVC%2010bit%20BDRip%20%5BHindi-Eng-Jap%5D%20ESub%20Uncut.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Skeleton Knight in Another World S01E08 1080p HEVC 10bit BDRip [Hindi-Eng-Jap] ESub Uncut.mkv" }
+  }
+},
+"skeleton-knight-in-another-world-1x9": {
+  qualities: {
+    "480p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=EtUD-8_O4P3DJCWsmaMRbo9B0bbfK7u_T-_eHZ7AsmxsQ_U5USDv0BaYHPwDFoWr_kFoOO0zqPQya9txjdIrsw&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Skeleton%20Knight%20in%20Another%20World%20S01E09%20480p%20BDRip%20%5BHindi-Eng-Jap%5D%20ESub%20Uncut.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Skeleton Knight in Another World S01E09 480p BDRip [Hindi-Eng-Jap] ESub Uncut.mkv" },
+    "720p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=Pm6rcDCb945UyLodF964Z6QINmmqRiRWoeJloTpOMCbc-Chh5_nCFj6lZtHRDgvyfLbX5Ltx-BRqlMLjBh8WwA&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Skeleton%20Knight%20in%20Another%20World%20S01E09%20720p%20HD%20BDRip%20%5BHindi-Eng-Jap%5D%20ESub%20Uncut.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Skeleton Knight in Another World S01E09 720p HD BDRip [Hindi-Eng-Jap] ESub Uncut.mkv" },
+    "1080p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=9FBnkLuwwMbGyey9ZIKmOPrNb1RBPMkCqDGXCestgEW7mxxG9imfZr4TyOV7g1InYezYIl88f3rLiPYuARouWQ&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Skeleton%20Knight%20in%20Another%20World%20S01E09%201080p%20HEVC%2010bit%20BDRip%20%5BHindi-Eng-Jap%5D%20ESub%20Uncut.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Skeleton Knight in Another World S01E09 1080p HEVC 10bit BDRip [Hindi-Eng-Jap] ESub Uncut.mkv" }
+  }
+},
+"skeleton-knight-in-another-world-1x10": {
+  qualities: {
+    "480p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=7cnf6z1dDOw-f1VZipqx3mhcB6QP-AqjjjBL5dFmJaMX9rL8ZU-hxgpNlzfMMhlyl_06Yx5lif6DkXS1ot0f-Q&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Skeleton%20Knight%20in%20Another%20World%20S01E10%20480p%20BDRip%20%5BHindi-Eng-Jap%5D%20ESub%20Uncut.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Skeleton Knight in Another World S01E10 480p BDRip [Hindi-Eng-Jap] ESub Uncut.mkv" },
+    "720p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=v8uwcahRA_f2qer1tUCjSoTPS4w1uxxgi2T2pU-UnJKjlcIdsHRuFpBjj96XkI17cGOmqImhYSfxRAaqDNU8Kw&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Skeleton%20Knight%20in%20Another%20World%20S01E10%20720p%20HD%20BDRip%20%5BHindi-Eng-Jap%5D%20ESub%20Uncut.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Skeleton Knight in Another World S01E10 720p HD BDRip [Hindi-Eng-Jap] ESub Uncut.mkv" },
+    "1080p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=fiIME7kwGIgtifI3ujV9fd0lklYgsuPRhphuP-soLzN9VDV2CmE1nAwLDvfOa0YJTnacu6kinQUsvQetUBF4nQ&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Skeleton%20Knight%20in%20Another%20World%20S01E10%201080p%20HEVC%2010bit%20BDRip%20%5BHindi-Eng-Jap%5D%20ESub%20Uncut.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Skeleton Knight in Another World S01E10 1080p HEVC 10bit BDRip [Hindi-Eng-Jap] ESub Uncut.mkv" }
+  }
+},
+"skeleton-knight-in-another-world-1x11": {
+  qualities: {
+    "480p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=0vLKaQWRQw1j27GzgsAHcP43IKP9P8IUDH51Xq4SwOF6Pna0J7D8HhpHwtLdC12GyEiZ1kGrJp1a3nMi-cTxUQ&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Skeleton%20Knight%20in%20Another%20World%20S01E11%20480p%20BDRip%20%5BHindi-Eng-Jap%5D%20ESub%20Uncut.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Skeleton Knight in Another World S01E11 480p BDRip [Hindi-Eng-Jap] ESub Uncut.mkv" },
+    "720p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=0b5zqtHwjdMITzr_lyqP-TGeog9MgZL0zWN3-Y0NhtQiam-qOa0VNy2eDH7qVfBxSZDHpinS_mKNi9No0_bRPQ&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Skeleton%20Knight%20in%20Another%20World%20S01E11%20720p%20HD%20BDRip%20%5BHindi-Eng-Jap%5D%20ESub%20Uncut.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Skeleton Knight in Another World S01E11 720p HD BDRip [Hindi-Eng-Jap] ESub Uncut.mkv" },
+    "1080p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=RvwrOIDJwoBhqoh0y_tI3b7uUd33D189F0Tt3Bb7qEVXSDkS31tS_bdhRtwtSRRvg8DjTGyrtTgYvwg9lMupng&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Skeleton%20Knight%20in%20Another%20World%20S01E11%201080p%20HEVC%2010bit%20BDRip%20%5BHindi-Eng-Jap%5D%20ESub%20Uncut.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Skeleton Knight in Another World S01E11 1080p HEVC 10bit BDRip [Hindi-Eng-Jap] ESub Uncut.mkv" }
+  }
+},
+"skeleton-knight-in-another-world-1x12": {
+  qualities: {
+    "480p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=qYEohy7fdrsd7usF6GPQjuVmLaupSmqRGsKki19VUTnfYah8EIk-GVVEcFyjQojv-aTF6_4SRvuu3RDlD-g-Eg&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Skeleton%20Knight%20in%20Another%20World%20S01E12%20480p%20BDRip%20%5BHindi-Eng-Jap%5D%20ESub%20Uncut.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Skeleton Knight in Another World S01E12 480p BDRip [Hindi-Eng-Jap] ESub Uncut.mkv" },
+    "720p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=uf73ImETjDn5Ze0oM8KUbM4tpIyXLK98ILO7dho79rzqethLskLLXVzbChOg_9k1OKeaoxx9OUxmqgDrhoZBRw&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Skeleton%20Knight%20in%20Another%20World%20S01E12%20720p%20HD%20BDRip%20%5BHindi-Eng-Jap%5D%20ESub%20Uncut.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Skeleton Knight in Another World S01E12 720p HD BDRip [Hindi-Eng-Jap] ESub Uncut.mkv" },
+    "1080p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=3SauG8jNsJoEc1ziRr0T9uHx5XEDHOPUC0FZp6QT19vCfGgursXUkP7hFBIcy14POQFAIlIt7fzOiHi6p_di1g&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Skeleton%20Knight%20in%20Another%20World%20S01E12%201080p%20HEVC%2010bit%20BDRip%20%5BHindi-Eng-Jap%5D%20ESub%20Uncut.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Skeleton Knight in Another World S01E12 1080p HEVC 10bit BDRip [Hindi-Eng-Jap] ESub Uncut.mkv" }
+  }
+},
+
+"karna-the-guardian-1x1": {
+  qualities: {
+    "480p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=NDfyGy0TZ4-C7InTi2qKL1QeQq-GtKePR5yMUff1rdbr8k4MtkTh7WELF5aGJ_lznszy7ivYfAO6c4RrY0xd0A&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Karna%20The%20Guardian%20S01E01%20480p%20x264%20WEB-DL%20Multi%20Audio%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Karna The Guardian S01E01 480p x264 WEB-DL Multi Audio ESub.mkv" },
+    "720p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=vGRwzBa0nFNegtTG_KTpUtcXvD7YyEPEzbjo0CjqqGWaSDv9ycswUkRhCxQZxkKTY5Tig4Ba2qmn5VF3bmVWsQ&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Karna%20The%20Guardian%20S01E01%20720p%20x264%20WEB-DL%20Multi%20Audio%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Karna The Guardian S01E01 720p x264 WEB-DL Multi Audio ESub.mkv" },
+    "1080p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=HTHME8tfNrJOX_tQwtWWb_kpKzhqOC3JTIBRIGFDZ0J4bEIGfLpQrsUQH2gZq0EnMETZuLpkQ4QzN6Gmzrh9RA&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Karna%20The%20Guardian%20S01E01%201080p%20x265%2010bit%20WEB-DL%20Multi%20Audio%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Karna The Guardian S01E01 1080p x265 10bit WEB-DL Multi Audio ESub.mkv" }
+  }
+},
+"karna-the-guardian-1x2": {
+  qualities: {
+    "480p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=x3rOZ5srhBT_bLZrp79-STdLta9abRFHz5XZl8sVMWY3JkfJV-BwgA6smIOHTVAIy91Moyq7tAPWCc2Hr4Zdgw&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Karna%20The%20Guardian%20S01E02%20480p%20x264%20WEB-DL%20Multi%20Audio%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Karna The Guardian S01E02 480p x264 WEB-DL Multi Audio ESub.mkv" },
+    "720p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=bFhWQfrFeAREabCwD056jA3OgQ8hBuaVKnBuYfEtYU6pI3vkYE89m61bJanzvvlfYeG8JHYp9Hr8LrQE26qYGA&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Karna%20The%20Guardian%20S01E02%20720p%20x264%20WEB-DL%20Multi%20Audio%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Karna The Guardian S01E02 720p x264 WEB-DL Multi Audio ESub.mkv" },
+    "1080p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=0srxcG1k2yMmw3GBF9dhlA0ryQvxT5Y3QBulHuzbug9AXa0lHcx_lWw-6e43vI_6X8AAPyRsK_6ERhQEOAiiVQ&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Karna%20The%20Guardian%20S01E02%201080p%20x265%2010bit%20WEB-DL%20Multi%20Audio%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Karna The Guardian S01E02 1080p x265 10bit WEB-DL Multi Audio ESub.mkv" }
+  }
+},
+"karna-the-guardian-1x3": {
+  qualities: {
+    "480p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=cDtKthj9XcE-pgXUDFhJufTX0xNzdDMJH2xxf0ZQpxWzlke6RPACzoqKuN4jn7ecL4_3bElfxTIBFnhJkS1QHA&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Karna%20The%20Guardian%20S01E03%20480p%20x264%20WEB-DL%20Multi%20Audio%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Karna The Guardian S01E03 480p x264 WEB-DL Multi Audio ESub.mkv" },
+    "720p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=8xe2e2kf_qjcJV6P4v-JA5Kzp5VRsA-Fc0mCtIjuLOESAsUgh3LQUXISFjSQ5RLHsUeupS9EUgIT3JPSt1OQfg&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Karna%20The%20Guardian%20S01E03%20720p%20x264%20WEB-DL%20Multi%20Audio%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Karna The Guardian S01E03 720p x264 WEB-DL Multi Audio ESub.mkv" },
+    "1080p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=hRZZz8NPDRaowqCNiPLXClYvnMuBvBEa8-6jGWcsyb5mfuT2rxHNKaJvIEd0Gw3Oi73Y0dZEIjG_eAHoTVuVuQ&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Karna%20The%20Guardian%20S01E03%201080p%20x265%2010bit%20WEB-DL%20Multi%20Audio%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Karna The Guardian S01E03 1080p x265 10bit WEB-DL Multi Audio ESub.mkv" }
+  }
+},
+"karna-the-guardian-1x4": {
+  qualities: {
+    "480p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=6UlfmqUwDzEGDvzRWHr8aM7nUPCZMe_rvImmo_9ZCFM3OKd2vxEMwESYTyYRbUsLggkSAM67yrdpv9DWAHKi4g&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Karna%20The%20Guardian%20S01E04%20480p%20x264%20WEB-DL%20Multi%20Audio%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Karna The Guardian S01E04 480p x264 WEB-DL Multi Audio ESub.mkv" },
+    "720p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=0nUTnU4G9GkMRtn5gDnFCmGAtZELAqH79JcBH2KEHABBYWnX6DpxKp1SH23bw6h7CfmWCmsXbuk2inUK2fvYew&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Karna%20The%20Guardian%20S01E04%20720p%20x264%20WEB-DL%20Multi%20Audio%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Karna The Guardian S01E04 720p x264 WEB-DL Multi Audio ESub.mkv" },
+    "1080p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=Uq6qFplE0vQM6YWceuZke1Z52IGt2ecxtlQdFiJmqWMgg4oOzwdZSszf0YU_tHabDWBXK2ycDkUR895tUT6hAA&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Karna%20The%20Guardian%20S01E04%201080p%20x265%2010bit%20WEB-DL%20Multi%20Audio%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Karna The Guardian S01E04 1080p x265 10bit WEB-DL Multi Audio ESub.mkv" }
+  }
+},
+"karna-the-guardian-1x5": {
+  qualities: {
+    "480p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=2N91MUtwb0z6POr75rRjyRbxj2GniwXnEX-FlSv3SxCUYfKa6CqTL4zI_B0DSBKPORL-4bxbu1-ZH8fZQLAuWA&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Karna%20The%20Guardian%20S01E05%20480p%20x264%20WEB-DL%20Multi%20Audio%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Karna The Guardian S01E05 480p x264 WEB-DL Multi Audio ESub.mkv" },
+    "720p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=izQvPcFnM_cbaGYChmU1Xs9uVGjctyLF80ImaFSMxCltO5JBTI2OU8M1hqjMg8lh2gKUeamgbU3ETMV-cjURUw&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Karna%20The%20Guardian%20S01E05%20720p%20x264%20WEB-DL%20Multi%20Audio%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Karna The Guardian S01E05 720p x264 WEB-DL Multi Audio ESub.mkv" },
+    "1080p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=Nb21r40d61z_VqT2rI1NQefuTPrfMvsHYG7PuqQNgV0Z7oo3paWi4eLxMDq7rehWoqJwhlW3KwLzSoATgySILQ&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Karna%20The%20Guardian%20S01E05%201080p%20x265%2010bit%20WEB-DL%20Multi%20Audio%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Karna The Guardian S01E05 1080p x265 10bit WEB-DL Multi Audio ESub.mkv" }
+  }
+},
+"karna-the-guardian-1x6": {
+  qualities: {
+    "480p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=swQTF4ecvE_CWoTcTTaNSCbyw697ZfP6kDkqheFhA8ZmKOvfx3RvYKYJjZ24LjBEALsFLsbBnhcROLP4Q3JK2w&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Karna%20The%20Guardian%20S01E06%20480p%20x264%20WEB-DL%20Multi%20Audio%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Karna The Guardian S01E06 480p x264 WEB-DL Multi Audio ESub.mkv" },
+    "720p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=rOQhqSSowzgM-0ysFyOFZ3ELA33m-ZvqyXGjLRdmaGWcti9eOYEH9WoeZzuvqYelkFO8wb0J_JM09yqb5NakKg&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Karna%20The%20Guardian%20S01E06%20720p%20x264%20WEB-DL%20Multi%20Audio%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Karna The Guardian S01E06 720p x264 WEB-DL Multi Audio ESub.mkv" },
+    "1080p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=2eC9gwP2d-uSd8ERTV3k2O9HFwBg2P-t9AcAy1y6XB_4EssSx8ReWDBH5RzOjjeWXPDz-PLGgRVCwDTF6rO_3Q&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Karna%20The%20Guardian%20S01E06%201080p%20x265%2010bit%20WEB-DL%20Multi%20Audio%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Karna The Guardian S01E06 1080p x265 10bit WEB-DL Multi Audio ESub.mkv" }
+  }
+},
+"karna-the-guardian-1x7": {
+  qualities: {
+    "480p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=FtT3Qm2z-QGOEdfV9xnbUfYra9gAkMM8uwq9vxP_YURt9z55Porjowc8vZadt8LTVcDXbIGTZAO8KVGIx-lhiw&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Karna%20The%20Guardian%20S01E07%20480p%20x264%20WEB-DL%20Multi%20Audio%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Karna The Guardian S01E07 480p x264 WEB-DL Multi Audio ESub.mkv" },
+    "720p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=0Jva6-YFW-Z9aD-QDlj1TFhiCoLWJ9PNeUfBCGp7ich-npt8lUgZ8VCISZ5GcIyMrHy8yN7jkwjKo1vQnIUwIw&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Karna%20The%20Guardian%20S01E07%20720p%20x264%20WEB-DL%20Multi%20Audio%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Karna The Guardian S01E07 720p x264 WEB-DL Multi Audio ESub.mkv" },
+    "1080p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=UD65dS2woyN1v2f9rYfIKeJBnYHmY5kUe7Ryz_6-9aZ9KerujvR8PTw62Dvm3OTfMJwhL3vioOD8HvjXe-O4ug&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Karna%20The%20Guardian%20S01E07%201080p%20x265%2010bit%20WEB-DL%20Multi%20Audio%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Karna The Guardian S01E07 1080p x265 10bit WEB-DL Multi Audio ESub.mkv" }
+  }
+},
+"karna-the-guardian-1x8": {
+  qualities: {
+    "480p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=peHzNaF17TqbQr0IqkVn-Lrwkj7U5i7lwRXyGPvmBmZsQwzaZ9oface1Qo2MeAjKu1N44kj-XxjgTQ_f_YeF1A&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Karna%20The%20Guardian%20S01E08%20480p%20x264%20WEB-DL%20Multi%20Audio%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Karna The Guardian S01E08 480p x264 WEB-DL Multi Audio ESub.mkv" },
+    "720p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=6-4AqZE1iEw1EDuPx2QJVNSNM0WO5VandXKRhZ9-01Svf_lH2yPV4PFgHhOfLnKF7QSG_IysPKYPhbMmkXOsUg&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Karna%20The%20Guardian%20S01E08%20720p%20x264%20WEB-DL%20Multi%20Audio%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Karna The Guardian S01E08 720p x264 WEB-DL Multi Audio ESub.mkv" },
+    "1080p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=Pcimp9m3nQJe9ZbLRdoJD6FjMQUcvIQXVlY7hMTdL2X9rDLPQZ6bC-kTmyY6DeCUHTRHRPY2KHF-c_gRtg_XXg&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Karna%20The%20Guardian%20S01E08%201080p%20x265%2010bit%20WEB-DL%20Multi%20Audio%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Karna The Guardian S01E08 1080p x265 10bit WEB-DL Multi Audio ESub.mkv" }
+  }
+},
+"karna-the-guardian-1x9": {
+  qualities: {
+    "480p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=YMA_fDJip3JQUGZ5PSHQFRFmzZtXjxJp46d6g-tR2-30-Hd_r846YKj4zWBcafvfSbCcfTG4jp36TUxhrLZv8Q&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Karna%20The%20Guardian%20S01E09%20480p%20x264%20WEB-DL%20Multi%20Audio%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Karna The Guardian S01E09 480p x264 WEB-DL Multi Audio ESub.mkv" },
+    "720p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=Y_S9SRVTMWzK-AIdzPCHI-83XyvPJkO82PvknVz8Fg2S1rcnbvPzGeWmlAB-QmosyvXT3ONnqUvx4wjQ2REeGQ&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Karna%20The%20Guardian%20S01E09%20720p%20x264%20WEB-DL%20Multi%20Audio%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Karna The Guardian S01E09 720p x264 WEB-DL Multi Audio ESub.mkv" },
+    "1080p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=q8mAkBEVtvIAGDeNCBows9IDQ2BVQqYnlmd4_fKWyuvT8R0lwWCAIpJ7beyf8S6KlDSOFRBOfgvZEJ0rudm9Pw&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Karna%20The%20Guardian%20S01E09%201080p%20x265%2010bit%20WEB-DL%20Multi%20Audio%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Karna The Guardian S01E09 1080p x265 10bit WEB-DL Multi Audio ESub.mkv" }
+  }
+},
+"karna-the-guardian-1x10": {
+  qualities: {
+    "480p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=3ZEqOAz4Bc9cm3GDO2Zkeyjv4Erx2oKHl_NdphoCVDyQ-sOrWgO3y_9xwGN05iXCQiEE77V_sVjEc2wgNC0e6Q&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Karna%20The%20Guardian%20S01E10%20480p%20x264%20WEB-DL%20Multi%20Audio%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Karna The Guardian S01E10 480p x264 WEB-DL Multi Audio ESub.mkv" },
+    "720p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=_5gB5FSLz1w-VtXFzBilqM265IVR0lOhkO2f4nj-3WKGZMhknkrA2kgky_433i1Fu78eBx4AuhGUgCPr9312Gg&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Karna%20The%20Guardian%20S01E10%20720p%20x264%20WEB-DL%20Multi%20Audio%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Karna The Guardian S01E10 720p x264 WEB-DL Multi Audio ESub.mkv" },
+    "1080p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=eubBaLS50LZhT742B4Y75J0MEDfV59IrQ5PVhyTeqp0mCA8q8RPDMB5digDBqDyphh-7_L6ZPidNgG6kJ_QeMA&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Karna%20The%20Guardian%20S01E10%201080p%20x265%2010bit%20WEB-DL%20Multi%20Audio%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Karna The Guardian S01E10 1080p x265 10bit WEB-DL Multi Audio ESub.mkv" }
+  }
+},
+"karna-the-guardian-1x11": {
+  qualities: {
+    "480p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=PJHdGQAfc9M0A9_GXGSkHnITHcLm7o5FLjoDGcC1Ql3ID2CFcWcShkSXFvsbxc1R0FkfYDuvjo8iXc-i6DVOnA&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Karna%20The%20Guardian%20S01E11%20480p%20x264%20WEB-DL%20Multi%20Audio%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Karna The Guardian S01E11 480p x264 WEB-DL Multi Audio ESub.mkv" },
+    "720p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=9nCFRyYSa1GHH54YaPvQiIcgNca-oDkjoq_GFi-YQ0RajhXDPYUqWRxixkQhVr57ktnxg2_N308IkePKpBgrzQ&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Karna%20The%20Guardian%20S01E11%20720p%20x264%20WEB-DL%20Multi%20Audio%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Karna The Guardian S01E11 720p x264 WEB-DL Multi Audio ESub.mkv" },
+    "1080p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=dnD3izfrdDejLJW14hXWer3euYkTC3v05kTENZNKAfc5NKOdaC6zg0U3pTTyV1Ecj_AUoGofr4-3vFc5H3T9yQ&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Karna%20The%20Guardian%20S01E11%201080p%20x265%2010bit%20WEB-DL%20Multi%20Audio%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Karna The Guardian S01E11 1080p x265 10bit WEB-DL Multi Audio ESub.mkv" }
+  }
+},
+"karna-the-guardian-1x12": {
+  qualities: {
+    "480p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=H_n1IEelTFAaxCKCFPsvJwTiVpcV8zzX8ltJIVqR4mdgteq0jMxREHxkPMjA4PjNZ8EWOD4wbUPuFscVW1zE3A&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Karna%20The%20Guardian%20S01E12%20480p%20x264%20WEB-DL%20Multi%20Audio%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Karna The Guardian S01E12 480p x264 WEB-DL Multi Audio ESub.mkv" },
+    "720p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=W6bBb_kCbsatlEZcFwD8C7TeMIvvZ-l1kOGf_FGSNvo8odar5aIFoLB1tPuLS1uRzztZG1BKX69K-MlANPJkKg&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Karna%20The%20Guardian%20S01E12%20720p%20x264%20WEB-DL%20Multi%20Audio%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Karna The Guardian S01E12 720p x264 WEB-DL Multi Audio ESub.mkv" },
+    "1080p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=gVOJzkhWku2Owh7XsTLUkFb8jbr09iOEq1Dhwvaljb822BEaDeyFP6M1Ew4b-V-C7c8Bao-MH2OC8zPi0xbStw&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Karna%20The%20Guardian%20S01E12%201080p%20x265%2010bit%20WEB-DL%20Multi%20Audio%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Karna The Guardian S01E12 1080p x265 10bit WEB-DL Multi Audio ESub.mkv" }
+  }
+},
+"karna-the-guardian-1x13": {
+  qualities: {
+    "480p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=Zy5MG2HQ7yazGd7mG1C7mNVNlL4KX9pYPthus1Ah2TujrT63E1rfe3Jnyzw-m31N00Ex4C_28A6nNFORLMntxQ&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Karna%20The%20Guardian%20S01E13%20480p%20x264%20WEB-DL%20Multi%20Audio%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Karna The Guardian S01E13 480p x264 WEB-DL Multi Audio ESub.mkv" },
+    "720p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=387jDVtNNnZ9WaFzDpI0FuQWk-6V2hbBR80nkVMy6Xq5osxUDsQyCI9ol4GsmAnLTuddUTc8Ak9RjMgSxq7zbQ&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Karna%20The%20Guardian%20S01E13%20720p%20x264%20WEB-DL%20Multi%20Audio%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Karna The Guardian S01E13 720p x264 WEB-DL Multi Audio ESub.mkv" },
+    "1080p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=f4edG437GOkWebNmI0aXJEp4L7n0KEj4IQRCcQmViT7ytty281U1EM3fr38SrtwitUQEXaDuC2kRcuL52uPkDA&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Karna%20The%20Guardian%20S01E13%201080p%20x265%2010bit%20WEB-DL%20Multi%20Audio%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Karna The Guardian S01E13 1080p x265 10bit WEB-DL Multi Audio ESub.mkv" }
+  }
+},
+"heaven-official-s-blessing-1x1": {
+  qualities: {
+    "480p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=e41pW7ElVcrAzLOcMjO4f4gOiR35v-sqVRVnSlgzIKfJmBzaU_gCgUNSO3xDLiXFKjGiPBq1QvYieC3yNzn5SQ&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Heaven%20Officials%20Blessing%20S01E01%20480p%20AMZN%20WEB-DL%20Dual%20Audio%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Heaven Officials Blessing S01E01 480p AMZN WEB-DL Dual Audio ESub.mkv" },
+    "720p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=hLIB8zJ1AS3axZGFb7XUl1LO7kButHKZ1jHM6mxX7_JY5pTzik-SWjlTCEl-w6dCyuKOZEtAv_H57N6EC69Yig&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Heaven%20Officials%20Blessing%20S01E01%20720p%20HD%20AMZN%20WEB-DL%20Dual%20Audio%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Heaven Officials Blessing S01E01 720p HD AMZN WEB-DL Dual Audio ESub.mkv" },
+    "1080p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=ccfqkLHwjDvO_VrFTWeXzOHQmFnHok36JXJIt-T5OdUI3DVg3DnhfFPQKKK6CouKPMoajjCYq80P1vakhOnsig&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Heaven%20Officials%20Blessing%20S01E01%201080p%20HEVC%20AMZN%20WEB-DL%20Dual%20Audio%20DDP2.0%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Heaven Officials Blessing S01E01 1080p HEVC AMZN WEB-DL Dual Audio DDP2.0 ESub.mkv" }
+  }
+},
+"heaven-official-s-blessing-1x2": {
+  qualities: {
+    "480p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=ZKLsFn2QT52HkorBmgWlFFFr3PnJ8NZV4WPRuLpCFaHHxW-pBmmvI9qgTcK7osMQ_YlcIXNfHCVDsl8bXUTenQ&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Heaven%20Officials%20Blessing%20S01E02%20480p%20AMZN%20WEB-DL%20Dual%20Audio%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Heaven Officials Blessing S01E02 480p AMZN WEB-DL Dual Audio ESub.mkv" },
+    "720p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=d9aYbbbX5G9ec7IB8vQ-Ko_pLBdnadN8yIFJ3AuoTGV_NOrnwPgJ4FsJa6IY3CT_sCgsEtAEAdDHM3G0ssMsag&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Heaven%20Officials%20Blessing%20S01E02%20720p%20HD%20AMZN%20WEB-DL%20Dual%20Audio%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Heaven Officials Blessing S01E02 720p HD AMZN WEB-DL Dual Audio ESub.mkv" },
+    "1080p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=sVq86OIH6Ydc3FT62J6mmCxIHfU_HPCmjTwKEFyMF6RrrVX1ht_eU5rMgIbJUCZhcBqHX3XwO2yudtpTclff1w&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Heaven%20Officials%20Blessing%20S01E02%201080p%20HEVC%20AMZN%20WEB-DL%20Dual%20Audio%20DDP2.0%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Heaven Officials Blessing S01E02 1080p HEVC AMZN WEB-DL Dual Audio DDP2.0 ESub.mkv" }
+  }
+},
+"heaven-official-s-blessing-1x3": {
+  qualities: {
+    "480p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=anFlZgdhobDYBuw-yro7kkrQmpiiDAwJunVSesYxdSjI27MY-MS6G7NhGd--D21cxGxVVd7LlSKENpGhIs0kZw&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Heaven%20Officials%20Blessing%20S01E03%20480p%20AMZN%20WEB-DL%20Dual%20Audio%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Heaven Officials Blessing S01E03 480p AMZN WEB-DL Dual Audio ESub.mkv" },
+    "720p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=93C6wlht0PR8idYEmbQlTrUKZDqxUKmU646H2-9eJkW92mycgc58NopVbc6Dpy6MEwxMOCmqhGykV61nKoKS5Q&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Heaven%20Officials%20Blessing%20S01E03%20720p%20HD%20AMZN%20WEB-DL%20Dual%20Audio%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Heaven Officials Blessing S01E03 720p HD AMZN WEB-DL Dual Audio ESub.mkv" },
+    "1080p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=vDXQ4hLc1l8cQyNFFynvBNXP92YjyAGYwwSXvxY75AFUXBNfdt5yNnpCZOJ61dMWUmRrWqT3N6jvZDO_bLjSrA&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Heaven%20Officials%20Blessing%20S01E03%201080p%20HEVC%20AMZN%20WEB-DL%20Dual%20Audio%20DDP2.0%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Heaven Officials Blessing S01E03 1080p HEVC AMZN WEB-DL Dual Audio DDP2.0 ESub.mkv" }
+  }
+},
+"heaven-official-s-blessing-1x4": {
+  qualities: {
+    "480p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=OJnsPZbvKl4KfXXa0aCZFTGPjkWaj7Gl2uwU0U8mv1G59t7EnJXrq_VII6OeY7r2nSlDMZjhaQpn-AdYckT5-A&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Heaven%20Officials%20Blessing%20S01E04%20480p%20AMZN%20WEB-DL%20Dual%20Audio%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Heaven Officials Blessing S01E04 480p AMZN WEB-DL Dual Audio ESub.mkv" },
+    "720p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=q-1ZjI7XY4djoouLDcWVVplTj7hI-3bEnKJG7aZV1bmxTouPwDMKJRzoi_hIDxyhuUpMb3JngJhNtm2_yfx98g&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Heaven%20Officials%20Blessing%20S01E04%20720p%20HD%20AMZN%20WEB-DL%20Dual%20Audio%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Heaven Officials Blessing S01E04 720p HD AMZN WEB-DL Dual Audio ESub.mkv" },
+    "1080p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=JmszWT6U8wEo4pIBlXALiF8HiHN1S7wyFsrOZoEocAfJa9CY2SGHs0dwGjlqyqFl4f2IVzbxQNUkus_3uxR7eg&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Heaven%20Officials%20Blessing%20S01E04%201080p%20HEVC%20AMZN%20WEB-DL%20Dual%20Audio%20DDP2.0%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Heaven Officials Blessing S01E04 1080p HEVC AMZN WEB-DL Dual Audio DDP2.0 ESub.mkv" }
+  }
+},
+"heaven-official-s-blessing-1x5": {
+  qualities: {
+    "480p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=dTaZr3dISx_W-UmHLkKWt6YE3kDMG3OPybCRtFmjvvgBqpD_ECTkSt-HU_hCCGo-QDZE2MciRSlz4EhsDVMFXA&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Heaven%20Officials%20Blessing%20S01E05%20480p%20AMZN%20WEB-DL%20Dual%20Audio%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Heaven Officials Blessing S01E05 480p AMZN WEB-DL Dual Audio ESub.mkv" },
+    "720p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=n3gvLYlc9vkUPQv_632BtNsNIxJMJ0jeTpmGWAsY5wh70HLtZOS1a9DgbZDslnUc34nTD2CBx-203tMSongQQw&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Heaven%20Officials%20Blessing%20S01E05%20720p%20HD%20AMZN%20WEB-DL%20Dual%20Audio%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Heaven Officials Blessing S01E05 720p HD AMZN WEB-DL Dual Audio ESub.mkv" },
+    "1080p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=RQwqTFA7TQ43Z8Qx6xY4Nt6ZxNKvL90TMd_hePPutyXqDt2UFtnQ31a0lrl8FPDq_kGAQ4kokRgXNvbIfHf3gQ&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Heaven%20Officials%20Blessing%20S01E05%201080p%20HEVC%20AMZN%20WEB-DL%20Dual%20Audio%20DDP2.0%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Heaven Officials Blessing S01E05 1080p HEVC AMZN WEB-DL Dual Audio DDP2.0 ESub.mkv" }
+  }
+},
+"heaven-official-s-blessing-1x6": {
+  qualities: {
+    "480p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=DA03T8br129QVTBEr9wrHHfN1dXOlyVxQfGrmpfL--UYW9dFrekhh53Zj3p-kwfniO8c316pdjFaows7c9q-RQ&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Heaven%20Officials%20Blessing%20S01E06%20480p%20AMZN%20WEB-DL%20Dual%20Audio%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Heaven Officials Blessing S01E06 480p AMZN WEB-DL Dual Audio ESub.mkv" },
+    "720p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=W8LEnnUtj51TfTwQUa0ycNqc2Q15m5DaLSZSN-QCzkMRKFaxSHMIYFgyhVsFEglZXco8Wl7FHZpXRgVH0oVhrw&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Heaven%20Officials%20Blessing%20S01E06%20720p%20HD%20AMZN%20WEB-DL%20Dual%20Audio%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Heaven Officials Blessing S01E06 720p HD AMZN WEB-DL Dual Audio ESub.mkv" },
+    "1080p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=3Ck5EAfq-mjTADZHXvBVdRs7G0zPcOG9-BkG08KH9Vp82QHw8MNZ82CXCAgu628WlkZj7MeB5luirklMo14W4g&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Heaven%20Officials%20Blessing%20S01E06%201080p%20HEVC%20AMZN%20WEB-DL%20Dual%20Audio%20DDP2.0%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Heaven Officials Blessing S01E06 1080p HEVC AMZN WEB-DL Dual Audio DDP2.0 ESub.mkv" }
+  }
+},
+"heaven-official-s-blessing-1x7": {
+  qualities: {
+    "480p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=fwkPL1L5j_SoItklewU1u8AQuJdk8JmEA4Kcb1VN1DYbLH2Nt0RqlEtq4kAy_AaVHG8ggclMNWed5OVwgI1EEw&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Heaven%20Officials%20Blessing%20S01E07%20480p%20AMZN%20WEB-DL%20Dual%20Audio%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Heaven Officials Blessing S01E07 480p AMZN WEB-DL Dual Audio ESub.mkv" },
+    "720p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=9kqBcYaBqccKrd1oyi9afIqeax2x3GGOzqu8Bih1wZvHJQ36bdBYUdYBaAbSN2AvBzmaSHLYkblMO5BrLhPNbA&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Heaven%20Officials%20Blessing%20S01E07%20720p%20HD%20AMZN%20WEB-DL%20Dual%20Audio%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Heaven Officials Blessing S01E07 720p HD AMZN WEB-DL Dual Audio ESub.mkv" },
+    "1080p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=y-1ZDMJlEGl0_Vj1M04lxEFP5J0jU1NNUkMu-xUFqBD1l-hJ8JD3U2m60Ax42O7SdiUx3otMWO995ekcZXPr-g&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Heaven%20Officials%20Blessing%20S01E07%201080p%20HEVC%20AMZN%20WEB-DL%20Dual%20Audio%20DDP2.0%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Heaven Officials Blessing S01E07 1080p HEVC AMZN WEB-DL Dual Audio DDP2.0 ESub.mkv" }
+  }
+},
+"heaven-official-s-blessing-1x8": {
+  qualities: {
+    "480p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=ycHo_RQZ5bypXJzWWRWg_HWknqs_PDOE36RhOSYmaefEfN-4VALJS2iEupSACSek2sLVR7r7fPtsruqXKgNrCw&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Heaven%20Officials%20Blessing%20S01E08%20480p%20AMZN%20WEB-DL%20Dual%20Audio%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Heaven Officials Blessing S01E08 480p AMZN WEB-DL Dual Audio ESub.mkv" },
+    "720p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=44ajhZPfse7pgqPMlFHycLJ82GEgebQaMMdDshP9uWiKiq-gVBM6SNB3HpFMo9LiYR2QecwN91efzigVbh5FSQ&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Heaven%20Officials%20Blessing%20S01E08%20720p%20HD%20AMZN%20WEB-DL%20Dual%20Audio%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Heaven Officials Blessing S01E08 720p HD AMZN WEB-DL Dual Audio ESub.mkv" },
+    "1080p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=28bRYM0DPGHC1ENCad2u5xPVORLabzPxv5R__TSSABFaaOfDoSYaL7QXEqv7dylTOIOpnt7hykW4QKluuJx2Zg&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Heaven%20Officials%20Blessing%20S01E08%201080p%20HEVC%20AMZN%20WEB-DL%20Dual%20Audio%20DDP2.0%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Heaven Officials Blessing S01E08 1080p HEVC AMZN WEB-DL Dual Audio DDP2.0 ESub.mkv" }
+  }
+},
+"heaven-official-s-blessing-1x9": {
+  qualities: {
+    "480p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=Tzrp-rsRCadnM6pKwpMH5DtxbEplFtEP1t2x4jecTGDRqLZofFs01SSrpLzb2neNCGCz-jGjF0xfebexZInnvA&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Heaven%20Officials%20Blessing%20S01E09%20480p%20AMZN%20WEB-DL%20Dual%20Audio%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Heaven Officials Blessing S01E09 480p AMZN WEB-DL Dual Audio ESub.mkv" },
+    "720p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=L-8MhrA6h-A4b4ht3Y2rNZAVYLCo_a_Y9d5ECv6KQRGSyjFMEEWKpjCrABuOSwa0MM6a538vR-eZVkkp3VLssw&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Heaven%20Officials%20Blessing%20S01E09%20720p%20HD%20AMZN%20WEB-DL%20Dual%20Audio%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Heaven Officials Blessing S01E09 720p HD AMZN WEB-DL Dual Audio ESub.mkv" },
+    "1080p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=DXYPmrKElx3-2JlURZ0tS5VREoSXYBOyhnedjix5R0-BV5QcD7fpJHk2un-KWHlJbDEMF4uKvfN180_TLM7CDw&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Heaven%20Officials%20Blessing%20S01E09%201080p%20HEVC%20AMZN%20WEB-DL%20Dual%20Audio%20DDP2.0%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Heaven Officials Blessing S01E09 1080p HEVC AMZN WEB-DL Dual Audio DDP2.0 ESub.mkv" }
+  }
+},
+"heaven-official-s-blessing-1x10": {
+  qualities: {
+    "480p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=20rakQjFXSKNd_aiV_UqJyiSKHXfhGd0nv9b1VTu1Prz9DzWkitxqjnOp9PRAKDkuZhVrtPbfMd6D-mj-jrkAQ&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Heaven%20Officials%20Blessing%20S01E10%20480p%20AMZN%20WEB-DL%20Dual%20Audio%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Heaven Officials Blessing S01E10 480p AMZN WEB-DL Dual Audio ESub.mkv" },
+    "720p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=XC87B5K6Isc95hmxIIoKxjpgjN2HA0ZPKUeOcvHET-fbKZ4nLL6UPCPImzL14pr3Q42fj5k1KWMVbyJCwjSjFQ&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Heaven%20Officials%20Blessing%20S01E10%20720p%20HD%20AMZN%20WEB-DL%20Dual%20Audio%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Heaven Officials Blessing S01E10 720p HD AMZN WEB-DL Dual Audio ESub.mkv" },
+    "1080p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=tGl4ccIoV8rifI1oujoNMy1f4-pJxyFXLt6yW73LjLQCY30Be15zl5nFt8O2D4b4DEOfEsji2IetY413NFjaQg&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Heaven%20Officials%20Blessing%20S01E10%201080p%20HEVC%20AMZN%20WEB-DL%20Dual%20Audio%20DDP2.0%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Heaven Officials Blessing S01E10 1080p HEVC AMZN WEB-DL Dual Audio DDP2.0 ESub.mkv" }
+  }
+},
+"heaven-official-s-blessing-1x11": {
+  qualities: {
+    "480p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=TeI9SWw7FDQDKMzFhpXzoCba3W9gWqvja5ffcEw0mip0jWgV0T806uUIu13KCcmF4a1ySB2GRSAcEF1x3rzHAQ&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Heaven%20Officials%20Blessing%20S01E11%20480p%20AMZN%20WEB-DL%20Dual%20Audio%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Heaven Officials Blessing S01E11 480p AMZN WEB-DL Dual Audio ESub.mkv" },
+    "720p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=0_rShvgUbAKHyhYcDdYk6O4KGoKbZjNCsCZ9SbAaelYmSgMLu9pgiClugpUqaSgr3YkWge-FpGMZEo4ArT76dQ&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Heaven%20Officials%20Blessing%20S01E11%20720p%20HD%20AMZN%20WEB-DL%20Dual%20Audio%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Heaven Officials Blessing S01E11 720p HD AMZN WEB-DL Dual Audio ESub.mkv" },
+    "1080p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=LuLDA3ixrtZ_vWEemYueTlal4PKb69-Yc-GRkCq6UsCwp_TTJT04FYlSiWYCBngWHzXuLxgRIhhgB7hQXKFE2g&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Heaven%20Officials%20Blessing%20S01E11%201080p%20HEVC%20AMZN%20WEB-DL%20Dual%20Audio%20DDP2.0%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Heaven Officials Blessing S01E11 1080p HEVC AMZN WEB-DL Dual Audio DDP2.0 ESub.mkv" }
+  }
+},
+"heaven-official-s-blessing-1x12": {
+  qualities: {
+    "480p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=Xrf_OlkwiCIDrhVXUSvYqHob2xCrjD7wW8KcuNJMHxiHF5ojI4iApxlFlXeibARONlVdIIChsEpN3ZZmq0h5KQ&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Heaven%20Officials%20Blessing%20S01E12%20480p%20AMZN%20WEB-DL%20Dual%20Audio%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Heaven Officials Blessing S01E12 480p AMZN WEB-DL Dual Audio ESub.mkv" },
+    "720p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=bUrb1370uXa5tbFaM2D5FZhp9RoAbz3oTY_JIcZCkoyH9YnzkIrpWR2LOdw8D5-m8WGCXFdChCW6KQX7lKBp6A&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Heaven%20Officials%20Blessing%20S01E12%20720p%20HD%20AMZN%20WEB-DL%20Dual%20Audio%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Heaven Officials Blessing S01E12 720p HD AMZN WEB-DL Dual Audio ESub.mkv" },
+    "1080p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=Ohj50CHWV3KmVH97Nli0yBfG37TWZdDaUFJSG1dRoscv2GMcoDnEXq0CIUrpxHrbd8UruJGHLGq5BqzeSvYH0g&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Heaven%20Officials%20Blessing%20S01E12%201080p%20HEVC%20AMZN%20WEB-DL%20Dual%20Audio%20DDP2.0%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Heaven Officials Blessing S01E12 1080p HEVC AMZN WEB-DL Dual Audio DDP2.0 ESub.mkv" }
+  }
+},
+
+"my-hero-academia-vigilantes-1x1": {
+  qualities: {
+    "480p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=h03FZTQ_KkdhJCQMNei0GCLTa3K1S1J2RtpMZrMkCBBTNCKxRDhpJJ9vearMkxS9cmJmvYD6mgY0NWHK3vC7Wg&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20My%20Hero%20Academia%20Vigilantes%20S01E01%20480p%20BluRay%20Multi%20Audio%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] My Hero Academia Vigilantes S01E01 480p BluRay Multi Audio ESub.mkv" },
+    "720p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=eAtP_NFoD-mrB-34zgzNiv-SX9_0LfSuNZb-8kl60IqYfwvOv_gcoM6Wsir-GjzgmH5zOP6Tb79s4vTTIAxMMQ&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20My%20Hero%20Academia%20Vigilantes%20S01E01%20720p%20HD%20BluRay%20Multi%20Audio%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] My Hero Academia Vigilantes S01E01 720p HD BluRay Multi Audio ESub.mkv" },
+    "1080p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=P-IHcDmZps49L3mohCcOtJMtw5Io2iMg2SLcXZK63EkOyrt186ZEsqy-lIiKaUE618WcgkLhQppGPjZETx-NHw&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20My%20Hero%20Academia%20Vigilantes%20S01E01%201080p%20HEVC%2010bit%20BluRay%20Multi%20Audio%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] My Hero Academia Vigilantes S01E01 1080p HEVC 10bit BluRay Multi Audio ESub.mkv" }
+  }
+},
+"my-hero-academia-vigilantes-1x2": {
+  qualities: {
+    "480p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=hWfK2ogCm-84WeAVhBAGrfyPoGiNeRRSnT40ZynMXG-2OPC5zuhD6n0kkmTLzGW95SejUNRL3UnU5IY9phFQyQ&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20My%20Hero%20Academia%20Vigilantes%20S01E02%20480p%20BluRay%20Multi%20Audio%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] My Hero Academia Vigilantes S01E02 480p BluRay Multi Audio ESub.mkv" },
+    "720p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=ac3sLzJuHCqIxTmKpTDPuSva56Yv4vsNUTFCcZh-D8e3DyeoHpwfAZVZdodnPVsxYJLl4rineEfl7tq-mnCHbw&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20My%20Hero%20Academia%20Vigilantes%20S01E02%20720p%20HD%20BluRay%20Multi%20Audio%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] My Hero Academia Vigilantes S01E02 720p HD BluRay Multi Audio ESub.mkv" },
+    "1080p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=JyPZrz86hypunL9-3Q_No3dPzllGfQrVLU07fDpABxbYElc391bgfEB5NLLDkxBO9oPI1q98Qf4nz3zepVsOdQ&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20My%20Hero%20Academia%20Vigilantes%20S01E02%201080p%20HEVC%2010bit%20BluRay%20Multi%20Audio%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] My Hero Academia Vigilantes S01E02 1080p HEVC 10bit BluRay Multi Audio ESub.mkv" }
+  }
+},
+"my-hero-academia-vigilantes-1x3": {
+  qualities: {
+    "480p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=w1rmUzz29XVdmhZHrTWIYwRxE8G6yWEGV8qagy8c-WgRwB0ulDgCjQrgO_g39g1vgxaqmR8pElG1J4UihlBf5g&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20My%20Hero%20Academia%20Vigilantes%20S01E03%20480p%20BluRay%20Multi%20Audio%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] My Hero Academia Vigilantes S01E03 480p BluRay Multi Audio ESub.mkv" },
+    "720p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=fu_TwfMQ-iSgbivB-O4FQRwSO7_e6NEzNhUDf5PdQQZ05yndXzEkEbpNB75yTxCbVz-GTqele66MUCMvQhOLbw&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20My%20Hero%20Academia%20Vigilantes%20S01E03%20720p%20HD%20BluRay%20Multi%20Audio%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] My Hero Academia Vigilantes S01E03 720p HD BluRay Multi Audio ESub.mkv" },
+    "1080p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=o5u1KrsbY9ToQG2s1QvzikYxFnGbXdNdto-CkiMpb4o3_mmbN9w_rUVebgVr9bJSzwwupH-nA6kRyOfPu9iYKA&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20My%20Hero%20Academia%20Vigilantes%20S01E03%201080p%20HEVC%2010bit%20BluRay%20Multi%20Audio%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] My Hero Academia Vigilantes S01E03 1080p HEVC 10bit BluRay Multi Audio ESub.mkv" }
+  }
+},
+"my-hero-academia-vigilantes-1x4": {
+  qualities: {
+    "480p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=ZLyB_ef1Ig5PHtwMhuJhiO8sH5v1VIrpUDothnj8fNM2stdatR8uZ4as2yUrrpwUm_8iu0VpUJ2BCqUl9GS57Q&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20My%20Hero%20Academia%20Vigilantes%20S01E04%20480p%20BluRay%20Multi%20Audio%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] My Hero Academia Vigilantes S01E04 480p BluRay Multi Audio ESub.mkv" },
+    "720p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=2w1AB9kQCI0P-2V8_uoHPOW6JGMItK3nQDaenqFrWRrwchKuT-57j5Vux8mIfDT2MXaF-Xb6Bqkl7yoXaAyl7Q&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20My%20Hero%20Academia%20Vigilantes%20S01E04%20720p%20HD%20BluRay%20Multi%20Audio%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] My Hero Academia Vigilantes S01E04 720p HD BluRay Multi Audio ESub.mkv" },
+    "1080p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=b5g0uODRVoISHr5hbh_JQICILEG-zmntiSvSZhvlDBALqgcXZMriGHaH_LkzPCRv-ZHFL5sToTV6_w8yY5fivg&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20My%20Hero%20Academia%20Vigilantes%20S01E04%201080p%20HEVC%2010bit%20BluRay%20Multi%20Audio%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] My Hero Academia Vigilantes S01E04 1080p HEVC 10bit BluRay Multi Audio ESub.mkv" }
+  }
+},
+"my-hero-academia-vigilantes-1x5": {
+  qualities: {
+    "480p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=xsGrZNSctbwEFP6a6-3DRoanEPeTqz0cU8WHsF3sTuG_TeqSA-CBU6cW6nGoIAAqtrSh0JxMdksBES_9hQRm0g&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20My%20Hero%20Academia%20Vigilantes%20S01E05%20480p%20BluRay%20Multi%20Audio%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] My Hero Academia Vigilantes S01E05 480p BluRay Multi Audio ESub.mkv" },
+    "720p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=PuD__sPARTWwC7ABokRq7iYY62njHPEFXjgM9UdOia5XxeY6pyhLrmN2lHhr0a9HED_1p5shpl1ZcQDZdgFo0w&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20My%20Hero%20Academia%20Vigilantes%20S01E05%20720p%20HD%20BluRay%20Multi%20Audio%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] My Hero Academia Vigilantes S01E05 720p HD BluRay Multi Audio ESub.mkv" },
+    "1080p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=P7kKohYbjJKy58_v-1r1bY4q89BwVNO9vK-G6xQTEUlUnWqcowqTZrtfiURMz8BJHrkZVlLxa2i8bsckjDw52A&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20My%20Hero%20Academia%20Vigilantes%20S01E05%201080p%20HEVC%2010bit%20BluRay%20Multi%20Audio%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] My Hero Academia Vigilantes S01E05 1080p HEVC 10bit BluRay Multi Audio ESub.mkv" }
+  }
+},
+"my-hero-academia-vigilantes-1x6": {
+  qualities: {
+    "480p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=TnTqSRB2ZV9_8SiNkpCPAQfTs7FgM0Fp_7xgEttcn_KUhy2pAA5y7o4cKAPAGdFNfMlHt8uQ42BTfGUg8kqxug&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20My%20Hero%20Academia%20Vigilantes%20S01E06%20480p%20BluRay%20Multi%20Audio%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] My Hero Academia Vigilantes S01E06 480p BluRay Multi Audio ESub.mkv" },
+    "720p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=FYGbFePajwET4m81EXVw5WDWEhB3jJ-8u9I1KYMmfCnHWUxB5Nz7YpPY7jLXcTDk_oCaj8evJ1zwDzpRJEGLNw&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20My%20Hero%20Academia%20Vigilantes%20S01E06%20720p%20HD%20BluRay%20Multi%20Audio%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] My Hero Academia Vigilantes S01E06 720p HD BluRay Multi Audio ESub.mkv" },
+    "1080p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=u57jf9Z3kJk754FvsyJowIRAJSVD6KJzLi5G0Luoo2W0mCP9sVbBSf2SJBZLWTN0iZcR52zQNm8liQX6-9RRoA&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20My%20Hero%20Academia%20Vigilantes%20S01E06%201080p%20HEVC%2010bit%20BluRay%20Multi%20Audio%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] My Hero Academia Vigilantes S01E06 1080p HEVC 10bit BluRay Multi Audio ESub.mkv" }
+  }
+},
+"my-hero-academia-vigilantes-1x7": {
+  qualities: {
+    "480p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=zWLF8qG-eZGCQ7OYzL6_j9Jy5oj_vYuSW_KOWR3CW39juZhIOULwF_ZjAAnyLYFhXSkEMRZIXKmnC3I1uJ22hw&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20My%20Hero%20Academia%20Vigilantes%20S01E07%20480p%20BluRay%20Multi%20Audio%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] My Hero Academia Vigilantes S01E07 480p BluRay Multi Audio ESub.mkv" },
+    "720p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=-ETf18CM0zScVT6M0U67Um3ml8MLuG5TQf3pcEfU0yTynUAe4oJbRwUH7HPGkbDokOtcuwMCFhdQWuzLH7YAKA&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20My%20Hero%20Academia%20Vigilantes%20S01E07%20720p%20HD%20BluRay%20Multi%20Audio%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] My Hero Academia Vigilantes S01E07 720p HD BluRay Multi Audio ESub.mkv" },
+    "1080p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=W060tt8fWUfoUwAyXX9R1PhICnYe-IAUA6N7pxeWv3mWWvP3dJqXvuqrADf6cGkcYWcDfJyIaLp7RcY-8UaBKQ&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20My%20Hero%20Academia%20Vigilantes%20S01E07%201080p%20HEVC%2010bit%20BluRay%20Multi%20Audio%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] My Hero Academia Vigilantes S01E07 1080p HEVC 10bit BluRay Multi Audio ESub.mkv" }
+  }
+},
+"my-hero-academia-vigilantes-1x8": {
+  qualities: {
+    "480p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=7wlmDbsmRazHdGYqbKP6WvyjzWwddkXxJOhhc52d4xKV4mvVzxZ8ZNlpUxY0nyeiGlPXKKHPLKi4GGIUh1ckmw&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20My%20Hero%20Academia%20Vigilantes%20S01E08%20480p%20BluRay%20Multi%20Audio%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] My Hero Academia Vigilantes S01E08 480p BluRay Multi Audio ESub.mkv" },
+    "720p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=a22PZTGtj5y7lzR9vnDTUTVfUXr31Go6DvM7iZFtWRCYoICJBfDOnp7zOQhxGcFQFxFRCRvM41f_Tqf1VRmAwA&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20My%20Hero%20Academia%20Vigilantes%20S01E08%20720p%20HD%20BluRay%20Multi%20Audio%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] My Hero Academia Vigilantes S01E08 720p HD BluRay Multi Audio ESub.mkv" },
+    "1080p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=M7jK8zvuAoned5IE-38PwQMf0ou5g-6RLYS9gXQ2SxS1yX23IPaPuiHgIAlpWNJHMdMVN9IbNtUl_Ebh-xjZpQ&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20My%20Hero%20Academia%20Vigilantes%20S01E08%201080p%20HEVC%2010bit%20BluRay%20Multi%20Audio%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] My Hero Academia Vigilantes S01E08 1080p HEVC 10bit BluRay Multi Audio ESub.mkv" }
+  }
+},
+"my-hero-academia-vigilantes-1x9": {
+  qualities: {
+    "480p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=elsKuhw94j9n-pqzT_RUoCZclc5C89VJ8-eSC2FOkrz7HpECV2uTIHSF_8aIAT_cK76ZbVlywN0TOJBeyh36Kw&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20My%20Hero%20Academia%20Vigilantes%20S01E09%20480p%20BluRay%20Multi%20Audio%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] My Hero Academia Vigilantes S01E09 480p BluRay Multi Audio ESub.mkv" },
+    "720p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=G-0Y_hhuhA1Fdo-GcWaIRDV1dabbGsWCqCVUGF4na3MSC07DV_5KFk4KouXK4wHd3T9X7v3WXXAHsraxKszwXQ&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20My%20Hero%20Academia%20Vigilantes%20S01E09%20720p%20HD%20BluRay%20Multi%20Audio%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] My Hero Academia Vigilantes S01E09 720p HD BluRay Multi Audio ESub.mkv" },
+    "1080p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=5mw6x40sEBYtILdHwRQNVfRyw1PAknI5OYgW3zDE1D6w4WBPYCGJEFUM1wf8EvDxwP4eMrUJdpUFqxZ4UNYc2Q&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20My%20Hero%20Academia%20Vigilantes%20S01E09%201080p%20HEVC%2010bit%20BluRay%20Multi%20Audio%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] My Hero Academia Vigilantes S01E09 1080p HEVC 10bit BluRay Multi Audio ESub.mkv" }
+  }
+},
+"my-hero-academia-vigilantes-1x10": {
+  qualities: {
+    "480p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=FC_akXiADuoZd3njo15UD9u6pRKa-TpTBh0rJlBkIoUrppF386YZBNGx1Qh4WOWWQrnyL_AVkFhwm6SpA0_FFQ&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20My%20Hero%20Academia%20Vigilantes%20S01E10%20480p%20BluRay%20Multi%20Audio%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] My Hero Academia Vigilantes S01E10 480p BluRay Multi Audio ESub.mkv" },
+    "720p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=X4S8OrV9vux57ITFW_ijAy1v3q0ClkTMN59mteS50Nr1VbY-voMSoegjBHy_WsNsZPOfVgRF5L9qbMNGkSdVYg&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20My%20Hero%20Academia%20Vigilantes%20S01E10%20720p%20HD%20BluRay%20Multi%20Audio%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] My Hero Academia Vigilantes S01E10 720p HD BluRay Multi Audio ESub.mkv" },
+    "1080p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=ul4EljeGWYKqeqKKaX7cFkp_olMhkY2Hmg66MS8ya7hqAdEhsv92ELUEJSqKFGBuRv7MBUt0cIYcIG8lo9YmjQ&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20My%20Hero%20Academia%20Vigilantes%20S01E10%201080p%20HEVC%2010bit%20BluRay%20Multi%20Audio%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] My Hero Academia Vigilantes S01E10 1080p HEVC 10bit BluRay Multi Audio ESub.mkv" }
+  }
+},
+"my-hero-academia-vigilantes-1x11": {
+  qualities: {
+    "480p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=oiHOpGO7A85LxvopiSFPCD7pqztj-wUd_jW1TJayarzVXJFvczHWg44Qxv5OfS7K1CLVm8Km-Upmp7xXky-dAA&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20My%20Hero%20Academia%20Vigilantes%20S01E11%20480p%20BluRay%20Multi%20Audio%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] My Hero Academia Vigilantes S01E11 480p BluRay Multi Audio ESub.mkv" },
+    "720p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=IvbcmmaC5F-wxq635-TSwqkipFpmZQmAZ4gUsrnp1TvGDBg1mchT7BAl3Uik7JDNbSI6kOor1Ub2RZnsVzRWUw&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20My%20Hero%20Academia%20Vigilantes%20S01E11%20720p%20HD%20BluRay%20Multi%20Audio%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] My Hero Academia Vigilantes S01E11 720p HD BluRay Multi Audio ESub.mkv" },
+    "1080p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=OjwH_qOknJfR8WpYv0AHLVEGpxTO0_ACBECLQo-YJ5-LPPVOGSZVNlHQAuFOUvXOIdnB_8_as4yGzwagfgTiyg&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20My%20Hero%20Academia%20Vigilantes%20S01E11%201080p%20HEVC%2010bit%20BluRay%20Multi%20Audio%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] My Hero Academia Vigilantes S01E11 1080p HEVC 10bit BluRay Multi Audio ESub.mkv" }
+  }
+},
+"my-hero-academia-vigilantes-1x12": {
+  qualities: {
+    "480p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=ZaqoDi90H4z1Y_1Qc95kMxNw1z9-i6oT43F7q05IEMW8XBX2jfUefmQiAFYyQQVv3-GoS4UwjGQwGDGmzjX-aw&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20My%20Hero%20Academia%20Vigilantes%20S01E12%20480p%20BluRay%20Multi%20Audio%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] My Hero Academia Vigilantes S01E12 480p BluRay Multi Audio ESub.mkv" },
+    "720p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=9NYjmOJhHEZcyfnH0XeWotI6dTMS1ZS-HiMhVwTeGPVr0YM1ebu368m18sfCiLU6nsa9LlK3EoF1JMr4kfdbQg&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20My%20Hero%20Academia%20Vigilantes%20S01E12%20720p%20HD%20BluRay%20Multi%20Audio%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] My Hero Academia Vigilantes S01E12 720p HD BluRay Multi Audio ESub.mkv" },
+    "1080p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=UCOBkB5M9inzM8nPogcdxM_25CqmoU42QF19-A_QGDxfUfmAQIkh6UWRHtyXACAhYt3uOFc4yYitPgN6RUu4OA&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20My%20Hero%20Academia%20Vigilantes%20S01E12%201080p%20HEVC%2010bit%20BluRay%20Multi%20Audio%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] My Hero Academia Vigilantes S01E12 1080p HEVC 10bit BluRay Multi Audio ESub.mkv" }
+  }
+},
+"my-hero-academia-vigilantes-1x13": {
+  qualities: {
+    "480p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=tW-xaN7FgIXFPidAD8fUWmEftAsD9WGSUvilOK2TUubVXDuuXXmkGmXvpQ1SCtyfbOpGYxH6_WHr_AjBNaTViw&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20My%20Hero%20Academia%20Vigilantes%20S01E13%20480p%20BluRay%20Multi%20Audio%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] My Hero Academia Vigilantes S01E13 480p BluRay Multi Audio ESub.mkv" },
+    "720p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=ikP71Cjsncu1S1JHAuzevPeAvyI0Gzbl-HMFzpSngx-wQAp3iBk-D8ALP53TSa3M42XBJIrjSPk04wNEfe3f2A&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20My%20Hero%20Academia%20Vigilantes%20S01E13%20720p%20HD%20BluRay%20Multi%20Audio%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] My Hero Academia Vigilantes S01E13 720p HD BluRay Multi Audio ESub.mkv" },
+    "1080p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=x52qlc3m5kOA5Z3kTmuXMBr7aaVbIpgn6znppsLaHBIpt-wmTpxu21iiYmqIBFLNQf0xtXCIUnt-8M-bjReXWQ&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20My%20Hero%20Academia%20Vigilantes%20S01E13%201080p%20HEVC%2010bit%20BluRay%20Multi%20Audio%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] My Hero Academia Vigilantes S01E13 1080p HEVC 10bit BluRay Multi Audio ESub.mkv" }
+  }
+},
+
+"trigun-stampede-1x1": {
+  qualities: {
+    "480p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=9Gg8yM1Fz-xWgbP1iAOP0PkA0eAQNv0t8iqZitycygG1sZwvcIDpIVhRu0pK6e3vCTXstjJf13G5gzk6X77vhw&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Trigun%20Stampede%20S01E01%20480p%20x264%20WEB-DL%20Multi%20Audio%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Trigun Stampede S01E01 480p x264 WEB-DL Multi Audio ESub.mkv" },
+    "720p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=tyXcGlVpC_3ZXy7fHygNy7OgVD7R8hkK0sKjYsGVt1IziIQqCvQ_u1qS3f6SHs6iNdBBQX-vzJu595TK8XnpzA&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Trigun%20Stampede%20S01E01%20720p%20x264%20WEB-DL%20Multi%20Audio%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Trigun Stampede S01E01 720p x264 WEB-DL Multi Audio ESub.mkv" },
+    "1080p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=G-lIth4u6f83Bcih5Fo4Oi7toMRdVhgcN6vhmIFfch5Mt9EqWGRYDlIMjLvbm0lUU9tg9GutkWQDrRhk3DkvfA&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Trigun%20Stampede%20S01E01%201080p%20x265%2010bit%20WEB-DL%20Multi%20Audio%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Trigun Stampede S01E01 1080p x265 10bit WEB-DL Multi Audio ESub.mkv" }
+  }
+},
+"trigun-stampede-1x2": {
+  qualities: {
+    "480p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=e596YCU4MEQYla1xIXRrzov-ZdSd7p5hZY4y4GMGEB8mqD9TH7kyg3RjPi4RjPa4yN22wQZjL550gl9B5Ualkw&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Trigun%20Stampede%20S01E02%20480p%20x264%20WEB-DL%20Multi%20Audio%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Trigun Stampede S01E02 480p x264 WEB-DL Multi Audio ESub.mkv" },
+    "720p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=PDGKn1VZ0l5dK5LB3N-0R0MuO-uKC3qxry7jNC7jgEfDPjZmxDLSr1w4xQieSlV_68MMxpCQskLVWJzwa6gFxA&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Trigun%20Stampede%20S01E02%20720p%20x264%20WEB-DL%20Multi%20Audio%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Trigun Stampede S01E02 720p x264 WEB-DL Multi Audio ESub.mkv" },
+    "1080p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=HjZgF2W60ffjQpZNwKtflmkuuYHBcj2kJjNfVDLtYcQcRuNwbjOpyGVG0MHUOVIW7a7wLxETMG6KwYqba6fYgA&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Trigun%20Stampede%20S01E02%201080p%20x265%2010bit%20WEB-DL%20Multi%20Audio%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Trigun Stampede S01E02 1080p x265 10bit WEB-DL Multi Audio ESub.mkv" }
+  }
+},
+"trigun-stampede-1x3": {
+  qualities: {
+    "480p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=u7qKvQNB_tXSSk2SZZVpC-MggCD1zee9tIndbrnrs9vJH0wJ0NNRfx2iSij5y-47qJGj7F0W62cDfdJFGTv26g&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Trigun%20Stampede%20S01E03%20480p%20x264%20WEB-DL%20Multi%20Audio%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Trigun Stampede S01E03 480p x264 WEB-DL Multi Audio ESub.mkv" },
+    "720p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=3_VgZ4kuSl7-GcIt_WrfsCLIgQ_bf_iGt3moDtDCgTxBniZcm4L4-igj54H2-OTGLl5Jge_JcF3RcX25t17wzw&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Trigun%20Stampede%20S01E03%20720p%20x264%20WEB-DL%20Multi%20Audio%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Trigun Stampede S01E03 720p x264 WEB-DL Multi Audio ESub.mkv" },
+    "1080p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=GhjuZ8ptJXHPZOLs_OCPdDtozZyrjuQ8p1cWzD79ZHjWIIa-UcV2eDLAp0erPWw_nq2Jf6zJWghhfRh3mklZ_g&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Trigun%20Stampede%20S01E03%201080p%20x265%2010bit%20WEB-DL%20Multi%20Audio%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Trigun Stampede S01E03 1080p x265 10bit WEB-DL Multi Audio ESub.mkv" }
+  }
+},
+"trigun-stampede-1x4": {
+  qualities: {
+    "480p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=cdVvCrfqee1cDZK-KsEYxKCQmiI69_jiYcm9I0M371jA8APZiydRwUREqCdYjvFptpHpdjUnDWLitQjRzrdGAw&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Trigun%20Stampede%20S01E04%20480p%20x264%20WEB-DL%20Multi%20Audio%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Trigun Stampede S01E04 480p x264 WEB-DL Multi Audio ESub.mkv" },
+    "720p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=hJn_TS2lBQsqycd-_-PK-8V5RPa2Nj3LrvqwxTb0dC0tcDpSbgCP0HZKVM5Lz5e8kCpxdXyuNRLFwGCv0lY0aQ&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Trigun%20Stampede%20S01E04%20720p%20x264%20WEB-DL%20Multi%20Audio%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Trigun Stampede S01E04 720p x264 WEB-DL Multi Audio ESub.mkv" },
+    "1080p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=S2QyXRBspheopED879oXKzcs_RoB6lEGE7E6uod76X8beLSHbflAV47XvU95UNZZivvy_YkDBTH75Iu6OU-kmw&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Trigun%20Stampede%20S01E04%201080p%20x265%2010bit%20WEB-DL%20Multi%20Audio%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Trigun Stampede S01E04 1080p x265 10bit WEB-DL Multi Audio ESub.mkv" }
+  }
+},
+"trigun-stampede-1x5": {
+  qualities: {
+    "480p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=9_NCTOCTPqLlbCxkXm3FK1IrFkWFHCElmHg1jSrLjoUdg3IcGQB9eC28HXOFkJAeGxk6yOFYetAt45hZVWQr-w&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Trigun%20Stampede%20S01E05%20480p%20x264%20WEB-DL%20Multi%20Audio%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Trigun Stampede S01E05 480p x264 WEB-DL Multi Audio ESub.mkv" },
+    "720p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=gyziX40gIYEllw0z1V1yUp631NnTHDBPAiruUIMcBr8g5v8EFlJHNKuTkXtCHQkXBSPyGAmr2r7yOCdg9Ry-VA&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Trigun%20Stampede%20S01E05%20720p%20x264%20WEB-DL%20Multi%20Audio%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Trigun Stampede S01E05 720p x264 WEB-DL Multi Audio ESub.mkv" },
+    "1080p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=22htOziZnzjoeVsD0ZBvZdymDQP7Ljh3eQ76DD-HK82d5AWd9aaX6R3kOusp6imGA-UG1yFFPqnHMk0EQOdRzQ&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Trigun%20Stampede%20S01E05%201080p%20x265%2010bit%20WEB-DL%20Multi%20Audio%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Trigun Stampede S01E05 1080p x265 10bit WEB-DL Multi Audio ESub.mkv" }
+  }
+},
+"trigun-stampede-1x6": {
+  qualities: {
+    "480p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=uLhKpHmqa4ujtw_uXqg2LLKhie_Zb_9ISx4fOn1nYqUfA_CzDdDVGJJmsf-Uq6G15DLrHYRLN5T6p_8oJ8Z3Ww&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Trigun%20Stampede%20S01E06%20480p%20x264%20WEB-DL%20Multi%20Audio%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Trigun Stampede S01E06 480p x264 WEB-DL Multi Audio ESub.mkv" },
+    "720p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=lYdToAuNMnYRu9FbEfeB_Mi-3--VEnytnpHxuZwUOQkgH3phjV6h0J7pIMi3ufQEwLuJoR7Ph7v3-2VHqTZdOQ&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Trigun%20Stampede%20S01E06%20720p%20x264%20WEB-DL%20Multi%20Audio%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Trigun Stampede S01E06 720p x264 WEB-DL Multi Audio ESub.mkv" },
+    "1080p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=cNAqK3Erf2rIrGGvenzPIbYI8NCtMGrGFa7NK1ggKd1GEE7StvWuYT6GPo12EKuA9RJmzP7FK73t3XkaQFhfHQ&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Trigun%20Stampede%20S01E06%201080p%20x265%2010bit%20WEB-DL%20Multi%20Audio%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Trigun Stampede S01E06 1080p x265 10bit WEB-DL Multi Audio ESub.mkv" }
+  }
+},
+"trigun-stampede-1x7": {
+  qualities: {
+    "480p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=r_92DUBzghO4L_PPrhil3_dNqhd2484BE7XA3_8ErPuGMMFcZpoZcSrNSawng5PldpVrEnto_FWhfcVFLy8S0Q&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Trigun%20Stampede%20S01E07%20480p%20x264%20WEB-DL%20Multi%20Audio%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Trigun Stampede S01E07 480p x264 WEB-DL Multi Audio ESub.mkv" },
+    "720p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=c7R5q4A0eBKYE5yIACYLiCrRbFqJV8FCzyD-bOI9hfuFRLO9TXyhrp9riL3lWwDLFF5Pqg7uuEdIdepxIRdpRQ&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Trigun%20Stampede%20S01E07%20720p%20x264%20WEB-DL%20Multi%20Audio%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Trigun Stampede S01E07 720p x264 WEB-DL Multi Audio ESub.mkv" },
+    "1080p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=Ci3Y1cOmh9_pvqJdUApvD9XDnPzIweb0aXzfYU_mqJKk7l70uwmHJRKkfcyNjG0taSvCuhaRA0rMALWpzcRiDA&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Trigun%20Stampede%20S01E07%201080p%20x265%2010bit%20WEB-DL%20Multi%20Audio%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Trigun Stampede S01E07 1080p x265 10bit WEB-DL Multi Audio ESub.mkv" }
+  }
+},
+"trigun-stampede-1x8": {
+  qualities: {
+    "480p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=P6i7LTVMSD-AOLqBScAUGzkewNGpSU0QSLnIIWWve-pg4QvJbRjS7VTwXU2mROoveTsZAgAJDPnOkTm47RVMIw&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Trigun%20Stampede%20S01E08%20480p%20x264%20WEB-DL%20Multi%20Audio%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Trigun Stampede S01E08 480p x264 WEB-DL Multi Audio ESub.mkv" },
+    "720p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=oMkQbF1jlauq_W7k0_riBhc9paKbxXr8boqxcFVSPJjEe9Rt5wNez3EV_dddEM8YhsH2gWOpUwskf_i7yF5XEQ&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Trigun%20Stampede%20S01E08%20720p%20x264%20WEB-DL%20Multi%20Audio%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Trigun Stampede S01E08 720p x264 WEB-DL Multi Audio ESub.mkv" },
+    "1080p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=_faebhEDI5Sbc0LVl-VneRrlv5OoycqJFUEgZ7qtJlqAYhltLLz3UOAEYWeCBpx7WkMaonn7daI5BBDBmTRDJg&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Trigun%20Stampede%20S01E08%201080p%20x265%2010bit%20WEB-DL%20Multi%20Audio%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Trigun Stampede S01E08 1080p x265 10bit WEB-DL Multi Audio ESub.mkv" }
+  }
+},
+"trigun-stampede-1x9": {
+  qualities: {
+    "480p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=RyGUHLRinnjF0i-WpSSflnGT4Pe7Y-i3zt9SHoCQ2gyNyjsIS_1Lt7hhMlFP6ZMaqqdhKvZAP3YIjdFCRtkwiA&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Trigun%20Stampede%20S01E09%20480p%20x264%20WEB-DL%20Multi%20Audio%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Trigun Stampede S01E09 480p x264 WEB-DL Multi Audio ESub.mkv" },
+    "720p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=6jvHQ4KVxzLgrjcXeNis1fNH2scuVnrT4-wn1D4Ej8u_DDGo-V1EToQ8mIodSN2kcP5wOF_yFaMWP30SvMNCdA&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Trigun%20Stampede%20S01E09%20720p%20x264%20WEB-DL%20Multi%20Audio%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Trigun Stampede S01E09 720p x264 WEB-DL Multi Audio ESub.mkv" },
+    "1080p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=I9tAt2FcDlDipJCDr3c2NzH0O4ICMXwb_FxQMlYaIsLZ-kQmoAOcYZfvfr1cZ5vZWMIN_VnEee2DSoPvlmEelQ&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Trigun%20Stampede%20S01E09%201080p%20x265%2010bit%20WEB-DL%20Multi%20Audio%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Trigun Stampede S01E09 1080p x265 10bit WEB-DL Multi Audio ESub.mkv" }
+  }
+},
+"trigun-stampede-1x10": {
+  qualities: {
+    "480p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=wR8cx7wONaAx-GuxEJoNece-vn67T3IZLsSMDqhcPt9hS-l47eFVn0sZoBQEm9rZrRSH3H7N3lzSe2lafLwh6Q&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Trigun%20Stampede%20S01E10%20480p%20x264%20WEB-DL%20Multi%20Audio%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Trigun Stampede S01E10 480p x264 WEB-DL Multi Audio ESub.mkv" },
+    "720p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=__GUS9sCmfGQD4Ssmm4FALLJQikypJyFhxifdtuFHHtKNhn5Osjkla2_BrJCf2ij22nJw6eAkefJUNrlYpqEZw&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Trigun%20Stampede%20S01E10%20720p%20x264%20WEB-DL%20Multi%20Audio%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Trigun Stampede S01E10 720p x264 WEB-DL Multi Audio ESub.mkv" },
+    "1080p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=OZZW6nN5Ua0U0rSaCByDlmyPihG1iL_QqPV1n_nhGiZkx-X01O3Y2IekSaEksIRdLPG1NtRBsgMnFl4wn3JEhw&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Trigun%20Stampede%20S01E10%201080p%20x265%2010bit%20WEB-DL%20Multi%20Audio%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Trigun Stampede S01E10 1080p x265 10bit WEB-DL Multi Audio ESub.mkv" }
+  }
+},
+"trigun-stampede-1x11": {
+  qualities: {
+    "480p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=XhY1Oo2nPrHHHp9V8OvIcnHp9O-AUD-wCe3vDReXX5_M1R4PLA1VoTaoGB0WXFtuJ-n9RsRMz0_H7QElL39EGg&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Trigun%20Stampede%20S01E11%20480p%20x264%20WEB-DL%20Multi%20Audio%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Trigun Stampede S01E11 480p x264 WEB-DL Multi Audio ESub.mkv" },
+    "720p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=zu4sFD9MdM6Rz0u5Lbsl-aulV_qSOdoPWq7OQ4mJXzYWnIFE5OJyok2KIuPOB3j8ywd7LTRuZYMUZeRdpEOkwQ&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Trigun%20Stampede%20S01E11%20720p%20x264%20WEB-DL%20Multi%20Audio%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Trigun Stampede S01E11 720p x264 WEB-DL Multi Audio ESub.mkv" },
+    "1080p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=UmLe4xLyz6YsLK2ZmbYE03ak5rAAU_3VU4fhWPcawfnAk7kEvsi9HBhyEmOG_pog9J7Eqcv0h2nY9jD85zKpTA&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Trigun%20Stampede%20S01E11%201080p%20x265%2010bit%20WEB-DL%20Multi%20Audio%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Trigun Stampede S01E11 1080p x265 10bit WEB-DL Multi Audio ESub.mkv" }
+  }
+},
+"trigun-stampede-1x12": {
+  qualities: {
+    "480p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=7lWEgHFunjTJDPEVjy4Zkn5OV-n8n1XcFpdgHD-6TmJE7iaaDSJnQX5aRg7znjlyLV6dPQE51BmimUpwOkyncg&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Trigun%20Stampede%20S01E12%20480p%20x264%20WEB-DL%20Multi%20Audio%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Trigun Stampede S01E12 480p x264 WEB-DL Multi Audio ESub.mkv" },
+    "720p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=iy9bQKcHCCo8JyFw75NYA2BgSpnHuUeMNb5_VyrOOOuxMIYQhXEG43ZoaNO4YU5GjaJGif15mtS5PT0VG117Kw&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Trigun%20Stampede%20S01E12%20720p%20x264%20WEB-DL%20Multi%20Audio%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Trigun Stampede S01E12 720p x264 WEB-DL Multi Audio ESub.mkv" },
+    "1080p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=Okbb9SOydZKdzArqSTxIGLsKAhYhPf14R6wvN78H4wBCFxl5lGIdSdc2WPKv-2Qo8CFIeC88jXs5vQHk_v7u6Q&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Trigun%20Stampede%20S01E12%201080p%20x265%2010bit%20WEB-DL%20Multi%20Audio%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Trigun Stampede S01E12 1080p x265 10bit WEB-DL Multi Audio ESub.mkv" }
+  }
+},
+
+"trigun-stargaze-s2-2x1": {
+  qualities: {
+    "480p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=fFiHPmNkpTFWDIxtrULFG5ocr5mX9ltOdmnPA0weY4Pja_sEPR0O_Im5aYJ9esDpcxu3qxw7giQ4OMlIQ6sGQg&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Trigun%20Stargaze%20S02E01%20480p%20x264%20WEB-DL%20Multi%20Audio%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Trigun Stargaze S02E01 480p x264 WEB-DL Multi Audio ESub.mkv" },
+    "720p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=52OI3FPWZLP5aNyPJWd9YvE6__ejKCUrmNqkJG0yNQUk8EfhzRGw4ihzNZlr9c9oMhISciwQ8LkRU6csRkEtog&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Trigun%20Stargaze%20S02E01%20720p%20x264%20WEB-DL%20Multi%20Audio%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Trigun Stargaze S02E01 720p x264 WEB-DL Multi Audio ESub.mkv" },
+    "1080p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=IaNKFgvf3Dse1x_GQDJ4hmMncVcOrjbzzhpVlTwpmtBxzUjPnBDVE4tNukY4AFqdZVP1GKBe0583e4aVL9Ay1A&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Trigun%20Stargaze%20S02E01%201080p%20x265%2010bit%20WEB-DL%20Multi%20Audio%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Trigun Stargaze S02E01 1080p x265 10bit WEB-DL Multi Audio ESub.mkv" }
+  }
+},
+"trigun-stargaze-s2-2x2": {
+  qualities: {
+    "480p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=GqkwgLMBV9wj1ERTsW8F5pLJYwgI7wkHAAWhospqrhSsEoKNmBXXc_qdJ2InfICuwPiiTyZPNQA5btAOzR-_vA&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Trigun%20Stargaze%20S02E02%20480p%20x264%20WEB-DL%20Multi%20Audio%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Trigun Stargaze S02E02 480p x264 WEB-DL Multi Audio ESub.mkv" },
+    "720p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=N2YEZqDie5ohYMpshVYkoN_kws9hTkGvjHcqm57rAr--8ophjBvpkiFpt-nqCurVPPCEq5tfDatFhWvN5xH0pw&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Trigun%20Stargaze%20S02E02%20720p%20x264%20WEB-DL%20Multi%20Audio%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Trigun Stargaze S02E02 720p x264 WEB-DL Multi Audio ESub.mkv" },
+    "1080p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=n5cFc47i-AtCuIfEJAEUhIG_QcoNI5burNTHXSn-BeMh0IONzR5d70k3Y7TwEHw3_PlQerMjwspOitcsCxxCpw&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Trigun%20Stargaze%20S02E02%201080p%20x265%2010bit%20WEB-DL%20Multi%20Audio%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Trigun Stargaze S02E02 1080p x265 10bit WEB-DL Multi Audio ESub.mkv" }
+  }
+},
+"trigun-stargaze-s2-2x3": {
+  qualities: {
+    "480p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=RwBVXsDmiAUx6i-sr9-aWD2jpX485KLCRQTknp8k130R3EBnbFoQSPDfffm4fpPOrX0HguDCAJroO2A1GpOnMw&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Trigun%20Stargaze%20S02E03%20480p%20x264%20WEB-DL%20Multi%20Audio%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Trigun Stargaze S02E03 480p x264 WEB-DL Multi Audio ESub.mkv" },
+    "720p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=1I4Stn8bB_3xLO5PGnyl9pm6BEeOayAfYwldHY3OhiGg62FUWb657rSSO2MhDxzKgXAAfpZtJ-ZaGE-pbB314Q&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Trigun%20Stargaze%20S02E03%20720p%20x264%20WEB-DL%20Multi%20Audio%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Trigun Stargaze S02E03 720p x264 WEB-DL Multi Audio ESub.mkv" },
+    "1080p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=7Zw0BRwuFNt0atnOGEI2hIFcy8VOe2iAiPYYiBn2OiwYaU4jIZNJWhvc0mDy_s0uXFzWQ-cHQmKmqxjjoNoVVg&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Trigun%20Stargaze%20S02E03%201080p%20x265%2010bit%20WEB-DL%20Multi%20Audio%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Trigun Stargaze S02E03 1080p x265 10bit WEB-DL Multi Audio ESub.mkv" }
+  }
+},
+"trigun-stargaze-s2-2x4": {
+  qualities: {
+    "480p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=cDGtdHbFUBA8NXPx3tbdpahsahB4EXQwsjajGYwNHxmBiZJQMnX4crPQqp2ykcIl5txiDDO9pPMB_f8KjyHHMg&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Trigun%20Stargaze%20S02E04%20480p%20x264%20WEB-DL%20Multi%20Audio%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Trigun Stargaze S02E04 480p x264 WEB-DL Multi Audio ESub.mkv" },
+    "720p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=L8aiZOaAC74qSbqGVzx2cexRX2FjwAYtt9vdljwf1Wah0zw7YkU5hpDQafheBrVq3j5OLp2_97GSNady8YAJeg&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Trigun%20Stargaze%20S02E04%20720p%20x264%20WEB-DL%20Multi%20Audio%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Trigun Stargaze S02E04 720p x264 WEB-DL Multi Audio ESub.mkv" },
+    "1080p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=kaL8RaoMypK83joXyr_XDoKlNi2wGpDNSZeSALP10LYQD7jwsq9eomx_4L2WFrjlhkTQzqQz2Xk26b9BgY9dDg&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Trigun%20Stargaze%20S02E04%201080p%20x265%2010bit%20WEB-DL%20Multi%20Audio%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Trigun Stargaze S02E04 1080p x265 10bit WEB-DL Multi Audio ESub.mkv" }
+  }
+},
+"trigun-stargaze-s2-2x5": {
+  qualities: {
+    "480p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=5bR7T4Jaxvw5wSGXJZaGp5_O5lNGAD0WD00Nelx8wXjYXFRIbvKaGNnEEFmMwuWAQ2o26NGa3dB9A9Nzs_wvKg&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Trigun%20Stargaze%20S02E05%20480p%20x264%20WEB-DL%20Multi%20Audio%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Trigun Stargaze S02E05 480p x264 WEB-DL Multi Audio ESub.mkv" },
+    "720p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=CkFm6X2APJo1f5W9nuJ1I4bGx_8xHZzbKZFpV9ztR1uZAPC6sDtdp2t6UOa_USFI7vlDM_gjHKkWXKFa-tlkIA&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Trigun%20Stargaze%20S02E05%20720p%20x264%20WEB-DL%20Multi%20Audio%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Trigun Stargaze S02E05 720p x264 WEB-DL Multi Audio ESub.mkv" },
+    "1080p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=BFGL4bVT_wxiucz7Ac7BZ0s28VtO_DlZAUW-y7cbNn7JkU0YMwrYub6JXtdIFNAxKjMflcbVPR1FQsRtJMJ6KQ&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Trigun%20Stargaze%20S02E05%201080p%20x265%2010bit%20WEB-DL%20Multi%20Audio%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Trigun Stargaze S02E05 1080p x265 10bit WEB-DL Multi Audio ESub.mkv" }
+  }
+},
+"trigun-stargaze-s2-2x6": {
+  qualities: {
+    "480p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=gNIj5FjEOTD5zW3-s2_-4JR18nX5-6RjQ80mj_uiUEwXyhZbFZ1r-edBck0gjkih_ql5rMJsQjScCa3Ros675Q&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Trigun%20Stargaze%20S02E06%20480p%20x264%20WEB-DL%20Multi%20Audio%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Trigun Stargaze S02E06 480p x264 WEB-DL Multi Audio ESub.mkv" },
+    "720p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=aPrSmVek5JVzf6gwlnr1VU7GNqIBvU-V5mjyxK1JxBW5EQq_y4XfFl5b2I8ximZ7RXDgVdeG9otEU41LuCelDQ&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Trigun%20Stargaze%20S02E06%20720p%20x264%20WEB-DL%20Multi%20Audio%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Trigun Stargaze S02E06 720p x264 WEB-DL Multi Audio ESub.mkv" },
+    "1080p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=RH0uBRA1qgmcr8XMWKOefUIDmjNFEDOB9wiu9fuz7_6IAVwazM2ZL4tJPx8Xi1Svp_Wos8axFL1jRfCBfZ5LLg&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Trigun%20Stargaze%20S02E06%201080p%20x265%2010bit%20WEB-DL%20Multi%20Audio%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Trigun Stargaze S02E06 1080p x265 10bit WEB-DL Multi Audio ESub.mkv" }
+  }
+},
+"trigun-stargaze-s2-2x7": {
+  qualities: {
+    "480p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=zaREpdEOY2Ggf5joFFG-B6P7d13drJEQF4pAmzveQMNkvAkQJbrXZxsjsVVenlmIYnqVP7pMG1hBjiM94eQmMg&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Trigun%20Stargaze%20S02E07%20480p%20x264%20WEB-DL%20Multi%20Audio%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Trigun Stargaze S02E07 480p x264 WEB-DL Multi Audio ESub.mkv" },
+    "720p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=wV0CO99GIzsGJf8_Dr-E7c3Oc730Ha5UK2P0p3-qQxd7bRmCWM0R9mI776oXUkvtVYXnsCJT1UkqNsVkwrbzTA&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Trigun%20Stargaze%20S02E07%20720p%20x264%20WEB-DL%20Multi%20Audio%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Trigun Stargaze S02E07 720p x264 WEB-DL Multi Audio ESub.mkv" },
+    "1080p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=ihBhrwfHRYI0BGjn29mNLxAg6gZS0xSED7_6dZ_YPobSWfsUZv_LN14OrH15cmYZDV39WwzXIsESrlyAkUv1fw&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Trigun%20Stargaze%20S02E07%201080p%20x265%2010bit%20WEB-DL%20Multi%20Audio%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Trigun Stargaze S02E07 1080p x265 10bit WEB-DL Multi Audio ESub.mkv" }
+  }
+},
+"trigun-stargaze-s2-2x8": {
+  qualities: {
+    "480p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=pKrhecnmOLFF-4-LEedv_xr46ZMYXPcrbdhNjf-2IrIgryv23Yd6dS_b1QA6gBvy7xlpYLFOxJUUKnn6EX0KcQ&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Trigun%20Stargaze%20S02E08%20480p%20x264%20WEB-DL%20Multi%20Audio%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Trigun Stargaze S02E08 480p x264 WEB-DL Multi Audio ESub.mkv" },
+    "720p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=zpY-Xbg5iIlCzm8byJkCLTHCr8zBeYMfmAtSUOvJtw6KTFovR2F4C9XbcNPeVUbt487mXaRhuwTsK90j5XLNbQ&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Trigun%20Stargaze%20S02E08%20720p%20x264%20WEB-DL%20Multi%20Audio%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Trigun Stargaze S02E08 720p x264 WEB-DL Multi Audio ESub.mkv" },
+    "1080p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=w-gTywRvAiTVERzJbESDDwGwXU4folPF38Zl90XeIR5lQ7y7sYehxtUz3yIlqFTBq7_tjNuzk8GAAPKCmPmf5w&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Trigun%20Stargaze%20S02E08%201080p%20x265%2010bit%20WEB-DL%20Multi%20Audio%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Trigun Stargaze S02E08 1080p x265 10bit WEB-DL Multi Audio ESub.mkv" }
+  }
+},
+"trigun-stargaze-s2-2x9": {
+  qualities: {
+    "480p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=bqa3JEplFed_YPmtmeV4_lMiuhwvWD-wWPoz7O_OMqB8YSW1nAF-_UIbQT-GvlQLj0nOuCzXoBkrHhUwwG4Ufg&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Trigun%20Stargaze%20S02E09%20480p%20x264%20WEB-DL%20Multi%20Audio%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Trigun Stargaze S02E09 480p x264 WEB-DL Multi Audio ESub.mkv" },
+    "720p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=Dxxudhka8yVGOvTaoWHQApoXtfr4AKgPIrwvmW0WvqXeg0IDTRVWXN-ntlyRIKKRCD7RKT1_R43KWdG62pZ-FA&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Trigun%20Stargaze%20S02E09%20720p%20x264%20WEB-DL%20Multi%20Audio%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Trigun Stargaze S02E09 720p x264 WEB-DL Multi Audio ESub.mkv" },
+    "1080p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=OA2yczFMX3B8FpKRTqg9SOwtXcHqXmLDRS2GMPbomM28dnGL6ehDm-Awebjpt7sqrUlF-qIHLqvv-ce0oIM_-w&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Trigun%20Stargaze%20S02E09%201080p%20x265%2010bit%20WEB-DL%20Multi%20Audio%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Trigun Stargaze S02E09 1080p x265 10bit WEB-DL Multi Audio ESub.mkv" }
+  }
+},
+"trigun-stargaze-s2-2x10": {
+  qualities: {
+    "480p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=R5QgsCmBik5MEjIcm1uvFrEtHfV8ECXfdSM0OV4RKOryCmWD2ZeOwcYymoYiqEONAMVqdaODor07JueEuVk37A&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Trigun%20Stargaze%20S02E10%20480p%20x264%20WEB-DL%20Multi%20Audio%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Trigun Stargaze S02E10 480p x264 WEB-DL Multi Audio ESub.mkv" },
+    "720p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=TATgAx_PWjZXV3JQrKTWwfFWLEfLjEtuzHT5LOKpajqSFFxFCwL7Jv2vlp9WEpEC8Xdi_ksd6aVZO0quIbUOPw&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Trigun%20Stargaze%20S02E10%20720p%20x264%20WEB-DL%20Multi%20Audio%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Trigun Stargaze S02E10 720p x264 WEB-DL Multi Audio ESub.mkv" },
+    "1080p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=QDJIChMf0K4-HFEahUKKsifmcoShyhTnWXiRL3GIA9CApOfXl-sKG2o0da3RoX_uwqHtpDL0I0S94CdyaQu8ww&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Trigun%20Stargaze%20S02E10%201080p%20x265%2010bit%20WEB-DL%20Multi%20Audio%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Trigun Stargaze S02E10 1080p x265 10bit WEB-DL Multi Audio ESub.mkv" }
+  }
+},
+"trigun-stargaze-s2-2x11": {
+  qualities: {
+    "480p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=rK_rHGpgoNjG9ymRfa_fshmMMGFfF2-8bWU5OSM7sUKZGXTkPIESnGzcqGZ9-_lyZ-qZ1R6j_rLoRBjAE_3Wig&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Trigun%20Stargaze%20S02E11%20480p%20x264%20WEB-DL%20Multi%20Audio%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Trigun Stargaze S02E11 480p x264 WEB-DL Multi Audio ESub.mkv" },
+    "720p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=AGuwqR3eY3izMEJeeYyYss_3B15JqeXKwY4-PrwkHQQUnhab3roSp5CmTXG9upOHGdwYk7Bl4mIg0KUHPlthwA&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Trigun%20Stargaze%20S02E11%20720p%20x264%20WEB-DL%20Multi%20Audio%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Trigun Stargaze S02E11 720p x264 WEB-DL Multi Audio ESub.mkv" },
+    "1080p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=GVWQ8qrYry1DUjAiGHJNhwbZisoOSd_GwgWuFIJFM1_zxfoLQy32w_0Krb-9V4zLgtr9l4191ydJOCLVFKnPEA&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Trigun%20Stargaze%20S02E11%201080p%20x265%2010bit%20WEB-DL%20Multi%20Audio%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Trigun Stargaze S02E11 1080p x265 10bit WEB-DL Multi Audio ESub.mkv" }
+  }
+},
+"trigun-stargaze-s2-2x12": {
+  qualities: {
+    "480p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=EwK5tGo38CryUP20EVVVJ5i7y5QI7E3dbmkNbOEuFbMtaBZlpaLzXfFkcDB-u3cs__JUi8MGu9OzzwcnM7T8hQ&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Trigun%20Stargaze%20S02E12%20480p%20x264%20WEB-DL%20Multi%20Audio%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Trigun Stargaze S02E12 480p x264 WEB-DL Multi Audio ESub.mkv" },
+    "720p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=4SFaz6OdJVH-9CyAOof2L-xOEIOhwj7WXAqQ_ZoXbKf0qRoV-xAMcF7PJpCotcn9BoIaaHVHtLDYbPqFbcStUg&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Trigun%20Stargaze%20S02E12%20720p%20x264%20WEB-DL%20Multi%20Audio%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Trigun Stargaze S02E12 720p x264 WEB-DL Multi Audio ESub.mkv" },
+    "1080p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=omv8toly3hf0YCwR12I-puYdtTPcIeEU32XJrmEIDSmbxrL1_Pa31gnAjx0NrvrBZKjRGN0hqyN_EccoFSPsRQ&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Trigun%20Stargaze%20S02E12%201080p%20x265%2010bit%20WEB-DL%20Multi%20Audio%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Trigun Stargaze S02E12 1080p x265 10bit WEB-DL Multi Audio ESub.mkv" }
+  }
+},
+
+"baki-dou-the-invincible-samurai-1x1": {
+  qualities: {
+    "480p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=AUlsj68LlEOGm8nkYhFTflgQoPkULtrejCbSMWixZtUV4yEvc2xUHEc9uskd7gLnKuQ3SCu8NvPn-5CnI7UBWQ&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20BAKI-DOU%20The%20Invincible%20Samurai%20S01E01%20480p%20NF%20WEB-DL%20Multi%20Audio%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] BAKI-DOU The Invincible Samurai S01E01 480p NF WEB-DL Multi Audio ESub.mkv" },
+    "720p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=mW6WHTPAIYi1tU-qCG9QBh2jQiVEqs7MrB6ysYGlSaRi4snpb96irREW0yedVpi2Qk845gR7UUqMhGbKUdLvUQ&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20BAKI-DOU%20The%20Invincible%20Samurai%20S01E01%20720p%20HD%20NF%20WEB-DL%20Multi%20Audio%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] BAKI-DOU The Invincible Samurai S01E01 720p HD NF WEB-DL Multi Audio ESub.mkv" },
+    "1080p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=3JH01PqCvWBsOLHeMd1KpzeSVEAdDi1jyB_Xfeio86DyUPbb0ISCpfx-46PF3PHs3csP-ttSCSNxr-8x_r-lCg&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20BAKI-DOU%20The%20Invincible%20Samurai%20S01E01%201080p%20HEVC%2010bit%20NF%20WEB-DL%20Multi%20Audio%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] BAKI-DOU The Invincible Samurai S01E01 1080p HEVC 10bit NF WEB-DL Multi Audio ESub.mkv" }
+  }
+},
+"baki-dou-the-invincible-samurai-1x2": {
+  qualities: {
+    "480p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=Dufu4S34-qUvdaA2pvUS2ALNBGpB-BlKSeqyYge7ZeC-V-0mRxQ1GfvnZVz18DiJ_sQCLDva55BMnCyD0NpF7A&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20BAKI-DOU%20The%20Invincible%20Samurai%20S01E02%20480p%20NF%20WEB-DL%20Multi%20Audio%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] BAKI-DOU The Invincible Samurai S01E02 480p NF WEB-DL Multi Audio ESub.mkv" },
+    "720p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=VvrrLRz2lRj_BoQPQ4Rew3yOHMk0poTaEudenBog4zk9aWBQzvRiokDS5x5VRbKXudiv59E11vDyiVZBqm6rnw&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20BAKI-DOU%20The%20Invincible%20Samurai%20S01E02%20720p%20HD%20NF%20WEB-DL%20Multi%20Audio%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] BAKI-DOU The Invincible Samurai S01E02 720p HD NF WEB-DL Multi Audio ESub.mkv" },
+    "1080p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=Byk51qizDzdYFf2aXLEZ_tXu34rQ7kZ3yqCXzOUaWjBsC9g0j6qjvQUaCgQGHF3FINfdQGYZZFeIusxy9GYvlg&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20BAKI-DOU%20The%20Invincible%20Samurai%20S01E02%201080p%20HEVC%2010bit%20NF%20WEB-DL%20Multi%20Audio%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] BAKI-DOU The Invincible Samurai S01E02 1080p HEVC 10bit NF WEB-DL Multi Audio ESub.mkv" }
+  }
+},
+"baki-dou-the-invincible-samurai-1x3": {
+  qualities: {
+    "480p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=ToVmYcOa5TzDfz4ba1KZNKqNFIHKPxYDoZjzB2NiGRQOY6TCwFHhl9yZw2oA4JAD5cl33neQUdmPcTVf_wQVuQ&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20BAKI-DOU%20The%20Invincible%20Samurai%20S01E03%20480p%20NF%20WEB-DL%20Multi%20Audio%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] BAKI-DOU The Invincible Samurai S01E03 480p NF WEB-DL Multi Audio ESub.mkv" },
+    "720p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=ZAY7Q8XlLDImS6XnsDFfrk8G5G2hnxXzwChefofbBoihrLNJOG5q3PhEOe4_GTz9bSdXBvO4kf19OSFLgwbOPA&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20BAKI-DOU%20The%20Invincible%20Samurai%20S01E03%20720p%20HD%20NF%20WEB-DL%20Multi%20Audio%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] BAKI-DOU The Invincible Samurai S01E03 720p HD NF WEB-DL Multi Audio ESub.mkv" },
+    "1080p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=AxjfhF9v88grDU_zQbYRsxTRnD6FEz42L2FZBkAD5XilwTlxiGtEoJRWcJE1nG_m6ESczNBDBqzH4rGmbiFZxg&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20BAKI-DOU%20The%20Invincible%20Samurai%20S01E03%201080p%20HEVC%2010bit%20NF%20WEB-DL%20Multi%20Audio%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] BAKI-DOU The Invincible Samurai S01E03 1080p HEVC 10bit NF WEB-DL Multi Audio ESub.mkv" }
+  }
+},
+"baki-dou-the-invincible-samurai-1x4": {
+  qualities: {
+    "480p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=teQpGlW0R_xepaRKxs-_p08aBElR0OZGtDFLVffL8BHdxjNQ1iavTcX8yMkM4Cm-D-ZT33POAD46JAHvm8jLFg&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20BAKI-DOU%20The%20Invincible%20Samurai%20S01E04%20480p%20NF%20WEB-DL%20Multi%20Audio%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] BAKI-DOU The Invincible Samurai S01E04 480p NF WEB-DL Multi Audio ESub.mkv" },
+    "720p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=vWXu7v_1TBmAaWQi8nSswA4PxrOyQwO4GdMBcK10liYMQF9sAjYAcPGj4DURGOmuDj0QAyiyVEIvKFmp2cfKcA&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20BAKI-DOU%20The%20Invincible%20Samurai%20S01E04%20720p%20HD%20NF%20WEB-DL%20Multi%20Audio%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] BAKI-DOU The Invincible Samurai S01E04 720p HD NF WEB-DL Multi Audio ESub.mkv" },
+    "1080p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=MUqXc_mON7v49SO1WW2OeVbL3isZaadNs5tg4yzbcFA4ePvdlurYoZXU4NFNqfCq0_EoUafL231Sa1kfxpWfcw&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20BAKI-DOU%20The%20Invincible%20Samurai%20S01E04%201080p%20HEVC%2010bit%20NF%20WEB-DL%20Multi%20Audio%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] BAKI-DOU The Invincible Samurai S01E04 1080p HEVC 10bit NF WEB-DL Multi Audio ESub.mkv" }
+  }
+},
+"baki-dou-the-invincible-samurai-1x5": {
+  qualities: {
+    "480p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=q1V5yfBisDCLB1e3SSCmkG-rN6PdXt7Va95LtLWbZdjqtgSPKkAxYxxatt8XcsO7MRDzh0xeQLnVGgyePS4rVA&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20BAKI-DOU%20The%20Invincible%20Samurai%20S01E05%20480p%20NF%20WEB-DL%20Multi%20Audio%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] BAKI-DOU The Invincible Samurai S01E05 480p NF WEB-DL Multi Audio ESub.mkv" },
+    "720p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=KWCIrbu1Riki7rtiDDPZsyRnBAESWBevjOGDPNmvGdSZSwwwLUwiRlGM48jYzrWKpdAnZi5zH48GXsG84cQU1g&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20BAKI-DOU%20The%20Invincible%20Samurai%20S01E05%20720p%20HD%20NF%20WEB-DL%20Multi%20Audio%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] BAKI-DOU The Invincible Samurai S01E05 720p HD NF WEB-DL Multi Audio ESub.mkv" },
+    "1080p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=e2D5nv45-V9Tn_-Y1ZOxeglrWFmxM2vWGg0nuvkQr4lhdoMqhjwYLnTtpSxufPpnw9nJ8FFf7F9pvEz-Fz5TUw&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20BAKI-DOU%20The%20Invincible%20Samurai%20S01E05%201080p%20HEVC%2010bit%20NF%20WEB-DL%20Multi%20Audio%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] BAKI-DOU The Invincible Samurai S01E05 1080p HEVC 10bit NF WEB-DL Multi Audio ESub.mkv" }
+  }
+},
+"baki-dou-the-invincible-samurai-1x6": {
+  qualities: {
+    "480p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=SSf0-liWP2yMSP_Lw_hAXPxmrIboHo4wR3rP1eRYijrIZJHz8bwJ9ZY9IOmRrcPYoCVaJthWKrTt4fZ9sshSFA&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20BAKI-DOU%20The%20Invincible%20Samurai%20S01E06%20480p%20NF%20WEB-DL%20Multi%20Audio%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] BAKI-DOU The Invincible Samurai S01E06 480p NF WEB-DL Multi Audio ESub.mkv" },
+    "720p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=oZrgRUvQN5eojiYQgzuOWw2HvD4LY1frczSW9yX-IuHi1gSHaosXsh_ZL4guzr-v2kj8NMX3eLo-PKmfjUhJKw&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20BAKI-DOU%20The%20Invincible%20Samurai%20S01E06%20720p%20HD%20NF%20WEB-DL%20Multi%20Audio%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] BAKI-DOU The Invincible Samurai S01E06 720p HD NF WEB-DL Multi Audio ESub.mkv" },
+    "1080p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=J14rLln6hlJfT38iU0lNusUG_RA3mwACeZnA1dmV_mYq0C-CrdqftmcyLLT5rDXyGozAyWijP_gXzddGBaF_lQ&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20BAKI-DOU%20The%20Invincible%20Samurai%20S01E06%201080p%20HEVC%2010bit%20NF%20WEB-DL%20Multi%20Audio%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] BAKI-DOU The Invincible Samurai S01E06 1080p HEVC 10bit NF WEB-DL Multi Audio ESub.mkv" }
+  }
+},
+"baki-dou-the-invincible-samurai-1x7": {
+  qualities: {
+    "480p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=M6mAblvLEIPUxNwHJgiZU0EJdmgBfLYMBnBzAWB-l_uQLKP2vPYWAl7Vz2O6vBD4LmV_ISxbgUlHa3p4UOScwQ&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20BAKI-DOU%20The%20Invincible%20Samurai%20S01E07%20480p%20NF%20WEB-DL%20Multi%20Audio%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] BAKI-DOU The Invincible Samurai S01E07 480p NF WEB-DL Multi Audio ESub.mkv" },
+    "720p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=o-o5uEskVrepuG6-rtkbKJ7Xqtz7p7lh9StpMAq0ZY4AiaszPeV5Lfpv6tAWmn-NyuP0C6ZUgdRwEiUEOAondA&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20BAKI-DOU%20The%20Invincible%20Samurai%20S01E07%20720p%20HD%20NF%20WEB-DL%20Multi%20Audio%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] BAKI-DOU The Invincible Samurai S01E07 720p HD NF WEB-DL Multi Audio ESub.mkv" },
+    "1080p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=-brrz0sOWqcEvb3tKsS9jcuAKVjbL-_l4lQ3udGAVZ9jOIF2NwkeBtseFGlvmZGAUCQdXAPAvN_tMdmPG8cE_A&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20BAKI-DOU%20The%20Invincible%20Samurai%20S01E07%201080p%20HEVC%2010bit%20NF%20WEB-DL%20Multi%20Audio%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] BAKI-DOU The Invincible Samurai S01E07 1080p HEVC 10bit NF WEB-DL Multi Audio ESub.mkv" }
+  }
+},
+"baki-dou-the-invincible-samurai-1x8": {
+  qualities: {
+    "480p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=IWAFJ4Zedvskn2ro979pIOzUZ7l6P5H50jQg3oT_9tptQtpkzhEKAzQjS0dUqFWR0VAq5DqjMMg0SSHfboX8HA&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20BAKI-DOU%20The%20Invincible%20Samurai%20S01E08%20480p%20NF%20WEB-DL%20Multi%20Audio%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] BAKI-DOU The Invincible Samurai S01E08 480p NF WEB-DL Multi Audio ESub.mkv" },
+    "720p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=P7zmyhDeYSi1TLDQaHwwpeg1521L2u7GQuZTW7XskkWVDYGmq03meicAvTast74K3z28aNk1M4JcQmwAOKXdhw&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20BAKI-DOU%20The%20Invincible%20Samurai%20S01E08%20720p%20HD%20NF%20WEB-DL%20Multi%20Audio%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] BAKI-DOU The Invincible Samurai S01E08 720p HD NF WEB-DL Multi Audio ESub.mkv" },
+    "1080p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=9jgxfnev45iUYWDwaE8ZNMzXc4yMUqbvmR6qlqjZ95bqC7PBm4UR3qNkb8UYf2A8pXzhQfkCAuyNcLe6XxQt6w&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20BAKI-DOU%20The%20Invincible%20Samurai%20S01E08%201080p%20HEVC%2010bit%20NF%20WEB-DL%20Multi%20Audio%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] BAKI-DOU The Invincible Samurai S01E08 1080p HEVC 10bit NF WEB-DL Multi Audio ESub.mkv" }
+  }
+},
+"baki-dou-the-invincible-samurai-1x9": {
+  qualities: {
+    "480p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=mxHL-w-CfsJorGeVHKgMGTYD523sNVlclTuLIjiefivfXbse49MK8htWmOGsa9zVLNxmcZy8ySDRWyUce_-YBw&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20BAKI-DOU%20The%20Invincible%20Samurai%20S01E09%20480p%20NF%20WEB-DL%20Multi%20Audio%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] BAKI-DOU The Invincible Samurai S01E09 480p NF WEB-DL Multi Audio ESub.mkv" },
+    "720p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=ulj3_CEqIZZ_iNuZJZgGhDcUE7dWZFGiJn7GRE7GTE7lsC4-q9_VxZJE-VBaZd2PIMsbMeHG9yLKus9svlwFwg&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20BAKI-DOU%20The%20Invincible%20Samurai%20S01E09%20720p%20HD%20NF%20WEB-DL%20Multi%20Audio%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] BAKI-DOU The Invincible Samurai S01E09 720p HD NF WEB-DL Multi Audio ESub.mkv" },
+    "1080p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=apQYOGzE8NyRl0wzGvOKoHsuwLN8Fyf6dsHnjRcREG6djAczkh_n2I6YelHyEat-cjKZWbbWVNLX-5Ki1FhiAg&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20BAKI-DOU%20The%20Invincible%20Samurai%20S01E09%201080p%20HEVC%2010bit%20NF%20WEB-DL%20Multi%20Audio%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] BAKI-DOU The Invincible Samurai S01E09 1080p HEVC 10bit NF WEB-DL Multi Audio ESub.mkv" }
+  }
+},
+"baki-dou-the-invincible-samurai-1x10": {
+  qualities: {
+    "480p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=Kjzf9R5maMn3T21BLAFVKKKFeNdRCZgpNHgz0lB6zmFwhMeEHbu2SK9QyNsut8LRG5K-BgFvOZIoLeZwVebXWw&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20BAKI-DOU%20The%20Invincible%20Samurai%20S01E10%20480p%20NF%20WEB-DL%20Multi%20Audio%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] BAKI-DOU The Invincible Samurai S01E10 480p NF WEB-DL Multi Audio ESub.mkv" },
+    "720p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=F6ku2vsm4hY89Z38OcQdv3SfaQnmR2sro6hMfXJj-4nny4CFUHGtlDgIOfVB95IPypGP1XeqbRnvLjY06NMA4Q&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20BAKI-DOU%20The%20Invincible%20Samurai%20S01E10%20720p%20HD%20NF%20WEB-DL%20Multi%20Audio%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] BAKI-DOU The Invincible Samurai S01E10 720p HD NF WEB-DL Multi Audio ESub.mkv" },
+    "1080p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=f1c22RRsVije64x_nibsAUoZ8dynyQ-3TODTciurEl0pjc41LZB2fEdrCUhbJPzRQ0TguAQ61RERyGCqSBX_QA&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20BAKI-DOU%20The%20Invincible%20Samurai%20S01E10%201080p%20HEVC%2010bit%20NF%20WEB-DL%20Multi%20Audio%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] BAKI-DOU The Invincible Samurai S01E10 1080p HEVC 10bit NF WEB-DL Multi Audio ESub.mkv" }
+  }
+},
+"baki-dou-the-invincible-samurai-1x11": {
+  qualities: {
+    "480p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=bBUN2HI-wm7tK1bUSZgP2tt9gaBI5zLfpv-6D8v63e4ga2m4RMxkvw4f3tNtSvPVEYsie3uQ5pcJxmOV1qzF2A&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20BAKI-DOU%20The%20Invincible%20Samurai%20S01E11%20480p%20NF%20WEB-DL%20Multi%20Audio%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] BAKI-DOU The Invincible Samurai S01E11 480p NF WEB-DL Multi Audio ESub.mkv" },
+    "720p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=pjI8CbQtEK5EFxOG6BM_jyG9W1QiDiyp6hbSFRnqH9ScEDoYrXaaKvUhVB6Q3bQCeAM01dhlFfmW3_b9TsEKAQ&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20BAKI-DOU%20The%20Invincible%20Samurai%20S01E11%20720p%20HD%20NF%20WEB-DL%20Multi%20Audio%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] BAKI-DOU The Invincible Samurai S01E11 720p HD NF WEB-DL Multi Audio ESub.mkv" },
+    "1080p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=uIQN0zxE-k2bQbcqGm7szT1AV4s_IB6h1r-iw4iVwf79lXvTl4S7AUDRpBzNHq12HVzoKy8JTuDYruMSlgNV0w&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20BAKI-DOU%20The%20Invincible%20Samurai%20S01E11%201080p%20HEVC%2010bit%20NF%20WEB-DL%20Multi%20Audio%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] BAKI-DOU The Invincible Samurai S01E11 1080p HEVC 10bit NF WEB-DL Multi Audio ESub.mkv" }
+  }
+},
+"baki-dou-the-invincible-samurai-1x12": {
+  qualities: {
+    "480p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=jtm2oIuUevqBMvzzCJfnWpB-KELmveHZPhJB_wnbmSN64NO__vD8CmvxanethAyKhEJBlLKhhDqlnE7zlEHCXQ&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20BAKI-DOU%20The%20Invincible%20Samurai%20S01E12%20480p%20NF%20WEB-DL%20Multi%20Audio%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] BAKI-DOU The Invincible Samurai S01E12 480p NF WEB-DL Multi Audio ESub.mkv" },
+    "720p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=IvmnPvyXRfF1IZfXsbi2sTjyCek78ch5prKzU9HNTq6Aer7jQMDSyTX7EKNjKi-FFUac0v0qjIsBHmyZqVSeow&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20BAKI-DOU%20The%20Invincible%20Samurai%20S01E12%20720p%20HD%20NF%20WEB-DL%20Multi%20Audio%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] BAKI-DOU The Invincible Samurai S01E12 720p HD NF WEB-DL Multi Audio ESub.mkv" },
+    "1080p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=8D-EJSccNqNKyEnuCodMBNBsJu8gU6zafIwjlB0EDgljaa6zf2Dfnfp9Pi36ire1YJvQcmt1aObfDSoTTmn9tA&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20BAKI-DOU%20The%20Invincible%20Samurai%20S01E12%201080p%20HEVC%2010bit%20NF%20WEB-DL%20Multi%20Audio%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] BAKI-DOU The Invincible Samurai S01E12 1080p HEVC 10bit NF WEB-DL Multi Audio ESub.mkv" }
+  }
+},
+"baki-dou-the-invincible-samurai-1x13": {
+  qualities: {
+    "480p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=iv4jVydsUjpIdpXROEtR4A8Q-ATpopqJ7Qeejf8POzuOGIUltpGhb0sPDRTtkyrYBvBVBN4lTm3ZHUGN264A3g&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20BAKI-DOU%20The%20Invincible%20Samurai%20S01E13%20480p%20NF%20WEB-DL%20Multi%20Audio%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] BAKI-DOU The Invincible Samurai S01E13 480p NF WEB-DL Multi Audio ESub.mkv" },
+    "720p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=XSHPEhv41x7lc3zoLqiAnIMeoQJhc1kJe8OWpC2oGrNqpt8PmyvwJH7cxJxuFYAW0KDNHYYb5kdFaUSQW2TEug&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20BAKI-DOU%20The%20Invincible%20Samurai%20S01E13%20720p%20HD%20NF%20WEB-DL%20Multi%20Audio%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] BAKI-DOU The Invincible Samurai S01E13 720p HD NF WEB-DL Multi Audio ESub.mkv" },
+    "1080p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=8hjqy48gacyYpy_3RO7W8aqHRZuxAcHGHYgjVCxRo8vgWVaqD2uTF4Hy86asv_8ipF60_sOQdxUvKiWwTPw1eA&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20BAKI-DOU%20The%20Invincible%20Samurai%20S01E13%201080p%20HEVC%2010bit%20NF%20WEB-DL%20Multi%20Audio%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] BAKI-DOU The Invincible Samurai S01E13 1080p HEVC 10bit NF WEB-DL Multi Audio ESub.mkv" }
+  }
+},
+"baki-dou-the-invincible-samurai-1x14": {
+  qualities: {
+    "480p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=LvxfoLz_ptwj26Nf9jycVBb2JbSdqHwgoPrS4nDkO75pbpsUVVQw1h4F7Hk5JwjlvvTC-bJC0OJ4N4JdZzhw1w&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20BAKI-DOU%20The%20Invincible%20Samurai%20S01E14%20480p%20NF%20WEB-DL%20Multi%20Audio%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] BAKI-DOU The Invincible Samurai S01E14 480p NF WEB-DL Multi Audio ESub.mkv" },
+    "720p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=vYTz9qkd8wYrte-SE8wZHvRV-z3fP1BS6cvlxrHltSJN7d4LheR_wtfOy5ZU7xl54QvsK4g91RV94gkV7QzVhA&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20BAKI-DOU%20The%20Invincible%20Samurai%20S01E14%20720p%20HD%20NF%20WEB-DL%20Multi%20Audio%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] BAKI-DOU The Invincible Samurai S01E14 720p HD NF WEB-DL Multi Audio ESub.mkv" },
+    "1080p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=Qn41p6qI0iJWfeyKBfYHLtg9nLJYDB9K_rKDpHEofmMyCCkxAvGHymuFEXQihtq2goptUqAQlfn0ixUFWUYBGA&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20BAKI-DOU%20The%20Invincible%20Samurai%20S01E14%201080p%20HEVC%2010bit%20NF%20WEB-DL%20Multi%20Audio%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] BAKI-DOU The Invincible Samurai S01E14 1080p HEVC 10bit NF WEB-DL Multi Audio ESub.mkv" }
+  }
+},
+"baki-dou-the-invincible-samurai-1x15": {
+  qualities: {
+    "480p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=921JuXJ0hNCexq0NK2gzoSKiyEpeH7SARSrtvzGI3Q9OXSrNijbapsa_vjrY9v7Wtknqwq1ewRZZcqBe7vtgRQ&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20BAKI-DOU%20The%20Invincible%20Samurai%20S01E15%20480p%20NF%20WEB-DL%20Multi%20Audio%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] BAKI-DOU The Invincible Samurai S01E15 480p NF WEB-DL Multi Audio ESub.mkv" },
+    "720p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=g5L_ole9fvWDJp0pY69aEUZcnpalRm0ns5nXmuTPnsiZRDYBaFy1LKEDKJ3bX7b6f0vtyBp5bH-u1ct3hmZ2ug&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20BAKI-DOU%20The%20Invincible%20Samurai%20S01E15%20720p%20HD%20NF%20WEB-DL%20Multi%20Audio%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] BAKI-DOU The Invincible Samurai S01E15 720p HD NF WEB-DL Multi Audio ESub.mkv" },
+    "1080p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=KKV-6wKSGbTqjOuhzkn32Mr5Uuo7bQ1fU4Qnbc1MOi6n8NH7zN-hdVYOrUpwsiFaq7RUtGFkOLsviQZmE7gTiA&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20BAKI-DOU%20The%20Invincible%20Samurai%20S01E15%201080p%20HEVC%2010bit%20NF%20WEB-DL%20Multi%20Audio%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] BAKI-DOU The Invincible Samurai S01E15 1080p HEVC 10bit NF WEB-DL Multi Audio ESub.mkv" }
+  }
+},
+"baki-dou-the-invincible-samurai-1x16": {
+  qualities: {
+    "480p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=U-K4YaUfDsLAALJcm1Llj1oHIy-sv7V2oIaml_92v-wxqcY5rf0RIifINTAAQD_fmnZT9VUsdBD9n0WFDSloSQ&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20BAKI-DOU%20The%20Invincible%20Samurai%20S01E16%20480p%20NF%20WEB-DL%20Multi%20Audio%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] BAKI-DOU The Invincible Samurai S01E16 480p NF WEB-DL Multi Audio ESub.mkv" },
+    "720p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=Iq9JIbGd5cBZjnHsTXxasHPFrmmNDOnAVIqls6_ugLtXjvdWfnr1rwEz_uyfe8KRPh8Pgm02bGXg-yINft2R_A&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20BAKI-DOU%20The%20Invincible%20Samurai%20S01E16%20720p%20HD%20NF%20WEB-DL%20Multi%20Audio%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] BAKI-DOU The Invincible Samurai S01E16 720p HD NF WEB-DL Multi Audio ESub.mkv" },
+    "1080p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=-6E-xMXr8MyDYBCLhBN5eVFUy4cUBQ8YDUZkhmLCNwLfN7j0uavvGkOfiGMbAVuR3awYB1C4cX4pHc2a1-eq6g&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20BAKI-DOU%20The%20Invincible%20Samurai%20S01E16%201080p%20HEVC%2010bit%20NF%20WEB-DL%20Multi%20Audio%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] BAKI-DOU The Invincible Samurai S01E16 1080p HEVC 10bit NF WEB-DL Multi Audio ESub.mkv" }
+  }
+},
+"baki-dou-the-invincible-samurai-1x17": {
+  qualities: {
+    "480p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=qFUTXVcrXejFT2xbKqQaozG5sg5-qQTvOJ6Aqnk3eg4vyQZbUTFn8aM1kVVI6LEecy7pQ75f0gHtzwRKtSHT5Q&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20BAKI-DOU%20The%20Invincible%20Samurai%20S01E17%20480p%20NF%20WEB-DL%20Multi%20Audio%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] BAKI-DOU The Invincible Samurai S01E17 480p NF WEB-DL Multi Audio ESub.mkv" },
+    "720p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=XUkWWZG7wchv7zlp68KVBf3V5G7jlHqXjYnBJCPODqn0Zbw-jNrYIZxsH3DrJeG7GfWItAHbhD-xACQvxC44dA&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20BAKI-DOU%20The%20Invincible%20Samurai%20S01E17%20720p%20HD%20NF%20WEB-DL%20Multi%20Audio%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] BAKI-DOU The Invincible Samurai S01E17 720p HD NF WEB-DL Multi Audio ESub.mkv" },
+    "1080p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=CO6mGU13qW8QHs31hvcT4D1mFBUmglszWlxDkeX3f0DtrSJWHiJTpXBVYNjyN1_7o6hs_6HWoR3fR2LqzIGJgA&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20BAKI-DOU%20The%20Invincible%20Samurai%20S01E17%201080p%20HEVC%2010bit%20NF%20WEB-DL%20Multi%20Audio%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] BAKI-DOU The Invincible Samurai S01E17 1080p HEVC 10bit NF WEB-DL Multi Audio ESub.mkv" }
+  }
+},
+"baki-dou-the-invincible-samurai-1x18": {
+  qualities: {
+    "480p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=dOQ9UybGGw0wDKBLz_OnKLKDIF3TUfgDLuB1nfki1tCCAo1iJdo8Qkh7gctBtfLjHRvhhUzCy-qmWktJIy_wJw&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20BAKI-DOU%20The%20Invincible%20Samurai%20S01E18%20480p%20NF%20WEB-DL%20Multi%20Audio%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] BAKI-DOU The Invincible Samurai S01E18 480p NF WEB-DL Multi Audio ESub.mkv" },
+    "720p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=f9fzJu7et18QjuD4B0QVMh4LRPu4735K5e-uvLLVuOFpAiFagO-gWOtzKSRX2zqaBBRcYJu-NU_qcR4U1DjQZw&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20BAKI-DOU%20The%20Invincible%20Samurai%20S01E18%20720p%20HD%20NF%20WEB-DL%20Multi%20Audio%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] BAKI-DOU The Invincible Samurai S01E18 720p HD NF WEB-DL Multi Audio ESub.mkv" },
+    "1080p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=Kf6psz-X9OabfLu2Aq2oPDzvSZ33OjGbuTkg-wym2_hLRoJXjYVz69nW26R4Zud9DRkJCU4WkGBAea7yaSyu5w&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20BAKI-DOU%20The%20Invincible%20Samurai%20S01E18%201080p%20HEVC%2010bit%20NF%20WEB-DL%20Multi%20Audio%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] BAKI-DOU The Invincible Samurai S01E18 1080p HEVC 10bit NF WEB-DL Multi Audio ESub.mkv" }
+  }
+},
+"baki-dou-the-invincible-samurai-1x19": {
+  qualities: {
+    "480p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=fgi7WOcx6BsgNzA8Pa0jiN2QDkgXfBpmRPrX97SsEVxGE9znXx7UbmIaS101VN4f2kD58JYGchmW-bNvP4Y4Uw&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20BAKI-DOU%20The%20Invincible%20Samurai%20S01E19%20480p%20NF%20WEB-DL%20Multi%20Audio%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] BAKI-DOU The Invincible Samurai S01E19 480p NF WEB-DL Multi Audio ESub.mkv" },
+    "720p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=Vmlxuo5JDkhX_ec0zDG5eb72NgzUaaa_e7-tcc1tUVV_r0vAhUIG6Cq9i2Lb_6cFkdwsXjarqNeKbL7xwjHtEA&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20BAKI-DOU%20The%20Invincible%20Samurai%20S01E19%20720p%20HD%20NF%20WEB-DL%20Multi%20Audio%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] BAKI-DOU The Invincible Samurai S01E19 720p HD NF WEB-DL Multi Audio ESub.mkv" },
+    "1080p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=ui1Yn1ImVBXzUC3WBpy3AxocibDYH6kP-35iy6lJeEIyWtzfiViuE8u0IMSs7I18Ta3v74IImOwuVlfe0lnQvA&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20BAKI-DOU%20The%20Invincible%20Samurai%20S01E19%201080p%20HEVC%2010bit%20NF%20WEB-DL%20Multi%20Audio%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] BAKI-DOU The Invincible Samurai S01E19 1080p HEVC 10bit NF WEB-DL Multi Audio ESub.mkv" }
+  }
+},
+"baki-dou-the-invincible-samurai-1x20": {
+  qualities: {
+    "480p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=Bl_XE7nGNEMOrtTiVJdjcsHJpPDiGBhC40g3Htia44XkPKAXwtSmxqs_cWjOq2ZIA1wS5VfyxKSMNREh8MEUOQ&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20BAKI-DOU%20The%20Invincible%20Samurai%20S01E20%20480p%20NF%20WEB-DL%20Multi%20Audio%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] BAKI-DOU The Invincible Samurai S01E20 480p NF WEB-DL Multi Audio ESub.mkv" },
+    "720p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=txioSDW_7vxeELUdOLyjGyK4KVxrE7b1KFzRA-DdMOlSJ3tHR81JUldBu39VIjlVPo998Y9bf9BwXeNLvvJgnA&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20BAKI-DOU%20The%20Invincible%20Samurai%20S01E20%20720p%20HD%20NF%20WEB-DL%20Multi%20Audio%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] BAKI-DOU The Invincible Samurai S01E20 720p HD NF WEB-DL Multi Audio ESub.mkv" },
+    "1080p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=vbiE1qgvvmULspkoN2__GRzZFDDzX_pFWFzX_Sn2z4c9UpHvIMTR6J5pQ-3H9P_z9QQt6X0RK-sm2djf2ePobg&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20BAKI-DOU%20The%20Invincible%20Samurai%20S01E20%201080p%20HEVC%2010bit%20NF%20WEB-DL%20Multi%20Audio%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] BAKI-DOU The Invincible Samurai S01E20 1080p HEVC 10bit NF WEB-DL Multi Audio ESub.mkv" }
+  }
+},
+"baki-dou-the-invincible-samurai-1x21": {
+  qualities: {
+    "480p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=brHKosfZJtaeE9Z_zTyVU1mlyK87B4_TKJj4rz_UH_5jJHSgLYPEXBkOO6J43_diT7HB28ABS20mAeQqvYb84w&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20BAKI-DOU%20The%20Invincible%20Samurai%20S01E21%20480p%20NF%20WEB-DL%20Multi%20Audio%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] BAKI-DOU The Invincible Samurai S01E21 480p NF WEB-DL Multi Audio ESub.mkv" },
+    "720p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=vGAKMEDL6ABACJ0ROgrieb1ohAiZ-YgVJm_Yp716MD_qCRow059h7hMtvxTue-j9w6FiI_XOnicuRgQNFkbbew&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20BAKI-DOU%20The%20Invincible%20Samurai%20S01E21%20720p%20HD%20NF%20WEB-DL%20Multi%20Audio%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] BAKI-DOU The Invincible Samurai S01E21 720p HD NF WEB-DL Multi Audio ESub.mkv" },
+    "1080p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=tsngdxXFa9fw6wY9oc09i6R7XZdau-NpqY3Z1U5aaRmGvs3h6r8GaXldKOSkSjInMSI9EGoVwVFUxGrsn4NOAg&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20BAKI-DOU%20The%20Invincible%20Samurai%20S01E21%201080p%20HEVC%2010bit%20NF%20WEB-DL%20Multi%20Audio%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] BAKI-DOU The Invincible Samurai S01E21 1080p HEVC 10bit NF WEB-DL Multi Audio ESub.mkv" }
+  }
+},
+"baki-dou-the-invincible-samurai-1x22": {
+  qualities: {
+    "480p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=2fvuGi_n5mTraOnQBGrM_XG1J0bo6dyGMqpwaRxUqPb6885cU-MeWavoXl9wPBS3ING7xuuIOgteBFBHmKEvKw&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20BAKI-DOU%20The%20Invincible%20Samurai%20S01E22%20480p%20NF%20WEB-DL%20Multi%20Audio%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] BAKI-DOU The Invincible Samurai S01E22 480p NF WEB-DL Multi Audio ESub.mkv" },
+    "720p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=BRDXGBpDyKSn8xcltp1SsgNCnVWQ5GiUJVLLsFwICQ6x_qBVEzt6gjtWrZ50ydApUuZ9qwy8SeuoHZ1zoze_ig&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20BAKI-DOU%20The%20Invincible%20Samurai%20S01E22%20720p%20HD%20NF%20WEB-DL%20Multi%20Audio%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] BAKI-DOU The Invincible Samurai S01E22 720p HD NF WEB-DL Multi Audio ESub.mkv" },
+    "1080p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=lpMj6u1qDOI5I0EYwSy_IUyL8wx2pQqdWJc56W7SbXae89jHMRpaTK5K77GKdTm-ZI_xqqwr5D05TOz_Grfj8Q&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20BAKI-DOU%20The%20Invincible%20Samurai%20S01E22%201080p%20HEVC%2010bit%20NF%20WEB-DL%20Multi%20Audio%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] BAKI-DOU The Invincible Samurai S01E22 1080p HEVC 10bit NF WEB-DL Multi Audio ESub.mkv" }
+  }
+},
+"baki-dou-the-invincible-samurai-1x23": {
+  qualities: {
+    "480p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=pv1IYih0bX_5neh8_UG3nfUjJLgeSlBL2fh0J6LfHMgu-wMODDqbCTDBJlBTF18R-P3lOzElfkYDraosfQo4tg&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20BAKI-DOU%20The%20Invincible%20Samurai%20S01E23%20480p%20NF%20WEB-DL%20Multi%20Audio%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] BAKI-DOU The Invincible Samurai S01E23 480p NF WEB-DL Multi Audio ESub.mkv" },
+    "720p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=z6wIlN4kolyLHldOSrWawL1p-PMwWJrDL-b2LiAXRaNpYfzsuaqWvApBY6OuQVxmQnfuMsmgGKsH0WhHaFgNSg&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20BAKI-DOU%20The%20Invincible%20Samurai%20S01E23%20720p%20HD%20NF%20WEB-DL%20Multi%20Audio%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] BAKI-DOU The Invincible Samurai S01E23 720p HD NF WEB-DL Multi Audio ESub.mkv" },
+    "1080p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=Qz8WPmzE5CjiNjofRPWNxDGQc0gX5uTTVtCVpplB6HPV3MFMKuC8LobdmaeRMIol5RKchVf1h4Uah3GBFrDwpg&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20BAKI-DOU%20The%20Invincible%20Samurai%20S01E23%201080p%20HEVC%2010bit%20NF%20WEB-DL%20Multi%20Audio%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] BAKI-DOU The Invincible Samurai S01E23 1080p HEVC 10bit NF WEB-DL Multi Audio ESub.mkv" }
+  }
+},
+"baki-dou-the-invincible-samurai-1x24": {
+  qualities: {
+    "480p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=3XoyyehYFruXnDrjrbkIg-HkS-CBSkXIB2lLReUSGwRusXoAwwvWlGRwCOWveXX9399R1acgXdR8XZOdkwTyBQ&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20BAKI-DOU%20The%20Invincible%20Samurai%20S01E24%20480p%20NF%20WEB-DL%20Multi%20Audio%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] BAKI-DOU The Invincible Samurai S01E24 480p NF WEB-DL Multi Audio ESub.mkv" },
+    "720p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=Y03ZPcJFXTb8xvcR3fKOATNBpj51cjsK0_IzzlkcHkcDrTxblJNufbyO55CZIH4F4d9DcuKDfmzjrEd7m7FCeg&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20BAKI-DOU%20The%20Invincible%20Samurai%20S01E24%20720p%20HD%20NF%20WEB-DL%20Multi%20Audio%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] BAKI-DOU The Invincible Samurai S01E24 720p HD NF WEB-DL Multi Audio ESub.mkv" },
+    "1080p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=7vXKBMYl2GUVcJvycUDFj9Q8eyjkS8qoXxk68IvacfXY2PfLTc-aY58HuWZU71TAfnkiQ1XRcknd8zFp1eD4dg&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20BAKI-DOU%20The%20Invincible%20Samurai%20S01E24%201080p%20HEVC%2010bit%20NF%20WEB-DL%20Multi%20Audio%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] BAKI-DOU The Invincible Samurai S01E24 1080p HEVC 10bit NF WEB-DL Multi Audio ESub.mkv" }
+  }
+},
+"baki-dou-the-invincible-samurai-1x25": {
+  qualities: {
+    "480p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=-GQfiNSVwG7IBWDavi2Fh4AlNYg1ek14CQZsukhVXo_o5HrVHd2OLfFRC-BdnQuIggI7UIksSztbZKTvVtmnwA&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20BAKI-DOU%20The%20Invincible%20Samurai%20S01E25%20480p%20NF%20WEB-DL%20Multi%20Audio%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] BAKI-DOU The Invincible Samurai S01E25 480p NF WEB-DL Multi Audio ESub.mkv" },
+    "720p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=2RUceb1nU6UTRGAni3fLFa8eLHCgLA_apxYPau_nylIcalrg1XFngLvInjDbyaRjfW9iSaq-ecIuxq7fHerqGw&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20BAKI-DOU%20The%20Invincible%20Samurai%20S01E25%20720p%20HD%20NF%20WEB-DL%20Multi%20Audio%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] BAKI-DOU The Invincible Samurai S01E25 720p HD NF WEB-DL Multi Audio ESub.mkv" },
+    "1080p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=1Fg-QwQbmZPSWVwiW3891Ma-EIwnr8zJmX6Yuv0GZtn_suBTu0OGxQGg28NMbjo7YRg81_ilYScYfadTPg1CYg&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20BAKI-DOU%20The%20Invincible%20Samurai%20S01E25%201080p%20HEVC%2010bit%20NF%20WEB-DL%20Multi%20Audio%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] BAKI-DOU The Invincible Samurai S01E25 1080p HEVC 10bit NF WEB-DL Multi Audio ESub.mkv" }
+  }
+},
+
 "arifureta-from-commonplace-to-world-s-strongest-1x1": {
   qualities: {
     "480p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=ZYAe8Eu_d8BAcfgnWwvZY6AoWYpprR0AcI_iWddfY2Y_AEPGwsAOrnDOfRKkhdG2PWicWsmfkKw2wlnhszdoYA&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Arifureta%20From%20Commonplace%20to%20Worlds%20Strongest%20S01E01%20480p%20x264%20WEB-DL%20Multi%20Audio%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Arifureta From Commonplace to Worlds Strongest S01E01 480p x264 WEB-DL Multi Audio ESub.mkv" },

@@ -54,6 +54,46 @@
 
 const ANIME_DATABASE = [
 {
+  id: "arifureta-from-commonplace-to-world-s-strongest",
+  title: "Arifureta: From Commonplace to World’s Strongest",
+  type: "TV",
+  ageRating: "PG-13",
+  year: "",
+  duration: "",
+  tmdbRating: "7.2",
+  siteRating: "7.2",
+  quality: "1080p",
+  zipUrl: "https://hindianimestuff.vercel.app/anime-pages/arifureta-s1.html",
+  seriesGroup: "arifureta-from-commonplace-to-world-s-strongest",
+  poster: "https://image.tmdb.org/t/p/original/lBVbu6YUvNvEikvq7GEiLSzKhhH.jpg",
+  banner: "https://image.tmdb.org/t/p/original/lBVbu6YUvNvEikvq7GEiLSzKhhH.jpg",
+  genres: [],
+  languages: ["Hindi"],
+  tags: ["Multi Audio"],
+  description: "The ordinary life of 17-year-old otaku Hajime Nagumo is disrupted when he and his classmates are summoned to a fantasy world and tasked with saving mankind. While his classmates are gifted with impressive abilities useful in combat, Hajime is belittled for only gaining an inferior transmutation skill that lacks any real offensive power.",
+  cast: [],
+  isAvailable: true,
+  section: "new",
+  season: 1,
+  episodes: [
+    { number: 1, title: "Episode 1", id: "arifureta-from-commonplace-to-world-s-strongest-1x1", embedType: "stream", qualities: ["480p","720p","1080p"], seedViews: 0 },
+    { number: 2, title: "Episode 2", id: "arifureta-from-commonplace-to-world-s-strongest-1x2", embedType: "stream", qualities: ["480p","720p","1080p"], seedViews: 0 },
+    { number: 3, title: "Episode 3", id: "arifureta-from-commonplace-to-world-s-strongest-1x3", embedType: "stream", qualities: ["480p","720p","1080p"], seedViews: 0 },
+    { number: 4, title: "Episode 4", id: "arifureta-from-commonplace-to-world-s-strongest-1x4", embedType: "stream", qualities: ["480p","720p","1080p"], seedViews: 0 },
+    { number: 5, title: "Episode 5", id: "arifureta-from-commonplace-to-world-s-strongest-1x5", embedType: "stream", qualities: ["480p","720p","1080p"], seedViews: 0 },
+    { number: 6, title: "Episode 6", id: "arifureta-from-commonplace-to-world-s-strongest-1x6", embedType: "stream", qualities: ["480p","720p","1080p"], seedViews: 0 },
+    { number: 7, title: "Episode 7", id: "arifureta-from-commonplace-to-world-s-strongest-1x7", embedType: "stream", qualities: ["480p","720p","1080p"], seedViews: 0 },
+    { number: 8, title: "Episode 8", id: "arifureta-from-commonplace-to-world-s-strongest-1x8", embedType: "stream", qualities: ["480p","720p","1080p"], seedViews: 0 },
+    { number: 9, title: "Episode 9", id: "arifureta-from-commonplace-to-world-s-strongest-1x9", embedType: "stream", qualities: ["480p","720p","1080p"], seedViews: 0 },
+    { number: 10, title: "Episode 10", id: "arifureta-from-commonplace-to-world-s-strongest-1x10", embedType: "stream", qualities: ["480p","720p","1080p"], seedViews: 0 },
+    { number: 11, title: "Episode 11", id: "arifureta-from-commonplace-to-world-s-strongest-1x11", embedType: "stream", qualities: ["480p","720p","1080p"], seedViews: 0 },
+    { number: 12, title: "Episode 12", id: "arifureta-from-commonplace-to-world-s-strongest-1x12", embedType: "stream", qualities: ["480p","720p","1080p"], seedViews: 0 },
+    { number: 13, title: "Episode 13", id: "arifureta-from-commonplace-to-world-s-strongest-1x13", embedType: "stream", qualities: ["480p","720p","1080p"], seedViews: 0 }
+  ]
+},
+
+
+{
   id: "chainsaw-man",
   title: "Chainsaw Man",
   type: "TV",

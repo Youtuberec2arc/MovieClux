@@ -40,6 +40,1482 @@
  * --------------------------------------------------------- */
 
 const VIDEO_SOURCES = {
+"naruto-shippuden-1x1": {
+  qualities: {
+    "1080p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=HMBqCS8gSvgU0IpxdjPW1d8-gZ7GPTS1pp_54-AqNVOQoE8Zcykr7rocD8wVqOfRyL2i-iKnec1oJL3LwqXEQw&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Fairy%20Tail%20S01E01%201080p%20BDRip%20%5BHindi-Eng-Jap%5D%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Fairy Tail S01E01 1080p BDRip [Hindi-Eng-Jap] ESub.mkv" }
+  }
+},
+"naruto-shippuden-1x2": {
+  qualities: {
+    "1080p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=AYkpN3Up69DjwTOHSyluT6D-xwU0cErtvsWu_xDTQy8ZDX171pnCh2SuTlyDwZm03YmTGR2luR4E2XuHvuo_HA&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Naruto%20Shippuden%20S01E02%201080p%20%5BMulti%20Audio%5D.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Naruto Shippuden S01E02 1080p [Multi Audio].mkv" }
+  }
+},
+"naruto-shippuden-1x3": {
+  qualities: {
+    "1080p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=ZiC6tiOZLBI_p45bZV7HWfwxtLjhfcH2M_SjV7fFbemqQjIgAQCRxmdT_s_nYZx684xeD0TFNMf3h3YjrBTKlw&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Naruto%20Shippuden%20S01E03%201080p%20%5BMulti%20Audio%5D.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Naruto Shippuden S01E03 1080p [Multi Audio].mkv" }
+  }
+},
+"naruto-shippuden-1x4": {
+  qualities: {
+    "1080p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=lI8NTDL7G6RY963xLlBveDIf76UaG-xyRM5Kd1ZlJ23oohAsZzhc4Z_fZa9AdMC2sLL3gjiVPZYzrECzvCtZYA&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Naruto%20Shippuden%20S01E04%201080p%20%5BMulti%20Audio%5D.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Naruto Shippuden S01E04 1080p [Multi Audio].mkv" }
+  }
+},
+"naruto-shippuden-1x5": {
+  qualities: {
+    "1080p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=vqakXJoxdIucKOll3cZD3HrzLXFR-fX3Hu-Vwun1I8Vpql_o3PfzddH0cDtszHVcasSJsZfklihnuCRdfKqLQQ&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Naruto%20Shippuden%20S01E05%201080p%20%5BMulti%20Audio%5D.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Naruto Shippuden S01E05 1080p [Multi Audio].mkv" }
+  }
+},
+"naruto-shippuden-1x6": {
+  qualities: {
+    "1080p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=4j2qeLcwNosdvMXP_6i5t6wyvXFpKdaox-FsxSrUSkF0rzhV33DyzNdIJO4wOFRi4hTxWniwYk6XpQBYRtZo-A&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Naruto%20Shippuden%20S01E06%201080p%20%5BMulti%20Audio%5D.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Naruto Shippuden S01E06 1080p [Multi Audio].mkv" }
+  }
+},
+"naruto-shippuden-1x7": {
+  qualities: {
+    "1080p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=2_yRkyk1MBgFpX4XcVA-SE2lu0RdKkAIYZmuR9_ckeZJkNnXmjABp898uVgH3M8a7jkReTuEPLAYc6qDPE_MxA&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Naruto%20Shippuden%20S01E07%201080p%20%5BMulti%20Audio%5D.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Naruto Shippuden S01E07 1080p [Multi Audio].mkv" }
+  }
+},
+"naruto-shippuden-1x8": {
+  qualities: {
+    "1080p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=7QbobdsrXBNBirN37YsZrgoYZu15MIbnztR7pBauLQ4b3XPmlTm0hQHZU8B2AeVizGzegfaX-wDShVCfcP-TFw&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Naruto%20Shippuden%20S01E08%201080p%20%5BMulti%20Audio%5D.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Naruto Shippuden S01E08 1080p [Multi Audio].mkv" }
+  }
+},
+"naruto-shippuden-1x9": {
+  qualities: {
+    "1080p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=CCK6TGB_d4Syen6tO6POeYdABRNRbTZCz0pfrjnK1eB-XDhTZ1UeQIFiYQJxLh0FU8fzWB5ncXdThDXTqhifNw&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Naruto%20Shippuden%20S01E09%201080p%20%5BMulti%20Audio%5D.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Naruto Shippuden S01E09 1080p [Multi Audio].mkv" }
+  }
+},
+"naruto-shippuden-1x10": {
+  qualities: {
+    "1080p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=0K1LPtaqZxkW3vCOkUT74qyQi4kWp-2OhzmncbzrVqvlmbx_cWnU53cS33hEAHTnvXUuUQmjQeqaKQlv0kBiRA&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Naruto%20Shippuden%20S01E10%201080p%20%5BMulti%20Audio%5D.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Naruto Shippuden S01E10 1080p [Multi Audio].mkv" }
+  }
+},
+"naruto-shippuden-1x11": {
+  qualities: {
+    "1080p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=CW2rBOSFxQE84JKNiNbWUpq21BLuipR2wHYlbFVnJUyEQHZUTcFPqNvHg8gGgNrIf7v7Sza75K_q3u9q4rMxxg&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Naruto%20Shippuden%20S01E11%201080p%20x264%20%20%5BMulti%20Audio%5D.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Naruto Shippuden S01E11 1080p x264  [Multi Audio].mkv" }
+  }
+},
+"naruto-shippuden-1x12": {
+  qualities: {
+    "1080p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=S_N8cwCE8Pxqw-gBfS79x7oZPb2in2Z59KyiAFY1VVE9lkS_xTGNQpQXZAfFoM-bpve6mFTCUErlW9Hq6i5_SA&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Naruto%20Shippuden%20S01E12%201080p%20x264%20%20%5BMulti%20Audio%5D.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Naruto Shippuden S01E12 1080p x264  [Multi Audio].mkv" }
+  }
+},
+"naruto-shippuden-1x13": {
+  qualities: {
+    "1080p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=yuNWp3rnkKvvbX0dcQl8g_vU0TN10UKkffX9yp27XwdNmaeJwSxyjE0SvdlFWfKFpnSJBPnsLGFtuSnB3aYvDA&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Naruto%20Shippuden%20S01E13%201080p%20x264%20%20%5BMulti%20Audio%5D.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Naruto Shippuden S01E13 1080p x264  [Multi Audio].mkv" }
+  }
+},
+"naruto-shippuden-1x14": {
+  qualities: {
+    "1080p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=LwwHm-dA49HnL4F2tCaQ4dXefYcS3pPwuCwoEc0l2PITpkyw9eX8GRxc5mHjXE7w9RDLsWBXzm_IG4pkUpq_Sg&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Naruto%20Shippuden%20S01E14%201080p%20x264%20%20%5BMulti%20Audio%5D.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Naruto Shippuden S01E14 1080p x264  [Multi Audio].mkv" }
+  }
+},
+"naruto-shippuden-1x15": {
+  qualities: {
+    "1080p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=o5SVKtn7SEPAH0pKzvXWN-18d81w_mskL0BXI_aNPOxmpIbRPjsvDhHLJT4A634XXD_nt8XRFMmYa_zshn0mzQ&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Naruto%20Shippuden%20S01E15%201080p%20x264%20%20%5BMulti%20Audio%5D.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Naruto Shippuden S01E15 1080p x264  [Multi Audio].mkv" }
+  }
+},
+"naruto-shippuden-1x16": {
+  qualities: {
+    "1080p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=OqVz2245grXytPuHrE25A2_kMdHDTWDMixHGJYnHmOrVABbIFcC3MjiGWoRD1208SVw6ipYL4cZZ_i-Kyke4jw&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Naruto%20Shippuden%20S01E16%201080p%20x264%20%20%5BMulti%20Audio%5D.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Naruto Shippuden S01E16 1080p x264  [Multi Audio].mkv" }
+  }
+},
+"naruto-shippuden-1x17": {
+  qualities: {
+    "1080p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=z7iuneextkKPQwx25bkgNLAUCLyUwgxu5R2c_n3_4mSVT54Biu0I_hnhkOPZvkwtQ544j7hNqUt_DwK58mhDng&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Naruto%20Shippuden%20S01E17%201080p%20x264%20%20%5BMulti%20Audio%5D.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Naruto Shippuden S01E17 1080p x264  [Multi Audio].mkv" }
+  }
+},
+"naruto-shippuden-1x18": {
+  qualities: {
+    "1080p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=n5nj75SQctOrCUnsIdSF83yPB5nywEvOu6dG9_t6LMq7tvCr6hvkljkrb8T4zxNJF1Go4vR7u5Ul0IjUwpkdkg&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Naruto%20Shippuden%20S01E18%201080p%20x264%20%20%5BMulti%20Audio%5D.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Naruto Shippuden S01E18 1080p x264  [Multi Audio].mkv" }
+  }
+},
+"naruto-shippuden-1x19": {
+  qualities: {
+    "1080p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=kjZeV6ngHQ85LOvRPY2ZD0WLi3x54XDbQ6zdgi3DKs6eRh598CrU8dl7UlVp3SHkzrnpFNtCjFVYKrNFPmU4QQ&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Naruto%20Shippuden%20S01E19%201080p%20x264%20%20%5BMulti%20Audio%5D.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Naruto Shippuden S01E19 1080p x264  [Multi Audio].mkv" }
+  }
+},
+"naruto-shippuden-1x20": {
+  qualities: {
+    "1080p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=fKlqj2M6A2J0AcSHr5KRp9-AwUdT5pfjw2Rz8mIrfz3olPYf5IlgEa259Cat4VqM6GoHit3Gn81sXCLEWRYh1A&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Naruto%20Shippuden%20S01E20%201080p%20x264%20%20%5BMulti%20Audio%5D.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Naruto Shippuden S01E20 1080p x264  [Multi Audio].mkv" }
+  }
+},
+"naruto-shippuden-1x21": {
+  qualities: {
+    "1080p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=F9Ffb3nfpHiO139r0gDTT6rUy5WzQ49-0EGprjhKvxvQXMMs4-poc-62kGr1GhMEdTH4KZYYbjuwjbZepVZW0w&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Naruto%20Shippuden%20S01E21%201080p%20x264%20%20%5BMulti%20Audio%5D.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Naruto Shippuden S01E21 1080p x264  [Multi Audio].mkv" }
+  }
+},
+"naruto-shippuden-1x22": {
+  qualities: {
+    "1080p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=2DzV5m8buhWd8sPnlA7sZlmIbtGA84BnMcG_fa9c-9yhVBbvWAGEYEbLLLrmEo3chl2B_pisNRaJjNJooVvARw&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Naruto%20Shippuden%20S01E22%201080p%20x264%20%20%5BMulti%20Audio%5D.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Naruto Shippuden S01E22 1080p x264  [Multi Audio].mkv" }
+  }
+},
+"naruto-shippuden-1x23": {
+  qualities: {
+    "1080p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=XN9_zK5SgjWLTDhLuJhFUfTgoEFnwh-qNDkQ37KPQRrK9ptnbJJGNazVGQIEfKDJqQ8CyTn7aNOYDuaqZ0B7cQ&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Naruto%20Shippuden%20S01E23%201080p%20x264%20%20%5BMulti%20Audio%5D.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Naruto Shippuden S01E23 1080p x264  [Multi Audio].mkv" }
+  }
+},
+"naruto-shippuden-1x24": {
+  qualities: {
+    "1080p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=t6GG5SUm1bEGX_9bTLC5Rw_n4AOMs1pn43yWdhl2L4RkESdwyk1eDOO3jEr8Qc5Oe9Lg4suW0LuPYk0xU1F9tQ&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Naruto%20Shippuden%20S01E24%201080p%20x264%20%20%5BMulti%20Audio%5D.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Naruto Shippuden S01E24 1080p x264  [Multi Audio].mkv" }
+  }
+},
+"naruto-shippuden-1x25": {
+  qualities: {
+    "1080p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=lhTIW82v22CcpWbf1xkv2ydWJpgD9m8DhiR8xMtPqwEAIvS9oWkbgIs5lM7SOfd3n3ljoEbtG5aMCHCEJOlxhg&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Naruto%20Shippuden%20S01E25%201080p%20x264%20%20%5BMulti%20Audio%5D.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Naruto Shippuden S01E25 1080p x264  [Multi Audio].mkv" }
+  }
+},
+"naruto-shippuden-1x26": {
+  qualities: {
+    "1080p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=n1988h9xd7bK9J7I808cFJGLXtIBllaixZ5brJDOeFI8QHu0nSt7k-WMkN0xBvB-W4Tqt8WB_A1aEq76bAMMqA&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Naruto%20Shippuden%20S01E26%201080p%20x264%20%20%5BMulti%20Audio%5D.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Naruto Shippuden S01E26 1080p x264  [Multi Audio].mkv" }
+  }
+},
+"naruto-shippuden-1x27": {
+  qualities: {
+    "1080p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=Tqc2Kw38OZu2pQ34jK05H8DCPX9cUQbWDXcnugW3NSfyVyal2fiB6vk456r8Ojbolqn-FGWYyqld8S45ix3DOw&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Naruto%20Shippuden%20S01E27%201080p%20x264%20%20%5BMulti%20Audio%5D.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Naruto Shippuden S01E27 1080p x264  [Multi Audio].mkv" }
+  }
+},
+"naruto-shippuden-1x28": {
+  qualities: {
+    "1080p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=UIW8Vr2bZ3WmBk-pjoGMwSq1lb_6xqRuTxRovBT_W2X2VcSDk9frzCfZasNxvZRpzQrOB1FfQMmQ8TuW7ZiiHA&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Naruto%20Shippuden%20S01E28%201080p%20x264%20%20%5BMulti%20Audio%5D.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Naruto Shippuden S01E28 1080p x264  [Multi Audio].mkv" }
+  }
+},
+"naruto-shippuden-1x29": {
+  qualities: {
+    "1080p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=fJ59TfeSm5xk4T9rB1sdP_74kXVnLitYtFbUtYlbEM9QYtm-g4-fRedu6737B2GsrY0VovaHhMq0lbSdEaSugA&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Naruto%20Shippuden%20S01E29%201080p%20x264%20%20%5BMulti%20Audio%5D.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Naruto Shippuden S01E29 1080p x264  [Multi Audio].mkv" }
+  }
+},
+"naruto-shippuden-1x30": {
+  qualities: {
+    "1080p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=9Zyk4oS96-6TSk_dPbg9Pm9L5qKT50ZIjHpwiCGb8YT_ayJ8NEnS0D_scHIEw7pRd22fjzGfFCFvmalGr-8UDw&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Naruto%20Shippuden%20S01E30%201080p%20x264%20%20%5BMulti%20Audio%5D.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Naruto Shippuden S01E30 1080p x264  [Multi Audio].mkv" }
+  }
+},
+"naruto-shippuden-1x31": {
+  qualities: {
+    "1080p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=kdhP4wJnrOXR9Pzozm_bdXrxyFYjasvuyY16yRCoWT_bheIQai2gvXQNDWz0WIZDIfa1b8ea5BTiT3pgvSkqcA&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Naruto%20Shippuden%20S01E31%201080p%20x264%20%20%5BMulti%20Audio%5D.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Naruto Shippuden S01E31 1080p x264  [Multi Audio].mkv" }
+  }
+},
+"naruto-shippuden-1x32": {
+  qualities: {
+    "1080p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=TnQnvWKQVtHWCfF9xbfFOLCudv8RkMj6PNZyJmICZVlC-0h06oFSr8utDkERUDWJCC7ySoWeTsz1tumDOFJJFg&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Naruto%20Shippuden%20S01E32%201080p%20x264%20%20%5BMulti%20Audio%5D.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Naruto Shippuden S01E32 1080p x264  [Multi Audio].mkv" }
+  }
+},
+"naruto-shippuden-1x33": {
+  qualities: {
+    "1080p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=N4-wdzv0MWzRYo0J4tm7HTHiGWKORteA4ErfQjjwulusoMURCnL46F4pHLtqQ1Ip2UBVwntGn3pRSm3T2OcKRw&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Naruto%20Shippuden%20S02E33%201080p%20x264%20%20%5BMulti%20Audio%5D.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Naruto Shippuden S02E33 1080p x264  [Multi Audio].mkv" }
+  }
+},
+"naruto-shippuden-1x34": {
+  qualities: {
+    "1080p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=Tc3T_Rp2MACkkOIA5XEEmNq6etk8NaTRYjEpIhC6xjlShubB-Fe9mIzs235SSDCkMBOu0gp0rbv7Z1aiUS-MCA&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Naruto%20Shippuden%20S02E34%201080p%20x264%20%20%5BMulti%20Audio%5D.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Naruto Shippuden S02E34 1080p x264  [Multi Audio].mkv" }
+  }
+},
+"naruto-shippuden-1x35": {
+  qualities: {
+    "1080p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=z68506wOOOh7O0qGg1hOiI_mk1JymddhwjT4bLyM7XeJ4yZbF6n1fFn3qGbmMtRAzEZcZG-EBtIubb0dDPR_WQ&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Naruto%20Shippuden%20S02E35%201080p%20x264%20%20%5BMulti%20Audio%5D.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Naruto Shippuden S02E35 1080p x264  [Multi Audio].mkv" }
+  }
+},
+"naruto-shippuden-1x36": {
+  qualities: {
+    "1080p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=P-nM2TdZwE5fcvt0J67UJHCnACqY3HLW-RFNISKxYVLDnFnhXckjGEbbTo_auMHwJqgLC4ZGyxLQS_HYMeEm_A&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Naruto%20Shippuden%20S02E36%201080p%20x264%20%20%5BMulti%20Audio%5D.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Naruto Shippuden S02E36 1080p x264  [Multi Audio].mkv" }
+  }
+},
+"naruto-shippuden-1x37": {
+  qualities: {
+    "1080p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=15uihOYzCN-5EboV7e7sVcEyf9KS2k3vQWkAXGg16eK1WA7eiBy2oKwwRRj69K9zS3R9HUuKkyQJ_c2Rbv3FoA&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Naruto%20Shippuden%20S02E37%201080p%20x264%20%20%5BMulti%20Audio%5D.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Naruto Shippuden S02E37 1080p x264  [Multi Audio].mkv" }
+  }
+},
+"naruto-shippuden-1x38": {
+  qualities: {
+    "1080p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=Wr72SPIQFa7Rvku1AWs4pZBNTdKNH2K0yEuxhNwMQ0SoJjb24vBvX65qwIU6GiWbY9crZzMU5tvpTdfpMIDWbQ&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Naruto%20Shippuden%20S02E38%201080p%20x264%20%20%5BMulti%20Audio%5D.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Naruto Shippuden S02E38 1080p x264  [Multi Audio].mkv" }
+  }
+},
+"naruto-shippuden-1x39": {
+  qualities: {
+    "1080p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=u8Q_n-L6mjFoX7D0zBrsjVK2r2-Sq300LzoYAq1UUurdgU_rGJ5ai2Cdb8FK3VnIjoikaBZIQUhAiUYfU3ocwA&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Naruto%20Shippuden%20S02E39%201080p%20x264%20%20%5BMulti%20Audio%5D.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Naruto Shippuden S02E39 1080p x264  [Multi Audio].mkv" }
+  }
+},
+"naruto-shippuden-1x40": {
+  qualities: {
+    "1080p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=CMBrAOBO7_5F0YfMQwWVvwJEDbJaQOxT0ZR9S7NJxXOV4OV58Xn5NshgwmUZlc-7RXDDJ9cJzhLGHLvrmNfAew&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Naruto%20Shippuden%20S02E40%201080p%20x264%20%20%5BMulti%20Audio%5D.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Naruto Shippuden S02E40 1080p x264  [Multi Audio].mkv" }
+  }
+},
+"naruto-shippuden-1x41": {
+  qualities: {
+    "1080p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=ZUuRwC5o5QbIhs-IIBD2IChn8-IWrBJ3cobYPFMZuHzD8-ZAUZOixsOu79H4_FxhutYPayZ1nwKwUqMlNCdF2g&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Naruto%20Shippuden%20S02E41%201080p%20x264%20%20%5BMulti%20Audio%5D.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Naruto Shippuden S02E41 1080p x264  [Multi Audio].mkv" }
+  }
+},
+"naruto-shippuden-1x42": {
+  qualities: {
+    "1080p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=dxrbuqDcCtW4C9mpUNU1xVaf2IUtmFp6Zwc-0YIK_EXnBbWrVUErHx51nGLCIIC_VJ2XpVv-M2C9uufNVDqb4g&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Naruto%20Shippuden%20S02E42%201080p%20x264%20%20%5BMulti%20Audio%5D.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Naruto Shippuden S02E42 1080p x264  [Multi Audio].mkv" }
+  }
+},
+"naruto-shippuden-1x43": {
+  qualities: {
+    "1080p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=t0jjs4BqF8LPHkUkuU_-LibqzD6Dq9kwHlkWAjw3mRZcmObvbZEXGgyD_ImLeD_d4uu5BedKDuMy70yJrqT_wQ&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Naruto%20Shippuden%20S02E43%201080p%20x264%20%20%5BMulti%20Audio%5D.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Naruto Shippuden S02E43 1080p x264  [Multi Audio].mkv" }
+  }
+},
+"naruto-shippuden-1x44": {
+  qualities: {
+    "1080p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=QkOkpcYvxzusnntHd2esh9i2uWJ1_34v89NwjaRdTkwpDDQqwflPcWBQe_uUu8_De8cFbY4Xuj1-JGeR-ZVu9A&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Naruto%20Shippuden%20S02E44%201080p%20x264%20%20%5BMulti%20Audio%5D.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Naruto Shippuden S02E44 1080p x264  [Multi Audio].mkv" }
+  }
+},
+"naruto-shippuden-1x45": {
+  qualities: {
+    "1080p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=KAkehP1dBJWl8VT6eDVQUKzzHeDYMOeUxCIsMobj2KAwsSTcDNEfXPEaJlVoASLF6dYJpJaIcYrkZNE8dljSlQ&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Naruto%20Shippuden%20S02E45%201080p%20x264%20%20%5BMulti%20Audio%5D.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Naruto Shippuden S02E45 1080p x264  [Multi Audio].mkv" }
+  }
+},
+"naruto-shippuden-1x46": {
+  qualities: {
+    "1080p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=QoySCBMXnYFzsux58OTIwyWg5VLnmadYxI78TiSP_Hl3_nTsbg8g2DkA1ZEcZ8xrLfvv1b3vqI5lNpEE3P1Xbg&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Naruto%20Shippuden%20S02E46%201080p%20x264%20%20%5BMulti%20Audio%5D.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Naruto Shippuden S02E46 1080p x264  [Multi Audio].mkv" }
+  }
+},
+"naruto-shippuden-1x47": {
+  qualities: {
+    "1080p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=GibJ6XJ0DrcRaxfiL6mv3hHVX4CPF4FR9yddOq0FmFmVrvuPLzCDuP1qOOD5pOfo8QeJbNIXt8Up0gJ6ntQt-Q&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Naruto%20Shippuden%20S02E47%201080p%20x264%20%20%5BMulti%20Audio%5D.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Naruto Shippuden S02E47 1080p x264  [Multi Audio].mkv" }
+  }
+},
+"naruto-shippuden-1x48": {
+  qualities: {
+    "1080p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=2FOskYuCFRS4yplxW3unepQ5Dzm2RQl1Vg0YhGgB6WsStFU0-nh0zuYpX_UmK8YeWT2LndyIb_2xnSeAHb9hNw&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Naruto%20Shippuden%20S02E48%201080p%20x264%20%20%5BMulti%20Audio%5D.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Naruto Shippuden S02E48 1080p x264  [Multi Audio].mkv" }
+  }
+},
+"naruto-shippuden-1x49": {
+  qualities: {
+    "1080p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=6GLAy5gvdRokYur8EH108JE-TI-FoZQoQfPCkGSN4vi3Rbrabwv1Gg32lkl0ai273KhwWOaAH_5yqzxTjyJPBQ&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Naruto%20Shippuden%20S02E49%201080p%20x264%20%20%5BMulti%20Audio%5D.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Naruto Shippuden S02E49 1080p x264  [Multi Audio].mkv" }
+  }
+},
+"naruto-shippuden-1x50": {
+  qualities: {
+    "1080p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=MWcD0PUZqW0cIntcZ6TIpwYzTjsCBVX5HWQ5LbzfmbEO9FsALp4hujjihJge6k1y4SFp_9TQlLyoH53AOqnrGg&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Naruto%20Shippuden%20S02E50%201080p%20x264%20%20%5BMulti%20Audio%5D.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Naruto Shippuden S02E50 1080p x264  [Multi Audio].mkv" }
+  }
+},
+"naruto-shippuden-1x51": {
+  qualities: {
+    "1080p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=yI8YZzraVfe4kkbfvsjLZoJ6VoWQyb2MvlEyaHLltPw-F53OWnhrP1d9llAQGZKt2-xCkEVmFwYpKEnMbTcFnA&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Naruto%20Shippuden%20S02E51%201080p%20x264%20%20%5BHindi%20Audio%5D.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Naruto Shippuden S02E51 1080p x264  [Hindi Audio].mkv" }
+  }
+},
+"naruto-shippuden-1x52": {
+  qualities: {
+    "1080p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=8UZTk2YnDxhhifr3oDkuLSoqeys1nO4vhBfiNYlizqF_54bhvMvnbukdJwNz6-rDpZ6j96pUT4qNn8Q5EANoVA&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Naruto%20Shippuden%20S02E52%201080p%20x264%20%20%5BHindi%20Audio%5D.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Naruto Shippuden S02E52 1080p x264  [Hindi Audio].mkv" }
+  }
+},
+"naruto-shippuden-1x53": {
+  qualities: {
+    "1080p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=K1oI9xx6OO2JqQjria9O2tVlTp1xM6ibgsDddkT2ZwErZAxOlV8MVs-yvvFVd9OIdMuW1mUmOHZEKNLbeUQ6Ew&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Naruto%20Shippuden%20S02E53%201080p%20x264%20%20%5BMulti%20Audio%5D.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Naruto Shippuden S02E53 1080p x264  [Multi Audio].mkv" }
+  }
+},
+"naruto-shippuden-1x54": {
+  qualities: {
+    "1080p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=53UNi2Aa-ZbsgY7Gssh7lMxCz43Clz5IJNITQkPGudOZvjOgiNO9bhx6tKQ4dfgPxs2RkXKNBqNaQD0_chKPjw&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Naruto%20Shippuden%20S02E54%201080p%20x264%20%20%5BMulti%20Audio%5D.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Naruto Shippuden S02E54 1080p x264  [Multi Audio].mkv" }
+  }
+},
+"naruto-shippuden-1x55": {
+  qualities: {
+    "1080p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=Zu1-5Q1fJbOe285pwPPx7ILiM4wrchanDJpsFb3ZrQUQ9zCC63yjhT3paetQEGICMd69eT_ktw52-ISDDUYcNA&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Naruto%20Shippuden%20S03E55%201080p%20x264%20%20%5BMulti%20Audio%5D.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Naruto Shippuden S03E55 1080p x264  [Multi Audio].mkv" }
+  }
+},
+"naruto-shippuden-1x56": {
+  qualities: {
+    "1080p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=fjB6zaDnqXXYIQAdnKdv1zWTJE3G0Jdp6Sej6cDfmQwIUW4i7VROxMquy8u3z_8xJTq5k6CBPxPF3E0ZXPBd8A&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Naruto%20Shippuden%20S03E56%201080p%20x264%20%20%5BMulti%20Audio%5D.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Naruto Shippuden S03E56 1080p x264  [Multi Audio].mkv" }
+  }
+},
+"naruto-shippuden-1x57": {
+  qualities: {
+    "1080p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=CaomwPRXT3kx1dl-dxDEK9tChHJ8QUURyDg6bkbWqv7U7jEcAmTvIc72j1caxXkvdIKq4LzmHnZQ3vCbnhxyRA&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Naruto%20Shippuden%20S03E57%201080p%20x264%20%20%5BMulti%20Audio%5D.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Naruto Shippuden S03E57 1080p x264  [Multi Audio].mkv" }
+  }
+},
+"naruto-shippuden-1x58": {
+  qualities: {
+    "1080p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=-oFX8BXJdovtlhS_NygsOcIotaFVpbJD5C0LrivW21_K5Au-OXQIngUkC5Oh_nAji3cLtaxDVILo4-0IjjJ5pQ&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Naruto%20Shippuden%20S03E58%201080p%20x264%20%20%5BMulti%20Audio%5D.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Naruto Shippuden S03E58 1080p x264  [Multi Audio].mkv" }
+  }
+},
+"naruto-shippuden-1x59": {
+  qualities: {
+    "1080p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=XjjwlRSa2ZpYBVy8mlDFjyhWQMMlU3GWYIa0HexO5-kzJtBkbat4S9haABJJV30MNzKl2n-cNG8wy9AXc5tPRQ&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Naruto%20Shippuden%20S03E59%201080p%20x264%20%20%5BMulti%20Audio%5D.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Naruto Shippuden S03E59 1080p x264  [Multi Audio].mkv" }
+  }
+},
+"naruto-shippuden-1x60": {
+  qualities: {
+    "1080p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=A7l5AoCdd9BkpipiAWPFz92ahPMtaoS_LL3cS0ddZbg8wocTWNA_RrgOXpyiWQ6VhuD5OD3HyGEp6AT6t-jntQ&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Naruto%20Shippuden%20S03E60%201080p%20x264%20%20%5BMulti%20Audio%5D.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Naruto Shippuden S03E60 1080p x264  [Multi Audio].mkv" }
+  }
+},
+"naruto-shippuden-1x61": {
+  qualities: {
+    "1080p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=pRvgaD8G1EcconbL4r0tGCo9C9B354RREdxH-Im6enmB0s-t2NuLFNxcNWnVcV5lDWFuGbD3pAtMYIeEEYMw-A&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Naruto%20Shippuden%20S03E61%201080p%20x264%20%20%5BMulti%20Audio%5D.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Naruto Shippuden S03E61 1080p x264  [Multi Audio].mkv" }
+  }
+},
+"naruto-shippuden-1x62": {
+  qualities: {
+    "1080p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=e6hI-FvzpUev4KJtEvbNcbxzVfJ-rLMpBWKFkoGhJTNMaEXZQF5pG5OeKTT0XOn1JzCKoq43D4jEXWFjhSvNAQ&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Naruto%20Shippuden%20S03E62%201080p%20x264%20%20%5BMulti%20Audio%5D.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Naruto Shippuden S03E62 1080p x264  [Multi Audio].mkv" }
+  }
+},
+"naruto-shippuden-1x63": {
+  qualities: {
+    "1080p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=CsZ2PzK4NaP4IfQAwF0iiA0DNhp9YvQhaEX_UxpnJS9jzhbK4eWaeSJGENCznSGVbI4OeGiOTeBg57XUJipPBQ&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Naruto%20Shippuden%20S03E63%201080p%20x264%20%20%5BMulti%20Audio%5D.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Naruto Shippuden S03E63 1080p x264  [Multi Audio].mkv" }
+  }
+},
+"naruto-shippuden-1x64": {
+  qualities: {
+    "1080p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=SvnrMPmFWhdygH1G4Ewy1EPD3EIH8xtewQ53jE9sHbGWIM_U6iQhzxN39LlpBFi8JyldYVCx5o1LVdmGrCKweA&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Naruto%20Shippuden%20S03E64%201080p%20x264%20%20%5BMulti%20Audio%5D.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Naruto Shippuden S03E64 1080p x264  [Multi Audio].mkv" }
+  }
+},
+"naruto-shippuden-1x65": {
+  qualities: {
+    "1080p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=6lCT6MiauUMHfwl4YTIsd3Op1SfoY1NEZrzw3pDNSQV8Qk98QZTlTFuCCT6WZAaHMD44rNb6rQn0ny4-qDUATg&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Naruto%20Shippuden%20S03E65%201080p%20x264%20%20%5BMulti%20Audio%5D.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Naruto Shippuden S03E65 1080p x264  [Multi Audio].mkv" }
+  }
+},
+"naruto-shippuden-1x66": {
+  qualities: {
+    "1080p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=eujooxIOA6Xf4VqwBQ7csLhxzjziJs7h7zuB04M8-XyOkrnZqkrjsb9-5So0fqWELouidg9RLzpAotJnJzH4hA&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Naruto%20Shippuden%20S03E66%201080p%20x264%20%20%5BMulti%20Audio%5D.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Naruto Shippuden S03E66 1080p x264  [Multi Audio].mkv" }
+  }
+},
+"naruto-shippuden-1x67": {
+  qualities: {
+    "1080p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=_7NlszC-3bmPcpNjUc8vfPrRqh0nE_UW8WZ3MBFKBIOQKJ606_4nlOJ6hwzjas-dwPVhG0Txr8GWL3umpCI59Q&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Naruto%20Shippuden%20S03E67%201080p%20x264%20%20%5BMulti%20Audio%5D.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Naruto Shippuden S03E67 1080p x264  [Multi Audio].mkv" }
+  }
+},
+"naruto-shippuden-1x68": {
+  qualities: {
+    "1080p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=0tt2GrLsumwPEaj51pHdBW2iWxux6MtlyL01Mfu9IcEXcrtaiUXEtFnlOSxcvRXIM6LEFRpxkY0USdPAeHJLhA&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Naruto%20Shippuden%20S03E68%201080p%20x264%20%20%5BMulti%20Audio%5D.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Naruto Shippuden S03E68 1080p x264  [Multi Audio].mkv" }
+  }
+},
+"naruto-shippuden-1x69": {
+  qualities: {
+    "1080p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=vrRM-vTu7Prb6yKBIBnotyz6DLgOlAIK3oIEXv1ItfUCC1N9J13RC3yamdHi7SytwqcI7QziMyiBz0ZuWg33Cw&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Naruto%20Shippuden%20S03E69%201080p%20x264%20%20%5BMulti%20Audio%5D.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Naruto Shippuden S03E69 1080p x264  [Multi Audio].mkv" }
+  }
+},
+"naruto-shippuden-1x70": {
+  qualities: {
+    "1080p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=3qvwNYAQRQTZxCTl5bnQnkhd9LHu9_WxoH24jP7Jd2BtSI4f0IPrWdIAE6b1DRRX2ZoC8eHu9QVT8T4_qLNWuw&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Naruto%20Shippuden%20S03E70%201080p%20x264%20%20%5BMulti%20Audio%5D.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Naruto Shippuden S03E70 1080p x264  [Multi Audio].mkv" }
+  }
+},
+"naruto-shippuden-1x71": {
+  qualities: {
+    "1080p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=EPvKFzr99P_bUWbyWnBE-bLPRhX7TpcmYeQPeZOi1H9wOBocqPZMh1rKJx6AW1nhtC0H3UVSgYHksx2kz4ofbA&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Naruto%20Shippuden%20S04E71%201080p%20%5BMulti%20Audio%5D.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Naruto Shippuden S04E71 1080p [Multi Audio].mkv" }
+  }
+},
+"naruto-shippuden-1x72": {
+  qualities: {
+    "1080p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=TeeYOMSEn4OO0bMsfm5tc-Lo6nbPRw6eeduvV-SB8dwX9vDEZBCBq7aiVgtVQb-y4vGb8mbcPObzScwlNKKMGw&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Naruto%20Shippuden%20S04E72%201080p%20%5BMulti%20Audio%5D.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Naruto Shippuden S04E72 1080p [Multi Audio].mkv" }
+  }
+},
+"naruto-shippuden-1x73": {
+  qualities: {
+    "1080p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=imuxmOXq0Qg-jMvGgItXRHuPEHTTUdIvYo_UTx_emd50bTXWFyWuBAagY2xkamF9qObAI0s-MILVvex28vGIeA&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Naruto%20Shippuden%20S04E73%201080p%20%5BHindi%20Audio%5D.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Naruto Shippuden S04E73 1080p [Hindi Audio].mkv" }
+  }
+},
+"naruto-shippuden-1x74": {
+  qualities: {
+    "1080p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=I6sFzd8ddEYQ3tx5haxC148SXR0RAShQSIGlQGhzXIBHRtMC9T73Po_CG7FA_LRVy8rs_o6R8fdiOMkZzij7gQ&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Naruto%20Shippuden%20S04E74%201080p%20%5BHindi%20Audio%5D.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Naruto Shippuden S04E74 1080p [Hindi Audio].mkv" }
+  }
+},
+"naruto-shippuden-1x75": {
+  qualities: {
+    "1080p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=4FgkbN5Xaau20Vi2VTy_Mt20sF7WEbLK1RzUruXCYQrUEeABRE9WEnzG6DMRzmlG7_cHLmOdQG3PCm85g2kqIQ&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Naruto%20Shippuden%20S04E75%201080p%20%5BHindi%20Audio%5D.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Naruto Shippuden S04E75 1080p [Hindi Audio].mkv" }
+  }
+},
+"naruto-shippuden-1x76": {
+  qualities: {
+    "1080p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=X-c5TK4kzTiqwlCYJuo-G-UFik86PU2Rl_WcvOXWVDtw6tIWsXkJwvyV--H_AuBq4FUEMCd2iUR-OV3In8Wq4A&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Naruto%20Shippuden%20S04E76%201080p%20%5BHindi%20Audio%5D.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Naruto Shippuden S04E76 1080p [Hindi Audio].mkv" }
+  }
+},
+"naruto-shippuden-1x77": {
+  qualities: {
+    "1080p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=zD1Rc4upxpY5VJrO8ZZ9IiOwO2A1d6trGmNhVDqij4LL-nhuEnMLGoHBaPyokBCI2RT3ztKxGkev1udmd6Is2Q&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Naruto%20Shippuden%20S04E77%201080p%20%5BHindi%20Audio%5D.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Naruto Shippuden S04E77 1080p [Hindi Audio].mkv" }
+  }
+},
+"naruto-shippuden-1x78": {
+  qualities: {
+    "1080p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=vcaHe8F2NVCM49rPLk2uuVCCuai0hipPIpPLTMOtT0Z1gOAP8ICIa-G9noSz9v22q6gyJbarIS93xGKwVdwl2Q&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Naruto%20Shippuden%20S04E78%201080p%20%5BHindi%20Audio%5D.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Naruto Shippuden S04E78 1080p [Hindi Audio].mkv" }
+  }
+},
+"naruto-shippuden-1x79": {
+  qualities: {
+    "1080p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=8bP1xSe_I40cbj4MZzG9J8Jt0uKIMkGhouy9Z3E04UJJfrqJXnBihZ95_KCvCUIj1plp5odvWfD85L0DOehV7g&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Naruto%20Shippuden%20S04E79%201080p%20%5BHindi%20Audio%5D.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Naruto Shippuden S04E79 1080p [Hindi Audio].mkv" }
+  }
+},
+"naruto-shippuden-1x80": {
+  qualities: {
+    "1080p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=Tg_glLAxR70KUOZbj3bXn9bkMP8_OcWckqrbhflrImCnHnLphIEgMAyHiYr14Sq5sjlOIw9AJBooIGq9tlB-Fw&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Naruto%20Shippuden%20S04E80%201080p%20%5BHindi%20Audio%5D.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Naruto Shippuden S04E80 1080p [Hindi Audio].mkv" }
+  }
+},
+"naruto-shippuden-1x81": {
+  qualities: {
+    "1080p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=mpZfzbUhcdCsmDdg3Emtf0DKqpq2O_fRVfn8HPHCUOQZ8zQv6rluOMvBn-D8tkD0NFm9DXTpmRz6hqKN1VL8Mw&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Naruto%20Shippuden%20S04E81%201080p%20%5BHindi%20Audio%5D.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Naruto Shippuden S04E81 1080p [Hindi Audio].mkv" }
+  }
+},
+"naruto-shippuden-1x82": {
+  qualities: {
+    "1080p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=cdo8uIuEzWdSwXduEilIig71tRDdikQ5dJH8hS50P2Ts42cfh2HrgchXJ_iDylJ4eZp84cQbRPeA5cmtDNhibg&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Naruto%20Shippuden%20S04E82%201080p%20%5BHindi%20Audio%5D.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Naruto Shippuden S04E82 1080p [Hindi Audio].mkv" }
+  }
+},
+"naruto-shippuden-1x83": {
+  qualities: {
+    "1080p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=MMeTfoUhH-7Wchir_YoUgs9FRGPeZ996VPga3KxggtYztQ1k3nOlOjASu502jCYzSxCLp4u1WvfM7Tcc4Fhs7A&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Naruto%20Shippuden%20S04E83%201080p%20%5BHindi%20Audio%5D.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Naruto Shippuden S04E83 1080p [Hindi Audio].mkv" }
+  }
+},
+"naruto-shippuden-1x84": {
+  qualities: {
+    "1080p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=_C2rnJ0PNIq3vuxpXDzS0LhhkOGOdjvt0ceuLeDTNgOwkmb_Z6pbHKj5JSDsbnKYlm-Y8iF26gj_T2syT33gQA&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Naruto%20Shippuden%20S04E84%201080p%20%5BHindi%20Audio%5D.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Naruto Shippuden S04E84 1080p [Hindi Audio].mkv" }
+  }
+},
+"naruto-shippuden-1x85": {
+  qualities: {
+    "1080p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=7OIguAOypI6Lbi2wasnPty7Ipd41aAa43Dz2ZfrhwzuV2EcpR_96gj270MtrMDt8_UCSw-HpakGwI4ZtJiIiMw&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Naruto%20Shippuden%20S04E85%201080p%20%5BHindi%20Audio%5D.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Naruto Shippuden S04E85 1080p [Hindi Audio].mkv" }
+  }
+},
+"naruto-shippuden-1x86": {
+  qualities: {
+    "1080p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=t8unGhsxLiEu9SESLXiF3dMskDyWcXhalLEBYzAXEZCjqxtY5NViCM9Z0j2JDa95V_EKI9seIgkGh1wthcLaZQ&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Naruto%20Shippuden%20S04E86%201080p%20%5BHindi%20Audio%5D.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Naruto Shippuden S04E86 1080p [Hindi Audio].mkv" }
+  }
+},
+"naruto-shippuden-1x87": {
+  qualities: {
+    "1080p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=3Q3Qx5rd-GBeF8UO0r5q1tgTOMa2s10z0WpZ4qGup_z3bb9TWaHncPiBhP9pnHlkdjB5yrrmE_PQGbX38R3htw&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Naruto%20Shippuden%20S04E87%201080p%20%5BHindi%20Audio%5D.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Naruto Shippuden S04E87 1080p [Hindi Audio].mkv" }
+  }
+},
+"naruto-shippuden-1x88": {
+  qualities: {
+    "1080p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=beixq8sdgdKdvNLm-URIugUXcxj64-u-egGpxdJ21w6xi17R_Fd9ULG7npQH2PegkvbbemjNBkimenm8bVrg1w&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Naruto%20Shippuden%20S04E88%201080p%20%5BHindi%20Audio%5D.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Naruto Shippuden S04E88 1080p [Hindi Audio].mkv" }
+  }
+},
+"naruto-shippuden-1x89": {
+  qualities: {
+    "1080p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=gO6VsEHGYH0JWlW1C6gfrcpMUe7peMGBackeaL_Z5bSwwcYw37yNUtSylRexQhjjb39Y19xRF-L7tr5XxFIDYg&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Naruto%20Shippuden%20S05E89%201080p%20%5BHindi%20Audio%5D.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Naruto Shippuden S05E89 1080p [Hindi Audio].mkv" }
+  }
+},
+"naruto-shippuden-1x90": {
+  qualities: {
+    "1080p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=KqpCMiJuwPDFeFkxiZR4bbMr28LHhYTwYxE2abislFsPUEgmLQ0w5rRrkAZzwB4XheCZPBnvdcFz9Ngkm9mA6Q&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Naruto%20Shippuden%20S05E90%201080p%20%5BHindi%20Audio%5D.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Naruto Shippuden S05E90 1080p [Hindi Audio].mkv" }
+  }
+},
+"naruto-shippuden-1x91": {
+  qualities: {
+    "1080p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=-HGoACsOrPxmvvqcm6CY7wiu-Dd2W9TMb4IqSZKLPBjVbnuHm9BN13HACmUIICdsk1GLTfSjzi_E_tWlzVM5QA&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Naruto%20Shippuden%20S05E91%201080p%20%5BMulti%20Audio%5D.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Naruto Shippuden S05E91 1080p [Multi Audio].mkv" }
+  }
+},
+"naruto-shippuden-1x92": {
+  qualities: {
+    "1080p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=mQMoNUb9VmU0i4HZFLtxY3B9l0w6gQ5p3O0czvc0uOi94h2gWFrUWvm4vwPNa5cT09hQG3g-_wsS0EQuBkqVzg&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Naruto%20Shippuden%20S05E92%201080p%20%5BMulti%20Audio%5D.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Naruto Shippuden S05E92 1080p [Multi Audio].mkv" }
+  }
+},
+"naruto-shippuden-1x93": {
+  qualities: {
+    "1080p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=QlurN3Ueslp27EN9zAdi_TwTYtwr-BjmUUwg-4yCuH7QPDymnkMobzYajkdXuhDzcpaneSnnYHJy4T0Ky0_kWA&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Naruto%20Shippuden%20S05E93%201080p%20%5BMulti%20Audio%5D.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Naruto Shippuden S05E93 1080p [Multi Audio].mkv" }
+  }
+},
+"naruto-shippuden-1x94": {
+  qualities: {
+    "1080p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=Qe9z8NJSbwOEpIIoP7WvEaj6fLI1Qafu1lBUtyjzdoKsAtuYJNBjdaHbeee4xaWU5X9l0WTFNMhL22R1NrSSfw&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Naruto%20Shippuden%20S05E94%201080p%20%5BMulti%20Audio%5D.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Naruto Shippuden S05E94 1080p [Multi Audio].mkv" }
+  }
+},
+"naruto-shippuden-1x95": {
+  qualities: {
+    "1080p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=XKw_wemDIGmN9yOY8hUKIrGDXqvRIWWb7FcwCdrNYde5EslM69kO-jkPRf4wPPhAAjJJ-xpYdJGfYy0se2hphg&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Naruto%20Shippuden%20S05E95%201080p%20%5BMulti%20Audio%5D.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Naruto Shippuden S05E95 1080p [Multi Audio].mkv" }
+  }
+},
+"naruto-shippuden-1x96": {
+  qualities: {
+    "1080p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=Tk-BT4_0YU90HnAM01_X2Nn-Dw1lm7WeWGgMFObRVZ9MyraebfNseLNR2equam973Da466eYW8nNvOxP1ah67w&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Naruto%20Shippuden%20S05E96%201080p%20%5BMulti%20Audio%5D.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Naruto Shippuden S05E96 1080p [Multi Audio].mkv" }
+  }
+},
+"naruto-shippuden-1x97": {
+  qualities: {
+    "1080p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=OcXi-SM2lyjtpkf2YVABGvxJGbQebnJMEB8pjE0gmjm3Ynt-Vtg5_Yr9S0eG3rCw4gCUz48LZR-plRC5vOMsFA&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Naruto%20Shippuden%20S05E97%201080p%20%5BMulti%20Audio%5D.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Naruto Shippuden S05E97 1080p [Multi Audio].mkv" }
+  }
+},
+"naruto-shippuden-1x98": {
+  qualities: {
+    "1080p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=7oFqd-RfC7YlQ30kgtfKr0ne75w_mV9oZVCCpciRF7HKljowNKPghTZqtCgYAZ9IMtPDT7odHnoh80z0uOVnLQ&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Naruto%20Shippuden%20S05E98%201080p%20%5BMulti%20Audio%5D.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Naruto Shippuden S05E98 1080p [Multi Audio].mkv" }
+  }
+},
+"naruto-shippuden-1x99": {
+  qualities: {
+    "1080p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=v6mRUP4MtNlLmD-DTPTyYtcLBsBBth-LcueT6df-MbfaVYr0im5Gi_bCh7-Y_ENeXUYaDjnpfnjDKM-kTukZPw&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Naruto%20Shippuden%20S05E99%201080p%20%5BMulti%20Audio%5D.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Naruto Shippuden S05E99 1080p [Multi Audio].mkv" }
+  }
+},
+"naruto-shippuden-1x100": {
+  qualities: {
+    "1080p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=3Sc2EYIwl6U9zj5gZUbp81GdKRpV5n5vTr1YwaJTynuR8x5fyqV2tviz6bDwC4ty2_yFA_H92Vzb32lqlpmUlA&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Naruto%20Shippuden%20S05E100%201080p%20%5BMulti%20Audio%5D.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Naruto Shippuden S05E100 1080p [Multi Audio].mkv" }
+  }
+},
+"naruto-shippuden-1x101": {
+  qualities: {
+    "1080p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=laZmVDpO6SqlPqN11bpudPzR9E6Jvl2rm7jNHhsfzP0Q5VN-ShDoslAVYtKaoYR64rouhOzWG0JNQt73ckPgAA&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Naruto%20Shippuden%20S05E101%201080p%20%5BHindi%20Audio%5D.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Naruto Shippuden S05E101 1080p [Hindi Audio].mkv" }
+  }
+},
+"naruto-shippuden-1x102": {
+  qualities: {
+    "1080p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=invM1gsnWIBMM93a5BAkuZ3cri6AHhapbrzua1uI5OHJSz4VLHYx0yps1Lpup6MbAD6PwgvssSgdJbO39M0PEQ&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Naruto%20Shippuden%20S05E102%201080p%20%5BHindi%20Audio%5D.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Naruto Shippuden S05E102 1080p [Hindi Audio].mkv" }
+  }
+},
+"naruto-shippuden-1x103": {
+  qualities: {
+    "1080p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=GAbc-bbSWV3_bRNJgQjTgY8A0sb0Rnl6rN95DzVp006LmE76jmbDvKoFoc6dzR3IV6lVg539rvbJoaTN4CLFGQ&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Naruto%20Shippuden%20S05E103%201080p%20%5BMulti%20Audio%5D.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Naruto Shippuden S05E103 1080p [Multi Audio].mkv" }
+  }
+},
+"naruto-shippuden-1x104": {
+  qualities: {
+    "1080p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=oHpTe0ZN82IhAP0q1PoXaXqOLVu0Al_TGuUAw3qYpcbqDyuDtfeBDmkv4QE2yo-oKkpehwdaW2TxfX9xPgFFpQ&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Naruto%20Shippuden%20S05E104%201080p%20%5BMulti%20Audio%5D.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Naruto Shippuden S05E104 1080p [Multi Audio].mkv" }
+  }
+},
+"naruto-shippuden-1x106": {
+  qualities: {
+    "1080p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=34EoaPAeEAafxWP0Q9JGpCQwcpKf1wPJwhIz5HRuIL0_e3BTodheEd6XekvEfJuDTCBPW5CB26jUwpXBpmh4pQ&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Naruto%20Shippuden%20S05E106%201080p%20%5BMulti%20Audio%5D.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Naruto Shippuden S05E106 1080p [Multi Audio].mkv" }
+  }
+},
+"naruto-shippuden-1x107": {
+  qualities: {
+    "1080p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=imFVIaD-g2BgAMf2z0G_t7pEkiSNAnaGWQKAHXm_VmollDlzYiqkE174_O3tluKvoyLQctfU3JDK1jyt18qKfw&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Naruto%20Shippuden%20S05E107%201080p%20%5BMulti%20Audio%5D.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Naruto Shippuden S05E107 1080p [Multi Audio].mkv" }
+  }
+},
+"naruto-shippuden-1x108": {
+  qualities: {
+    "1080p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=jVagK1YrYOtxREvrSOAG0H0V85wANuQbgAXvbP4LYathV_S3eQhAsFeZ2kqEzrfMuhXLciwVQTpuz_ZFy2u8sA&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Naruto%20Shippuden%20S05E108%201080p%20%5BMulti%20Audio%5D.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Naruto Shippuden S05E108 1080p [Multi Audio].mkv" }
+  }
+},
+"naruto-shippuden-1x109": {
+  qualities: {
+    "1080p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=LpqtwVs8WMH5knRKqRvgdQj3vjpk8tjLijXZIx9MKujxRZ6Y0WP3PqOLhjFz31qaVMPCVon53fg_6x-eoKuW7Q&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Naruto%20Shippuden%20S05E109%201080p%20%5BMulti%20Audio%5D.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Naruto Shippuden S05E109 1080p [Multi Audio].mkv" }
+  }
+},
+"naruto-shippuden-1x110": {
+  qualities: {
+    "1080p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=KlZlYQ7mLH1vwiLTZt4VzB3iqWBkRji0VrAf3iUsHZ3lel6qCPF_U354fTV7njqTyck_XqYPreo6iL1UPIQ08w&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Naruto%20Shippuden%20S05E110%201080p%20%5BMulti%20Audio%5D.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Naruto Shippuden S05E110 1080p [Multi Audio].mkv" }
+  }
+},
+"naruto-shippuden-1x111": {
+  qualities: {
+    "1080p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=7xLb7AmNuNjMvUCARoGklt9UufjYG_Pg-AFOxtDy8cTfb3jgbUp8NP5AhNFmKCqjHYgHO2JvYNY8sSwM6RFRNg&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Naruto%20Shippuden%20S05E111%201080p%20%5BMulti%20Audio%5D.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Naruto Shippuden S05E111 1080p [Multi Audio].mkv" }
+  }
+},
+"naruto-shippuden-1x112": {
+  qualities: {
+    "1080p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=qdcDi5dcO90vAVJg529Fz7xHl1y_yWNxL0RgbAk6UZ_nugpk1UX5ABAXrl4W0zYCAzWbXAaRTOzAjyKrxcc_Qw&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Naruto%20Shippuden%20S05E112%201080p%20%5BMulti%20Audio%5D.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Naruto Shippuden S05E112 1080p [Multi Audio].mkv" }
+  }
+},
+"naruto-shippuden-1x113": {
+  qualities: {
+    "1080p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=le5oBQE8RmYeXx3uF7Fv1f1nUFBsNUHTFn1NHtSAl7y0vjM6GlVrUhosNHLcJ5Dpwdl6BPl4rmNzmRFryWQeLw&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Naruto%20Shippuden%20S06E113%201080p%20%5BMulti%20Audio%5D.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Naruto Shippuden S06E113 1080p [Multi Audio].mkv" }
+  }
+},
+"naruto-shippuden-1x114": {
+  qualities: {
+    "1080p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=WNXB18IWJXBr7t0r29odFyjLoUKaRkGnOO2SpSJWFiaGTbD8faJyCKi86DzS8UYqOigdsPDSX-GxT8yUZSOBxg&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Naruto%20Shippuden%20S06E114%201080p%20%5BMulti%20Audio%5D.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Naruto Shippuden S06E114 1080p [Multi Audio].mkv" }
+  }
+},
+"naruto-shippuden-1x115": {
+  qualities: {
+    "1080p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=S1ZKoiyhpWUOMCnkbiblAfJb6SdgSJ9KGdiMVrfpXYcBddiwanav641mH2fFXTQdz3pt3Ai-aesZtKFa84CLgw&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Naruto%20Shippuden%20S06E115%201080p%20%5BMulti%20Audio%5D.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Naruto Shippuden S06E115 1080p [Multi Audio].mkv" }
+  }
+},
+"naruto-shippuden-1x116": {
+  qualities: {
+    "1080p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=8Nj5hEzezpaMz__cL1csdZrji_2cH-bmW21mUTlWH0zKjCUzLtVBPMdmuDCAk6SxXT_F2QfXP7h-XxelN07DQA&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Naruto%20Shippuden%20S06E116%201080p%20%5BMulti%20Audio%5D.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Naruto Shippuden S06E116 1080p [Multi Audio].mkv" }
+  }
+},
+"naruto-shippuden-1x117": {
+  qualities: {
+    "1080p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=OX4DPFxAWc51I-9tC_5M4xK2np_fLdvjVMZH6dHl_mGYl-guq2EVclTzC7HxAykefmVSPCqBAkshH2GVI2YS1Q&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Naruto%20Shippuden%20S06E117%201080p%20%5BMulti%20Audio%5D.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Naruto Shippuden S06E117 1080p [Multi Audio].mkv" }
+  }
+},
+"naruto-shippuden-1x118": {
+  qualities: {
+    "1080p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=4uamJ2xG9A1z4hkeVrcAqymn-GX17Y_LibOq6pk5s1mZhuT7ChHZSAZPGN4mtnLsUzktzRKceFEV-2awQV5U7Q&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Naruto%20Shippuden%20S06E118%201080p%20%5BMulti%20Audio%5D.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Naruto Shippuden S06E118 1080p [Multi Audio].mkv" }
+  }
+},
+"naruto-shippuden-1x119": {
+  qualities: {
+    "1080p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=9AsC2HwWwudej_5FoeEbdY9brfZYxyQd462WuAwmKmhyUDmn_TI21T1FpJ6mSvAyfEXL9UMHlpRIzQ-x1rKElQ&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Naruto%20Shippuden%20S06E119%201080p%20%5BMulti%20Audio%5D.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Naruto Shippuden S06E119 1080p [Multi Audio].mkv" }
+  }
+},
+"naruto-shippuden-1x120": {
+  qualities: {
+    "1080p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=iBmGQBxZ3K_mcKbb9shUOck5TwcucUp6KO3-TzUrQm5IvIQNKaD_EqfmZ91Q2JJqt1x_cLkX6ITEgRg0lzg08w&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Naruto%20Shippuden%20S06E120%201080p%20%5BMulti%20Audio%5D.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Naruto Shippuden S06E120 1080p [Multi Audio].mkv" }
+  }
+},
+"naruto-shippuden-1x121": {
+  qualities: {
+    "1080p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=tiMLSTT9v1hWbn9tGN3Jk3Nb8k64SXefbZdRobpOE2ghySgpWprR8VrvNVRvFLMsbKwHB__1cNZ2tPiuIMuV5w&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Naruto%20Shippuden%20S06E121%201080p%20%5BMulti%20Audio%5D.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Naruto Shippuden S06E121 1080p [Multi Audio].mkv" }
+  }
+},
+"naruto-shippuden-1x122": {
+  qualities: {
+    "1080p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=TsuhbaQjU2fVauF26tCrO-1ZDe2rmrh6zr7ZmDvAnCXcjz0nVPyuOBnC5S8y09D4A22b4kmCpI2VX2ISrUG_sg&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Naruto%20Shippuden%20S06E122%201080p%20%5BMulti%20Audio%5D.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Naruto Shippuden S06E122 1080p [Multi Audio].mkv" }
+  }
+},
+"naruto-shippuden-1x123": {
+  qualities: {
+    "1080p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=zcQO4eKgI-prPsJhY6pXVv3hGr-KS6v7Vr8UD3bBGZXpIoNcJQWNXgWM0WcEuyIvM7P9JMNp7ljTVPSA445EdA&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Naruto%20Shippuden%20S06E123%201080p%20%5BMulti%20Audio%5D.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Naruto Shippuden S06E123 1080p [Multi Audio].mkv" }
+  }
+},
+"naruto-shippuden-1x124": {
+  qualities: {
+    "1080p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=segzy8CE6k6YPPrOATU50rznoaFm2zz_CLdK_1E_48-0yZxY8w1-R8IziMdOHpoT043kIpCb3j1Q3KveDm3bxw&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Naruto%20Shippuden%20S06E124%201080p%20%5BMulti%20Audio%5D.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Naruto Shippuden S06E124 1080p [Multi Audio].mkv" }
+  }
+},
+"naruto-shippuden-1x125": {
+  qualities: {
+    "1080p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=9K72WMTzhNLPCg94x9sKJLj38bU1WeuHhC9Ora67dHymuOfrLooAK4hAWTSNsNwfTRrdOZ2RJt78Sq9nxYQQog&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Naruto%20Shippuden%20S06E125%201080p%20%5BMulti%20Audio%5D.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Naruto Shippuden S06E125 1080p [Multi Audio].mkv" }
+  }
+},
+"naruto-shippuden-1x126": {
+  qualities: {
+    "1080p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=EgFdh6n810y5IxvB8wiZwjX9ZG1RZ6AfyEDKt8Ih5_LTNVrZh-dg-24mj_QNeOv4pUTUxFCbfCrM54tm_bgqag&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Naruto%20Shippuden%20S06E126%201080p%20%5BMulti%20Audio%5D.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Naruto Shippuden S06E126 1080p [Multi Audio].mkv" }
+  }
+},
+"naruto-shippuden-1x127": {
+  qualities: {
+    "1080p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=T_PDy1CnH8tNdIbuazXpe8LyocTMpsn8BfeFvF8ptk2disxSEQx2sGOV5evvZzeeM01DeBsno0rDPj3Yl0SG9w&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Naruto%20Shippuden%20S06E127%201080p%20%5BMulti%20Audio%5D.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Naruto Shippuden S06E127 1080p [Multi Audio].mkv" }
+  }
+},
+"naruto-shippuden-1x128": {
+  qualities: {
+    "1080p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=YFJuGRj_M_2bvo6nLi-Wr-kyQz6BHH-68R5VK7tUo0d-0NxxnT1M3vU8_8Gjwi9Pou8CwbQ7mjjoHsF9aj1cFA&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Naruto%20Shippuden%20S06E128%201080p%20%5BMulti%20Audio%5D.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Naruto Shippuden S06E128 1080p [Multi Audio].mkv" }
+  }
+},
+"naruto-shippuden-1x129": {
+  qualities: {
+    "1080p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=YwEcsSdYE1JR5y-1IXIE80wAaodvOwbT6H2xL6gLqsmwvMMitRWmA8uSON6KEbp1Z6gtUFOvX7m6FmZnCNiOpg&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Naruto%20Shippuden%20S06E129%201080p%20%5BMulti%20Audio%5D.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Naruto Shippuden S06E129 1080p [Multi Audio].mkv" }
+  }
+},
+"naruto-shippuden-1x130": {
+  qualities: {
+    "1080p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=3sa8FijiitdIRnzeWH-maTMgrznuEZTsy71DN5J7zqCM5QxfYsmf1qbFiIdkuiMFLZQ5vL9GYsbIlzzaL0Qc7w&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Naruto%20Shippuden%20S06E130%201080p%20%5BMulti%20Audio%5D.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Naruto Shippuden S06E130 1080p [Multi Audio].mkv" }
+  }
+},
+"naruto-shippuden-1x131": {
+  qualities: {
+    "1080p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=7KGijNOfErncZ9ww3udcrBjYdG8ECFAty41GD7ulUMeQCJGiNFtaBQTPuVXc3Wy3dJTw8bbN4oX4C7-fxRacsw&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Naruto%20Shippuden%20S06E131%201080p%20%5BMulti%20Audio%5D.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Naruto Shippuden S06E131 1080p [Multi Audio].mkv" }
+  }
+},
+"naruto-shippuden-1x132": {
+  qualities: {
+    "1080p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=cE7UO43ol1Pjfs8JnBlStgZnLPZc215yOWxm0ofo8umkMTUWl9j43w8JzBuXtIjXsJxFC0sk4MrrUdXnrs4QFA&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Naruto%20Shippuden%20S06E132%201080p%20%5BMulti%20Audio%5D.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Naruto Shippuden S06E132 1080p [Multi Audio].mkv" }
+  }
+},
+"naruto-shippuden-1x133": {
+  qualities: {
+    "1080p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=SRiQ6wyYZbG2NyE6sbBh1VOI3l8V4lUHLRgeYkVY-hHsBi_GwcA1fpLsy4p1VaXC6Hn6VBeTNAWb-MD5Rz3RIQ&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Naruto%20Shippuden%20S06E133%201080p%20%5BMulti%20Audio%5D.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Naruto Shippuden S06E133 1080p [Multi Audio].mkv" }
+  }
+},
+"naruto-shippuden-1x134": {
+  qualities: {
+    "1080p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=ciNr9FWMrGKv5q2216Mk3Ar9RQi4GiI6wXfnDpVYBP3F8Rit7Yv_EiCnZSgnQ4VsOHnIIkgstSoTuRc9w38Ggg&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Naruto%20Shippuden%20S06E134%201080p%20%5BMulti%20Audio%5D.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Naruto Shippuden S06E134 1080p [Multi Audio].mkv" }
+  }
+},
+"naruto-shippuden-1x135": {
+  qualities: {
+    "1080p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=89UaxJ2g8U-RJhCrLwSqObs9dnTbWTnejpWth9enUpkJdogKq49JnX3_LQ4r7x-pgEMJtnzY_eD_4LUwqFtfHQ&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Naruto%20Shippuden%20S06E135%201080p%20%5BMulti%20Audio%5D.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Naruto Shippuden S06E135 1080p [Multi Audio].mkv" }
+  }
+},
+"naruto-shippuden-1x136": {
+  qualities: {
+    "1080p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=ErmnXKw1bjD5GaW_D7N8pxhDykITJxcDGxmx-SaAdtXlqZA3qWCUF53rp_q1-px33ZM22mJ61fthR5NBRX653g&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Naruto%20Shippuden%20S06E136%201080p%20%5BMulti%20Audio%5D.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Naruto Shippuden S06E136 1080p [Multi Audio].mkv" }
+  }
+},
+"naruto-shippuden-1x137": {
+  qualities: {
+    "1080p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=xGEOa5vTVR6QRZR6XONLdOtKR4OaHU4XBIdSc0aZCNvpC4N44wrwR4PZEOwlqoybTBMF0v_mgNaqzX8wvfXwxQ&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Naruto%20Shippuden%20S06E137%201080p%20%5BMulti%20Audio%5D.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Naruto Shippuden S06E137 1080p [Multi Audio].mkv" }
+  }
+},
+"naruto-shippuden-1x138": {
+  qualities: {
+    "1080p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=1u_ErVkJNhp8BuhmMimkjh8fjZdPQfNVzh7HCreA9sd2bGQe-jL6iqn5ez9b_Qyf8gjfy-FIbPHBg5admmh-GA&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Naruto%20Shippuden%20S06E138%201080p%20%5BMulti%20Audio%5D.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Naruto Shippuden S06E138 1080p [Multi Audio].mkv" }
+  }
+},
+"naruto-shippuden-1x139": {
+  qualities: {
+    "1080p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=z-80F2h4Raby1r8ZJwRwXdSiJX8ToGTaAmdKHdaTBdc_TCxIIyoH1BD2JM7WX0qntu_KqH8C8xDh13nw3regPg&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Naruto%20Shippuden%20S06E139%201080p%20%5BMulti%20Audio%5D.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Naruto Shippuden S06E139 1080p [Multi Audio].mkv" }
+  }
+},
+"naruto-shippuden-1x140": {
+  qualities: {
+    "1080p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=OKxYJQpxRfiMqEDylDkEctuP9YRK0z8IHBIiW0fn0HRjVGHOB-LBi_-3LTKlb7fGoRCOfmKnrBMXuwHmki-xXg&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Naruto%20Shippuden%20S06E140%201080p%20%5BMulti%20Audio%5D.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Naruto Shippuden S06E140 1080p [Multi Audio].mkv" }
+  }
+},
+"naruto-shippuden-1x141": {
+  qualities: {
+    "1080p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=0JVjSWZPtdfdEDQUlzJQSiketdU1b3v8vpGuvHisJ-lKs2BHOr2mYeVpXT5HOb25VqEMgLTt89mA4HQN9qyC3A&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Naruto%20Shippuden%20S06E141%201080p%20%5BMulti%20Audio%5D.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Naruto Shippuden S06E141 1080p [Multi Audio].mkv" }
+  }
+},
+"naruto-shippuden-1x142": {
+  qualities: {
+    "1080p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=Y4SF9XRiFj-x0FkkgyqU_I_qINX0aQpuKMViJ5Iw9VG4LxB7hseZdi6F0TQWByDSqk-swAFg0aSc-fO_gFy9ng&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Naruto%20Shippuden%20S06E142%201080p%20%5BMulti%20Audio%5D.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Naruto Shippuden S06E142 1080p [Multi Audio].mkv" }
+  }
+},
+"naruto-shippuden-1x143": {
+  qualities: {
+    "1080p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=xfSIQrM7I5xh0LzDBxkcwLx8wFIWuLoPQUwKyF0GnWPIDUq3YgHMFX3u0VfkEZgjkWaN4-2OQCC9hAqT3uP21A&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Naruto%20Shippuden%20S06E143%201080p%20%5BMulti%20Audio%5D.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Naruto Shippuden S06E143 1080p [Multi Audio].mkv" }
+  }
+},
+"naruto-shippuden-1x144": {
+  qualities: {
+    "1080p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=0-AIUlA-vQkrxjFSwSXwCJH7wSbP3ePLRMqsC8iRq83u-WRh2oDlaBga6Jg3Ko3AkmVSHHbR4L90ByNOQp5G0g&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Naruto%20Shippuden%20S07E144%201080p%20Multi%20Audio%20Esub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Naruto Shippuden S07E144 1080p Multi Audio Esub.mkv" }
+  }
+},
+"naruto-shippuden-1x145": {
+  qualities: {
+    "1080p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=a79rWMhxGgcmoacm-bD66SrVIiqF7z3CG9aYH_oTvanglfme8jLjeinPlSZXMUCqbt70OkeXtgdLVmzvMTjRPA&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Naruto%20Shippuden%20S07E145%201080p%20Multi%20Audio%20Esub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Naruto Shippuden S07E145 1080p Multi Audio Esub.mkv" }
+  }
+},
+"naruto-shippuden-1x146": {
+  qualities: {
+    "1080p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=REdP6lZya1RWmFjQ55XyntoCreWOwMW5--0tZCnqpXy8jqPcPZgO8YfdoTKIdU34JMujLQex9ahnDsvuDtjFCQ&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Naruto%20Shippuden%20S07E146%201080p%20Multi%20Audio%20Esub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Naruto Shippuden S07E146 1080p Multi Audio Esub.mkv" }
+  }
+},
+"naruto-shippuden-1x147": {
+  qualities: {
+    "1080p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=iujZTTtlfc6MnIfLVgE1Vh6msxwmVnwiVHw17S2e3rnymRJ8zlXCKBz2fKXxMbH_HARIzDARH5U2TZO8e-zdng&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Naruto%20Shippuden%20S07E147%201080p%20Multi%20Audio%20Esub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Naruto Shippuden S07E147 1080p Multi Audio Esub.mkv" }
+  }
+},
+"naruto-shippuden-1x148": {
+  qualities: {
+    "1080p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=mnM-ufwVKEoxmAWS6JB9WDAC0bVlLpWz0SUiUkgmm4QfdyW7so9uPlbLE0RmEiezwFhtpwtsZC-T1V36sar15A&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Naruto%20Shippuden%20S07E148%201080p%20Multi%20Audio%20Esub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Naruto Shippuden S07E148 1080p Multi Audio Esub.mkv" }
+  }
+},
+"naruto-shippuden-1x149": {
+  qualities: {
+    "1080p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=JwDiB4ixB-_kGXFBwrA4GscyVqCPBxnocd366l3LkEjlLfLj3PbrbAeq-SZhukvDlmsjxfEzFwXNbTCKoKro3w&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Naruto%20Shippuden%20S07E149%201080p%20Multi%20Audio%20Esub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Naruto Shippuden S07E149 1080p Multi Audio Esub.mkv" }
+  }
+},
+"naruto-shippuden-1x150": {
+  qualities: {
+    "1080p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=lZ0wQjVEr9_42uDcBcrZ4m2EpExhJTr1gmg8XoserfOQQUJYYIhkNw6omWS_QUaSnacnCkn2ut5-tN0xE-vOQg&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Naruto%20Shippuden%20S07E150%201080p%20Multi%20Audio%20Esub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Naruto Shippuden S07E150 1080p Multi Audio Esub.mkv" }
+  }
+},
+"naruto-shippuden-1x151": {
+  qualities: {
+    "1080p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=TirhY_bEDOgD_O_yDHsErFmkqM3SUY3JEO1-VOAqqAc3hprGZTvykI18jLJQsoF2fOWTrZd8HFjDETJxptbi3g&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Naruto%20Shippuden%20S07E151%201080p%20Multi%20Audio%20Esub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Naruto Shippuden S07E151 1080p Multi Audio Esub.mkv" }
+  }
+},
+"naruto-shippuden-1x152": {
+  qualities: {
+    "1080p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=IJOvuC6DS3Hzg2gVaLfIVODcoq78PT7nlRRS8zTmjvZiZs2IEV1R_HrSfxBBNqv_8eSCulHSsevgYfyFgIL2GA&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Naruto%20Shippuden%20S08E152%201080p%20Multi%20Audio%20Esub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Naruto Shippuden S08E152 1080p Multi Audio Esub.mkv" }
+  }
+},
+"naruto-shippuden-1x153": {
+  qualities: {
+    "1080p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=8K3KbmsiWwcwiMjRg2KvcO7t_yaJcFO2s_5M9MENcyNPfP-5uJFwG6PWVAS1l6d-nt6lVoXlv7z78Q4Gg9G9uQ&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Naruto%20Shippuden%20S08E153%201080p%20Multi%20Audio%20Esub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Naruto Shippuden S08E153 1080p Multi Audio Esub.mkv" }
+  }
+},
+"naruto-shippuden-1x154": {
+  qualities: {
+    "1080p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=NdaIdgB01DvT6Xi3GkCGlZ42JvjrDTTak8L9GugfOnb04uLGRuStQZVXaR2ibG2UEBOtPtUkzUcqK0k8aWZ7Iw&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Naruto%20Shippuden%20S08E154%201080p%20Multi%20Audio%20Esub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Naruto Shippuden S08E154 1080p Multi Audio Esub.mkv" }
+  }
+},
+"naruto-shippuden-1x155": {
+  qualities: {
+    "1080p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=Lq5U5ZqMuZOCJ2RK1FI2qwSsGOsaJ9_UzyQR0JTpO1mPDsb3HUawiaMt_wNnbB3fUijlBq0A_a1mm8J1tC1IIQ&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Naruto%20Shippuden%20S08E155%201080p%20Multi%20Audio%20Esub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Naruto Shippuden S08E155 1080p Multi Audio Esub.mkv" }
+  }
+},
+"naruto-shippuden-1x156": {
+  qualities: {
+    "1080p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=6apdOUQnz0-bCAIGQVnCiiCWLeAvg4tmdilOZAX-Qve3pqZmja0EnaS9bRpV4-iT54zJ2lovAt5yuN-pUfKH0A&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Naruto%20Shippuden%20S08E156%201080p%20Multi%20Audio%20Esub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Naruto Shippuden S08E156 1080p Multi Audio Esub.mkv" }
+  }
+},
+"naruto-shippuden-1x157": {
+  qualities: {
+    "1080p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=N9e7Kb77KeeqnkU4jRCpyDHxZ6PDBVRx2o66X3oWRbiMEBnq8HIbhl5JrD97eD1cF4Kch9voyy0Ehnp2kjnlug&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Naruto%20Shippuden%20S08E157%201080p%20Multi%20Audio%20Esub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Naruto Shippuden S08E157 1080p Multi Audio Esub.mkv" }
+  }
+},
+"naruto-shippuden-1x158": {
+  qualities: {
+    "1080p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=BZ-IYGUosb9P5THET0qr322kloeAhj-NPPYOCLFqw_0WNqgKqSUOJF7Gi6ew9hAKEZCLQc6OyHrSeTCchZ4_fg&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Naruto%20Shippuden%20S08E158%201080p%20Multi%20Audio%20Esub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Naruto Shippuden S08E158 1080p Multi Audio Esub.mkv" }
+  }
+},
+"naruto-shippuden-1x159": {
+  qualities: {
+    "1080p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=tYJDJfxDkxIAVfpwktjcLxmlMIj2nGOOce-J2gh3nfYU6OO0IfDXIDRjppQTehtzKTIrBqZ1FwEvaYPKjffFCA&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Naruto%20Shippuden%20S08E159%201080p%20Multi%20Audio%20Esub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Naruto Shippuden S08E159 1080p Multi Audio Esub.mkv" }
+  }
+},
+"naruto-shippuden-1x160": {
+  qualities: {
+    "1080p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=J3wyHUbkZ9rb0k2HitSJ3hGfnVS6n3Ci1ft6qtqxJqDZsFj404DEReVWmU6zXh3XGpzsTm6oY1t32HGoSIl-Zg&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Naruto%20Shippuden%20S08E160%201080p%20Multi%20Audio%20Esub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Naruto Shippuden S08E160 1080p Multi Audio Esub.mkv" }
+  }
+},
+"naruto-shippuden-1x161": {
+  qualities: {
+    "1080p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=pyLGuWuD2ZEyJnNb7quWpNHQcX_l39dxcwD7QF-s5sPsr6cSsLHUzpYhU9MC5uiGliYeMLtiso97lSHYiTLeZw&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Naruto%20Shippuden%20S08E161%201080p%20Multi%20Audio%20Esub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Naruto Shippuden S08E161 1080p Multi Audio Esub.mkv" }
+  }
+},
+"naruto-shippuden-1x162": {
+  qualities: {
+    "1080p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=ZwNGm6mY-TDwOMA7hSYirgCzwXSl-VsOjMoHriGXKi7sp9YBkeefdo8D1RQiIYOwYkCc2fUdO1RjZYDYW8dKVw&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Naruto%20Shippuden%20S08E162%201080p%20Multi%20Audio%20Esub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Naruto Shippuden S08E162 1080p Multi Audio Esub.mkv" }
+  }
+},
+"naruto-shippuden-1x163": {
+  qualities: {
+    "1080p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=G1T0jb1DNIw0pgk1oDf5TmIQQVQizoUEwh-ilYcCWu3SCbaHM-0eqEjAb9d4bhZLw016RWGyQJCU8J6eJOOMJg&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Naruto%20Shippuden%20S08E163%201080p%20Multi%20Audio%20Esub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Naruto Shippuden S08E163 1080p Multi Audio Esub.mkv" }
+  }
+},
+"naruto-shippuden-1x164": {
+  qualities: {
+    "1080p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=6Remg-sDp_TZJeTuqB6ex8H81lsE10LRlwRDUwQzr86eQWJzOuHtwFy4nj3nJn1NIsOrAkVkHPbtipMB8iNFYA&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Naruto%20Shippuden%20S08E164%201080p%20Multi%20Audio%20Esub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Naruto Shippuden S08E164 1080p Multi Audio Esub.mkv" }
+  }
+},
+"naruto-shippuden-1x165": {
+  qualities: {
+    "1080p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=70AjfOL1_yJTyWeGKA5rYDOC8PfMJkxZZncH9niAG5sKDGlr0Uh197m2KRzr4BkuRkUfCSvm4-_MxehSg0kW2g&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Naruto%20Shippuden%20S08E165%201080p%20Multi%20Audio%20Esub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Naruto Shippuden S08E165 1080p Multi Audio Esub.mkv" }
+  }
+},
+"naruto-shippuden-1x166": {
+  qualities: {
+    "1080p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=MvZbNsBXbLc-Pk0XtDhoOzEiLgzkyASDCTk62YJDXZLzak9uFTvutmSoqXBV5StX5sXysbss0M-sPRm7VdrgcA&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Naruto%20Shippuden%20S08E166%201080p%20Multi%20Audio%20Esub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Naruto Shippuden S08E166 1080p Multi Audio Esub.mkv" }
+  }
+},
+"naruto-shippuden-1x167": {
+  qualities: {
+    "1080p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=Y8yBLxHG8kj81C7UusoUCAVkqIPx7q_bnc66fHxFlKIGGARFVgNXg8pdliKXts729POP6qn0A2PU2jzrYG7t1g&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Naruto%20Shippuden%20S08E167%201080p%20Multi%20Audio%20Esub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Naruto Shippuden S08E167 1080p Multi Audio Esub.mkv" }
+  }
+},
+"naruto-shippuden-1x168": {
+  qualities: {
+    "1080p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=_GpW8Y5tvvCJRK0Di-i4IEJfcSEHFp1WVXmlPW8klMljfGtJKwO1A_p0q-K78R1mp2lMIyHfqyglEn60UIWmQQ&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Naruto%20Shippuden%20S08E168%201080p%20Multi%20Audio%20Esub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Naruto Shippuden S08E168 1080p Multi Audio Esub.mkv" }
+  }
+},
+"naruto-shippuden-1x169": {
+  qualities: {
+    "1080p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=2avAJeEOJTciZgghpFxlxt5eQiMpQ5EvFlYl2jY7V2ZX5JZq8q4VSEUzc56yuCbHgNYw-JG3jhvFklNuhYMwZA&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Naruto%20Shippuden%20S08E169%201080p%20Multi%20Audio%20Esub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Naruto Shippuden S08E169 1080p Multi Audio Esub.mkv" }
+  }
+},
+"naruto-shippuden-1x170": {
+  qualities: {
+    "1080p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=4KSZVV7pPwN3Q13zYms3gkFkhzuPXXM-rw3BONb8Kaqn6jA8cAi3-OmNf4p34tLnh8yhFGPYoMIMDhKQ0TViTw&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Naruto%20Shippuden%20S08E170%201080p%20Multi%20Audio%20Esub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Naruto Shippuden S08E170 1080p Multi Audio Esub.mkv" }
+  }
+},
+"naruto-shippuden-1x171": {
+  qualities: {
+    "1080p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=xWhEdf6K37wxWMNgUR1HfnDY2cdkbxfemeVC8Ao84wZjlhRCk2Nzn4hrdNRKk-7TnBiJg4fEw0AICd0fSSPfvg&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Naruto%20Shippuden%20S08E171%201080p%20Multi%20Audio%20Esub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Naruto Shippuden S08E171 1080p Multi Audio Esub.mkv" }
+  }
+},
+"naruto-shippuden-1x172": {
+  qualities: {
+    "1080p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=esvsUjJWLW0JYSpqMJ8geex0YLJI9ilKjo6KE0RIcw-qqTnOKwxxdoVrwx1KYNq2MUJ-DUFbSe5yPpUUyQusCQ&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Naruto%20Shippuden%20S08E172%201080p%20Multi%20Audio%20Esub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Naruto Shippuden S08E172 1080p Multi Audio Esub.mkv" }
+  }
+},
+"naruto-shippuden-1x173": {
+  qualities: {
+    "1080p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=kjHHYTNsYvApiWPUCTYkBTRO94bePMccQcDxbu6X6i9f7HA93psG-m_bUprmTXypOCeUka00P1acN9EKcfGIKw&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Naruto%20Shippuden%20S08E173%201080p%20Multi%20Audio%20Esub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Naruto Shippuden S08E173 1080p Multi Audio Esub.mkv" }
+  }
+},
+"naruto-shippuden-1x174": {
+  qualities: {
+    "1080p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=o5UVmqWP2dPB1MGlhQ6ykaqOSeDe63XPgQQ_fb2hJjWduUT4wcRSr_-LDDZESABcMzakKcl8cvhn5S7guS4XpA&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Naruto%20Shippuden%20S08E174%201080p%20Multi%20Audio%20Esub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Naruto Shippuden S08E174 1080p Multi Audio Esub.mkv" }
+  }
+},
+"naruto-shippuden-1x175": {
+  qualities: {
+    "1080p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=3o9897huoP__8WnQgzUItAy0fOx9C55NifF8iKVC1Mq6Dg8WWeRMjJkCLXBIrW5ATP6UanO2fLAyZy9eTBJ26g&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Naruto%20Shippuden%20S08E175%201080p%20Multi%20Audio%20Esub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Naruto Shippuden S08E175 1080p Multi Audio Esub.mkv" }
+  }
+},
+"naruto-shippuden-1x176": {
+  qualities: {
+    "1080p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=zKZgZwT4sClsdDS4NtoduTfCCMz6VIAl6RTVebCuNx139_-pVe8Ux9Fsm_oTc4ZuzicDo_NHAuYTCvBnEAELAQ&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Naruto%20Shippuden%20S09E176%201080p%20Multi%20Audio%20Esub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Naruto Shippuden S09E176 1080p Multi Audio Esub.mkv" }
+  }
+},
+"naruto-shippuden-1x177": {
+  qualities: {
+    "1080p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=uQHdlbRyrjQs71cejxpCIUDpwPs0fWXT3pJylHCmysxo7M_0ffdHp_REs55m47FB9Jf4xhqOqc4GXlWRuWJrtQ&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Naruto%20Shippuden%20S09E177%201080p%20Multi%20Audio%20Esub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Naruto Shippuden S09E177 1080p Multi Audio Esub.mkv" }
+  }
+},
+"naruto-shippuden-1x178": {
+  qualities: {
+    "1080p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=wuGA5ofU5XlQd89N6k8Ftb74SEDy_AoW1ojPMv4v7ll0dVVa77B6uXegTbgkDu9l0k8mVN4w8ob4gBCkax7bxA&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Naruto%20Shippuden%20S09E178%201080p%20Multi%20Audio%20Esub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Naruto Shippuden S09E178 1080p Multi Audio Esub.mkv" }
+  }
+},
+"naruto-shippuden-1x179": {
+  qualities: {
+    "1080p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=ZSHNI6BmbWYkj-a8f6HeIh7oiLDw4_bxVp1-joZMxIksn6ZMk2mtYv3eFPWoniAnKsjmZ8QT8Xt80uUjYF9fFQ&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Naruto%20Shippuden%20S09E179%201080p%20Multi%20Audio%20Esub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Naruto Shippuden S09E179 1080p Multi Audio Esub.mkv" }
+  }
+},
+"naruto-shippuden-1x180": {
+  qualities: {
+    "1080p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=7LRFIbuKHcmQ99kqtjnFtuT6oiwLfDbBKVZ2Petyb_zlcilBBXMyI2frMfftGONllq0vKxWHaYjthEzOFveC4A&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Naruto%20Shippuden%20S09E180%201080p%20Multi%20Audio%20Esub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Naruto Shippuden S09E180 1080p Multi Audio Esub.mkv" }
+  }
+},
+"naruto-shippuden-1x181": {
+  qualities: {
+    "1080p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=nEpQBiBzEE58hYo6obWIA41nRlFNgJuMjzxHxsQqgDkm9AK6sbil5t0VTthu8TmWJxb-mXpllns-8IEKy984wg&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Naruto%20Shippuden%20S09E181%201080p%20Multi%20Audio%20Esub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Naruto Shippuden S09E181 1080p Multi Audio Esub.mkv" }
+  }
+},
+"naruto-shippuden-1x182": {
+  qualities: {
+    "1080p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=7l3VMhkSodEGG2nkmAFQUxRrRZSdDFxrDVybGT39wtnah_8nYwA80dqYtn11h-4uUgXkwTpWZoxQKW4OEvAnoA&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Naruto%20Shippuden%20S09E182%201080p%20Multi%20Audio%20Esub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Naruto Shippuden S09E182 1080p Multi Audio Esub.mkv" }
+  }
+},
+"naruto-shippuden-1x183": {
+  qualities: {
+    "1080p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=SqERxOvmZDEhKwaR1WS-RcsM57QfnnhR4WRYT7Wm7WzffHvtw1SADp61sTOHE_CgFCJFL9oJapquiBHgI6KCWQ&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Naruto%20Shippuden%20S09E183%201080p%20Multi%20Audio%20Esub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Naruto Shippuden S09E183 1080p Multi Audio Esub.mkv" }
+  }
+},
+"naruto-shippuden-1x184": {
+  qualities: {
+    "1080p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=e3BWKRfzJyRdCbv-kc1ZAAF_yymzr4Qai4Bit085ziiRV4DzJqwrFYIjUxH9rX-d6PTjV0BRYDePIlBREMre_Q&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Naruto%20Shippuden%20S09E184%201080p%20Multi%20Audio%20Esub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Naruto Shippuden S09E184 1080p Multi Audio Esub.mkv" }
+  }
+},
+"naruto-shippuden-1x185": {
+  qualities: {
+    "1080p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=JXBLqqHCeP7QeN_E9Epj5Ax78JHpSn7CiCW3p02lAfdE3jJ6z0QuF-p0y7jRt3Hm-OmablFnAiqIGB6zhaPnDA&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Naruto%20Shippuden%20S09E185%201080p%20Multi%20Audio%20Esub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Naruto Shippuden S09E185 1080p Multi Audio Esub.mkv" }
+  }
+},
+"naruto-shippuden-1x186": {
+  qualities: {
+    "1080p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=ZCe5GhlcuK_VcHxYWxRpikxCURUc88iDT7QDxqPQeafDTFxGkpuXhnkfyiOQ_QYtkvQVU5hMe-6clJcwsRdjaA&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Naruto%20Shippuden%20S09E186%201080p%20Multi%20Audio%20Esub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Naruto Shippuden S09E186 1080p Multi Audio Esub.mkv" }
+  }
+},
+"naruto-shippuden-1x187": {
+  qualities: {
+    "1080p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=nlTbMZ6g8YZmW4IdM5Sf1c3zynflO9rJNo0EppzUAVqJWndh9u5aCKTiTfG-mirzUSfuxxvFMwxPrVnxxBJrdQ&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Naruto%20Shippuden%20S09E187%201080p%20Multi%20Audio%20Esub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Naruto Shippuden S09E187 1080p Multi Audio Esub.mkv" }
+  }
+},
+"naruto-shippuden-1x188": {
+  qualities: {
+    "1080p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=aWuorxXgK23tWsJn_JpEhpwsg7gMVVZy2Hk2FYr7VLpCYs1AJZ3OhScWwEidqf-8SieC4Cz8J9FPQR7Vg8JIoQ&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Naruto%20Shippuden%20S09E188%201080p%20Multi%20Audio%20Esub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Naruto Shippuden S09E188 1080p Multi Audio Esub.mkv" }
+  }
+},
+"naruto-shippuden-1x189": {
+  qualities: {
+    "1080p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=lSE6-FfG3sZKVSZ3lIZsy_44YGPYRoybUMdep6Skm6Q3SiCYDryUhFOonpv2KT4VDtIN4SEOCycKSmmwNRwlbw&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Naruto%20Shippuden%20S09E189%201080p%20Multi%20Audio%20Esub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Naruto Shippuden S09E189 1080p Multi Audio Esub.mkv" }
+  }
+},
+"naruto-shippuden-1x190": {
+  qualities: {
+    "1080p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=iS_JOciqvKkIIZKHBQZ5tFvN9E3ln0f1A8tEZi66gbVPIzdkZqGzwabpaU-ZSJFTrPADWkBwBfYDnYaYMw1v3w&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Naruto%20Shippuden%20S09E190%201080p%20Multi%20Audio%20Esub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Naruto Shippuden S09E190 1080p Multi Audio Esub.mkv" }
+  }
+},
+"naruto-shippuden-1x191": {
+  qualities: {
+    "1080p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=wtsEP_hWPiI5DvTsLDa5OAWw82-bJ5gVFjk2BxeKATJdaYxbRjtmbLvZh8c4uwU9umQDHzwLgcagkSfEPWt2cw&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Naruto%20Shippuden%20S09E191%201080p%20Multi%20Audio%20Esub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Naruto Shippuden S09E191 1080p Multi Audio Esub.mkv" }
+  }
+},
+"naruto-shippuden-1x192": {
+  qualities: {
+    "1080p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=TQm3mFpgaO7f0Lkq-Y5gSs8nvFXrXrfm6HCY9STLbR0rBOOROr4PgAq3eGo_uHTHIhnB_WboNFnZZduJErWJTg&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Naruto%20Shippuden%20S09E192%201080p%20Multi%20Audio%20Esub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Naruto Shippuden S09E192 1080p Multi Audio Esub.mkv" }
+  }
+},
+"naruto-shippuden-1x193": {
+  qualities: {
+    "1080p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=AJixCKl7FmC5IxEs28HXVQ13pzZ1j6ASxRP3wr1rDto0v-2hXicVMyZcnW4SrxDQsxbSAHKrInm9OaHX41B5xA&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Naruto%20Shippuden%20S09E193%201080p%20Multi%20Audio%20Esub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Naruto Shippuden S09E193 1080p Multi Audio Esub.mkv" }
+  }
+},
+"naruto-shippuden-1x194": {
+  qualities: {
+    "1080p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=W6DqajPQ9d-JY_MRlCxTv4XLwH-E3iLZF-14miMLmOZZkE98kQ9QqOI2dpEgY2oUnC6JUH4Q22zbVEaZxJbvXw&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Naruto%20Shippuden%20S09E194%201080p%20Multi%20Audio%20Esub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Naruto Shippuden S09E194 1080p Multi Audio Esub.mkv" }
+  }
+},
+"naruto-shippuden-1x195": {
+  qualities: {
+    "1080p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=aR9hN3nMN16ckMp8o3NUgvzpgMgzzIYtXV4I31UHNyJIl0Ppm9Fi7hetvb01_YwiP5BMpRx3oZ2ImBc045fA2w&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Naruto%20Shippuden%20S09E195%201080p%20Multi%20Audio%20Esub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Naruto Shippuden S09E195 1080p Multi Audio Esub.mkv" }
+  }
+},
+"naruto-shippuden-1x196": {
+  qualities: {
+    "1080p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=rkQiXqN_5cvNpSfKiPn4O_YY-N_tmQmhRsN8yoa7uZPxdyy3oNVIg-E5Oaz76ffho8K8BwDeSa_H8bY6sMDxZg&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Naruto%20Shippuden%20S09E196%201080p%20Multi%20Audio%20Esub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Naruto Shippuden S09E196 1080p Multi Audio Esub.mkv" }
+  }
+},
+"naruto-shippuden-1x197": {
+  qualities: {
+    "1080p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=yBU2XCVVQYoZiHnP4t-LQt0Yf5vBy8iC3_8Cu8oq-Kt3ezrLtY2rPR_bHojXkcpCW0WUJV7Xot3kFxkGsXNcDA&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Naruto%20Shippuden%20S10E197%201080p%20Multi%20Audio%20Esub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Naruto Shippuden S10E197 1080p Multi Audio Esub.mkv" }
+  }
+},
+"naruto-shippuden-1x198": {
+  qualities: {
+    "1080p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=vVdOwCujsTd9YUWjP97IaDbwyaL9zRnc8AJkQKqoL7jvlMoeTEP4ScoF5YH_8c8DGKj3-d7kHXV0NuOQieorWA&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Naruto%20Shippuden%20S10E198%201080p%20Multi%20Audio%20Esub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Naruto Shippuden S10E198 1080p Multi Audio Esub.mkv" }
+  }
+},
+"naruto-shippuden-1x199": {
+  qualities: {
+    "1080p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=3uv7a0LhVgA4MHQjy2b-j4UjB7-Z0QCoxezfnXDz9ZHVdsO4-yaIyQEAdER2yuejc2jA9pnA_caSoNTEj7j9Wg&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Naruto%20Shippuden%20S10E199%201080p%20Multi%20Audio%20Esub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Naruto Shippuden S10E199 1080p Multi Audio Esub.mkv" }
+  }
+},
+"naruto-shippuden-1x200": {
+  qualities: {
+    "1080p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=afXIHmXpI8ffn5MfDEgBthuQ5-5ySJIeJPWuDXqXcXN5R0ZtPW4G_VbtkcOmsh_HT3988Vp3c3jfiP8Xl-qgnQ&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Naruto%20Shippuden%20S10E200%201080p%20Multi%20Audio%20Esub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Naruto Shippuden S10E200 1080p Multi Audio Esub.mkv" }
+  }
+},
+"naruto-shippuden-1x201": {
+  qualities: {
+    "1080p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=GVXK2h1lDq5YzUPy8kFgJARTK-P5dGGBUMjIOS4a63ZKGoCshLmFGsLT0rhsouKyaVCRAVAPQQwVBZDa_OSvfQ&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Naruto%20Shippuden%20S10E201%201080p%20Multi%20Audio%20Esub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Naruto Shippuden S10E201 1080p Multi Audio Esub.mkv" }
+  }
+},
+"naruto-shippuden-1x202": {
+  qualities: {
+    "1080p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=4CvuXxbnOROJ2Lwp9FIIuTO9gZ95VMMhJRIb68Y9J4FhDtVj1PbEyrIH9PSqdJ46Dfu8EMzJzck6zOukETv_2g&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Naruto%20Shippuden%20S10E202%201080p%20Multi%20Audio%20Esub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Naruto Shippuden S10E202 1080p Multi Audio Esub.mkv" }
+  }
+},
+"naruto-shippuden-1x203": {
+  qualities: {
+    "1080p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=340tnz_HdFrNu7kvnP_S-rls9sCGBV9B_H1LmGBqGF1q8pmJpCRE8sU2yXIxIn3mpWPO3A9jdg2VjfAVsYgL6g&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Naruto%20Shippuden%20S10E203%201080p%20Multi%20Audio%20Esub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Naruto Shippuden S10E203 1080p Multi Audio Esub.mkv" }
+  }
+},
+"naruto-shippuden-1x204": {
+  qualities: {
+    "1080p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=-tYQ2-uxKA2ALtZQF1NrGa_vbioMrAPaofJ_k-phrSPT_lQaTX6hK_27ND73Oxx8LskO937ZbmRrqP5mdnm39g&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Naruto%20Shippuden%20S10E204%201080p%20Multi%20Audio%20Esub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Naruto Shippuden S10E204 1080p Multi Audio Esub.mkv" }
+  }
+},
+"naruto-shippuden-1x205": {
+  qualities: {
+    "1080p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=uVwd9-0vySUB5yGRbA-srgJBbh4XVg6vTZvtYGNbKD69QbUmrxfmsGdLOcoTHtXDqQwTVoI7on4WG_3daIpprw&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Naruto%20Shippuden%20S10E205%201080p%20Multi%20Audio%20Esub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Naruto Shippuden S10E205 1080p Multi Audio Esub.mkv" }
+  }
+},
+"naruto-shippuden-1x206": {
+  qualities: {
+    "1080p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=eJqqG1wtoc0b-83urwH9ErDSzm2N3aAkghvCQvDvBBdXkDnuwqA5Yk6K2SfO9HD_jj9rkFGj-Bt9co1op9Pxaw&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Naruto%20Shippuden%20S10E206%201080p%20Multi%20Audio%20Esub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Naruto Shippuden S10E206 1080p Multi Audio Esub.mkv" }
+  }
+},
+"naruto-shippuden-1x207": {
+  qualities: {
+    "1080p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=ghUedXDj3HBwVzFOEbMia3bM7grLVYjRdYnsJ3eASabXQ-id1tCjpUOz3qXkdXwUkEoVN-EFm_Wt8F3snygH_A&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Naruto%20Shippuden%20S10E207%201080p%20Multi%20Audio%20Esub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Naruto Shippuden S10E207 1080p Multi Audio Esub.mkv" }
+  }
+},
+"naruto-shippuden-1x208": {
+  qualities: {
+    "1080p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=1BJK2yFPvESGitjLDp6arI3GhI8xzz7z_CopjBLMuZniHlja3p2pLae5MNJRx7-JxzLEmu-7mDO6BAqNDYxmog&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Naruto%20Shippuden%20S10E208%201080p%20Multi%20Audio%20Esub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Naruto Shippuden S10E208 1080p Multi Audio Esub.mkv" }
+  }
+},
+"naruto-shippuden-1x209": {
+  qualities: {
+    "1080p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=USFt8XCWDM1bDfKPadXb7WtlsbP6l8er1NazwJGQ7GJvmDiWDtRi4yLpzQKFytOWFNVcjch-1ioON6mluNlXww&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Naruto%20Shippuden%20S10E209%201080p%20Multi%20Audio%20Esub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Naruto Shippuden S10E209 1080p Multi Audio Esub.mkv" }
+  }
+},
+"naruto-shippuden-1x210": {
+  qualities: {
+    "1080p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=fWa4IB3ilFkaFsTMMj5HQXGz8ucFjRYKQUp-IsWizN3M7qUdw7_kPUkRZs4qdgkPIKcQ9R0-FA7RAjaqPDD1vQ&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Naruto%20Shippuden%20S10E210%201080p%20Multi%20Audio%20Esub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Naruto Shippuden S10E210 1080p Multi Audio Esub.mkv" }
+  }
+},
+"naruto-shippuden-1x211": {
+  qualities: {
+    "1080p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=jd9kT7lu00uCO0Et-_Z6UXES-qwZKblLH_0ZEkqZ69BS63J15PVDSXbej-yXnLYtOB2y3M9u09ZZQ3qxc3bhjg&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Naruto%20Shippuden%20S10E211%201080p%20Multi%20Audio%20Esub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Naruto Shippuden S10E211 1080p Multi Audio Esub.mkv" }
+  }
+},
+"naruto-shippuden-1x212": {
+  qualities: {
+    "1080p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=_SxkW5LM6DwMFjFqqGlxwYBHybXXT9NqssaGlwOxDdWEGM7I4uSqz7qd0Z-EeWaK6T0Ki8yl4mYg4VsUe0t0BA&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Naruto%20Shippuden%20S10E212%201080p%20Multi%20Audio%20Esub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Naruto Shippuden S10E212 1080p Multi Audio Esub.mkv" }
+  }
+},
+"naruto-shippuden-1x213": {
+  qualities: {
+    "1080p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=Sxkm50fpLwB7zyZcHJjKdvYuQLoWeaq61WiXduUCN0MGn90UuGuImetenba1LQG3J_5lBe34_z0TeaVlhdMIag&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Naruto%20Shippuden%20S10E213%201080p%20Multi%20Audio%20Esub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Naruto Shippuden S10E213 1080p Multi Audio Esub.mkv" }
+  }
+},
+"naruto-shippuden-1x214": {
+  qualities: {
+    "1080p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=9__3fqLPNI-7f7bv9O6VjqzG5QcBMLjJEhvhuBBzozwHCJGcG-96Wcg7q3fVHJnuLBQPLnaUCXzPSI4fyK9eFg&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Naruto%20Shippuden%20S10E214%201080p%20Multi%20Audio%20Esub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Naruto Shippuden S10E214 1080p Multi Audio Esub.mkv" }
+  }
+},
+"naruto-shippuden-1x215": {
+  qualities: {
+    "1080p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=s2ZFxyNz0tew0eCqXH3XpHqJVJ5ghqScVt-VubpYWatC1Xw0jbN5XcUHYPw9D8hBhxUGngRXQA0I_Wjx0-gcyw&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Naruto%20Shippuden%20S10E215%201080p%20Multi%20Audio%20Esub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Naruto Shippuden S10E215 1080p Multi Audio Esub.mkv" }
+  }
+},
+"naruto-shippuden-1x216": {
+  qualities: {
+    "1080p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=Vu8KDEtEzy0wExHczXFIm5NDwDF5XCKaMj9vcenWz3VuSHoAouHKu29YOKKpdXAksPzzfdc1elxLSLtCexlwbQ&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Naruto%20Shippuden%20S10E216%201080p%20Multi%20Audio%20Esub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Naruto Shippuden S10E216 1080p Multi Audio Esub.mkv" }
+  }
+},
+"naruto-shippuden-1x217": {
+  qualities: {
+    "1080p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=ImRhLuOG1_YUnllBC1SAv7GcQkZwi2ZgoecwjxYzkZDbrtsWDlIpubZQG-sn9qBkSclexf-1y_v82uS2BSOD4A&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Naruto%20Shippuden%20S10E217%201080p%20Multi%20Audio%20Esub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Naruto Shippuden S10E217 1080p Multi Audio Esub.mkv" }
+  }
+},
+"naruto-shippuden-1x218": {
+  qualities: {
+    "1080p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=9fqSKMdM9Wgy8dm-sBh1IMUtLgzoYOT4EvAQjY5jc1AjD9t1Zfhhpe-IFhKmekui1t_LoWUCi_YUdytx2NJSuQ&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Naruto%20Shippuden%20S10E218%201080p%20Multi%20Audio%20Esub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Naruto Shippuden S10E218 1080p Multi Audio Esub.mkv" }
+  }
+},
+"naruto-shippuden-1x219": {
+  qualities: {
+    "1080p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=mkK3MAtMYt_E_8qmTpEBLpZ8MT2rL-Yfrgu296T1fem68Kk3u32pCj5gvuxx7xpYE9C3osgovNNfgB__lAtw_A&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Naruto%20Shippuden%20S10E219%201080p%20Multi%20Audio%20Esub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Naruto Shippuden S10E219 1080p Multi Audio Esub.mkv" }
+  }
+},
+"naruto-shippuden-1x220": {
+  qualities: {
+    "1080p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=YT25E5KcOec-Cdq4XXTHqqzjUAkCyy6z-C9bMtGia6B1KYqIHVwGkFgK99i11eFliH3sBkaAKP9YATdMwXJ5TA&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Naruto%20Shippuden%20S10E220%201080p%20Multi%20Audio%20Esub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Naruto Shippuden S10E220 1080p Multi Audio Esub.mkv" }
+  }
+},
+"naruto-shippuden-1x221": {
+  qualities: {
+    "1080p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=vYv8Lw3BxeeApwiidvaI7m6WOzSkB4FaIcAmCRhPX3tK_XNxJViKT0FbUc3ZiiAAvDVLJzZoS16XdD6jlxWllA&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Naruto%20Shippuden%20S10E221%201080p%20BluRay%20Multi%20Audio%20Esub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Naruto Shippuden S10E221 1080p BluRay Multi Audio Esub.mkv" }
+  }
+},
+"naruto-shippuden-1x278": {
+  qualities: {
+    "1080p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=nVBSvACyHq_bBg7SOkDmnDnDRvH9U1KoGdjmqbSiyB1gBytnLifqhvesvilTBianv2cLLisiokbBrGYtOp_5MQ&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Naruto%20Shippuden%20S13E278%201080p%20BluRay%20Multi%20Audio%20Esub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Naruto Shippuden S13E278 1080p BluRay Multi Audio Esub.mkv" }
+  }
+},
+"naruto-shippuden-1x279": {
+  qualities: {
+    "1080p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=8KESBhTRZtRO9XAT9V7TK_eIH8pM5b4Tgv84KWDi0fEk7UHKjp-2ud7-bQvScFaiIP7Uv39aXfHkSJ4nZKxv-w&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Naruto%20Shippuden%20S13E279%201080p%20BluRay%20Multi%20Audio%20Esub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Naruto Shippuden S13E279 1080p BluRay Multi Audio Esub.mkv" }
+  }
+},
+"naruto-shippuden-1x280": {
+  qualities: {
+    "1080p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=z7A26YysQlrlvgtUOagCg5ZKD_Jjese8b78dA7z4Da0CkUTbgYUx4j__Z3vIiDt_3n8zVMLRxlxrxnlf2pfrUw&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Naruto%20Shippuden%20S13E280%201080p%20BluRay%20Multi%20Audio%20Esub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Naruto Shippuden S13E280 1080p BluRay Multi Audio Esub.mkv" }
+  }
+},
+"naruto-shippuden-1x281": {
+  qualities: {
+    "1080p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=B7gv-XEagzobwClVRNanN1TvbCAq15vkGDJDTQCBUgQsh0x7vV1Gyr-h3-fQokvGjrOjCoV7zF42PJ6V6lAs-A&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Naruto%20Shippuden%20S13E281%201080p%20BluRay%20Multi%20Audio%20Esub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Naruto Shippuden S13E281 1080p BluRay Multi Audio Esub.mkv" }
+  }
+},
+"naruto-shippuden-1x282": {
+  qualities: {
+    "1080p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=gfIzKfaKU6qbJU_hzkYpOXUt-YL-ZNNYqbLC7zXhVODQNxfRQs-pYrm7cAMJ2oQc7UHHlkqNrpuqx6Q4kGRfbw&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Naruto%20Shippuden%20S13E282%201080p%20BluRay%20Multi%20Audio%20Esub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Naruto Shippuden S13E282 1080p BluRay Multi Audio Esub.mkv" }
+  }
+},
+"naruto-shippuden-1x283": {
+  qualities: {
+    "1080p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=_skM3IYc13RRR3YsYd7ASk15Ur7LvCszA32GNrtrn-auXiAN57BAWZ8vnggBPTDM7eBAVSqLnG26c2cqd7U2yA&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Naruto%20Shippuden%20S13E283%201080p%20BluRay%20Multi%20Audio%20Esub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Naruto Shippuden S13E283 1080p BluRay Multi Audio Esub.mkv" }
+  }
+},
+"naruto-shippuden-1x288": {
+  qualities: {
+    "1080p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=VgZnYoCUWQPzFUep9Cv-6LIzZOQLYsHLtejNICnXnEyvwpoWut-pAqOsW5jgNFC0CTUjy9DFb3vQ8W24e1YCvg&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Naruto%20Shippuden%20S13E288%201080p%20BluRay%20Multi%20Audio%20Esub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Naruto Shippuden S13E288 1080p BluRay Multi Audio Esub.mkv" }
+  }
+},
+"naruto-shippuden-1x289": {
+  qualities: {
+    "1080p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=j-WtsrIeuDlhwtNTrgnTuHtKte2VYs0Dbu1_saxYT6uekbWLisa1G98vpqS5I0gn3WxABhi6vXsT1wW3DyDOSA&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Naruto%20Shippuden%20S13E289%201080p%20BluRay%20Multi%20Audio%20Esub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Naruto Shippuden S13E289 1080p BluRay Multi Audio Esub.mkv" }
+  }
+},
+"naruto-shippuden-1x290": {
+  qualities: {
+    "1080p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=FVOu08zWwHjTNo3_QIdi2v7ZjS6Gk2R1YL2dC8Yi4yaCUzaV8AN91MErs6juGcVMUmiRvQo2P6eyPpvzj5KOCw&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Naruto%20Shippuden%20S13E290%201080p%20BluRay%20Multi%20Audio%20Esub%202.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Naruto Shippuden S13E290 1080p BluRay Multi Audio Esub 2.mkv" }
+  }
+},
+"naruto-shippuden-1x291": {
+  qualities: {
+    "1080p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=tq-YgfFZ4Lp_7flc1LHTD8-xvFVCNXWsqdeicw936D5I5i7-NRoo6flKb0_jFJHxSCaQFumBydrYL1JEMpnu1w&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Naruto%20Shippuden%20S13E291%201080p%20BluRay%20Multi%20Audio%20Esub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Naruto Shippuden S13E291 1080p BluRay Multi Audio Esub.mkv" }
+  }
+},
+"naruto-shippuden-1x294": {
+  qualities: {
+    "1080p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=FIkv6SV1kf7zAqTONJJ7wNDPaD44sDY2qAqSNs3hTRIuKJrTaDv9cRr_z_3JEviWsN7cSBT7pJuBMu1gueGI6Q&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Naruto%20Shippuden%20S13E294%201080p%20BluRay%20Multi%20Audio%20Esub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Naruto Shippuden S13E294 1080p BluRay Multi Audio Esub.mkv" }
+  }
+},
+"naruto-shippuden-1x295": {
+  qualities: {
+    "1080p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=R-hu4nJobh3JlEMD19LK6N32iPWZIwGZ_LP_91ju2HDzkOrTPPhqx8lpKwkUF9GIFQcsH4ErkCZEQzELDekQdQ&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Naruto%20Shippuden%20S13E295%201080p%20BluRay%20Multi%20Audio%20Esub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Naruto Shippuden S13E295 1080p BluRay Multi Audio Esub.mkv" }
+  }
+},
+"naruto-shippuden-1x298": {
+  qualities: {
+    "1080p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=hMa1JHzsBY6fpiQTIglIXpY2GqAPHLgxF1VsM5a1HxvmQNqWQZd91QSfF13oZ03-Ct6rcMAUv3xYeqf8sqkeHQ&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Naruto%20Shippuden%20S14E298%201080p%20BluRay%20Multi%20Audio%20Esub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Naruto Shippuden S14E298 1080p BluRay Multi Audio Esub.mkv" }
+  }
+},
+"naruto-shippuden-1x299": {
+  qualities: {
+    "1080p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=zUb7920-Ymy-Re0JLyBucyZqyRMzrvFCeAIjQ8GyKsstvEyND_gKflx5aV0QwKJ3pR33ldaJ6Lymw3P-2iuHzg&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Naruto%20Shippuden%20S14E299%201080p%20BluRay%20Multi%20Audio%20Esub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Naruto Shippuden S14E299 1080p BluRay Multi Audio Esub.mkv" }
+  }
+},
+"naruto-shippuden-1x300": {
+  qualities: {
+    "1080p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=NJHi_9PLM9YrsfZzXQ1-C4TUnn-a0VAT3AHv2oT1sRnMTSPY478WW7DIJrbyyhx7jJsvlyFCDwnPYmle38-Spw&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Naruto%20Shippuden%20S14E300%201080p%20BluRay%20Multi%20Audio%20Esub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Naruto Shippuden S14E300 1080p BluRay Multi Audio Esub.mkv" }
+  }
+},
+"naruto-shippuden-1x301": {
+  qualities: {
+    "1080p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=6u-pAPHmm2VbWkR9q_Yx2D90cg3Ms_MCZ2XoQtpI7_FGKltstj19WwFpjytXLmRDDpyElqBq6mfkCl1tVJrucg&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Naruto%20Shippuden%20S14E301%201080p%20BluRay%20Multi%20Audio%20Esub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Naruto Shippuden S14E301 1080p BluRay Multi Audio Esub.mkv" }
+  }
+},
+"naruto-shippuden-1x302": {
+  qualities: {
+    "1080p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=nweafR8dLSNRtgycInCzhZ2SdGP6xBk8ca5VJHULdBjao23jLRAlk1XsEQgECkRjySL_Esa-M9wLxCG1COOMOA&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Naruto%20Shippuden%20S14E302%201080p%20BluRay%20Multi%20Audio%20Esub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Naruto Shippuden S14E302 1080p BluRay Multi Audio Esub.mkv" }
+  }
+},
+"naruto-shippuden-1x303": {
+  qualities: {
+    "1080p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=Yn6jpmKzSZ3H8H6ld_JZV_AWMhrTZbviZAmMdJHT40OluSKFxpcZbmIwPHRTYjzpeb2BqMwIRefORg23cDBYiQ&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Naruto%20Shippuden%20S14E303%201080p%20BluRay%20Multi%20Audio%20Esub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Naruto Shippuden S14E303 1080p BluRay Multi Audio Esub.mkv" }
+  }
+},
+"naruto-shippuden-1x304": {
+  qualities: {
+    "1080p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=CBOzHHYXMYzHFfshMCWplLJJxNnV_51p5HHSwf4Zxlci-0-xEVeivnGgdGuCspKDhNl0K9v0tpSC0lAbozOZWA&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Naruto%20Shippuden%20S14E304%201080p%20BluRay%20Multi%20Audio%20Esub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Naruto Shippuden S14E304 1080p BluRay Multi Audio Esub.mkv" }
+  }
+},
+"naruto-shippuden-1x305": {
+  qualities: {
+    "1080p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=ZqKjnMAmUw6JVqTB4Pj8lf7RjhEOfuSNqCPlq8_XMZQmqvy34N9Kv1jgHL0YPMv8TNA9MvbZhnil_6WrXlozOw&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Naruto%20Shippuden%20S14E305%201080p%20BluRay%20Multi%20Audio%20Esub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Naruto Shippuden S14E305 1080p BluRay Multi Audio Esub.mkv" }
+  }
+},
+"naruto-shippuden-1x306": {
+  qualities: {
+    "1080p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=-l_gZiCTUtou2uCu2QKRDz5ABHmT6Iu2w-t8TEiRN5GP7bC0uYVtbCv4OtgZ6U9rYEj8azNILM5Sl0YlHsfAAg&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Naruto%20Shippuden%20S14E306%201080p%20BluRay%20Multi%20Audio%20Esub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Naruto Shippuden S14E306 1080p BluRay Multi Audio Esub.mkv" }
+  }
+},
+"naruto-shippuden-1x307": {
+  qualities: {
+    "1080p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=PoupHpOTYE3OWwvivBjXiWVnc1mxHDsDzFkf4MtjYRkau15cGWUHCxrxvg0dDf9ZGhuRdj-ihH74Ua8c2wnzKA&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Naruto%20Shippuden%20S14E307%201080p%20BluRay%20Multi%20Audio%20Esub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Naruto Shippuden S14E307 1080p BluRay Multi Audio Esub.mkv" }
+  }
+},
+"naruto-shippuden-1x308": {
+  qualities: {
+    "1080p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=qor1HmkmVXfKdmu0J4lH5lbcqNBGNzvLZBtR3cuXBsTjZP7jxCNY4N3xoT9zt71d33H8_mdWq5YWpZQyGaE6JA&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Naruto%20Shippuden%20S14E308%201080p%20BluRay%20Multi%20Audio%20Esub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Naruto Shippuden S14E308 1080p BluRay Multi Audio Esub.mkv" }
+  }
+},
+"naruto-shippuden-1x309": {
+  qualities: {
+    "1080p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=diOZw1YLYniJawEe0LefgG8dBFvyj4mc_g-ktyVYw_-YfN3q7ruOrE_kcPa28BTiLgMTlMJChyGgOuEfFuiqlw&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Naruto%20Shippuden%20S14E309%201080p%20BluRay%20Multi%20Audio%20Esub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Naruto Shippuden S14E309 1080p BluRay Multi Audio Esub.mkv" }
+  }
+},
+"naruto-shippuden-1x310": {
+  qualities: {
+    "1080p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=sEETqRsT_W9QogU3QZMd2nPn_QVSDvQhl8THnIdBH7WazNbX5IuLkk4RCXnqIiBnOxbo3TEINHI_rJ89RD7AQQ&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Naruto%20Shippuden%20S14E310%201080p%20BluRay%20Multi%20Audio%20Esub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Naruto Shippuden S14E310 1080p BluRay Multi Audio Esub.mkv" }
+  }
+},
+"naruto-shippuden-1x311": {
+  qualities: {
+    "1080p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=HpX6sVGGhSOEki4xxShEyFHpfANOH7G41ekiZkPsARW_Zk48jzf2LdqmrZeiBZI56bRUERCXYFMNn5ZDzvSu_g&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Naruto%20Shippuden%20S14E311%201080p%20BluRay%20Multi%20Audio%20Esub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Naruto Shippuden S14E311 1080p BluRay Multi Audio Esub.mkv" }
+  }
+},
+"naruto-shippuden-1x312": {
+  qualities: {
+    "1080p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=BV6aQeqwV8-FkiZcZKDG-9_svAcDvCbYGnkGtOg58qHTswmVkU2OXTGUr-KrXQSy8j1L2TTZ4-3YwaLh-Fp9Eg&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Naruto%20Shippuden%20S14E312%201080p%20BluRay%20Multi%20Audio%20Esub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Naruto Shippuden S14E312 1080p BluRay Multi Audio Esub.mkv" }
+  }
+},
+"naruto-shippuden-1x313": {
+  qualities: {
+    "1080p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=vQK0dfARq82FMCwbaon5Ep9dmB-XpuXOLrAOIc4CYadf4fvHZxKH8TXdT40QP3GJtkdSil3SRHfVPZJUkIAy4Q&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Naruto%20Shippuden%20S14E313%201080p%20BluRay%20Multi%20Audio%20Esub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Naruto Shippuden S14E313 1080p BluRay Multi Audio Esub.mkv" }
+  }
+},
+"naruto-shippuden-1x314": {
+  qualities: {
+    "1080p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=STa5ZBnlcrLjM8ADDsnQlsdXxcsBf5r9APXjcUzdI7g2XVR_FnBRDr_ommh22MTJDmW9cK12juQx7YBZ_8ekQw&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Naruto%20Shippuden%20S14E314%201080p%20BluRay%20Multi%20Audio%20Esub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Naruto Shippuden S14E314 1080p BluRay Multi Audio Esub.mkv" }
+  }
+},
+"naruto-shippuden-1x315": {
+  qualities: {
+    "1080p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=cx2wx8gkjTXPj9JfjzW4Mb8Uj7Ihnbzy5zaA3sZAcJ1UDNYbmNTmB8CsHSBrNRzUi75sKFgg1K-oXSZ4c5gwgA&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Naruto%20Shippuden%20S14E315%201080p%20BluRay%20Multi%20Audio%20Esub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Naruto Shippuden S14E315 1080p BluRay Multi Audio Esub.mkv" }
+  }
+},
+"naruto-shippuden-1x316": {
+  qualities: {
+    "1080p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=S_IbmmEb-mb5BIcX7bIXFJIvBDsNZeeah8qXB1mKBWSdUtICguJso-6WZFInr8i4v1Dw5JDP5xYejumaY_6X9w&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Naruto%20Shippuden%20S14E316%201080p%20BluRay%20Multi%20Audio%20Esub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Naruto Shippuden S14E316 1080p BluRay Multi Audio Esub.mkv" }
+  }
+},
+"naruto-shippuden-1x317": {
+  qualities: {
+    "1080p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=m3Mikx-5qWQIv4yaAVAvt5r-YtdBZFWcvytJtRDHIsdJQ3-FGCTKMvAjNkTN2ZgxdLuaWDAPXx-DEhKuWPSDOg&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Naruto%20Shippuden%20S14E317%201080p%20BluRay%20Multi%20Audio%20Esub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Naruto Shippuden S14E317 1080p BluRay Multi Audio Esub.mkv" }
+  }
+},
+"naruto-shippuden-1x318": {
+  qualities: {
+    "1080p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=ihnL9D5EyKEJWX5y3qABWYJaVW2z1T7UvRMobkXqLnJvlvN4AS0-6hl12vmhBJZVraNIlQW-v-maO3OAt-HIPQ&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Naruto%20Shippuden%20S14E318%201080p%20BluRay%20Multi%20Audio%20Esub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Naruto Shippuden S14E318 1080p BluRay Multi Audio Esub.mkv" }
+  }
+},
+"naruto-shippuden-1x319": {
+  qualities: {
+    "1080p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=4dn7AwJ2BR5zlY0i11VPE8SQYUw7Y_XkbsHf1kkJrIw_wv8Cux-eyi1cMgej6zKsyx84wPTGE0HWncn8Lvk14A&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Naruto%20Shippuden%20S14E319%201080p%20BluRay%20Multi%20Audio%20Esub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Naruto Shippuden S14E319 1080p BluRay Multi Audio Esub.mkv" }
+  }
+},
+"naruto-shippuden-1x320": {
+  qualities: {
+    "1080p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=vWqFjlnA048MhRTuONZVo9a-E8nRVw1chd7FAA1NpTrTt15pbKyfwHVCj3qT_jDaE8yGipxm0cuHB7Gi0iVkpQ&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Naruto%20Shippuden%20S14E320%201080p%20BluRay%20Multi%20Audio%20Esub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Naruto Shippuden S14E320 1080p BluRay Multi Audio Esub.mkv" }
+  }
+},
+"naruto-shippuden-1x321": {
+  qualities: {
+    "1080p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=KreRM91U7hQ-VPLLa4R2_dJy-AgYyozG7IUN5fOXvdwv5_E90-BajAUmPoZd43ijpH8dqaJc89YQ9v5IfltYlg&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Naruto%20Shippuden%20S15E321%201080p%20BluRay%20Multi%20Audio%20Esub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Naruto Shippuden S15E321 1080p BluRay Multi Audio Esub.mkv" }
+  }
+},
+"naruto-shippuden-1x322": {
+  qualities: {
+    "1080p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=8ptGdmZ_55kTMAGOYh9vd2MDuPsf29K9J37UApBtpcvMbFnCW74S8HtDV9f_ajLxgb4w_a1CAHRi4h8Rs8MV1g&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Naruto%20Shippuden%20S15E322%201080p%20BluRay%20Multi%20Audio%20Esub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Naruto Shippuden S15E322 1080p BluRay Multi Audio Esub.mkv" }
+  }
+},
+"naruto-shippuden-1x323": {
+  qualities: {
+    "1080p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=dVEb08H7c8Lc4gRtgqMRlZSPASV5xnMSAN3idqPbwU4jIdDOymCDdU6YeDlpEMCANoAQw9Fw26V5K50KouvugQ&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Naruto%20Shippuden%20S15E323%201080p%20BluRay%20Multi%20Audio%20Esub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Naruto Shippuden S15E323 1080p BluRay Multi Audio Esub.mkv" }
+  }
+},
+"naruto-shippuden-1x324": {
+  qualities: {
+    "1080p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=ERM-1sataNGbQmgCQG8DIpzr8M24u0ybqF3sAiYcGVnUfmXaOfGY9RUppCbc7qLFrguO3ovEMvCxjxIJic8CEw&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Naruto%20Shippuden%20S15E324%201080p%20BluRay%20Multi%20Audio%20Esub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Naruto Shippuden S15E324 1080p BluRay Multi Audio Esub.mkv" }
+  }
+},
+"naruto-shippuden-1x325": {
+  qualities: {
+    "1080p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=5MxkmE-hLgsTBA_uITmAaRIdLyglX0deovkAdXP3s29y48k5I70mJbtROQSXCM62d0n0eZApFzRyqbDuhSJyrg&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Naruto%20Shippuden%20S15E325%201080p%20BluRay%20Multi%20Audio%20Esub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Naruto Shippuden S15E325 1080p BluRay Multi Audio Esub.mkv" }
+  }
+},
+"naruto-shippuden-1x326": {
+  qualities: {
+    "1080p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=3tdXfyjYecNeZ_KWn6vYa0hNFjkp4Z6T8AFlk_BN9MjI0udO5mAJv0mmGKjOv0QaXaAgapgH7LfLWekEoDqYCw&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Naruto%20Shippuden%20S15E326%201080p%20BluRay%20Multi%20Audio%20Esub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Naruto Shippuden S15E326 1080p BluRay Multi Audio Esub.mkv" }
+  }
+},
+"naruto-shippuden-1x327": {
+  qualities: {
+    "1080p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=5AYJex3lA9bF7ZbUgQI1N9CTRWS3MvnLHtOoXHwgR65Gv4Pd3J9o42FhNBY9qpCRacqsv7dqhBzX18xrXaVeqg&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Naruto%20Shippuden%20S15E327%201080p%20BluRay%20Multi%20Audio%20Esub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Naruto Shippuden S15E327 1080p BluRay Multi Audio Esub.mkv" }
+  }
+},
+"naruto-shippuden-1x328": {
+  qualities: {
+    "1080p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=_eCHa966m_tCm5JlHMeSHMxiDGlU7UieYft6cFU-M5b4AI9IyV9E5ljCOZImUHHrvhJYhmjOhCwrc0iCwmsC4w&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Naruto%20Shippuden%20S15E328%201080p%20BluRay%20Multi%20Audio%20Esub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Naruto Shippuden S15E328 1080p BluRay Multi Audio Esub.mkv" }
+  }
+},
+"naruto-shippuden-1x329": {
+  qualities: {
+    "1080p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=sAWesiC1eTMr0_8P3UIpXu-r0QB7KEDwDv3cD1WL67AE2MNZIYlRB0klUD0o2Ue9DlekxY5v9LVFC4cM3hpXwg&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Naruto%20Shippuden%20S15E329%201080p%20BluRay%20Multi%20Audio%20Esub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Naruto Shippuden S15E329 1080p BluRay Multi Audio Esub.mkv" }
+  }
+},
+"naruto-shippuden-1x330": {
+  qualities: {
+    "1080p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=dhHXQLRqkrB7SwHw6pC9887N8kyNK6xsWy10QoQ3IBmdhWsc6wApL7MUNr8WMyixBv7UJ6baFk0hzeqlq2pRuQ&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Naruto%20Shippuden%20S15E330%201080p%20BluRay%20Multi%20Audio%20Esub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Naruto Shippuden S15E330 1080p BluRay Multi Audio Esub.mkv" }
+  }
+},
+"naruto-shippuden-1x331": {
+  qualities: {
+    "1080p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=6JeN6pCPxNwb3BpcUa9tDvG693HvDu38nxxkvCvQmm9ubNlgw9qBoDTaj_Ikv9O1YSKBmmx2B8m_xqn9ol0aUA&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Naruto%20Shippuden%20S15E331%201080p%20BluRay%20Multi%20Audio%20Esub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Naruto Shippuden S15E331 1080p BluRay Multi Audio Esub.mkv" }
+  }
+},
+"naruto-shippuden-1x332": {
+  qualities: {
+    "1080p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=OeBi_IvkrrJdtcGp95bc4GMGSb1bBVKrCARvjFW0qYH2b7MEKSfwa7sxbNL6D_NWGe0Jdl4-SoJKhI73-_6MZQ&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Naruto%20Shippuden%20S15E332%201080p%20BluRay%20Multi%20Audio%20Esub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Naruto Shippuden S15E332 1080p BluRay Multi Audio Esub.mkv" }
+  }
+},
+"naruto-shippuden-1x333": {
+  qualities: {
+    "1080p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=xg-4e8JA6XnHY2I15W92wu8cbx0ZorgSHazZTRJAweF0UGmbDVYue8sVBK4UMFkgl8g6nRLG2IzYyab_HUYpFA&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Naruto%20Shippuden%20S15E333%201080p%20BluRay%20Multi%20Audio%20Esub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Naruto Shippuden S15E333 1080p BluRay Multi Audio Esub.mkv" }
+  }
+},
+"naruto-shippuden-1x334": {
+  qualities: {
+    "1080p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=Qalcg1H3J4n5Ps85OCDvw9xwmqR_PNcnVV3J5SHQ1or4feHHRmLeRpW5j3occIdeUS8qSzXeKsPOiplw4lk5yg&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Naruto%20Shippuden%20S15E334%201080p%20BluRay%20Multi%20Audio%20Esub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Naruto Shippuden S15E334 1080p BluRay Multi Audio Esub.mkv" }
+  }
+},
+"naruto-shippuden-1x335": {
+  qualities: {
+    "1080p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=ra75xER336WcoryTIcdjLLvfF1NbMQ9q3-3Mdr6A0h7c705XrsJRAwE7MyepF9IZ8Kt9dMYZKpTepHzuXpQFGw&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Naruto%20Shippuden%20S15E335%201080p%20BluRay%20Multi%20Audio%20Esub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Naruto Shippuden S15E335 1080p BluRay Multi Audio Esub.mkv" }
+  }
+},
+"naruto-shippuden-1x336": {
+  qualities: {
+    "1080p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=fPDFFDIPuca7a8Vv3HnHF3smzQ2YEnFzPLnT8tBOUM3rakQNyRZ6eAfWoYQ59JtYKCRV2Qdh8eBDI3Y_B-OeWg&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Naruto%20Shippuden%20S15E336%201080p%20BluRay%20Multi%20Audio%20Esub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Naruto Shippuden S15E336 1080p BluRay Multi Audio Esub.mkv" }
+  }
+},
+"naruto-shippuden-1x337": {
+  qualities: {
+    "1080p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=WQc4tPvvTq6DwGpi38fpSpfrRAUpyvp11PuDp-sZO0e7UPzGNZNXXxn1WLFZFFcjZS8d4N_m984EhmVjM62FUg&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Naruto%20Shippuden%20S15E337%201080p%20BluRay%20Multi%20Audio%20Esub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Naruto Shippuden S15E337 1080p BluRay Multi Audio Esub.mkv" }
+  }
+},
+"naruto-shippuden-1x338": {
+  qualities: {
+    "1080p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=-tEB7GduDPA97Z7V7TrMkSLRqSS60fXu_SiGYyO-pT64JCTsAYK2dMqPz9J9m4A_SmBSNnMFwAINxTlKD1FzjQ&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Naruto%20Shippuden%20S15E338%201080p%20BluRay%20Multi%20Audio%20Esub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Naruto Shippuden S15E338 1080p BluRay Multi Audio Esub.mkv" }
+  }
+},
+"naruto-shippuden-1x339": {
+  qualities: {
+    "1080p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=6OJFPtAhP0iRJZlJRRh5VgNweCA-r1cnuk1oQpXqin4nfrfktm5fFWNxtvClfl7z0BUjjV-b_SBk7xaUJKrGPg&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Naruto%20Shippuden%20S15E339%201080p%20BluRay%20Multi%20Audio%20Esub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Naruto Shippuden S15E339 1080p BluRay Multi Audio Esub.mkv" }
+  }
+},
+"naruto-shippuden-1x340": {
+  qualities: {
+    "1080p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=bVlxHLbRqRMc9FFfL-fQRyUUoNHQxSE-dZqJARrhoGZzOcke-frpWg7nyQBj70BfrKHtVd41SQu5NoOcn2zwIg&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Naruto%20Shippuden%20S15E340%201080p%20BluRay%20Multi%20Audio%20Esub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Naruto Shippuden S15E340 1080p BluRay Multi Audio Esub.mkv" }
+  }
+},
+"naruto-shippuden-1x341": {
+  qualities: {
+    "1080p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=4XLymx5dEfEjOSP6qbEH1oIoBoTjlmjWAFBkLrKrEycTOLR60rFrUh8H8zH5DSppq62la_5oF34tSYSRdNFXvQ&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Naruto%20Shippuden%20S15E341%201080p%20x264%20BluRay%20Multi%20Audio%20Esub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Naruto Shippuden S15E341 1080p x264 BluRay Multi Audio Esub.mkv" }
+  }
+},
+"naruto-shippuden-1x342": {
+  qualities: {
+    "1080p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=QUBqaCOOhWrRit8e9shj8fRYM8kWLicULzYPvascTBq4pV-FxCJVr7A7nXqKj88GJ9z7yD5vl1sRVtU8oPB_bA&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Naruto%20Shippuden%20S15E342%201080p%20x264%20BluRay%20Multi%20Audio%20Esub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Naruto Shippuden S15E342 1080p x264 BluRay Multi Audio Esub.mkv" }
+  }
+},
+"naruto-shippuden-1x343": {
+  qualities: {
+    "1080p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=NKuaw8QoVeZ80CxMxuerXQUexhKakxpVtMRe8KikChhDgi4guRfDEpd58bbMQlpAtVYWE-oHgqyG_CeaxzWubA&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Naruto%20Shippuden%20S15E343%201080p%20x264%20BluRay%20Multi%20Audio%20Esub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Naruto Shippuden S15E343 1080p x264 BluRay Multi Audio Esub.mkv" }
+  }
+},
+"naruto-shippuden-1x344": {
+  qualities: {
+    "1080p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=CRkFl-k3zkIoA09t3zI6VsOXPCnX3aEoC_H2BSTaSHo0TIe9YmRxOaOsq_23p-Qk7HBopHe0E05wZRHnKCs5xQ&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Naruto%20Shippuden%20S15E344%201080p%20x264%20BluRay%20Multi%20Audio%20Esub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Naruto Shippuden S15E344 1080p x264 BluRay Multi Audio Esub.mkv" }
+  }
+},
+"naruto-shippuden-1x345": {
+  qualities: {
+    "1080p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=gz34HD1TqdCSQPFvKksYyKkXgmqoJuRbM9eYTI4rJpQFeA3fb6PLn_HCLtx_jlLAXovTxJrvIqE-xMft1gBPgA&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Naruto%20Shippuden%20S15E345%201080p%20x264%20BluRay%20Multi%20Audio%20Esub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Naruto Shippuden S15E345 1080p x264 BluRay Multi Audio Esub.mkv" }
+  }
+},
+"naruto-shippuden-1x346": {
+  qualities: {
+    "1080p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=GN8zDgJJAVnh8h9CaMdrOFoH2gqnovJxmSbOUUHDUp6B8AWX3GIdGegbHWcU5eeGHHPxnMx63WX9QzEnpYXw-A&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Naruto%20Shippuden%20S15E346%201080p%20x264%20BluRay%20Multi%20Audio%20Esub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Naruto Shippuden S15E346 1080p x264 BluRay Multi Audio Esub.mkv" }
+  }
+},
+"naruto-shippuden-1x347": {
+  qualities: {
+    "1080p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=bOxkXe6prb8C3XEiN5g3leeK8TUhIBU8CR-aHRTNT_g6x0KBcLM0v2_tyiIsz0spJeSn__mirtljpydpNdqzTg&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Naruto%20Shippuden%20S15E347%201080p%20x264%20BluRay%20Multi%20Audio%20Esub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Naruto Shippuden S15E347 1080p x264 BluRay Multi Audio Esub.mkv" }
+  }
+},
+"naruto-shippuden-1x348": {
+  qualities: {
+    "1080p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=6Wi6SGPNXEGi-QE4647y2sgowy-zg9vb5ZpMhnjiMR-XBGhQwFVdaU6TH4l1wvu2Y-kfGefMNIVr8_0ipYFEKA&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Naruto%20Shippuden%20S15E348%201080p%20x264%20BluRay%20Multi%20Audio%20Esub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Naruto Shippuden S15E348 1080p x264 BluRay Multi Audio Esub.mkv" }
+  }
+},
+"naruto-shippuden-1x349": {
+  qualities: {
+    "1080p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=usaZs76kBhIjS8b4lZWcX1ETlLb61Gf3SgY6yEdU5LNLg5En0SLC4n877mj9mCbOzITdpZLaNITXbPtMKiefRQ&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Naruto%20Shippuden%20S16E349%201080p%20x264%20BluRay%20Multi%20Audio%20Esub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Naruto Shippuden S16E349 1080p x264 BluRay Multi Audio Esub.mkv" }
+  }
+},
+"naruto-shippuden-1x350": {
+  qualities: {
+    "1080p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=ZfCfS5rm_u6QL4NrqJEUs2TS9bDDAtZFEXI4RpelRucJU2j3yOH-jr-82K8Zzo-AncbLsmnpH7G7sMDvPspJjw&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Naruto%20Shippuden%20S16E350%201080p%20x264%20BluRay%20Multi%20Audio%20Esub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Naruto Shippuden S16E350 1080p x264 BluRay Multi Audio Esub.mkv" }
+  }
+},
+"naruto-shippuden-1x351": {
+  qualities: {
+    "1080p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=MMwdjoRk6TM3-ymyL1m8l6J1MCsrSfB8Qra9pen5MzbQQGO4rO2pckasS24No4P5CZFsqJBhIkGdcqMf9cEqnQ&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Naruto%20Shippuden%20S16E351%201080p%20x264%20BluRay%20Multi%20Audio%20Esub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Naruto Shippuden S16E351 1080p x264 BluRay Multi Audio Esub.mkv" }
+  }
+},
+"naruto-shippuden-1x352": {
+  qualities: {
+    "1080p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=LpNJpNCYvp5heyXgoFS0t1RZxidIbvYVGgLWpz7rztZOqt62oMUHtSHj6H2okFDdNxUkCe1GlwIv9RpJsITKxg&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Naruto%20Shippuden%20S16E352%201080p%20x264%20BluRay%20Multi%20Audio%20Esub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Naruto Shippuden S16E352 1080p x264 BluRay Multi Audio Esub.mkv" }
+  }
+},
+"naruto-shippuden-1x353": {
+  qualities: {
+    "1080p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=BnsS_u79omTlKsbrr8y7fDyq1xL_RVjHLAeAO2l0DeHOBICmsDPJLcuIsEN_epANGl9Vxz7PgRIl_CPIIMlJ6w&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Naruto%20Shippuden%20S16E353%201080p%20x264%20BluRay%20Multi%20Audio%20Esub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Naruto Shippuden S16E353 1080p x264 BluRay Multi Audio Esub.mkv" }
+  }
+},
+"naruto-shippuden-1x354": {
+  qualities: {
+    "1080p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=m8Tc0uQJBHN1b7Pi-_FP6BJBRE1lmFovn04RpoiEFuRKSfkz6lYjH92-D3Ig8FlBnHo7SmvW0vDVKVgfQ9YOLQ&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Naruto%20Shippuden%20S16E354%201080p%20x264%20BluRay%20Multi%20Audio%20Esub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Naruto Shippuden S16E354 1080p x264 BluRay Multi Audio Esub.mkv" }
+  }
+},
+"naruto-shippuden-1x355": {
+  qualities: {
+    "1080p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=qxXwNZpA744bI2Ax0EtXUOOTOSfaLEDZfuTgwqs43yyAb6H7b-91WCVv8L7gf-P_cpovuZjms8NElacj-k2eYg&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Naruto%20Shippuden%20S16E355%201080p%20x264%20BluRay%20Multi%20Audio%20Esub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Naruto Shippuden S16E355 1080p x264 BluRay Multi Audio Esub.mkv" }
+  }
+},
+"naruto-shippuden-1x356": {
+  qualities: {
+    "1080p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=YYyRF9vm8451a8NHpAt90bEXtIM1j7_Yjj8kmvt5GX8uFyapJmooQuDvWWHxGIvpxY4FXndw_1edyXmCu505Ww&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Naruto%20Shippuden%20S16E356%201080p%20x264%20BluRay%20Multi%20Audio%20Esub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Naruto Shippuden S16E356 1080p x264 BluRay Multi Audio Esub.mkv" }
+  }
+},
+"naruto-shippuden-1x357": {
+  qualities: {
+    "1080p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=FqQgTDeKuWE69XoG6q0q7pdQkYMtsWsXXxRV7GzlN84aJfuXryo4coPWfdG7k7Y0nDSI_oZLQF-LiIInfIbUAg&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Naruto%20Shippuden%20S16E357%201080p%20x264%20BluRay%20Multi%20Audio%20Esub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Naruto Shippuden S16E357 1080p x264 BluRay Multi Audio Esub.mkv" }
+  }
+},
+"naruto-shippuden-1x358": {
+  qualities: {
+    "1080p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=MD3gkzyk0nCGEu1CIL9c2nppIJ7R1vZI-9lKOB7M1ppAo6UvvNho_dyWltLg0U5Tdasrt2eKG2wqUsMGI7wn5A&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Naruto%20Shippuden%20S16E358%201080p%20x264%20BluRay%20Multi%20Audio%20Esub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Naruto Shippuden S16E358 1080p x264 BluRay Multi Audio Esub.mkv" }
+  }
+},
+"naruto-shippuden-1x359": {
+  qualities: {
+    "1080p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=xxBc01ZRernZtQZXHF4BM4ic0Wwl8x1855ZS21177ptKHLD7emyPDVnyxoZPlzMTkuLy14hWi6_RuKBeqYz_JA&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Naruto%20Shippuden%20S16E359%201080p%20x264%20BluRay%20Multi%20Audio%20Esub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Naruto Shippuden S16E359 1080p x264 BluRay Multi Audio Esub.mkv" }
+  }
+},
+"naruto-shippuden-1x360": {
+  qualities: {
+    "1080p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=QebmnSGQ8k7CrxwXAAcq0KVmMYzyjUelEz0CEuthF_LUrPzWT4HhMTLETl-LyQrwV-4J9tx92erf5Qjlix3YEw&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Naruto%20Shippuden%20S16E360%201080p%20x264%20BluRay%20Multi%20Audio%20Esub%202.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Naruto Shippuden S16E360 1080p x264 BluRay Multi Audio Esub 2.mkv" }
+  }
+},
+
 "trapped-in-a-dating-sim-1x1": {
   qualities: {
     "1080p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=iX6r9tapqiUTZLr78p2M_Aafvy5xvGPqZQNIeJuNGzPXg8FYtDbuKosZPYFXI0kVwOz0xrzRdMpJIP9ixDR_xw&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Trapped%20in%20a%20Dating%20Sim%20S01E01%20BDRip%201080p%20%5BHindi-Eng-Jap%5D%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Trapped in a Dating Sim S01E01 BDRip 1080p [Hindi-Eng-Jap] ESub.mkv" }

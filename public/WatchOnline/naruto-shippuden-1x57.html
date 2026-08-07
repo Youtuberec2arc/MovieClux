@@ -1,0 +1,1569 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Episode 57 — Naruto Shippuden — CrunchyEpisode</title>
+<link rel="icon" type="image/png" href="/crunchyepisode.png">
+<link rel="apple-touch-icon" href="/crunchyepisode-180.png">
+<link rel="manifest" href="/site.webmanifest">
+<meta name="theme-color" content="#ef2748">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Anton&family=Manrope:wght@400;500;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../watch-style.css?v=5">
+</head>
+<body>
+
+<header class="site-nav">
+  <a href="../index.html" class="brand"><img src="../assets/logo.png" alt="CrunchyEpisode"></a>
+  <div class="nav-search">
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="7"/><path d="M21 21l-4.3-4.3"/></svg>
+    <input type="text" id="searchInput" placeholder="Search anime…" autocomplete="off">
+  </div>
+  <div class="nav-right">
+    <button class="icon-btn" aria-label="Share" id="shareBtn">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="18" cy="5" r="3"/><circle cx="6" cy="12" r="3"/><circle cx="18" cy="19" r="3"/><line x1="8.6" y1="10.6" x2="15.4" y2="6.4"/><line x1="8.6" y1="13.4" x2="15.4" y2="17.6"/></svg>
+    </button>
+    <button class="icon-btn" aria-label="Favorite" id="favoriteBtn">
+      <svg viewBox="0 0 24 24"><path d="M6 3h12a1 1 0 0 1 1 1v17l-7-4-7 4V4a1 1 0 0 1 1-1z"/></svg>
+    </button>
+  </div>
+</header>
+
+<section class="player-section" style="position:relative;">
+  <!-- Click-to-play: nothing is fetched from /api/token or /api/play until
+       the visitor actually taps play, so just opening the page doesn't
+       burn any data on video/embed loading. -->
+  <div id="player-frame" style="cursor:pointer;">
+    <img src="https://image.tmdb.org/t/p/original/n9tyom1Y1vYOMrOGK0jYO3tkby.jpg" alt="Naruto Shippuden"
+         style="width:100%;height:100%;object-fit:cover;display:block;">
+    <button id="playOverlayBtn" aria-label="Play"
+      style="position:absolute;top:50%;left:50%;transform:translate(-50%,-50%);
+      width:68px;height:68px;border-radius:100px;border:none;cursor:pointer;
+      background:rgba(0,0,0,0.55);color:#fff;font-size:26px;
+      display:flex;align-items:center;justify-content:center;">▶</button>
+  </div>
+  <!-- Backup fullscreen button: fullscreens the whole player-frame
+       container (not the inner iframe/video directly), which sidesteps
+       cross-origin iframe fullscreen quirks on mobile browsers. -->
+  <button id="fullscreenBtn" class="fs-btn" aria-label="Fullscreen">⛶</button>
+</section>
+
+<div class="episode-meta">
+  <h1>Episode 57</h1>
+  
+</div>
+
+<div class="series-row">
+  <img class="series-thumb" src="https://image.tmdb.org/t/p/original/n9tyom1Y1vYOMrOGK0jYO3tkby.jpg" alt="Poster">
+  <div class="series-info">
+    <h3>Naruto Shippuden</h3>
+    <span class="series-sub">Anime Series</span>
+  </div>
+  <button class="btn btn-ghost" id="moreInfoBtn">More Info</button>
+</div>
+
+<div class="action-row">
+  <a class="action-btn " href="naruto-shippuden-1x56.html">⏮ Prev</a>
+  <a class="action-btn " href="naruto-shippuden-1x58.html">Next ⏭</a>
+</div>
+
+<div class="notice-bar" id="noticeBar">
+  <span>⚠ If playback doesn't start, please refresh the page.</span>
+  <button class="notice-close" aria-label="Dismiss">✕</button>
+</div>
+
+<nav class="tab-nav">
+  <button class="tab-link active" data-tab="episodes">Episodes</button>
+  <button class="tab-link" data-tab="related">Other Seasons</button>
+  <button class="tab-link" data-tab="recommendations">Recommendations</button>
+</nav>
+
+<section class="tab-panel" id="tab-episodes">
+  <div class="panel-header">
+    <span>295 Episodes</span>
+  </div>
+  <div class="episode-grid">
+    <a class="episode-card "
+       href="naruto-shippuden-1x1.html">
+      EP 1
+    </a>
+    <a class="episode-card "
+       href="naruto-shippuden-1x2.html">
+      EP 2
+    </a>
+    <a class="episode-card "
+       href="naruto-shippuden-1x3.html">
+      EP 3
+    </a>
+    <a class="episode-card "
+       href="naruto-shippuden-1x4.html">
+      EP 4
+    </a>
+    <a class="episode-card "
+       href="naruto-shippuden-1x5.html">
+      EP 5
+    </a>
+    <a class="episode-card "
+       href="naruto-shippuden-1x6.html">
+      EP 6
+    </a>
+    <a class="episode-card "
+       href="naruto-shippuden-1x7.html">
+      EP 7
+    </a>
+    <a class="episode-card "
+       href="naruto-shippuden-1x8.html">
+      EP 8
+    </a>
+    <a class="episode-card "
+       href="naruto-shippuden-1x9.html">
+      EP 9
+    </a>
+    <a class="episode-card "
+       href="naruto-shippuden-1x10.html">
+      EP 10
+    </a>
+    <a class="episode-card "
+       href="naruto-shippuden-1x11.html">
+      EP 11
+    </a>
+    <a class="episode-card "
+       href="naruto-shippuden-1x12.html">
+      EP 12
+    </a>
+    <a class="episode-card "
+       href="naruto-shippuden-1x13.html">
+      EP 13
+    </a>
+    <a class="episode-card "
+       href="naruto-shippuden-1x14.html">
+      EP 14
+    </a>
+    <a class="episode-card "
+       href="naruto-shippuden-1x15.html">
+      EP 15
+    </a>
+    <a class="episode-card "
+       href="naruto-shippuden-1x16.html">
+      EP 16
+    </a>
+    <a class="episode-card "
+       href="naruto-shippuden-1x17.html">
+      EP 17
+    </a>
+    <a class="episode-card "
+       href="naruto-shippuden-1x18.html">
+      EP 18
+    </a>
+    <a class="episode-card "
+       href="naruto-shippuden-1x19.html">
+      EP 19
+    </a>
+    <a class="episode-card "
+       href="naruto-shippuden-1x20.html">
+      EP 20
+    </a>
+    <a class="episode-card "
+       href="naruto-shippuden-1x21.html">
+      EP 21
+    </a>
+    <a class="episode-card "
+       href="naruto-shippuden-1x22.html">
+      EP 22
+    </a>
+    <a class="episode-card "
+       href="naruto-shippuden-1x23.html">
+      EP 23
+    </a>
+    <a class="episode-card "
+       href="naruto-shippuden-1x24.html">
+      EP 24
+    </a>
+    <a class="episode-card "
+       href="naruto-shippuden-1x25.html">
+      EP 25
+    </a>
+    <a class="episode-card "
+       href="naruto-shippuden-1x26.html">
+      EP 26
+    </a>
+    <a class="episode-card "
+       href="naruto-shippuden-1x27.html">
+      EP 27
+    </a>
+    <a class="episode-card "
+       href="naruto-shippuden-1x28.html">
+      EP 28
+    </a>
+    <a class="episode-card "
+       href="naruto-shippuden-1x29.html">
+      EP 29
+    </a>
+    <a class="episode-card "
+       href="naruto-shippuden-1x30.html">
+      EP 30
+    </a>
+    <a class="episode-card "
+       href="naruto-shippuden-1x31.html">
+      EP 31
+    </a>
+    <a class="episode-card "
+       href="naruto-shippuden-1x32.html">
+      EP 32
+    </a>
+    <a class="episode-card "
+       href="naruto-shippuden-1x33.html">
+      EP 33
+    </a>
+    <a class="episode-card "
+       href="naruto-shippuden-1x34.html">
+      EP 34
+    </a>
+    <a class="episode-card "
+       href="naruto-shippuden-1x35.html">
+      EP 35
+    </a>
+    <a class="episode-card "
+       href="naruto-shippuden-1x36.html">
+      EP 36
+    </a>
+    <a class="episode-card "
+       href="naruto-shippuden-1x37.html">
+      EP 37
+    </a>
+    <a class="episode-card "
+       href="naruto-shippuden-1x38.html">
+      EP 38
+    </a>
+    <a class="episode-card "
+       href="naruto-shippuden-1x39.html">
+      EP 39
+    </a>
+    <a class="episode-card "
+       href="naruto-shippuden-1x40.html">
+      EP 40
+    </a>
+    <a class="episode-card "
+       href="naruto-shippuden-1x41.html">
+      EP 41
+    </a>
+    <a class="episode-card "
+       href="naruto-shippuden-1x42.html">
+      EP 42
+    </a>
+    <a class="episode-card "
+       href="naruto-shippuden-1x43.html">
+      EP 43
+    </a>
+    <a class="episode-card "
+       href="naruto-shippuden-1x44.html">
+      EP 44
+    </a>
+    <a class="episode-card "
+       href="naruto-shippuden-1x45.html">
+      EP 45
+    </a>
+    <a class="episode-card "
+       href="naruto-shippuden-1x46.html">
+      EP 46
+    </a>
+    <a class="episode-card "
+       href="naruto-shippuden-1x47.html">
+      EP 47
+    </a>
+    <a class="episode-card "
+       href="naruto-shippuden-1x48.html">
+      EP 48
+    </a>
+    <a class="episode-card "
+       href="naruto-shippuden-1x49.html">
+      EP 49
+    </a>
+    <a class="episode-card "
+       href="naruto-shippuden-1x50.html">
+      EP 50
+    </a>
+    <a class="episode-card "
+       href="naruto-shippuden-1x51.html">
+      EP 51
+    </a>
+    <a class="episode-card "
+       href="naruto-shippuden-1x52.html">
+      EP 52
+    </a>
+    <a class="episode-card "
+       href="naruto-shippuden-1x53.html">
+      EP 53
+    </a>
+    <a class="episode-card "
+       href="naruto-shippuden-1x54.html">
+      EP 54
+    </a>
+    <a class="episode-card "
+       href="naruto-shippuden-1x55.html">
+      EP 55
+    </a>
+    <a class="episode-card "
+       href="naruto-shippuden-1x56.html">
+      EP 56
+    </a>
+    <a class="episode-card active"
+       href="naruto-shippuden-1x57.html">
+      EP 57
+    </a>
+    <a class="episode-card "
+       href="naruto-shippuden-1x58.html">
+      EP 58
+    </a>
+    <a class="episode-card "
+       href="naruto-shippuden-1x59.html">
+      EP 59
+    </a>
+    <a class="episode-card "
+       href="naruto-shippuden-1x60.html">
+      EP 60
+    </a>
+    <a class="episode-card "
+       href="naruto-shippuden-1x61.html">
+      EP 61
+    </a>
+    <a class="episode-card "
+       href="naruto-shippuden-1x62.html">
+      EP 62
+    </a>
+    <a class="episode-card "
+       href="naruto-shippuden-1x63.html">
+      EP 63
+    </a>
+    <a class="episode-card "
+       href="naruto-shippuden-1x64.html">
+      EP 64
+    </a>
+    <a class="episode-card "
+       href="naruto-shippuden-1x65.html">
+      EP 65
+    </a>
+    <a class="episode-card "
+       href="naruto-shippuden-1x66.html">
+      EP 66
+    </a>
+    <a class="episode-card "
+       href="naruto-shippuden-1x67.html">
+      EP 67
+    </a>
+    <a class="episode-card "
+       href="naruto-shippuden-1x68.html">
+      EP 68
+    </a>
+    <a class="episode-card "
+       href="naruto-shippuden-1x69.html">
+      EP 69
+    </a>
+    <a class="episode-card "
+       href="naruto-shippuden-1x70.html">
+      EP 70
+    </a>
+    <a class="episode-card "
+       href="naruto-shippuden-1x71.html">
+      EP 71
+    </a>
+    <a class="episode-card "
+       href="naruto-shippuden-1x72.html">
+      EP 72
+    </a>
+    <a class="episode-card "
+       href="naruto-shippuden-1x73.html">
+      EP 73
+    </a>
+    <a class="episode-card "
+       href="naruto-shippuden-1x74.html">
+      EP 74
+    </a>
+    <a class="episode-card "
+       href="naruto-shippuden-1x75.html">
+      EP 75
+    </a>
+    <a class="episode-card "
+       href="naruto-shippuden-1x76.html">
+      EP 76
+    </a>
+    <a class="episode-card "
+       href="naruto-shippuden-1x77.html">
+      EP 77
+    </a>
+    <a class="episode-card "
+       href="naruto-shippuden-1x78.html">
+      EP 78
+    </a>
+    <a class="episode-card "
+       href="naruto-shippuden-1x79.html">
+      EP 79
+    </a>
+    <a class="episode-card "
+       href="naruto-shippuden-1x80.html">
+      EP 80
+    </a>
+    <a class="episode-card "
+       href="naruto-shippuden-1x81.html">
+      EP 81
+    </a>
+    <a class="episode-card "
+       href="naruto-shippuden-1x82.html">
+      EP 82
+    </a>
+    <a class="episode-card "
+       href="naruto-shippuden-1x83.html">
+      EP 83
+    </a>
+    <a class="episode-card "
+       href="naruto-shippuden-1x84.html">
+      EP 84
+    </a>
+    <a class="episode-card "
+       href="naruto-shippuden-1x85.html">
+      EP 85
+    </a>
+    <a class="episode-card "
+       href="naruto-shippuden-1x86.html">
+      EP 86
+    </a>
+    <a class="episode-card "
+       href="naruto-shippuden-1x87.html">
+      EP 87
+    </a>
+    <a class="episode-card "
+       href="naruto-shippuden-1x88.html">
+      EP 88
+    </a>
+    <a class="episode-card "
+       href="naruto-shippuden-1x89.html">
+      EP 89
+    </a>
+    <a class="episode-card "
+       href="naruto-shippuden-1x90.html">
+      EP 90
+    </a>
+    <a class="episode-card "
+       href="naruto-shippuden-1x91.html">
+      EP 91
+    </a>
+    <a class="episode-card "
+       href="naruto-shippuden-1x92.html">
+      EP 92
+    </a>
+    <a class="episode-card "
+       href="naruto-shippuden-1x93.html">
+      EP 93
+    </a>
+    <a class="episode-card "
+       href="naruto-shippuden-1x94.html">
+      EP 94
+    </a>
+    <a class="episode-card "
+       href="naruto-shippuden-1x95.html">
+      EP 95
+    </a>
+    <a class="episode-card "
+       href="naruto-shippuden-1x96.html">
+      EP 96
+    </a>
+    <a class="episode-card "
+       href="naruto-shippuden-1x97.html">
+      EP 97
+    </a>
+    <a class="episode-card "
+       href="naruto-shippuden-1x98.html">
+      EP 98
+    </a>
+    <a class="episode-card "
+       href="naruto-shippuden-1x99.html">
+      EP 99
+    </a>
+    <a class="episode-card "
+       href="naruto-shippuden-1x100.html">
+      EP 100
+    </a>
+    <a class="episode-card "
+       href="naruto-shippuden-1x101.html">
+      EP 101
+    </a>
+    <a class="episode-card "
+       href="naruto-shippuden-1x102.html">
+      EP 102
+    </a>
+    <a class="episode-card "
+       href="naruto-shippuden-1x103.html">
+      EP 103
+    </a>
+    <a class="episode-card "
+       href="naruto-shippuden-1x104.html">
+      EP 104
+    </a>
+    <a class="episode-card "
+       href="naruto-shippuden-1x106.html">
+      EP 106
+    </a>
+    <a class="episode-card "
+       href="naruto-shippuden-1x107.html">
+      EP 107
+    </a>
+    <a class="episode-card "
+       href="naruto-shippuden-1x108.html">
+      EP 108
+    </a>
+    <a class="episode-card "
+       href="naruto-shippuden-1x109.html">
+      EP 109
+    </a>
+    <a class="episode-card "
+       href="naruto-shippuden-1x110.html">
+      EP 110
+    </a>
+    <a class="episode-card "
+       href="naruto-shippuden-1x111.html">
+      EP 111
+    </a>
+    <a class="episode-card "
+       href="naruto-shippuden-1x112.html">
+      EP 112
+    </a>
+    <a class="episode-card "
+       href="naruto-shippuden-1x113.html">
+      EP 113
+    </a>
+    <a class="episode-card "
+       href="naruto-shippuden-1x114.html">
+      EP 114
+    </a>
+    <a class="episode-card "
+       href="naruto-shippuden-1x115.html">
+      EP 115
+    </a>
+    <a class="episode-card "
+       href="naruto-shippuden-1x116.html">
+      EP 116
+    </a>
+    <a class="episode-card "
+       href="naruto-shippuden-1x117.html">
+      EP 117
+    </a>
+    <a class="episode-card "
+       href="naruto-shippuden-1x118.html">
+      EP 118
+    </a>
+    <a class="episode-card "
+       href="naruto-shippuden-1x119.html">
+      EP 119
+    </a>
+    <a class="episode-card "
+       href="naruto-shippuden-1x120.html">
+      EP 120
+    </a>
+    <a class="episode-card "
+       href="naruto-shippuden-1x121.html">
+      EP 121
+    </a>
+    <a class="episode-card "
+       href="naruto-shippuden-1x122.html">
+      EP 122
+    </a>
+    <a class="episode-card "
+       href="naruto-shippuden-1x123.html">
+      EP 123
+    </a>
+    <a class="episode-card "
+       href="naruto-shippuden-1x124.html">
+      EP 124
+    </a>
+    <a class="episode-card "
+       href="naruto-shippuden-1x125.html">
+      EP 125
+    </a>
+    <a class="episode-card "
+       href="naruto-shippuden-1x126.html">
+      EP 126
+    </a>
+    <a class="episode-card "
+       href="naruto-shippuden-1x127.html">
+      EP 127
+    </a>
+    <a class="episode-card "
+       href="naruto-shippuden-1x128.html">
+      EP 128
+    </a>
+    <a class="episode-card "
+       href="naruto-shippuden-1x129.html">
+      EP 129
+    </a>
+    <a class="episode-card "
+       href="naruto-shippuden-1x130.html">
+      EP 130
+    </a>
+    <a class="episode-card "
+       href="naruto-shippuden-1x131.html">
+      EP 131
+    </a>
+    <a class="episode-card "
+       href="naruto-shippuden-1x132.html">
+      EP 132
+    </a>
+    <a class="episode-card "
+       href="naruto-shippuden-1x133.html">
+      EP 133
+    </a>
+    <a class="episode-card "
+       href="naruto-shippuden-1x134.html">
+      EP 134
+    </a>
+    <a class="episode-card "
+       href="naruto-shippuden-1x135.html">
+      EP 135
+    </a>
+    <a class="episode-card "
+       href="naruto-shippuden-1x136.html">
+      EP 136
+    </a>
+    <a class="episode-card "
+       href="naruto-shippuden-1x137.html">
+      EP 137
+    </a>
+    <a class="episode-card "
+       href="naruto-shippuden-1x138.html">
+      EP 138
+    </a>
+    <a class="episode-card "
+       href="naruto-shippuden-1x139.html">
+      EP 139
+    </a>
+    <a class="episode-card "
+       href="naruto-shippuden-1x140.html">
+      EP 140
+    </a>
+    <a class="episode-card "
+       href="naruto-shippuden-1x141.html">
+      EP 141
+    </a>
+    <a class="episode-card "
+       href="naruto-shippuden-1x142.html">
+      EP 142
+    </a>
+    <a class="episode-card "
+       href="naruto-shippuden-1x143.html">
+      EP 143
+    </a>
+    <a class="episode-card "
+       href="naruto-shippuden-1x144.html">
+      EP 144
+    </a>
+    <a class="episode-card "
+       href="naruto-shippuden-1x145.html">
+      EP 145
+    </a>
+    <a class="episode-card "
+       href="naruto-shippuden-1x146.html">
+      EP 146
+    </a>
+    <a class="episode-card "
+       href="naruto-shippuden-1x147.html">
+      EP 147
+    </a>
+    <a class="episode-card "
+       href="naruto-shippuden-1x148.html">
+      EP 148
+    </a>
+    <a class="episode-card "
+       href="naruto-shippuden-1x149.html">
+      EP 149
+    </a>
+    <a class="episode-card "
+       href="naruto-shippuden-1x150.html">
+      EP 150
+    </a>
+    <a class="episode-card "
+       href="naruto-shippuden-1x151.html">
+      EP 151
+    </a>
+    <a class="episode-card "
+       href="naruto-shippuden-1x152.html">
+      EP 152
+    </a>
+    <a class="episode-card "
+       href="naruto-shippuden-1x153.html">
+      EP 153
+    </a>
+    <a class="episode-card "
+       href="naruto-shippuden-1x154.html">
+      EP 154
+    </a>
+    <a class="episode-card "
+       href="naruto-shippuden-1x155.html">
+      EP 155
+    </a>
+    <a class="episode-card "
+       href="naruto-shippuden-1x156.html">
+      EP 156
+    </a>
+    <a class="episode-card "
+       href="naruto-shippuden-1x157.html">
+      EP 157
+    </a>
+    <a class="episode-card "
+       href="naruto-shippuden-1x158.html">
+      EP 158
+    </a>
+    <a class="episode-card "
+       href="naruto-shippuden-1x159.html">
+      EP 159
+    </a>
+    <a class="episode-card "
+       href="naruto-shippuden-1x160.html">
+      EP 160
+    </a>
+    <a class="episode-card "
+       href="naruto-shippuden-1x161.html">
+      EP 161
+    </a>
+    <a class="episode-card "
+       href="naruto-shippuden-1x162.html">
+      EP 162
+    </a>
+    <a class="episode-card "
+       href="naruto-shippuden-1x163.html">
+      EP 163
+    </a>
+    <a class="episode-card "
+       href="naruto-shippuden-1x164.html">
+      EP 164
+    </a>
+    <a class="episode-card "
+       href="naruto-shippuden-1x165.html">
+      EP 165
+    </a>
+    <a class="episode-card "
+       href="naruto-shippuden-1x166.html">
+      EP 166
+    </a>
+    <a class="episode-card "
+       href="naruto-shippuden-1x167.html">
+      EP 167
+    </a>
+    <a class="episode-card "
+       href="naruto-shippuden-1x168.html">
+      EP 168
+    </a>
+    <a class="episode-card "
+       href="naruto-shippuden-1x169.html">
+      EP 169
+    </a>
+    <a class="episode-card "
+       href="naruto-shippuden-1x170.html">
+      EP 170
+    </a>
+    <a class="episode-card "
+       href="naruto-shippuden-1x171.html">
+      EP 171
+    </a>
+    <a class="episode-card "
+       href="naruto-shippuden-1x172.html">
+      EP 172
+    </a>
+    <a class="episode-card "
+       href="naruto-shippuden-1x173.html">
+      EP 173
+    </a>
+    <a class="episode-card "
+       href="naruto-shippuden-1x174.html">
+      EP 174
+    </a>
+    <a class="episode-card "
+       href="naruto-shippuden-1x175.html">
+      EP 175
+    </a>
+    <a class="episode-card "
+       href="naruto-shippuden-1x176.html">
+      EP 176
+    </a>
+    <a class="episode-card "
+       href="naruto-shippuden-1x177.html">
+      EP 177
+    </a>
+    <a class="episode-card "
+       href="naruto-shippuden-1x178.html">
+      EP 178
+    </a>
+    <a class="episode-card "
+       href="naruto-shippuden-1x179.html">
+      EP 179
+    </a>
+    <a class="episode-card "
+       href="naruto-shippuden-1x180.html">
+      EP 180
+    </a>
+    <a class="episode-card "
+       href="naruto-shippuden-1x181.html">
+      EP 181
+    </a>
+    <a class="episode-card "
+       href="naruto-shippuden-1x182.html">
+      EP 182
+    </a>
+    <a class="episode-card "
+       href="naruto-shippuden-1x183.html">
+      EP 183
+    </a>
+    <a class="episode-card "
+       href="naruto-shippuden-1x184.html">
+      EP 184
+    </a>
+    <a class="episode-card "
+       href="naruto-shippuden-1x185.html">
+      EP 185
+    </a>
+    <a class="episode-card "
+       href="naruto-shippuden-1x186.html">
+      EP 186
+    </a>
+    <a class="episode-card "
+       href="naruto-shippuden-1x187.html">
+      EP 187
+    </a>
+    <a class="episode-card "
+       href="naruto-shippuden-1x188.html">
+      EP 188
+    </a>
+    <a class="episode-card "
+       href="naruto-shippuden-1x189.html">
+      EP 189
+    </a>
+    <a class="episode-card "
+       href="naruto-shippuden-1x190.html">
+      EP 190
+    </a>
+    <a class="episode-card "
+       href="naruto-shippuden-1x191.html">
+      EP 191
+    </a>
+    <a class="episode-card "
+       href="naruto-shippuden-1x192.html">
+      EP 192
+    </a>
+    <a class="episode-card "
+       href="naruto-shippuden-1x193.html">
+      EP 193
+    </a>
+    <a class="episode-card "
+       href="naruto-shippuden-1x194.html">
+      EP 194
+    </a>
+    <a class="episode-card "
+       href="naruto-shippuden-1x195.html">
+      EP 195
+    </a>
+    <a class="episode-card "
+       href="naruto-shippuden-1x196.html">
+      EP 196
+    </a>
+    <a class="episode-card "
+       href="naruto-shippuden-1x197.html">
+      EP 197
+    </a>
+    <a class="episode-card "
+       href="naruto-shippuden-1x198.html">
+      EP 198
+    </a>
+    <a class="episode-card "
+       href="naruto-shippuden-1x199.html">
+      EP 199
+    </a>
+    <a class="episode-card "
+       href="naruto-shippuden-1x200.html">
+      EP 200
+    </a>
+    <a class="episode-card "
+       href="naruto-shippuden-1x201.html">
+      EP 201
+    </a>
+    <a class="episode-card "
+       href="naruto-shippuden-1x202.html">
+      EP 202
+    </a>
+    <a class="episode-card "
+       href="naruto-shippuden-1x203.html">
+      EP 203
+    </a>
+    <a class="episode-card "
+       href="naruto-shippuden-1x204.html">
+      EP 204
+    </a>
+    <a class="episode-card "
+       href="naruto-shippuden-1x205.html">
+      EP 205
+    </a>
+    <a class="episode-card "
+       href="naruto-shippuden-1x206.html">
+      EP 206
+    </a>
+    <a class="episode-card "
+       href="naruto-shippuden-1x207.html">
+      EP 207
+    </a>
+    <a class="episode-card "
+       href="naruto-shippuden-1x208.html">
+      EP 208
+    </a>
+    <a class="episode-card "
+       href="naruto-shippuden-1x209.html">
+      EP 209
+    </a>
+    <a class="episode-card "
+       href="naruto-shippuden-1x210.html">
+      EP 210
+    </a>
+    <a class="episode-card "
+       href="naruto-shippuden-1x211.html">
+      EP 211
+    </a>
+    <a class="episode-card "
+       href="naruto-shippuden-1x212.html">
+      EP 212
+    </a>
+    <a class="episode-card "
+       href="naruto-shippuden-1x213.html">
+      EP 213
+    </a>
+    <a class="episode-card "
+       href="naruto-shippuden-1x214.html">
+      EP 214
+    </a>
+    <a class="episode-card "
+       href="naruto-shippuden-1x215.html">
+      EP 215
+    </a>
+    <a class="episode-card "
+       href="naruto-shippuden-1x216.html">
+      EP 216
+    </a>
+    <a class="episode-card "
+       href="naruto-shippuden-1x217.html">
+      EP 217
+    </a>
+    <a class="episode-card "
+       href="naruto-shippuden-1x218.html">
+      EP 218
+    </a>
+    <a class="episode-card "
+       href="naruto-shippuden-1x219.html">
+      EP 219
+    </a>
+    <a class="episode-card "
+       href="naruto-shippuden-1x220.html">
+      EP 220
+    </a>
+    <a class="episode-card "
+       href="naruto-shippuden-1x221.html">
+      EP 221
+    </a>
+    <a class="episode-card "
+       href="naruto-shippuden-1x278.html">
+      EP 278
+    </a>
+    <a class="episode-card "
+       href="naruto-shippuden-1x279.html">
+      EP 279
+    </a>
+    <a class="episode-card "
+       href="naruto-shippuden-1x280.html">
+      EP 280
+    </a>
+    <a class="episode-card "
+       href="naruto-shippuden-1x281.html">
+      EP 281
+    </a>
+    <a class="episode-card "
+       href="naruto-shippuden-1x282.html">
+      EP 282
+    </a>
+    <a class="episode-card "
+       href="naruto-shippuden-1x283.html">
+      EP 283
+    </a>
+    <a class="episode-card "
+       href="naruto-shippuden-1x288.html">
+      EP 288
+    </a>
+    <a class="episode-card "
+       href="naruto-shippuden-1x289.html">
+      EP 289
+    </a>
+    <a class="episode-card "
+       href="naruto-shippuden-1x290.html">
+      EP 290
+    </a>
+    <a class="episode-card "
+       href="naruto-shippuden-1x291.html">
+      EP 291
+    </a>
+    <a class="episode-card "
+       href="naruto-shippuden-1x294.html">
+      EP 294
+    </a>
+    <a class="episode-card "
+       href="naruto-shippuden-1x295.html">
+      EP 295
+    </a>
+    <a class="episode-card "
+       href="naruto-shippuden-1x298.html">
+      EP 298
+    </a>
+    <a class="episode-card "
+       href="naruto-shippuden-1x299.html">
+      EP 299
+    </a>
+    <a class="episode-card "
+       href="naruto-shippuden-1x300.html">
+      EP 300
+    </a>
+    <a class="episode-card "
+       href="naruto-shippuden-1x301.html">
+      EP 301
+    </a>
+    <a class="episode-card "
+       href="naruto-shippuden-1x302.html">
+      EP 302
+    </a>
+    <a class="episode-card "
+       href="naruto-shippuden-1x303.html">
+      EP 303
+    </a>
+    <a class="episode-card "
+       href="naruto-shippuden-1x304.html">
+      EP 304
+    </a>
+    <a class="episode-card "
+       href="naruto-shippuden-1x305.html">
+      EP 305
+    </a>
+    <a class="episode-card "
+       href="naruto-shippuden-1x306.html">
+      EP 306
+    </a>
+    <a class="episode-card "
+       href="naruto-shippuden-1x307.html">
+      EP 307
+    </a>
+    <a class="episode-card "
+       href="naruto-shippuden-1x308.html">
+      EP 308
+    </a>
+    <a class="episode-card "
+       href="naruto-shippuden-1x309.html">
+      EP 309
+    </a>
+    <a class="episode-card "
+       href="naruto-shippuden-1x310.html">
+      EP 310
+    </a>
+    <a class="episode-card "
+       href="naruto-shippuden-1x311.html">
+      EP 311
+    </a>
+    <a class="episode-card "
+       href="naruto-shippuden-1x312.html">
+      EP 312
+    </a>
+    <a class="episode-card "
+       href="naruto-shippuden-1x313.html">
+      EP 313
+    </a>
+    <a class="episode-card "
+       href="naruto-shippuden-1x314.html">
+      EP 314
+    </a>
+    <a class="episode-card "
+       href="naruto-shippuden-1x315.html">
+      EP 315
+    </a>
+    <a class="episode-card "
+       href="naruto-shippuden-1x316.html">
+      EP 316
+    </a>
+    <a class="episode-card "
+       href="naruto-shippuden-1x317.html">
+      EP 317
+    </a>
+    <a class="episode-card "
+       href="naruto-shippuden-1x318.html">
+      EP 318
+    </a>
+    <a class="episode-card "
+       href="naruto-shippuden-1x319.html">
+      EP 319
+    </a>
+    <a class="episode-card "
+       href="naruto-shippuden-1x320.html">
+      EP 320
+    </a>
+    <a class="episode-card "
+       href="naruto-shippuden-1x321.html">
+      EP 321
+    </a>
+    <a class="episode-card "
+       href="naruto-shippuden-1x322.html">
+      EP 322
+    </a>
+    <a class="episode-card "
+       href="naruto-shippuden-1x323.html">
+      EP 323
+    </a>
+    <a class="episode-card "
+       href="naruto-shippuden-1x324.html">
+      EP 324
+    </a>
+    <a class="episode-card "
+       href="naruto-shippuden-1x325.html">
+      EP 325
+    </a>
+    <a class="episode-card "
+       href="naruto-shippuden-1x326.html">
+      EP 326
+    </a>
+    <a class="episode-card "
+       href="naruto-shippuden-1x327.html">
+      EP 327
+    </a>
+    <a class="episode-card "
+       href="naruto-shippuden-1x328.html">
+      EP 328
+    </a>
+    <a class="episode-card "
+       href="naruto-shippuden-1x329.html">
+      EP 329
+    </a>
+    <a class="episode-card "
+       href="naruto-shippuden-1x330.html">
+      EP 330
+    </a>
+    <a class="episode-card "
+       href="naruto-shippuden-1x331.html">
+      EP 331
+    </a>
+    <a class="episode-card "
+       href="naruto-shippuden-1x332.html">
+      EP 332
+    </a>
+    <a class="episode-card "
+       href="naruto-shippuden-1x333.html">
+      EP 333
+    </a>
+    <a class="episode-card "
+       href="naruto-shippuden-1x334.html">
+      EP 334
+    </a>
+    <a class="episode-card "
+       href="naruto-shippuden-1x335.html">
+      EP 335
+    </a>
+    <a class="episode-card "
+       href="naruto-shippuden-1x336.html">
+      EP 336
+    </a>
+    <a class="episode-card "
+       href="naruto-shippuden-1x337.html">
+      EP 337
+    </a>
+    <a class="episode-card "
+       href="naruto-shippuden-1x338.html">
+      EP 338
+    </a>
+    <a class="episode-card "
+       href="naruto-shippuden-1x339.html">
+      EP 339
+    </a>
+    <a class="episode-card "
+       href="naruto-shippuden-1x340.html">
+      EP 340
+    </a>
+    <a class="episode-card "
+       href="naruto-shippuden-1x341.html">
+      EP 341
+    </a>
+    <a class="episode-card "
+       href="naruto-shippuden-1x342.html">
+      EP 342
+    </a>
+    <a class="episode-card "
+       href="naruto-shippuden-1x343.html">
+      EP 343
+    </a>
+    <a class="episode-card "
+       href="naruto-shippuden-1x344.html">
+      EP 344
+    </a>
+    <a class="episode-card "
+       href="naruto-shippuden-1x345.html">
+      EP 345
+    </a>
+    <a class="episode-card "
+       href="naruto-shippuden-1x346.html">
+      EP 346
+    </a>
+    <a class="episode-card "
+       href="naruto-shippuden-1x347.html">
+      EP 347
+    </a>
+    <a class="episode-card "
+       href="naruto-shippuden-1x348.html">
+      EP 348
+    </a>
+    <a class="episode-card "
+       href="naruto-shippuden-1x349.html">
+      EP 349
+    </a>
+    <a class="episode-card "
+       href="naruto-shippuden-1x350.html">
+      EP 350
+    </a>
+    <a class="episode-card "
+       href="naruto-shippuden-1x351.html">
+      EP 351
+    </a>
+    <a class="episode-card "
+       href="naruto-shippuden-1x352.html">
+      EP 352
+    </a>
+    <a class="episode-card "
+       href="naruto-shippuden-1x353.html">
+      EP 353
+    </a>
+    <a class="episode-card "
+       href="naruto-shippuden-1x354.html">
+      EP 354
+    </a>
+    <a class="episode-card "
+       href="naruto-shippuden-1x355.html">
+      EP 355
+    </a>
+    <a class="episode-card "
+       href="naruto-shippuden-1x356.html">
+      EP 356
+    </a>
+    <a class="episode-card "
+       href="naruto-shippuden-1x357.html">
+      EP 357
+    </a>
+    <a class="episode-card "
+       href="naruto-shippuden-1x358.html">
+      EP 358
+    </a>
+    <a class="episode-card "
+       href="naruto-shippuden-1x359.html">
+      EP 359
+    </a>
+    <a class="episode-card "
+       href="naruto-shippuden-1x360.html">
+      EP 360
+    </a></div>
+</section>
+
+<section class="tab-panel" id="tab-related" hidden>
+  <p class="empty-row">No other seasons yet — more may be added later.</p>
+</section>
+
+<section class="tab-panel" id="tab-recommendations" hidden>
+  <p class="empty-row">Recommendations will show up here once more titles share a genre with this one.</p>
+</section>
+
+<section class="detail-section">
+  <div class="detail-banner" style="background-image:url('https://image.tmdb.org/t/p/original/n9tyom1Y1vYOMrOGK0jYO3tkby.jpg')"></div>
+  <p class="description">“After two and a half years of intense training with his mentor, Jiraiya, Naruto Uzumaki returns to the Hidden Leaf Village to find it under threat from the criminal organization known as Akatsuki. With the village on edge and his friends in danger, Naruto joins forces with Team Kakashi once again to confront these powerful enemies.</p>
+  <div class="tag-row"></div>
+  <!-- Audio: the site is Hindi-dub focused, so we always advertise just
+       Hindi here even if the underlying file is multi-audio. -->
+  <div class="tag-row muted"><span>Audio: Hindi</span></div>
+</section>
+
+
+    <div class="dl-section">
+      <div class="dl-quality-row"><button class="dl-quality-btn" data-quality="480p" disabled>
+      480p ↗
+    </button><button class="dl-quality-btn" data-quality="720p" disabled>
+      720p HD ↗
+    </button><button class="dl-quality-btn" data-quality="1080p" >
+      1080p FHD ↗
+    </button></div>
+      <a class="dl-zip-btn" href="/quality-not-available.html" target="_blank" rel="noopener">📦 Zip Pack Files ↗</a>
+    </div>
+
+<section class="detail-section">
+  <h3>Cast</h3>
+  <div class="cast-grid"></div>
+</section>
+
+<section class="detail-section glass-card">
+  <h3>Anime Information</h3>
+  <div class="info-grid">
+    <p><strong>Year:</strong> <span>2007</span></p>
+    <p><strong>Rating:</strong> <span>8.7</span> TMDB</p>
+    <p><strong>Type:</strong> <span>TV</span></p>
+  </div>
+</section>
+
+<footer class="site-footer">
+  <img src="../assets/logo.png" alt="CrunchyEpisode" class="footer-logo">
+  <p>CrunchyEpisode is a fan-made index of anime episodes. We don't host any video files ourselves — every episode links out to third-party servers.</p>
+  <div class="footer-links">
+    <a href="javascript:void(0)" data-info-page="terms">Terms</a>
+    <a href="javascript:void(0)" data-info-page="privacy">Privacy</a>
+    <a href="javascript:void(0)" data-info-page="contact">Contact</a>
+    <a href="javascript:void(0)" data-info-page="sitemap">Sitemap</a>
+  </div>
+  <p class="footer-copy">© 2026 CrunchyEpisode. All rights reserved.</p>
+</footer>
+
+<!-- Shared modal for Terms/Privacy/Contact/Sitemap (same placeholder
+     content system as the homepage — edit FOOTER_PAGES below). -->
+<div class="info-modal-overlay" id="infoModalOverlay"></div>
+<div class="info-modal" id="infoModal">
+  <div class="info-modal-head">
+    <h3 id="infoModalTitle">Title</h3>
+    <button class="info-modal-close" id="infoModalClose" aria-label="Close">✕</button>
+  </div>
+  <div class="info-modal-body" id="infoModalBody"></div>
+</div>
+
+<script>
+  // ---------------------------------------------------------
+  // Loads the player through the secure backend proxy. The
+  // real CDN URL is never present in this file or in the
+  // network request the browser makes visible — /api/play
+  // either 302-redirects (embed type) or streams the bytes
+  // itself (stream type) after verifying a short-lived token.
+  // ---------------------------------------------------------
+  const EPISODE_ID = "naruto-shippuden-1x57";
+  const EMBED_TYPE = "stream";
+  let currentQuality = "1080p";
+
+  async function getPlayToken() {
+    const res = await fetch(`/api/token?id=${encodeURIComponent(EPISODE_ID)}`);
+    if (!res.ok) throw new Error("Could not get playback token");
+    return res.json();
+  }
+
+  async function mountPlayer() {
+    const frame = document.getElementById("player-frame");
+    try {
+      const { token } = await getPlayToken();
+      const qParam = currentQuality ? `&quality=${encodeURIComponent(currentQuality)}` : "";
+      const playUrl = `/api/play?id=${encodeURIComponent(EPISODE_ID)}&token=${encodeURIComponent(token)}${qParam}`;
+
+      if (EMBED_TYPE === "iframe") {
+        frame.innerHTML = `<iframe id="embedFrame" src="${playUrl}"
+          allowfullscreen webkitallowfullscreen mozallowfullscreen
+          allow="autoplay; fullscreen; encrypted-media; picture-in-picture"
+          referrerpolicy="strict-origin-when-cross-origin"></iframe>`;
+      } else {
+        // Direct file (mp4 etc.), proxied byte-for-byte through /api/play
+        // so the real CDN/worker URL is never visible in the Network tab.
+        frame.innerHTML = `<video id="videoEl" controls autoplay playsinline
+          controlsList="nodownload noremoteplayback"
+          disablePictureInPicture disableRemotePlayback
+          oncontextmenu="return false" ondragstart="return false"
+          style="width:100%;height:100%;background:#000;
+          -webkit-touch-callout:none; -webkit-user-select:none; user-select:none;"
+          src="${playUrl}"></video>`;
+
+        // Belt-and-braces on top of the inline oncontextmenu attribute —
+        // some Android WebViews only honour a JS-added listener for the
+        // long-press "contextmenu" event, not the inline HTML attribute.
+        const videoEl = document.getElementById("videoEl");
+        videoEl.addEventListener("contextmenu", (e) => e.preventDefault());
+        videoEl.addEventListener("dragstart", (e) => e.preventDefault());
+      }
+
+      const fsBtn = document.getElementById("fullscreenBtn");
+      const playerSection = document.querySelector(".player-section");
+      fsBtn.onclick = () => {
+        const isFs = document.fullscreenElement || document.webkitFullscreenElement;
+        if (isFs) {
+          (document.exitFullscreen || document.webkitExitFullscreen)?.call(document);
+          return;
+        }
+        const req = playerSection.requestFullscreen || playerSection.webkitRequestFullscreen || playerSection.mozRequestFullScreen;
+        if (req) req.call(playerSection).catch(() => {});
+      };
+      document.addEventListener("fullscreenchange", () => {
+        fsBtn.textContent = document.fullscreenElement ? "✕" : "⛶";
+      });
+    } catch (err) {
+      frame.innerHTML = '<p class="empty-row">Playback failed to load. Please refresh or try again shortly.</p>';
+      console.error(err);
+    }
+  }
+
+  let playerStarted = false;
+  document.getElementById("player-frame").addEventListener("click", () => {
+    playerStarted = true;
+    mountPlayer();
+  }, { once: true });
+
+  // Quality switcher (only present when the episode has 2+ qualities) —
+  // re-mounts the player with the newly selected quality. If playback
+  // hasn't started yet, it just remembers the choice for when it does.
+  document.getElementById("qualitySwitch")?.addEventListener("click", (e) => {
+    const btn = e.target.closest(".qs-btn");
+    if (!btn) return;
+    document.querySelectorAll(".qs-btn").forEach(b => b.classList.remove("active"));
+    btn.classList.add("active");
+    currentQuality = btn.dataset.quality;
+    if (playerStarted) mountPlayer();
+  });
+
+  // ---------------------------------------------------------
+  // Downloads — either a single "Download Now" button (episodes with no
+  // declared qualities), or one button per available quality plus an
+  // optional Zip Pack button. All routed through /api/download-link,
+  // which token-protects the real URL and auto-shortens via GPLinks.
+  // ---------------------------------------------------------
+  async function startDownload(btn, quality) {
+    const originalLabel = btn.textContent;
+    btn.disabled = true;
+    btn.textContent = "Preparing…";
+    try {
+      const qParam = quality ? `&quality=${encodeURIComponent(quality)}` : "";
+      const res = await fetch(`/api/download-link?id=${encodeURIComponent(EPISODE_ID)}${qParam}`);
+      if (!res.ok) throw new Error("download-link request failed");
+      const { url } = await res.json();
+      window.location.href = url;
+    } catch (err) {
+      alert("Download link could not be generated. Please try again.");
+      console.error(err);
+    } finally {
+      btn.disabled = false;
+      btn.textContent = originalLabel;
+    }
+  }
+
+  document.getElementById("downloadBtn")?.addEventListener("click", (e) => startDownload(e.currentTarget, e.currentTarget.dataset.quality || ""));
+  document.querySelectorAll(".dl-quality-btn").forEach(btn => {
+    btn.addEventListener("click", (e) => startDownload(e.currentTarget, e.currentTarget.dataset.quality));
+  });
+
+  document.getElementById("moreInfoBtn").addEventListener("click", () => {
+    document.querySelector(".detail-section").scrollIntoView({ behavior: "smooth" });
+  });
+
+  // ---------------------------------------------------------
+  // Favorite button — toggles this anime's id in the same
+  // "ce_favorites" localStorage list the homepage Favorites row
+  // reads from (that's now the only place a title gets favorited).
+  // ---------------------------------------------------------
+  const ANIME_ID = "naruto-shippuden";
+  function loadFavorites() {
+    try { return JSON.parse(localStorage.getItem("ce_favorites") || "[]"); } catch { return []; }
+  }
+  function saveFavorites(list) {
+    try { localStorage.setItem("ce_favorites", JSON.stringify(list)); } catch {}
+  }
+  function refreshFavoriteBtn() {
+    const btn = document.getElementById("favoriteBtn");
+    const active = loadFavorites().includes(ANIME_ID);
+    btn.classList.toggle("active", active);
+  }
+  document.getElementById("favoriteBtn").addEventListener("click", () => {
+    let list = loadFavorites();
+    if (list.includes(ANIME_ID)) list = list.filter(id => id !== ANIME_ID);
+    else list.unshift(ANIME_ID);
+    saveFavorites(list);
+    refreshFavoriteBtn();
+  });
+  refreshFavoriteBtn();
+
+  // ---------------------------------------------------------
+  // Share button — builds a formatted info block (title, rating,
+  // genres, quality, audio, episode count) and shares it via the
+  // native share sheet where available, falling back to copying
+  // the text to the clipboard.
+  // ---------------------------------------------------------
+  document.getElementById("shareBtn").addEventListener("click", async () => {
+    const shareText = "• Naruto Shippuden Season 1\n— Rating: 8.7/10\n— Genres: \n— Quality: 1080p\n— Audio Tracks: Hindi\n— Total Episode: 295\n\nWatch here: " + window.location.href;
+
+    if (navigator.share) {
+      try {
+        await navigator.share({ title: "Naruto Shippuden", text: shareText });
+      } catch (err) {
+        // User cancelled the share sheet — nothing to do.
+      }
+    } else {
+      try {
+        await navigator.clipboard.writeText(shareText);
+        alert("Copied to clipboard!");
+      } catch (err) {
+        alert(shareText);
+      }
+    }
+  });
+
+  document.querySelectorAll(".tab-link").forEach(link => {
+    link.addEventListener("click", () => {
+      document.querySelectorAll(".tab-link").forEach(l => l.classList.remove("active"));
+      document.querySelectorAll(".tab-panel").forEach(p => p.hidden = true);
+      link.classList.add("active");
+      document.getElementById(`tab-${link.dataset.tab}`).hidden = false;
+    });
+  });
+
+  document.getElementById("noticeBar").querySelector(".notice-close").addEventListener("click", (e) => {
+    e.target.closest(".notice-bar").style.display = "none";
+  });
+
+  document.getElementById("searchInput").addEventListener("keydown", (e) => {
+    if (e.key === "Enter") {
+      window.location.href = `../index.html?q=${encodeURIComponent(e.target.value)}`;
+    }
+  });
+
+  // ---------------------------------------------------------
+  // Footer info modal (Terms/Privacy/Contact/Sitemap) — placeholder
+  // text, edit directly below whenever you're ready.
+  // ---------------------------------------------------------
+  const FOOTER_PAGES = {
+    terms: {
+      title: "Terms & Conditions",
+      html: '<p>Placeholder terms text — replace this with your real Terms & Conditions whenever you\'re ready.</p><p>CrunchyEpisode does not host any video files. Every episode links out to third-party servers; we are not responsible for their content or availability.</p>'
+    },
+    privacy: {
+      title: "Privacy Policy",
+      html: '<p>Placeholder privacy text — replace this with your real Privacy Policy whenever you\'re ready.</p><p>We don\'t collect personal information beyond what\'s needed for basic site functionality (e.g. your on-device Favorites list, stored only in your browser).</p>'
+    },
+    contact: {
+      title: "Contact",
+      html: '<p>Placeholder contact info — replace this with your real contact details (email, Telegram, etc.) whenever you\'re ready.</p>'
+    },
+    sitemap: {
+      title: "Sitemap",
+      html: '<p>Placeholder sitemap — replace this with a real list of site sections/links whenever you\'re ready.</p>'
+    }
+  };
+  function openInfoModal(key) {
+    const page = FOOTER_PAGES[key];
+    if (!page) return;
+    document.getElementById("infoModalTitle").textContent = page.title;
+    document.getElementById("infoModalBody").innerHTML = page.html;
+    document.getElementById("infoModalOverlay").classList.add("open");
+    document.getElementById("infoModal").classList.add("open");
+  }
+  function closeInfoModal() {
+    document.getElementById("infoModalOverlay").classList.remove("open");
+    document.getElementById("infoModal").classList.remove("open");
+    document.getElementById("infoModalBody").innerHTML = "";
+  }
+  document.querySelectorAll("[data-info-page]").forEach(el => {
+    el.addEventListener("click", e => { e.preventDefault(); openInfoModal(el.dataset.infoPage); });
+  });
+  document.getElementById("infoModalClose").addEventListener("click", closeInfoModal);
+  document.getElementById("infoModalOverlay").addEventListener("click", closeInfoModal);
+</script>
+</body>
+</html>

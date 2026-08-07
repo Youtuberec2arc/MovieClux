@@ -40,6 +40,68 @@
  * --------------------------------------------------------- */
 
 const VIDEO_SOURCES = {
+"trapped-in-a-dating-sim-1x1": {
+  qualities: {
+    "1080p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=iX6r9tapqiUTZLr78p2M_Aafvy5xvGPqZQNIeJuNGzPXg8FYtDbuKosZPYFXI0kVwOz0xrzRdMpJIP9ixDR_xw&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Trapped%20in%20a%20Dating%20Sim%20S01E01%20BDRip%201080p%20%5BHindi-Eng-Jap%5D%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Trapped in a Dating Sim S01E01 BDRip 1080p [Hindi-Eng-Jap] ESub.mkv" }
+  }
+},
+"trapped-in-a-dating-sim-1x2": {
+  qualities: {
+    "1080p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=3h9U_LU5_w_amzCwTL13fcObeQE-H0GR3epbNlHXJnoXwm8oZyn7pDW871kzYw3Rjh9ammKIVffP31iq6w085A&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Trapped%20in%20a%20Dating%20Sim%20S01E02%20BDRip%201080p%20%5BHindi-Eng-Jap%5D%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Trapped in a Dating Sim S01E02 BDRip 1080p [Hindi-Eng-Jap] ESub.mkv" }
+  }
+},
+"trapped-in-a-dating-sim-1x3": {
+  qualities: {
+    "1080p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=8h8zwfeho0mFmsLkWtTFw6WAiI7Zhj0y9oh2qXNQcnbVdS4_yaB5NgeAVgxGbZnSF3BjKt_aPcIO-Gfb_Glfew&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Trapped%20in%20a%20Dating%20Sim%20S01E03%20BDRip%201080p%20%5BHindi-Eng-Jap%5D%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Trapped in a Dating Sim S01E03 BDRip 1080p [Hindi-Eng-Jap] ESub.mkv" }
+  }
+},
+"trapped-in-a-dating-sim-1x4": {
+  qualities: {
+    "1080p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=zw0Zg618Mq04J2ouj5pnSBWJpWDV-kcC20wOj5mk7HFNOnlMW2S-NRHcjhmpXSgJZg_GZnr6Oap42oHFbUoAHQ&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Trapped%20in%20a%20Dating%20Sim%20S01E04%20BDRip%201080p%20%5BHindi-Eng-Jap%5D%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Trapped in a Dating Sim S01E04 BDRip 1080p [Hindi-Eng-Jap] ESub.mkv" }
+  }
+},
+"trapped-in-a-dating-sim-1x5": {
+  qualities: {
+    "1080p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=7ookdfSE4W31dhiPAm7nr8_UavlgMfTaUm_Wkk70a5olaK3Xu7ntRQ7eXdN95K8OTD07YAmVTQwXeAK4ljfAGg&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Trapped%20in%20a%20Dating%20Sim%20S01E05%20BDRip%201080p%20%5BHindi-Eng-Jap%5D%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Trapped in a Dating Sim S01E05 BDRip 1080p [Hindi-Eng-Jap] ESub.mkv" }
+  }
+},
+"trapped-in-a-dating-sim-1x6": {
+  qualities: {
+    "1080p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=Wv3A1UrJBsP7KsncRFrVZRAg-U_FuiUjgd0lFFraIoVRweVrD3yrqzutSR9AULo_aMK30W9b6q07sj6ZYFvYzw&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Trapped%20in%20a%20Dating%20Sim%20S01E06%20BDRip%201080p%20%5BHindi-Eng-Jap%5D%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Trapped in a Dating Sim S01E06 BDRip 1080p [Hindi-Eng-Jap] ESub.mkv" }
+  }
+},
+"trapped-in-a-dating-sim-1x7": {
+  qualities: {
+    "1080p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=9Or_tKUdPQL7ZqYPz8BLSg1b5HXbkIIfPWt2sTPPsdU5EtCa_n1SP_EKcDqu-j7yzU0y1bNMXTNHPGkfySdWKw&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Trapped%20in%20a%20Dating%20Sim%20S01E07%20BDRip%201080p%20%5BHindi-Eng-Jap%5D%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Trapped in a Dating Sim S01E07 BDRip 1080p [Hindi-Eng-Jap] ESub.mkv" }
+  }
+},
+"trapped-in-a-dating-sim-1x8": {
+  qualities: {
+    "1080p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=58yfd7nISAg3mZL_3DnGqUXRnPvNZj4EBTsc-TPTE_XXblEZTJT8unGefa56FN0S4hvf6LgTYM6jaVEy7Zs1Hg&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Trapped%20in%20a%20Dating%20Sim%20S01E08%20BDRip%201080p%20%5BHindi-Eng-Jap%5D%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Trapped in a Dating Sim S01E08 BDRip 1080p [Hindi-Eng-Jap] ESub.mkv" }
+  }
+},
+"trapped-in-a-dating-sim-1x9": {
+  qualities: {
+    "1080p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=UBNJbkD4KbyxNsQR-ER8vG8yCLWmWeHKde3bckhFW7A_w4KuJn7dTuq7XJmoenlsq8Iiwid6XlYqqR8j8cmBKw&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Trapped%20in%20a%20Dating%20Sim%20S01E09%20BDRip%201080p%20%5BHindi-Eng-Jap%5D%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Trapped in a Dating Sim S01E09 BDRip 1080p [Hindi-Eng-Jap] ESub.mkv" }
+  }
+},
+"trapped-in-a-dating-sim-1x10": {
+  qualities: {
+    "1080p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=OrvTT7DcSGmzpni_GJjjf4w2tzhLzpuaJPTRuw5SIK8W4xXGWlKT-YW5d1lbIhHkFi5qOcZK49PAh7CJkICPxw&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Trapped%20in%20a%20Dating%20Sim%20S01E10%20BDRip%201080p%20%5BHindi-Eng-Jap%5D%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Trapped in a Dating Sim S01E10 BDRip 1080p [Hindi-Eng-Jap] ESub.mkv" }
+  }
+},
+"trapped-in-a-dating-sim-1x11": {
+  qualities: {
+    "1080p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=ZNTJmZbHA4pSi_F-kvpJlvAap336mgu9uLZqV7Xklw4rxYiLsmGNZxqEOlSbISwZu_hL7hol9cEU84nnEtgRgA&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Trapped%20in%20a%20Dating%20Sim%20S01E11%20BDRip%201080p%20%5BHindi-Eng-Jap%5D%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Trapped in a Dating Sim S01E11 BDRip 1080p [Hindi-Eng-Jap] ESub.mkv" }
+  }
+},
+"trapped-in-a-dating-sim-1x12": {
+  qualities: {
+    "1080p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=AITbUr1inZKGi83gJh6ecxDjVPgLEXpsWhc1DQ1BCNK8wSWctHy99Heci3JhGUSF61mLv6xXM6kLVFvjrirmEg&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20Trapped%20in%20a%20Dating%20Sim%20S01E12%20BDRip%201080p%20%5BHindi-Eng-Jap%5D%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] Trapped in a Dating Sim S01E12 BDRip 1080p [Hindi-Eng-Jap] ESub.mkv" }
+  }
+},
+
+
 "one-piece-1x1": {
   qualities: {
     "480p": { type: "stream", src: "https://icy-feather-221c.jakcminasi.workers.dev/?id=dQ_tVJBpn9Q02k9UiJZIbYJmazL6Ov-IcOswcggAd_0HdvIXEpYuqKUVb2phbcN4dsxnu5guFcOYCcMlJjvqng&name=%5BVisit%20On%20Telegram%20%40HindiAnimestuff%5D%20One%20Piece%20S01E001%20Remastered%20%5B480p%20x264%20Multi%20Audio%5D%20ESub.mkv", downloadName: "[Visit On Telegram @HindiAnimestuff] One Piece S01E001 Remastered [480p x264 Multi Audio] ESub.mkv" },

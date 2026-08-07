@@ -54,6 +54,43 @@
 
 const ANIME_DATABASE = [
 {
+  id: "trapped-in-a-dating-sim",
+  title: "Trapped in a Dating Sim",
+  type: "TV",
+  ageRating: "PG-13",
+  year: "2022",
+  duration: "24m",
+  tmdbRating: "7.2",
+  siteRating: "7.2",
+  quality: "1080p",
+  zipUrl: "/quality-not-available.html",
+  seriesGroup: "trapped-in-a-dating-sim",
+  poster: "https://i.imgur.com/TobXKc8.jpg",
+  banner: "https://i.imgur.com/TobXKc8.jpg",
+  genres: [],
+  languages: ["Hindi"],
+  tags: ["Multi Audio"],
+  description: "Office worker Leon is reincarnated into a particularly punishing dating sim video game, where women reign supreme and only beautiful men have a seat at the table. But Leon has a secret weapon: he remembers everything from his past life, which includes a complete playthrough of the very game in which he is now trapped. Watch Leon spark a revolution to change this new world in order to fulfill his ultimate desire of living a quiet, easy life in the countryside.",
+  cast: [],
+  isAvailable: true,
+  section: "new",
+  season: 1,
+  episodes: [
+    { number: 1, title: "Episode 1", id: "trapped-in-a-dating-sim-1x1", embedType: "stream", qualities: ["1080p"], seedViews: 0 },
+    { number: 2, title: "Episode 2", id: "trapped-in-a-dating-sim-1x2", embedType: "stream", qualities: ["1080p"], seedViews: 0 },
+    { number: 3, title: "Episode 3", id: "trapped-in-a-dating-sim-1x3", embedType: "stream", qualities: ["1080p"], seedViews: 0 },
+    { number: 4, title: "Episode 4", id: "trapped-in-a-dating-sim-1x4", embedType: "stream", qualities: ["1080p"], seedViews: 0 },
+    { number: 5, title: "Episode 5", id: "trapped-in-a-dating-sim-1x5", embedType: "stream", qualities: ["1080p"], seedViews: 0 },
+    { number: 6, title: "Episode 6", id: "trapped-in-a-dating-sim-1x6", embedType: "stream", qualities: ["1080p"], seedViews: 0 },
+    { number: 7, title: "Episode 7", id: "trapped-in-a-dating-sim-1x7", embedType: "stream", qualities: ["1080p"], seedViews: 0 },
+    { number: 8, title: "Episode 8", id: "trapped-in-a-dating-sim-1x8", embedType: "stream", qualities: ["1080p"], seedViews: 0 },
+    { number: 9, title: "Episode 9", id: "trapped-in-a-dating-sim-1x9", embedType: "stream", qualities: ["1080p"], seedViews: 0 },
+    { number: 10, title: "Episode 10", id: "trapped-in-a-dating-sim-1x10", embedType: "stream", qualities: ["1080p"], seedViews: 0 },
+    { number: 11, title: "Episode 11", id: "trapped-in-a-dating-sim-1x11", embedType: "stream", qualities: ["1080p"], seedViews: 0 },
+    { number: 12, title: "Episode 12", id: "trapped-in-a-dating-sim-1x12", embedType: "stream", qualities: ["1080p"], seedViews: 0 }
+  ]
+},
+{
   id: "one-piece",
   title: "One Piece",
   type: "TV",
